@@ -2160,8 +2160,12 @@ rayalaseema_area = { #5
 	541 1949 2090 4423 4424
 }
 
-malabar_area = { #5
-	534 535 537 4410 4413
+malabar_area = { 4943  #5
+	534 535 4413
+}
+
+south_malabar_area = { 4942  #5
+	537 4410 
 }
 
 malwa_area = { #5

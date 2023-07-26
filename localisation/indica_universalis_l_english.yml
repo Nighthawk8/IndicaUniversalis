@@ -1,0 +1,15 @@
+﻿l_english:
+
+#provinces
+
+ PROV4942:0 "Kollam"
+ PROV4943:0 "Kodungallur"
+
+#area 
+
+ south_malabar_area:0 "South Malabar"
+ south_malabar_area_name:0 "South Malabarese"
+ south_malabar_area_adj:0 ""
+ malabar_area:0 "North Malabar"
+ malabar_area_name:0 "North Malabar"
+ malabar_area_adj:0 "North Malabarese"

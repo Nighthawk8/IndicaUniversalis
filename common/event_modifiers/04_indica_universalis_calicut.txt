@@ -1,0 +1,33 @@
+##################################################################################################
+# scriptable and usable for event and mission system below. Indica Universalis modifiers
+##################################################################################################
+
+#Calicut Influence Mechanic
+
+lvl_1_influence_province = {
+
+}
+
+lvl_2_influence_province = {
+	local_tax_modifier = -0.10
+	trade_goods_size_modifier = -0.1
+	local_manpower_modifier = -0.1
+}
+
+lvl_3_influence_province = {
+	local_tax_modifier = -0.3
+	trade_goods_size_modifier = -0.3
+	local_manpower_modifier = -0.3
+}
+
+lvl_4_influence_province = {
+	local_tax_modifier = -0.5
+	trade_goods_size_modifier = -0.5
+	local_manpower_modifier = -0.5
+}
+
+lvl_5_influence_province = {
+	local_tax_modifier = -0.75
+	trade_goods_size_modifier = -0.75
+	local_manpower_modifier = -0.75
+}

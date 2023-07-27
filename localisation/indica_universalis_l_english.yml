@@ -13,3 +13,25 @@
  malabar_area:0 "North Malabar"
  malabar_area_name:0 "North Malabar"
  malabar_area_adj:0 "North Malabarese"
+
+#vij interaction events
+
+ vijinteraction.NAME1:0 "To ask for Protection?"
+ vijinteraction.DESC1:0 "The Vijaynigar Empire has recently become a dominant power in the region and the question has come to our court as top whether to send an emissary to the great lords of Vijaynagar to give tribute and ask for protection"
+ vijinteraction.1a:0 "Stand Alone"
+ vijinteraction.1b:0 "Send an Emissary"
+ 
+ vijinteraction.NAME2:0 "Advisors Suggest to send a gift"
+ vijinteraction.DESC2:0 "Our loyal advisors noticed that when a Vijaynagar prince recently visited, and showed great interest in our local craftsmen’s works. Some advisors suggested it would be wise, in order to safeguard our sovereignty to send a gift to the Vijaynagar monarchs of some of our craftsman's finest works"
+ vijinteraction.2a:0 "Commission the Wares"
+ vijinteraction.2b:0 "Seize the Wares"
+
+ vijinteraction.NAME3:0 "Vijaynagar requests soldiers"
+ vijinteraction.DESC3:0 "We have recently received word from the great kingdom of Vijaynagar that the ongoing war is taking great toll on their military, an emissary of the king has arrived requesting immediate military support and threatening our fragile sovereignty. We have no choice but to immediately respond"
+ vijinteraction.3a:0 "Send our own loyal men"
+ vijinteraction.3b:0 "Draft the Peasantry"
+
+ vijinteraction.NAME4:0 "Vijanagar merchants using our trading ports"
+ vijinteraction.DESC4:0 "Recently, there has been a large influx of vijaynagar merchants in our trading ports, they have been undercutting our merchants and stealing opportunities away from our citizens. However, our advisors have said that any rash action against Vijaynagar merchants would cause great offence and hostility. So, how should we tackle the issue?"
+ vijinteraction.4a:0 "Do nothing"
+ vijinteraction.4b:0 "Subsidise our traders"

@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_great_project_IU_padmanabhaswamy_temple"
+		texturefile = "gfx//interface//great_projects//great_project_padmanabhaswamy_temple.dds"
+	}
+	
+}

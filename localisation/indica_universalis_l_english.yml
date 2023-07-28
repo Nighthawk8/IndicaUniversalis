@@ -35,3 +35,8 @@
  vijinteraction.DESC4:0 "Recently, there has been a large influx of vijaynagar merchants in our trading ports, they have been undercutting our merchants and stealing opportunities away from our citizens. However, our advisors have said that any rash action against Vijaynagar merchants would cause great offence and hostility. So, how should we tackle the issue?"
  vijinteraction.4a:0 "Do nothing"
  vijinteraction.4b:0 "Subsidise our traders"
+ 
+ #monuments
+ 
+ IU_padmanabhaswamy_temple: "Padmanabhaswamy Temple"
+ IU_padmanabhaswamy_temple_desc: "Padmanabhaswamy Temple was built in the 11th century for aspect of Vishnu which the temple is named for. It is the richest temple in India and is shrouded in enigma. Very few are allowed inside, but those who are hold great influence in Thiruvanathapuram. The temple is not only a place of worship, but a political center in the Venad kingdom. Its custodians, the Ettara Yogam, have held a large amount of power in Kerala for centuries."

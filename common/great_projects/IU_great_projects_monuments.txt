@@ -1,0 +1,94 @@
+IU_padmanabhaswamy_temple = {
+	start = 537
+	
+	date = 1020.1.1
+	
+	time = {
+		months = 0
+	}
+	
+	build_cost = 0
+	
+	can_be_moved = no 
+	
+	move_days_per_unit_distance = 10
+	
+	starting_tier = 1
+	
+	type = monument
+	
+	build_trigger = {
+		religion = hinduism
+		has_estate = estate_brahmins
+	}
+	
+	can_use_modifiers_trigger = {
+		religion = hinduism 
+		has_estate = estate_brahmins
+		has_owner_religion = yes
+	}
+	
+	can_upgrade_trigger = {
+		religion = hinduism 
+		has_estate = estate_brahmins
+		has_owner_religion = yes
+	}
+	
+	tier_1 = {
+		upgrade_time = {
+			months = 120
+		}
+		
+		cost_to_upgrade = {
+			factor = 750
+		}
+		
+		province_modifiers = {
+			local_tax_modifier = 0.33
+		}
+		
+		country_modifiers = {
+			brahmins_loyalty_modifier = 0.05
+			monthly_reform_progress_modifier = 0.1
+		}
+	}
+	
+	tier_2 = {
+		upgrade_time = {
+			months = 240
+		}
+		
+		cost_to_upgrade = {
+			factor = 2000
+		}
+		
+		area_modifier = {
+			local_tax_modifier = 0.33
+		}
+		
+		country_modifiers = {
+			brahmins_loyalty_modifier = 0.1
+			monthly_reform_progress_modifier = 0.1
+		}
+	}
+	
+	tier_3 = {
+		upgrade_time = {
+			months = 480
+		}
+		
+		cost_to_upgrade = {
+			factor = 4500
+		}
+		
+		area_modifier = {
+			local_tax_modifier = 0.33
+		}
+		
+		country_modifiers = {
+			brahmins_loyalty_modifier = 0.1
+			monthly_reform_progress_modifier = 0.1
+			monarch_admin_power = 1
+		}
+	}
+}

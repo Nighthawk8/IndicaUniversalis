@@ -35,8 +35,36 @@
  vijinteraction.DESC4:0 "Recently, there has been a large influx of vijaynagar merchants in our trading ports, they have been undercutting our merchants and stealing opportunities away from our citizens. However, our advisors have said that any rash action against Vijaynagar merchants would cause great offence and hostility. So, how should we tackle the issue?"
  vijinteraction.4a:0 "Do nothing"
  vijinteraction.4b:0 "Subsidise our traders"
+
+ has_truce_with_vij:0 "Has Truce With Vijaynagar"
+ rejects_truce_with_vij:0 "Rejected Truce with Vijaynagar"
+ craftsmen_wares_seized:0 "Craftsmen's Wares Seized"
+ draft_the_peasants:0 "Draft the Peasants"
+ left_traders_alone:0 "Left Traders Alone"
+ subsidise_our_traders:0 "Traders Subsidised"
  
  #monuments
  
  IU_padmanabhaswamy_temple: "Padmanabhaswamy Temple"
  IU_padmanabhaswamy_temple_desc: "Padmanabhaswamy Temple was built in the 11th century for aspect of Vishnu which the temple is named for. It is the richest temple in India and is shrouded in enigma. Very few are allowed inside, but those who are hold great influence in Thiruvanathapuram. The temple is not only a place of worship, but a political center in the Venad kingdom. Its custodians, the Ettara Yogam, have held a large amount of power in Kerala for centuries."
+
+#zamorin interactions
+
+ zamorin_influence_check_title:0 "Check Your Influence Levels"
+ zamorin_influence_check_desc:0 "This shows what influence level you have with the provinces around you.\n\nCannanore: Influence Level [From.4413influencelvl.GetValue] \n\nMysore: Influence Level [From.533influencelvl.GetValue] \n\nKongu: Influence Level [From.538influencelvl.GetValue] \n\nKochin: Influence Level [From.535influencelvl.GetValue]"
+ zamorin_influence_increase_title:0 "Increase Your Influence"
+ zamorin_influence_increase_desc:0 "Click on this decison to choose where to increase your influence. You can increase your influence in the provinces listed in the Check your Influence decision using Diplomatic power, Ducats or Manpower"
+ zamorin_influence_use_influence_4413_title:0 "Use Influence over Cannanore"
+ zamorin_influence_use_influence_4413_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_533_title:0 "Use Influence over Mysore"
+ zamorin_influence_use_influence_533_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_538_title:0 "Use Influence over Kongu"
+ zamorin_influence_use_influence_538_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_535_title:0 "Use Influence over Kochin"
+ zamorin_influence_use_influence_535_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+
+
+ 
+
+
+ 

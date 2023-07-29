@@ -1,0 +1,376 @@
+country_decisions = {
+
+	zamorin_influence_check = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+				OR = {
+					num_of_cities = 6
+					total_development = 100
+				}
+			}
+			ai = no
+		}
+		allow = {
+			exists = yes
+		}
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+				province_id = 4413
+			}
+			if = {
+				limit = {
+					OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+				province_id = 533
+			}
+			if = {
+				limit = {
+					OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+				province_id = 538
+			}
+			if = {
+				limit = {
+					OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+				province_id = 535
+			}
+		}
+		
+		effect = {
+			hidden_effect = {
+			set_country_flag = placeholder
+			}
+		}
+	}
+
+	zamorin_influence_increase = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+				OR = {
+				num_of_cities = 6
+				total_development = 100
+				}
+			}
+			ai = no
+		}
+		allow = {
+			NOT = {
+				has_country_modifier = used_influnce_increase_recently
+			}
+		}
+		provinces_to_highlight = {
+			if = {
+				limit = {
+					NOT = {
+						4413 = {
+							owned_by = ROOT
+						}
+					}
+				}
+				province_id = 4413
+			}
+			if = {
+				limit = {
+					NOT = {
+						533 = {
+							owned_by = ROOT
+						}
+					}
+				}
+				province_id = 533
+			}
+			if = {
+				limit = {
+					NOT = {
+						538 = {
+							owned_by = ROOT
+						}
+					}
+				}
+				province_id = 538
+			}
+			if = {
+				limit = {
+					NOT = {
+						535 = {
+							owned_by = ROOT
+						}
+					}
+				}
+				province_id = 535
+			}
+		}
+		
+		effect = {
+			hidden_effect = {
+			add_country_modifier = {
+				name = used_influnce_increase_recently
+				duration = 365
+			}
+			}
+			country_event = {
+				id = zamorininteraction.1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	zamorin_influence_use_influence_4413 = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+			OR = {
+				num_of_cities = 6
+				total_development = 100
+				}
+			}
+			4413 = {
+				NOT = {
+					owned_by = ROOT
+				}
+				OR = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			ai = no
+		}
+		allow = {
+			NOT = {
+				OR = {
+				AND = {
+					has_country_modifier = used_influnce_mp
+					has_country_modifier = used_influnce_tx
+					has_country_modifier = used_influnce_tr
+					has_country_modifier = used_influnce_mo
+					has_country_modifier = used_influnce_pr
+				}
+				AND = {
+					has_country_modifier = used_influnce_mp2
+					has_country_modifier = used_influnce_tx2
+					has_country_modifier = used_influnce_tr2
+					has_country_modifier = used_influnce_mo2
+					has_country_modifier = used_influnce_pr2
+				}
+				}
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 4413
+		}
+		
+		effect = {
+			country_event = {
+				id = zamorininteraction.10
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	zamorin_influence_use_influence_533 = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+			OR = {
+				num_of_cities = 6
+				total_development = 100
+				}
+			}
+			533 = {
+				NOT = {
+					owned_by = ROOT
+				}
+				OR = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			ai = no
+		}
+		allow = {
+			NOT = {
+				OR = {
+				AND = {
+					has_country_modifier = used_influnce_mp
+					has_country_modifier = used_influnce_tx
+					has_country_modifier = used_influnce_tr
+					has_country_modifier = used_influnce_mo
+					has_country_modifier = used_influnce_pr
+				}
+				AND = {
+					has_country_modifier = used_influnce_mp2
+					has_country_modifier = used_influnce_tx2
+					has_country_modifier = used_influnce_tr2
+					has_country_modifier = used_influnce_mo2
+					has_country_modifier = used_influnce_pr2
+				}
+				}
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 533
+		}
+		
+		effect = {
+			country_event = {
+				id = zamorininteraction.11
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	zamorin_influence_use_influence_538 = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+			OR = {
+				num_of_cities = 6
+				total_development = 100
+				}
+			}
+			538 = {
+				NOT = {
+					owned_by = ROOT
+				}
+				OR = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			ai = no
+		}
+		allow = {
+			NOT = {
+				OR = {
+				AND = {
+					has_country_modifier = used_influnce_mp
+					has_country_modifier = used_influnce_tx
+					has_country_modifier = used_influnce_tr
+					has_country_modifier = used_influnce_mo
+					has_country_modifier = used_influnce_pr
+				}
+				AND = {
+					has_country_modifier = used_influnce_mp2
+					has_country_modifier = used_influnce_tx2
+					has_country_modifier = used_influnce_tr2
+					has_country_modifier = used_influnce_mo2
+					has_country_modifier = used_influnce_pr2
+				}
+				}
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 538
+		}
+		
+		effect = {
+			country_event = {
+				id = zamorininteraction.12
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	zamorin_influence_use_influence_535 = {
+		major = yes
+		
+		potential = {
+			tag = MAB
+			NOT = {
+			OR = {
+				num_of_cities = 6
+				total_development = 100
+				}
+			}
+			535 = {
+				NOT = {
+					owned_by = ROOT
+				}
+				OR = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			ai = no
+		}
+		allow = {
+			NOT = {
+				OR = {
+				AND = {
+					has_country_modifier = used_influnce_mp
+					has_country_modifier = used_influnce_tx
+					has_country_modifier = used_influnce_tr
+					has_country_modifier = used_influnce_mo
+					has_country_modifier = used_influnce_pr
+				}
+				AND = {
+					has_country_modifier = used_influnce_mp2
+					has_country_modifier = used_influnce_tx2
+					has_country_modifier = used_influnce_tr2
+					has_country_modifier = used_influnce_mo2
+					has_country_modifier = used_influnce_pr2
+				}
+				}
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 535
+		}
+		
+		effect = {
+			country_event = {
+				id = zamorininteraction.13
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+
+	
+}

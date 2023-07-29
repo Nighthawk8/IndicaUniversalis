@@ -1,6 +1,6 @@
 namespace = vijinteraction
 
-province_event = {
+country_event = {
 	id = vijinteraction.1
 	title = "vijinteraction.NAME1"
 	desc = "vijinteraction.DESC1"
@@ -101,7 +101,7 @@ province_event = {
 	}
 }
 
-province_event = {
+country_event = {
 	id = vijinteraction.2
 	title = "vijinteraction.NAME2"
 	desc = "vijinteraction.DESC2"
@@ -118,7 +118,7 @@ province_event = {
 	option = {	# commission
 		name = "vijinteraction.2a"
 		ai_chance = { factor = 25 }
-		treasury = -50
+		add_treasury = -50
 	}
 
 	option = {	# seize
@@ -133,7 +133,7 @@ province_event = {
 	}
 }
 
-province_event = {
+country_event = {
 	id = vijinteraction.3
 	title = "vijinteraction.NAME3"
 	desc = "vijinteraction.DESC3"
@@ -153,7 +153,7 @@ province_event = {
 	option = {	# send loyal men
 		name = "vijinteraction.3a"
 		ai_chance = { factor = 25 }
-		manpower = -5000
+		add_manpower = -5000
 	}
 
 	option = {	# draft peasantry
@@ -166,7 +166,7 @@ province_event = {
 	}
 }
 
-province_event = {
+country_event = {
 	id = vijinteraction.4
 	title = "vijinteraction.NAME4"
 	desc = "vijinteraction.DESC4"
@@ -196,6 +196,6 @@ province_event = {
 			name = subsidise_our_traders
 			duration = 730
 		}
-		treasury = -100
+		add_treasury = -100
 	}
 }

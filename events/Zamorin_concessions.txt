@@ -1,0 +1,143 @@
+namespace = zamorinconcessions
+
+country_event = {
+	id = zamorinconcessions.1
+	title = "zamorinconcessions.NAME1"
+	desc = "zamorinconcessions.DESC1"
+	picture = BANKRUPTCY_eventPicture
+	
+	trigger = {
+		is_at_war = yes
+		OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+		}
+		NOT = {
+			has_country_modifier = had_event_zamcon1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {	# draft men
+		name = "zamorinconcessions.1a"
+		ai_chance = { factor = 25 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_manpower = 2000
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_manpower = 5000
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon1
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# use expertise
+		name = "zamorinconcessions.1b"
+		ai_chance = { factor = 75 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = use_soldiers_expertise
+				duration = 365
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = use_soldiers_expertise
+				duration = 730
+			}
+		}
+	}
+}

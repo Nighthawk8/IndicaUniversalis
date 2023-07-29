@@ -1,2 +1,1720 @@
 namespace = zamorininteraction
 
+country_event = {
+	id = zamorininteraction.1
+	title = "zamorininteraction.NAME1"
+	desc = "zamorininteraction.DESC1"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	#4413 Cannanore
+		name = "zamorininteraction.1a"
+		trigger = {
+			NOT = {
+				4413 = {
+					OR = {
+					owned_by = ROOT
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+		}
+		country_event = {
+			id = zamorininteraction.3
+		}
+	}
+
+	option = {	#533 Mysore
+		name = "zamorininteraction.1b"
+		trigger = {
+			NOT = {
+				533 = {
+					OR = {
+					owned_by = ROOT
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+		}
+		country_event = {
+			id = zamorininteraction.4
+		}
+	}
+
+	option = {	#538 Kongu
+		name = "zamorininteraction.1c"
+		trigger = {
+			NOT = {
+				538 = {
+					OR = {
+					owned_by = ROOT
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+		}
+		country_event = {
+			id = zamorininteraction.5
+		}
+	}
+
+	option = {	#535 Kochin
+		name = "zamorininteraction.1d"
+		trigger = {
+			NOT = {
+				535 = {
+					OR = {
+					owned_by = ROOT
+					has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+		}
+		country_event = {
+			id = zamorininteraction.6
+		}
+	}
+}
+
+
+#4413 Cannanore
+country_event = {
+	id = zamorininteraction.3
+	title = "zamorininteraction.NAME3"
+	desc = "zamorininteraction.DESC3"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# ducats
+		name = "zamorininteraction.3a"
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_treasury = -75
+			if = {
+				limit = {
+					4413 = {
+					has_province_modifier = lvl_1_influence_province
+					}
+				}
+				4413 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+					has_province_modifier = lvl_2_influence_province
+					}
+				}
+				4413 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_treasury = -150
+			if = {
+				limit = {
+					4413 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				4413 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = { 
+					has_province_modifier = lvl_4_influence_province
+					}
+				}
+				4413 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 4413influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# diplo
+		name = "zamorininteraction.3b"
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_dip_power = -50
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_dip_power = -100
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 4413influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# manpower
+		name = "zamorininteraction.3c"
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_manpower = -4000
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_manpower = -8000
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 4413influencelvl
+			value = 1
+		}
+	}
+
+}
+
+#533 Mysore
+country_event = {
+	id = zamorininteraction.4
+	title = "zamorininteraction.NAME4"
+	desc = "zamorininteraction.DESC4"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# ducats
+		name = "zamorininteraction.4a"
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_treasury = -75
+			if = {
+				limit = {
+					533 = {
+					has_province_modifier = lvl_1_influence_province
+					}
+				}
+				533 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = {
+					has_province_modifier = lvl_2_influence_province
+					}
+				}
+				533 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_treasury = -150
+			if = {
+				limit = {
+					533 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = { 
+					has_province_modifier = lvl_4_influence_province
+					}
+				}
+				533 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 533influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# diplo
+		name = "zamorininteraction.4b"
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_dip_power = -50
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_dip_power = -100
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 533influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# manpower
+		name = "zamorininteraction.4c"
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_manpower = -4000
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_manpower = -8000
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 533influencelvl
+			value = 1
+		}
+	}
+}
+
+#538 Kongu
+country_event = {
+	id = zamorininteraction.5
+	title = "zamorininteraction.NAME5"
+	desc = "zamorininteraction.DESC5"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# ducats
+		name = "zamorininteraction.5a"
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_treasury = -75
+			if = {
+				limit = {
+					538 = {
+					has_province_modifier = lvl_1_influence_province
+					}
+				}
+				538 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = {
+					has_province_modifier = lvl_2_influence_province
+					}
+				}
+				538 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_treasury = -150
+			if = {
+				limit = {
+					538 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = { 
+					has_province_modifier = lvl_4_influence_province
+					}
+				}
+				538 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 538influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# diplo
+		name = "zamorininteraction.5b"
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_dip_power = -50
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_dip_power = -100
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 538influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# manpower
+		name = "zamorininteraction.5c"
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_manpower = -4000
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_manpower = -8000
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 538influencelvl
+			value = 1
+		}
+	}
+}
+
+#535 Kochin
+country_event = {
+	id = zamorininteraction.6
+	title = "zamorininteraction.NAME6"
+	desc = "zamorininteraction.DESC6"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# ducats
+		name = "zamorininteraction.6a"
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_treasury = -75
+			if = {
+				limit = {
+					535 = {
+					has_province_modifier = lvl_1_influence_province
+					}
+				}
+				535 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = {
+					has_province_modifier = lvl_2_influence_province
+					}
+				}
+				535 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_treasury = -150
+			if = {
+				limit = {
+					535 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = { 
+					has_province_modifier = lvl_4_influence_province
+					}
+				}
+				535 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 535influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# diplo
+		name = "zamorininteraction.6b"
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_dip_power = -50
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_dip_power = -100
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 535influencelvl
+			value = 1
+		}
+	}
+
+	option = {	# manpower
+		name = "zamorininteraction.6c"
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			add_manpower = -4000
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_1_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_1_influence_province
+					add_province_modifier = {
+						name = lvl_2_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			add_manpower = -8000
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_4_influence_province
+					add_province_modifier = {
+						name = lvl_5_influence_province
+						duration = -1
+					}
+				}
+			}
+		}
+		change_variable = {
+			which = 535influencelvl
+			value = 1
+		}
+	}
+}
+
+#4413 Cannanore
+country_event  = {
+	id = zamorininteraction.10
+	title = "zamorininteraction.NAME10"
+	desc = "zamorininteraction.DESC10"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	#manpower
+		name = "zamorininteraction.10a"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mp
+				has_country_modifier = used_influnce_mp2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp
+			duration = 730
+		}
+		add_manpower = 2000
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp2
+			duration = 730
+		}
+		add_manpower = 4000
+		}
+	}
+
+	option = {	#tax
+		name = "zamorininteraction.10b"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tx
+				has_country_modifier = used_influnce_tx2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx
+			duration = 730
+		}
+		add_treasury = 50
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx2
+			duration = 730
+		}
+		add_treasury = 100
+		}
+	}
+
+	option = {	#trade
+		name = "zamorininteraction.10c"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tr
+				has_country_modifier = used_influnce_tr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#morale
+		name = "zamorininteraction.10d"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mo
+				has_country_modifier = used_influnce_mo2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#production
+		name = "zamorininteraction.10e"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_pr
+				has_country_modifier = used_influnce_pr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr2
+			duration = 1460
+		}
+		}
+	}
+}
+
+#533 Mysore
+country_event = {
+	id = zamorininteraction.11
+	title = "zamorininteraction.NAME11"
+	desc = "zamorininteraction.DESC11"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	#manpower
+		name = "zamorininteraction.11a"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mp
+				has_country_modifier = used_influnce_mp2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp
+			duration = 730
+		}
+		add_manpower = 2000
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp2
+			duration = 730
+		}
+		add_manpower = 4000
+		}
+	}
+
+	option = {	#tax
+		name = "zamorininteraction.11b"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tx
+				has_country_modifier = used_influnce_tx2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx
+			duration = 730
+		}
+		add_treasury = 50
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx2
+			duration = 730
+		}
+		add_treasury = 100
+		}
+	}
+
+	option = {	#trade
+		name = "zamorininteraction.11c"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tr
+				has_country_modifier = used_influnce_tr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#morale
+		name = "zamorininteraction.11d"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mo
+				has_country_modifier = used_influnce_mo2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#production
+		name = "zamorininteraction.11e"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_pr
+				has_country_modifier = used_influnce_pr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr2
+			duration = 1460
+		}
+		}
+	}
+}
+
+#538 Kongu
+country_event = {
+	id = zamorininteraction.12
+	title = "zamorininteraction.NAME12"
+	desc = "zamorininteraction.DESC12"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	#manpower
+		name = "zamorininteraction.12a"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mp
+				has_country_modifier = used_influnce_mp2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp
+			duration = 730
+		}
+		add_manpower = 2000
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp2
+			duration = 730
+		}
+		add_manpower = 4000
+		}
+	}
+
+	option = {	#tax
+		name = "zamorininteraction.12b"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tx
+				has_country_modifier = used_influnce_tx2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx
+			duration = 730
+		}
+		add_treasury = 50
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx2
+			duration = 730
+		}
+		add_treasury = 100
+		}
+	}
+
+	option = {	#trade
+		name = "zamorininteraction.12c"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tr
+				has_country_modifier = used_influnce_tr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#morale
+		name = "zamorininteraction.12d"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mo
+				has_country_modifier = used_influnce_mo2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#production
+		name = "zamorininteraction.12e"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_pr
+				has_country_modifier = used_influnce_pr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr2
+			duration = 1460
+		}
+		}
+	}
+}
+
+#535 Kochin
+country_event = {
+	id = zamorininteraction.13
+	title = "zamorininteraction.NAME13"
+	desc = "zamorininteraction.DESC13"
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	#manpower
+		name = "zamorininteraction.13a"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mp
+				has_country_modifier = used_influnce_mp2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp
+			duration = 730
+		}
+		add_manpower = 2000
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mp2
+			duration = 730
+		}
+		add_manpower = 4000
+		}
+	}
+
+	option = {	#tax
+		name = "zamorininteraction.13b"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tx
+				has_country_modifier = used_influnce_tx2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx
+			duration = 730
+		}
+		add_treasury = 50
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tx2
+			duration = 730
+		}
+		add_treasury = 100
+		}
+	}
+
+	option = {	#trade
+		name = "zamorininteraction.13c"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_tr
+				has_country_modifier = used_influnce_tr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_tr2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#morale
+		name = "zamorininteraction.13d"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_mo
+				has_country_modifier = used_influnce_mo2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_mo2
+			duration = 1460
+		}
+		}
+	}
+
+	option = {	#production
+		name = "zamorininteraction.13e"
+		trigger = {
+			NOT = {
+				has_country_modifier = used_influnce_pr
+				has_country_modifier = used_influnce_pr2
+			}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_4_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr
+			duration = 730
+		}
+		}
+		if = {
+			limit = {
+				has_country_modifier = lvl_5_influence_province
+			}
+		add_country_modifier = {
+			name = used_influnce_pr2
+			duration = 1460
+		}
+		}
+	}
+}

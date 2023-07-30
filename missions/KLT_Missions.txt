@@ -1,0 +1,453 @@
+##################################################################################
+############################## COLUMN 01 #########################################
+##################################################################################
+
+KLT_missions_01 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KLT } 
+
+	KLT_kolathiri_supremacy = {
+		icon = mission_indian_stateman
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_ally_venad = {
+		icon = mission_noble_council
+		position = 2
+		required_missions = { KLT_kolathiri_supremacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_central_power = {
+		icon = mission_restore_faith_in_the_throne
+		position = 3
+		required_missions = {
+			KLT_ally_venad
+			KLT_ally_kochin
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_independent_power = {
+		icon = mission_control_the_desh
+		position = 4
+		required_missions = {
+			KLT_central_power
+			KLT_zamorin_01
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_mushika_heritage = {
+		icon = mission_hands_praying
+		position = 6
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_devi_temples = {
+		icon = mission_patronize_local_gods
+		position = 7
+		required_missions = { KLT_mushika_heritage } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_muthappan_temple = {
+		icon = mission_religious_harmony
+		position = 8
+		required_missions = { KLT_devi_temples } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_chirakkal = {
+		icon = mission_conquer_koch
+		position = 9
+		required_missions = {
+			KLT_muthappan_temple
+			KLT_jew_pond
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 02 #########################################
+##################################################################################
+
+KLT_missions_02 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KLT } 
+
+	KLT_ally_kochin = {
+		icon = mission_noble_council
+		position = 2
+		required_missions = { KLT_kolathiri_supremacy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_zamorin_01 = {
+		icon = mission_the_tamil_trade_guilds
+		position = 3
+		required_missions = { KLT_ally_kochin } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_crush_zamorin_01 = {
+		icon = mission_subdue_rajputana
+		position = 4
+		required_missions = {
+			KLT_zamorin_01
+			KLT_valapattanam
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_sea_guilds = {
+		icon = mission_south_indian_trade
+		position = 5
+		required_missions = { KLT_ayyavole_500 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_buddhist_vihara = {
+		icon = mission_buddhist_monk_praying
+		position = 7
+		required_missions = { KLT_mushika_heritage } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_jew_pond = {
+		icon = mission_sindh_campaign
+		position = 8
+		required_missions = { KLT_buddhist_vihara } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 03 #########################################
+##################################################################################
+
+KLT_missions_03 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KLT } 
+
+	KLT_krishnagantha = {
+		icon = mission_vedic_education
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_vijayanagar_grants = {
+		icon = mission_entrepot_of_india
+		position = 2
+		required_missions = { KLT_krishnagantha } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_valapattanam = {
+		icon = mission_unite_hindustan
+		position = 3
+		required_missions = { KLT_vijayanagar_grants } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_ayyavole_500 = {
+		icon = mission_suppress_the_saophas
+		position = 4
+		required_missions = { KLT_valapattanam } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_mercenary_guild = {
+		icon = mission_new_army
+		position = 5
+		required_missions = { KLT_ayyavole_500 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_consolidate_malabar = {
+		icon = mission_the_sudebnik
+		position = 9
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 04 #########################################
+##################################################################################
+
+
+KLT_missions_04 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KLT } 
+
+	KLT_pirate_01 = {
+		icon = mission_raid_on_iceland
+		position = 2
+		required_missions = { KLT_northern_council } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_zamorin_02 = {
+		icon = mission_raid_the_berbers
+		position = 3
+		required_missions = { KLT_pirate_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_crush_zamorin_02 = {
+		icon = mission_subdue_rajputana
+		position = 4
+		required_missions = {
+			KLT_zamorin_02
+			KLT_valapattanam
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_land_guilds = {
+		icon = mission_conquer_malwa_bah
+		position = 5
+		required_missions = { KLT_ayyavole_500 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_middle_east_trade = {
+		icon = mission_dominate_gujarati_trade
+		position = 7
+		required_missions = { KLT_rise_of_islam } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_deccan_sultan = {
+		icon = mission_fatimid_caliphate
+		position = 8
+		required_missions = { KLT_middle_east_trade } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 05 #########################################
+##################################################################################
+
+
+KLT_missions_05 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KLT } 
+
+	KLT_northern_council = {
+		icon = mission_rajput_trade_guilds
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_pirate_02 = {
+		icon = mission_high_income
+		position = 2
+		required_missions = { KLT_northern_council } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_pirate_hub = {
+		icon = mission_malayan_viceroyalty
+		position = 3
+		required_missions = {
+			KLT_pirate_02
+			KLT_pirate_01
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_terror_of_sea = {
+		icon = mission_raid_on_venice
+		position = 4
+		required_missions = {
+			KLT_zamorin_02
+			KLT_pirate_hub
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_rise_of_islam = {
+		icon = mission_mosque
+		position = 6
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_malik_dinar = {
+		icon = mission_conquer_gujarat_bah
+		position = 7
+		required_missions = { KLT_rise_of_islam } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_tajudeen = {
+		icon = mission_into_arabia
+		position = 1
+		required_missions = { KLT_malik_dinar } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KLT_arakkal = {
+		icon = mission_eyalet_egypt
+		position = 9
+		required_missions = {
+			KLT_tajudeen
+			KLT_deccan_sultan
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

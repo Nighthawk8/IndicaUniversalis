@@ -1,0 +1,301 @@
+##################################################################################
+############################## COLUMN 01 #########################################
+##################################################################################
+
+MAB_missions_01 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = MAB } 
+
+	MAB_influence_01 = {
+		icon = mission_indian_stateman
+		position = 2
+		required_missions = { MAB_zamorin } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_influence_02 = {
+		icon = mission_indian_stateman
+		position = 3
+		required_missions = { MAB_influence_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_influence_03 = {
+		icon = mission_indian_stateman
+		position = 4
+		required_missions = { MAB_influence_02 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_muslim_alliance = {
+		icon = mission_fatimid_caliphate
+		position = 6
+		required_missions = { MAB_anti_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+
+##################################################################################
+############################## COLUMN 02 #########################################
+##################################################################################
+
+MAB_missions_02 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = MAB } 
+
+	MAB_zamorin = {
+		icon = mission_rajendras_ambition
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_attack_kochin = {
+		icon = mission_subdue_rajputana
+		position = 2
+		required_missions = { MAB_zamorin } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_attack_venad = {
+		icon = mission_subdue_rajputana
+		position = 3
+		required_missions = { MAB_attack_kochin } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_anti_europe_01 = {
+		icon = mission_defeat_mewar
+		position = 5
+		required_missions = { MAB_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_anti_europe_02 = {
+		icon = mission_raid_on_venice
+		position = 6
+		required_missions = { MAB_anti_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 03 #########################################
+##################################################################################
+
+MAB_missions_03 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = MAB } 
+
+	MAB_muslim_trade = {
+		icon = mission_dominate_gujarati_trade
+		position = 2
+		required_missions = {
+			MAB_zamorin
+			MAB_calicut_port
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_muslim_trade_2 = {
+		icon = mission_jawal_silver_mine
+		position = 3
+		required_missions = { MAB_muslim_trade } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_europe_01 = {
+		icon = mission_embassy_to_the_west
+		position = 4
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_consolidate_malabar = {
+		icon = mission_indian_empire
+		position = 7
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 04 #########################################
+##################################################################################
+
+MAB_missions_04 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = MAB } 
+
+	MAB_calicut_port = {
+		icon = mission_bengal_entrepot
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_navy_01 = {
+		icon = mission_arabian_sea_trade
+		position = 2
+		required_missions = { MAB_calicut_port } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_crush_pirates = {
+		icon = mission_raid_the_berbers
+		position = 3
+		required_missions = { MAB_navy_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_pro_europe_01 = {
+		icon = mission_have_manufactories
+		position = 5
+		required_missions = { MAB_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_pro_europe_02 = {
+		icon = mission_control_the_desh
+		position = 1
+		required_missions = { MAB_pro_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+##################################################################################
+############################## COLUMN 05 #########################################
+##################################################################################
+
+MAB_missions_05 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = MAB } 
+
+	MAB_spice = {
+		icon = mission_dominate_persian_gulf
+		position = 2
+		required_missions = { MAB_calicut_port } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_trading_dominance = {
+		icon = mission_grand_bengali_shipyards
+		position = 3
+		required_missions = { MAB_spice } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_invite_guilds = {
+		icon = mission_rajput_trade_guilds
+		position = 4
+		required_missions = { MAB_trading_dominance } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	MAB_industrialisation = {
+		icon = mission_industrialize_bengal
+		position = 6
+		required_missions = { MAB_pro_europe_01 } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}

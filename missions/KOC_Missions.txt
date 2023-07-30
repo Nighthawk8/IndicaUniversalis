@@ -1,0 +1,366 @@
+
+##################################################################################
+############################## COLUMN 01 #########################################
+##################################################################################
+
+
+koc_missions_01 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KOC } 
+
+	KOC_tolerance = {
+		icon = mission_hands_praying
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_protect_jains = {
+		icon = mission_protect_jain_communities
+		position = 2
+		required_missions = { KOC_tolerance } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_eco_01 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = {
+			KOC_protect_jains
+			KOC_protect_jews
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+
+	KOC_diplo_power = {
+		icon = mission_rajput_trade_guilds
+		position = 5
+		required_missions = { KOC_ally_venad } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_convent_education = {
+		icon = mission_european_church
+		position = 7
+		required_missions = { KOC_distant_friends } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+}
+
+##################################################################################
+############################## COLUMN 02 #########################################
+##################################################################################
+
+koc_missions_02 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KOC } 
+
+	KOC_protect_jews = {
+		icon = mission_sindh_campaign
+		position = 2
+		required_missions = { KOC_tolerance } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_ally_venad = {
+		icon = mission_indian_stateman
+		position = 4
+		provinces_to_highlight = {  } 
+
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 1
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "oma_buildforces_mod"
+				duration = 5475
+			}
+			2056 = { add_permanent_claim = ROOT } 
+		}
+	}
+
+	KOC_distant_friends = {
+		icon = mission_embassy_to_the_west
+		position = 6
+		required_missions = { KOC_old_capital } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_independent_power = {
+		icon = mission_the_tiger_triumphant
+		position = 7
+		required_missions = { KOC_distant_friends } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	
+}
+
+##################################################################################
+############################## COLUMN 03 #########################################
+##################################################################################
+
+koc_missions_03 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KOC } 
+
+
+	KOC_new_temple = {
+		icon = mission_temple_patronage
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+
+
+	KOC_vijayanagari_grants = {
+		icon = mission_entrepot_of_india
+		position = 2
+		required_missions = { KOC_new_temple } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+
+	KOC_kochin_port = {
+		icon = mission_galleys_in_port
+		position = 3
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_old_capital = {
+		icon = mission_assemble_an_army
+		position = 5
+		required_missions = {
+			KOC_ally_venad
+			KOC_build_army
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_consolidate_gains = {
+		icon = mission_the_sudebnik
+		position = 6
+		required_missions = { KOC_old_capital } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_expand_north = {
+		icon = mission_unite_home_region
+		position = 7
+		required_missions = { KOC_consolidate_gains } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	
+	KOC_consolidate_malabar = {
+		icon = mission_polynesian_grand_navy
+		position = 8
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+}
+
+
+##################################################################################
+############################## COLUMN 04 #########################################
+##################################################################################
+
+koc_missions_04 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KOC } 
+
+	KOC_weaken_zamorin = {
+		icon = mission_empire
+		position = 2
+		required_missions = { KOC_pirate_deal } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_build_army = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_build_navy = {
+		icon = mission_establish_high_seas_navy
+		position = 6
+		required_missions = { KOC_old_capital } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_lucrative_expedition = {
+		icon = mission_war_chest
+		position = 7
+		required_missions = { KOC_build_navy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	
+}
+
+##################################################################################
+############################## COLUMN 05 #########################################
+##################################################################################
+
+kochin_missions_05 = {
+
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = { tag = KOC } 
+
+	KOC_pirate_deal = {
+		icon = mission_naval_dominance
+		position = 1
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_exotic_animals = {
+		icon = mission_invade_burma
+		position = 2
+		required_missions = { KOC_pirate_deal } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+
+	KOC_eco_02 = {
+		icon = mission_unknown_mission
+		position = 3
+		required_missions = {
+			KOC_weaken_zamorin
+			KOC_exotic_animals
+		}
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+
+
+	KOC_mercenary_contracts = {
+		icon = mission_unite_west_india
+		position = 5
+		required_missions = { KOC_build_army } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	KOC_queen_arabian_sea = {
+		icon = mission_unite_coromandel
+		position = 7
+		required_missions = { KOC_build_navy } 
+		provinces_to_highlight = {  } 
+
+		trigger = {  } 
+
+		effect = {  } 
+	}
+
+	
+}

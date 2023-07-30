@@ -1,0 +1,254 @@
+﻿l_english:
+ 
+##################################################################################
+############################## MAB Missions ######################################
+##################################################################################
+   
+
+ MAB_influence_01_title:0 "Influence Local Lords"
+ MAB_influence_01_desc:0 ""
+
+ MAB_influence_02_title:0 "Demand More Concessions"
+ MAB_influence_02_desc:0 ""
+
+ MAB_influence_03_title:0 "Subjugate the Counts"
+ MAB_influence_03_desc:0 ""
+
+ MAB_muslim_alliance_title:0 "Middle Eastern Allainces"
+ MAB_muslim_alliance_desc:0 ""
+
+ MAB_zamorin_title:0 "Sword of Cheraman"
+ MAB_zamorin_desc:0 ""
+
+ MAB_attack_kochin_title:0 "Finish Off Kochin"
+ MAB_attack_kochin_desc:0 ""
+
+ MAB_attack_venad_title:0 "Showdown with Venad"
+ MAB_attack_venad_desc:0 ""
+
+ MAB_anti_europe_01_title:0 "Kunjali Marakkar"
+ MAB_anti_europe_01_desc:0 ""
+
+ MAB_anti_europe_02_title:0 "Lions of the Arabian Sea"
+ MAB_anti_europe_02_desc:0 ""
+
+ MAB_muslim_trade_title:0 "Middle Eastern Trade"
+ MAB_muslim_trade_desc:0 ""
+
+ MAB_muslim_trade_2_title:0 "Export Wootz Steel"
+ MAB_muslim_trade_2_desc:0 ""
+
+ MAB_europe_01_title:0 "European Expeditions"
+ MAB_europe_01_desc:0 ""
+
+ MAB_consolidate_malabar_title:0 "Consolidate Malabar"
+ MAB_consolidate_malabar_desc:0 ""
+
+ MAB_calicut_port_title:0 "Develop Calicut Port"
+ MAB_calicut_port_desc:0 ""
+
+ MAB_navy_01_title:0 "Increase Naval Power"
+ MAB_navy_01_desc:0 ""
+
+ MAB_crush_pirates_title:0 "Crush Pirates of Kolathunad"
+ MAB_crush_pirates_desc:0 ""
+
+ MAB_pro_europe_01_title:0 "European Factories"
+ MAB_pro_europe_01_desc:0 ""
+
+ MAB_pro_europe_02_title:0 "European Forts"
+ MAB_pro_europe_02_desc:0 ""
+
+ MAB_spice_title:0 "Spice Capital of Malabar"
+ MAB_spice_desc:0 ""
+
+ MAB_trading_dominance_title:0 "Masters of Commerce"
+ MAB_trading_dominance_desc:0 ""
+
+ MAB_invite_guilds_title:0 "Vijayanagar Trade Access"
+ MAB_invite_guilds_desc:0 ""
+
+ MAB_industrialisation_title:0 "European Technology"
+ MAB_industrialisation_desc:0 ""
+
+##################################################################################
+############################## KLT Missions ######################################
+##################################################################################
+
+ KLT_kolathiri_supremacy_title:0 "Kolathiri Supremacy"
+ KLT_kolathiri_supremacy_desc:0 ""
+
+ KLT_ally_venad_title:0 "Ally Venad"
+ KLT_ally_venad_desc:0 ""
+
+ KLT_central_power_title:0 "Centralized Rule"
+ KLT_central_power_desc:0 ""
+
+ KLT_independent_power_title:0 "Independent Power"
+ KLT_independent_power_desc:0 ""
+
+ KLT_mushika_heritage_title:0 "Mushika Heritage"
+ KLT_mushika_heritage_desc:0 ""
+
+ KLT_devi_temples_title:0 "Devi Temple Triad"
+ KLT_devi_temples_desc:0 ""
+
+ KLT_muthappan_temple_title:0 "Muthappan Temple"
+ KLT_muthappan_temple_desc:0 ""
+
+ KLT_chirakkal_title:0 "Chirakkal Kingdom"
+ KLT_chirakkal_desc:0 ""
+
+ KLT_ally_kochin_title:0 "Ally Kochin"
+ KLT_ally_kochin_desc:0 ""
+
+ KLT_zamorin_01_title:0 "Stifle Zamorin Trade"
+ KLT_zamorin_01_desc:0 ""
+
+ KLT_crush_zamorin_01_title:0 "Crush the Zamorin"
+ KLT_crush_zamorin_01_desc:0 ""
+
+ KLT_sea_guilds_title:0 "Anjuavannam Sea Guild"
+ KLT_sea_guilds_desc:0 ""
+
+ KLT_buddhist_vihara_title:0 "Sri Mulavasam Vihara"
+ KLT_buddhist_vihara_desc:0 ""
+
+ KLT_jew_pond_title:0 "Jutakkulam"
+ KLT_jew_pond_desc:0 ""
+
+ KLT_krishnagantha_title:0 "Krishnagantha"
+ KLT_krishnagantha_desc:0 ""
+
+ KLT_vijayanagar_grants_title:0 "Grants from Vijayanagar"
+ KLT_vijayanagar_grants_desc:0 ""
+
+ KLT_valapattanam_title:0 "Valapattanam"
+ KLT_valapattanam_desc:0 ""
+
+ KLT_ayyavole_500_title:0 "Ayyavole Five Hundred"
+ KLT_ayyavole_500_desc:0 ""
+
+ KLT_mercenary_guild_title:0 "Mercenary Guild"
+ KLT_mercenary_guild_desc:0 ""
+
+ KLT_consolidate_malabar_title:0 "Consolidate Malabar"
+ KLT_consolidate_malabar_desc:0 ""
+
+ KLT_pirate_01_title:0 "Empower Pirate Chiefs"
+ KLT_pirate_01_desc:0 ""
+
+ KLT_zamorin_02_title:0 "Capture Zamorin Ships"
+ KLT_zamorin_02_desc:0 ""
+
+ KLT_crush_zamorin_02_title:0 "Crush the Zamorin"
+ KLT_crush_zamorin_02_desc:0 ""
+
+ KLT_land_guilds_title:0 "Manigramam Inland Guild"
+ KLT_land_guilds_desc:0 ""
+
+ KLT_middle_east_trade_title:0 "Middle Eastern Trade"
+ KLT_middle_east_trade_desc:0 ""
+
+ KLT_deccan_sultan_title:0 "Ally Deccan Sultanates"
+ KLT_deccan_sultan_desc:0 ""
+
+ KLT_northern_council_title:0 "Northern Council of Five"
+ KLT_northern_council_desc:0 ""
+
+ KLT_pirate_02_title:0 "Recognize Pirate Laws"
+ KLT_pirate_02_desc:0 ""
+
+ KLT_pirate_hub_title:0 "Pirate Hub"
+ KLT_pirate_hub_desc:0 ""
+
+ KLT_terror_of_sea_title:0 "Terror of the Arabian Sea"
+ KLT_terror_of_sea_desc:0 ""
+
+ KLT_rise_of_islam_title:0 "Rise of Islam"
+ KLT_rise_of_islam_desc:0 ""
+
+ KLT_malik_dinar_title:0 "Malik Dinar Mosque"
+ KLT_malik_dinar_desc:0 ""
+
+ KLT_tajudeen_title:0 "Legend of Tajudeen "
+ KLT_tajudeen_desc:0 ""
+
+ KLT_arakkal_title:0 "Arakkal Kingdom"
+ KLT_arakkal_desc:0 ""
+
+##################################################################################
+############################## KOC Missions ######################################
+##################################################################################
+
+ KOC_distant_friends_title:0 "Friends from Distant Shores"
+ KOC_distant_friends_desc:0 ""
+
+ KOC_protect_jews_title:0 "Protect Jews"
+ KOC_protect_jews_desc:0 ""
+
+ KOC_old_capital_title:0 "Reclaim Old Capital"
+ KOC_old_capital_desc:0 ""
+
+ KOC_consolidate_gains_title:0 "Consolidate Gains"
+ KOC_consolidate_gains_desc:0 ""
+
+ KOC_expand_north_title:0 "Expand North"
+ KOC_expand_north_desc:0 ""
+
+ KOC_new_temple_title:0 "Tripunithura Temple"
+ KOC_new_temple_desc:0 ""
+
+ KOC_vijayanagari_grants_title:0 "Vijayanagari Grants"
+ KOC_vijayanagari_grants_desc:0 ""
+
+ KOC_kochin_port_title:0 "Kochin Port"
+ KOC_kochin_port_desc:0 ""
+
+ KOC_build_army_title:0 "Build Army"
+ KOC_build_army_desc:0 ""
+
+ KOC_build_navy_title:0 "Build Navy "
+ KOC_build_navy_desc:0 ""
+
+ KOC_lucrative_expedition_title:0 "A Lucrative Expedition"
+ KOC_lucrative_expedition_desc:0 ""
+
+ KOC_weaken_zamorin_title:0 "Weaken the Zamorin"
+ KOC_weaken_zamorin_desc:0 ""
+
+ KOC_tolerance_title:0 "Religious Tolerance"
+ KOC_tolerance_desc:0 ""
+
+ KOC_convent_education_title:0 "Convent Education"
+ KOC_convent_education_desc:0 ""
+
+ KOC_protect_jains_title:0 "Protect Jains"
+ KOC_protect_jains_desc:0 ""
+
+ KOC_diplo_power_title:0 "Diplomatic Powerhouse"
+ KOC_diplo_power_desc:0 ""
+
+ KOC_eco_01_title:0 "eco_01"
+ KOC_eco_01_desc:0 ""
+
+ KOC_pirate_deal_title:0 "Pirates of Kolathunad"
+ KOC_pirate_deal_desc:0 ""
+
+ KOC_queen_arabian_sea_title:0 "Queen of the Arabian Sea"
+ KOC_queen_arabian_sea_desc:0 ""
+
+ KOC_exotic_animals_title:0 "Exotic Animal Trade"
+ KOC_exotic_animals_desc:0 ""
+
+ KOC_mercenary_contracts_title:0 "Mercenary Contracts"
+ KOC_mercenary_contracts_desc:0 ""
+
+ KOC_eco_02_title:0 "eco_02"
+ KOC_eco_02_desc:0 ""
+
+ KOC_independent_power_title:0 "Independent Power"
+ KOC_independent_power_desc:0 ""
+ 
+ KOC_consolidate_malabar_title:0 "Consolidate Malabar"
+ KOC_consolidate_malabar_desc:0 ""

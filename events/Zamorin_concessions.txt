@@ -63,7 +63,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 2000
+			add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -82,7 +82,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 5000
+			add_manpower = 5
 		}
 		hidden_effect = {
 			add_country_modifier = {

@@ -1,5 +1,10 @@
 ﻿l_english:
 
+#Bookmarks
+
+INDICA_UNIVERSALIS:0 "Indica Universalis"
+INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its benevolent and influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin have been driven south and routed by the Zamorin and looks to recover from this great loss, all the meanwhile its diverse population provides opportunities for growth. Finally, Venad, the principle power with in the region looks to fully take over the region and expand into Tamil Territory. Who will you choose to lead into the future? Who will win the struggle for power?"
+
 #provinces
 
  PROV4942:0 "Kollam"
@@ -55,13 +60,21 @@
  zamorin_influence_increase_title:0 "Increase Your Influence"
  zamorin_influence_increase_desc:0 "Click on this decison to choose where to increase your influence. You can increase your influence in the provinces listed in the Check your Influence decision using Diplomatic power, Ducats or Manpower"
  zamorin_influence_use_influence_4413_title:0 "Use Influence over Cannanore"
- zamorin_influence_use_influence_4413_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_4413_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_533_title:0 "Use Influence over Mysore"
- zamorin_influence_use_influence_533_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_533_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_538_title:0 "Use Influence over Kongu"
- zamorin_influence_use_influence_538_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_538_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_535_title:0 "Use Influence over Kochin"
- zamorin_influence_use_influence_535_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_535_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
+
+ lvl_1_influence_province:0 "Level 1 Influence"
+ lvl_2_influence_province:0 "Level 2 Influence"
+ lvl_3_influence_province:0 "Level 3 Influence"
+ lvl_4_influence_province:0 "Level 4 Influence"
+ lvl_5_influence_province:0 "Level 5 Influence"
+ used_influnce_increase_recently:0 "Used Influence Increase Recently"
+ 
 
 
  

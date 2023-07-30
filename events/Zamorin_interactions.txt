@@ -260,7 +260,7 @@ country_event = {
 					has_province_modifier = lvl_2_influence_province
 				}
 			}
-			add_manpower = -4000
+			add_manpower = -4
 			if = {
 				limit = {
 					4413 = {
@@ -297,7 +297,7 @@ country_event = {
 					has_province_modifier = lvl_4_influence_province
 				}
 			}
-			add_manpower = -8000
+			add_manpower = -8
 			if = {
 				limit = {
 					4413 = {
@@ -517,7 +517,7 @@ country_event = {
 					has_province_modifier = lvl_2_influence_province
 				}
 			}
-			add_manpower = -4000
+			add_manpower = -4
 			if = {
 				limit = {
 					533 = {
@@ -554,7 +554,7 @@ country_event = {
 					has_province_modifier = lvl_4_influence_province
 				}
 			}
-			add_manpower = -8000
+			add_manpower = -8
 			if = {
 				limit = {
 					533 = {
@@ -773,7 +773,7 @@ country_event = {
 					has_province_modifier = lvl_2_influence_province
 				}
 			}
-			add_manpower = -4000
+			add_manpower = -4
 			if = {
 				limit = {
 					538 = {
@@ -810,7 +810,7 @@ country_event = {
 					has_province_modifier = lvl_4_influence_province
 				}
 			}
-			add_manpower = -8000
+			add_manpower = -8
 			if = {
 				limit = {
 					538 = {
@@ -1029,7 +1029,7 @@ country_event = {
 					has_province_modifier = lvl_2_influence_province
 				}
 			}
-			add_manpower = -4000
+			add_manpower = -4
 			if = {
 				limit = {
 					535 = {
@@ -1066,7 +1066,7 @@ country_event = {
 					has_province_modifier = lvl_4_influence_province
 				}
 			}
-			add_manpower = -8000
+			add_manpower = -8
 			if = {
 				limit = {
 					535 = {
@@ -1128,7 +1128,7 @@ country_event  = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1138,7 +1138,7 @@ country_event  = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1282,7 +1282,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1292,7 +1292,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1436,7 +1436,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1446,7 +1446,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1590,7 +1590,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1600,7 +1600,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 

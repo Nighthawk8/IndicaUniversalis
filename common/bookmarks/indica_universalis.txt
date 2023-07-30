@@ -1,0 +1,19 @@
+bookmark =
+{
+	name = "INDICA_UNIVERSALIS"
+	desc = "INDICA_UNIVERSALIS_DESC"
+	date = 1444.11.11
+	
+	center = 535
+	default = yes
+
+	country = KLT
+	country = MAB
+	country = KOC	
+	country = VND
+	
+	easy_country = KLT
+	easy_country = MAB
+	easy_country = KOC
+	easy_country = VND
+}

@@ -1,0 +1,43 @@
+VND_ideas = {
+	start = {
+		global_manpower_modifier = 0.15
+		legitimacy = 1
+	}
+	
+	bonus = {
+		technology_cost = -0.1
+	}
+	
+	trigger = { tag = VND }
+	free = yes 
+	
+	VND_one = { # Policy of Self-Preservation
+		improve_relation_modifier = 0.15
+	}
+	
+	VND_two = { # Cavalry of Venad
+		cavalry_power = 0.15
+	}
+	
+	VND_three = { # Kollam Merchants
+		global_own_trade_power = 0.2
+	}
+	
+	VND_four = { # European Factories
+		global_trade_goods_size_modifier = 0.05
+		diplomatic_reputation = 1
+	}
+	
+	VND_five = { # Gilded Temple
+		great_project_upgrade_cost = -0.33
+	}
+	
+	VND_six = { # Syrian Patronage
+		free_adm_policy = 1
+	}
+	
+	VND_seven = { # Standing Army of Travancore
+		yearly_army_professionalism = 0.01
+		fire_damage = 0.1
+	}
+}

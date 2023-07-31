@@ -11,6 +11,7 @@ country_decisions = {
 					total_development = 100
 				}
 			}
+			has_country_flag = zamorin_influence_activated
 			ai = no
 		}
 		allow = {
@@ -81,6 +82,7 @@ country_decisions = {
 				total_development = 100
 				}
 			}
+			has_country_flag = zamorin_influence_activated
 			ai = no
 		}
 		allow = {

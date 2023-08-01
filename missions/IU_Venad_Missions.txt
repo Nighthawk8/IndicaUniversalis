@@ -17,11 +17,11 @@ IU_VND_slot_one = {
 				any_owned_province = { trade_goods = paper }
 			}
 			537 = {
-				has_building = manufactory
+				has_manufactory_trigger = yes 
 				base_production = 10
 			}
 			4942 = {
-				has_building = manufactory 
+				has_manufactory_trigger = yes 
 				base_production = 10
 			}
 		}
@@ -716,8 +716,8 @@ IU_VND_slot_five = {
 						culture = tamil
 						culture = kannada
 					}
-					add_autonomy = -30
-					add_years_of_nationalism = -5
+					add_local_autonomy = -30
+					add_nationalism = -5
 				}
 			}
 			custom_tooltip = IU_VND_tamil_king_tt

@@ -1,0 +1,74 @@
+IU_VND_coir_monopoly = {
+	ship_durability = 0.05
+	trade_steering = 0.1
+}
+
+IU_VND_institution_growth = {
+	institution_growth = 0.2
+}
+
+IU_VND_kollam_building_slot = {
+	allowed_num_of_buildings = 1
+}
+
+IU_VND_fort_modifier = {
+	global_tax_income = 12
+}
+
+IU_VND_aspirations_of_venad = {
+	years_of_nationalism = -5
+	monthly_splendor = 1
+}
+
+IU_VND_calicut_trade_maps = {
+	trade_range_modifier = 0.5
+	ship_power_propgation = 0.1
+}
+
+IU_VND_tribal_conscription = {
+	local_attacker_dice_roll_bonus = 1
+	local_manpower_modifier = 0.15
+}
+
+IU_VND_growth_of_kollam = {
+	local_build_cost = -0.1
+	local_development_cost = -0.05
+}
+
+IU_VND_bhakti_revivalists = {
+	idea_cost = -0.1
+	advisor_pool = 1
+}
+
+IU_VND_vaishnavism_flourishing = {
+	prestige_decay = -0.01
+}
+
+IU_VND_gods_own_capital = {
+	allowed_num_of_buildings = 1
+	allowed_num_of_manufactories = 1
+}
+
+IU_VND_against_vijayanagar = {
+	land_morale = 0.1
+	recover_army_morale_speed = 0.15
+}
+
+IU_VND_secure_northern_border = {
+	global_unrest = -1
+}
+
+IU_VND_arab_guns = {
+	leader_land_fire = 1
+	land_maintenance_modifier = -0.2
+}
+
+IU_VND_sinhalese_elephants = {
+	cavalry_shock = 0.5
+	cavalry_cost = -0.1
+}
+
+IU_VND_rule_from_the_holy_city = {
+	maratha_loyalty_modifier = 0.1
+	brahmins_loyalty_modifier = 0.1
+}

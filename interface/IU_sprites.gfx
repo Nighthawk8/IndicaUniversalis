@@ -1,0 +1,27 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_great_project_IU_padmanabhaswamy_temple"
+		texturefile = "gfx//interface//great_projects//great_project_padmanabhaswamy_temple.dds"
+	}
+	
+	spriteType = {
+		name = "mission_consolidate_malabar"
+		texturefile = "gfx//interface//missions//mission_consolidate_malabar.dds"
+	}
+	
+	spriteType = {
+		name = "mission_deal_with_the_devil"
+		texturefile = "gfx//interface//missions//mission_deal_with_the_devil.dds"
+	}
+	
+	spriteType = {
+		name = "mission_adorn_the_gilded_temple"
+		texturefile = "gfx//interface//missions//mission_adorn_the_gilded_temple.dds"
+	}
+	
+	spriteType = {
+		name = "mission_chera"
+		texturefile = "gfx//interface//missions//mission_chera.dds"
+	}
+}

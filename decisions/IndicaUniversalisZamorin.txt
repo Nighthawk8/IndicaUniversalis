@@ -11,10 +11,11 @@ country_decisions = {
 					total_development = 100
 				}
 			}
+			has_country_flag = zamorin_influence_activated
 			ai = no
 		}
 		allow = {
-			exists = yes
+			always = no
 		}
 		provinces_to_highlight = {
 			if = {
@@ -81,6 +82,7 @@ country_decisions = {
 				total_development = 100
 				}
 			}
+			has_country_flag = zamorin_influence_activated
 			ai = no
 		}
 		allow = {

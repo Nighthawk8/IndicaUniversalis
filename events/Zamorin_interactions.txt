@@ -92,16 +92,32 @@ country_event = {
 		if = {
 			limit = {
 				4413 = {
+					OR = {
 					has_province_modifier = lvl_1_influence_province
 					has_province_modifier = lvl_2_influence_province
+					}
 				}
 			}
 			add_treasury = -75
 			if = {
 				limit = {
 					4413 = {
-					has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_2_influence_province
+					add_province_modifier = {
+						name = lvl_3_influence_province
+						duration = -1
 					}
+				}
+			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_1_influence_province
+						}
 				}
 				4413 = {
 					remove_province_modifier = lvl_1_influence_province
@@ -114,58 +130,48 @@ country_event = {
 			if = {
 				limit = {
 					4413 = {
-					has_province_modifier = lvl_2_influence_province
+						OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
 					}
 				}
-				4413 = {
-					remove_province_modifier = lvl_2_influence_province
-					add_province_modifier = {
-						name = lvl_3_influence_province
-						duration = -1
+				add_treasury = -150
+				if = {
+					limit = {
+						4413 = {
+							has_province_modifier = lvl_4_influence_province
+							}
 					}
-				}
-			}
-		}
-		if = {
-			limit = {
-				4413 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_treasury = -150
-			if = {
-				limit = {
 					4413 = {
-					has_province_modifier = lvl_3_influence_province
+						remove_province_modifier = lvl_4_influence_province
+						add_province_modifier = {
+							name = lvl_5_influence_province
+							duration = -1
+						}
 					}
 				}
-				4413 = {
-					remove_province_modifier = lvl_3_influence_province
-					add_province_modifier = {
-						name = lvl_4_influence_province
-						duration = -1
+				if = {
+					limit = {
+						4413 = {
+							has_province_modifier = lvl_3_influence_province
+							}
 					}
-				}
-			}
-			if = {
-				limit = {
-					4413 = { 
-					has_province_modifier = lvl_4_influence_province
-					}
-				}
-				4413 = {
-					remove_province_modifier = lvl_4_influence_province
-					add_province_modifier = {
-						name = lvl_5_influence_province
-						duration = -1
+					4413 = {
+						remove_province_modifier = lvl_3_influence_province
+						add_province_modifier = {
+							name = lvl_4_influence_province
+							duration = -1
+						}
 					}
 				}
 			}
 		}
+		hidden_effect = {
 		change_variable = {
 			which = 4413influencelvl
 			value = 1
+		}
 		}
 	}
 
@@ -174,25 +180,13 @@ country_event = {
 		if = {
 			limit = {
 				4413 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_dip_power = -50
-			if = {
-				limit = {
-					4413 = {
-						has_province_modifier = lvl_1_influence_province
-						}
-				}
-				4413 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					4413 = {
@@ -207,29 +201,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				4413 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_dip_power = -100
 			if = {
 				limit = {
 					4413 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				4413 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_dip_power = -100
 			if = {
 				limit = {
 					4413 = {
@@ -244,11 +240,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 4413influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 4413influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# manpower
@@ -256,25 +268,13 @@ country_event = {
 		if = {
 			limit = {
 				4413 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
-				}
-			}
-			add_manpower = -4000
-			if = {
-				limit = {
-					4413 = {
+					OR = {
 						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
 						}
 				}
-				4413 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
 			}
+			add_manpower = -4
 			if = {
 				limit = {
 					4413 = {
@@ -289,29 +289,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				4413 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_manpower = -8000
 			if = {
 				limit = {
 					4413 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				4413 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_manpower = -8
 			if = {
 				limit = {
 					4413 = {
@@ -326,11 +328,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				4413 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 4413influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 4413influencelvl
+				value = 1
+			}
+			}
 	}
 
 }
@@ -349,25 +367,13 @@ country_event = {
 		if = {
 			limit = {
 				533 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_treasury = -75
-			if = {
-				limit = {
-					533 = {
-					has_province_modifier = lvl_1_influence_province
-					}
-				}
-				533 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					533 = {
@@ -382,29 +388,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				533 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_treasury = -150
 			if = {
 				limit = {
 					533 = {
-					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_1_influence_province
 					}
 				}
 				533 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				533 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_treasury = -150
 			if = {
 				limit = {
 					533 = { 
@@ -419,11 +427,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					533 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 533influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 533influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# diplo
@@ -431,25 +455,13 @@ country_event = {
 		if = {
 			limit = {
 				533 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_dip_power = -50
-			if = {
-				limit = {
-					533 = {
-						has_province_modifier = lvl_1_influence_province
-						}
-				}
-				533 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					533 = {
@@ -464,29 +476,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				533 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_dip_power = -100
 			if = {
 				limit = {
 					533 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				533 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				533 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_dip_power = -100
 			if = {
 				limit = {
 					533 = {
@@ -501,11 +515,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 533influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 533influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# manpower
@@ -513,25 +543,13 @@ country_event = {
 		if = {
 			limit = {
 				533 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
-				}
-			}
-			add_manpower = -4000
-			if = {
-				limit = {
-					533 = {
+					OR = {
 						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
 						}
 				}
-				533 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
 			}
+			add_manpower = -4
 			if = {
 				limit = {
 					533 = {
@@ -546,29 +564,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				533 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_manpower = -8000
 			if = {
 				limit = {
 					533 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				533 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				533 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_manpower = -8
 			if = {
 				limit = {
 					533 = {
@@ -583,11 +603,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				533 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 533influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 533influencelvl
+				value = 1
+			}
+			}
 	}
 }
 
@@ -605,25 +641,13 @@ country_event = {
 		if = {
 			limit = {
 				538 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_treasury = -75
-			if = {
-				limit = {
-					538 = {
-					has_province_modifier = lvl_1_influence_province
-					}
-				}
-				538 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					538 = {
@@ -638,29 +662,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				538 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_treasury = -150
 			if = {
 				limit = {
 					538 = {
-					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_1_influence_province
 					}
 				}
 				538 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				538 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_treasury = -150
 			if = {
 				limit = {
 					538 = { 
@@ -675,11 +701,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					538 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 538influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 538influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# diplo
@@ -687,25 +729,13 @@ country_event = {
 		if = {
 			limit = {
 				538 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_dip_power = -50
-			if = {
-				limit = {
-					538 = {
-						has_province_modifier = lvl_1_influence_province
-						}
-				}
-				538 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					538 = {
@@ -720,29 +750,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				538 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_dip_power = -100
 			if = {
 				limit = {
 					538 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				538 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				538 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_dip_power = -100
 			if = {
 				limit = {
 					538 = {
@@ -757,11 +789,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 538influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 538influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# manpower
@@ -769,25 +817,13 @@ country_event = {
 		if = {
 			limit = {
 				538 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
-				}
-			}
-			add_manpower = -4000
-			if = {
-				limit = {
-					538 = {
+					OR = {
 						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
 						}
 				}
-				538 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
 			}
+			add_manpower = -4
 			if = {
 				limit = {
 					538 = {
@@ -802,29 +838,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				538 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_manpower = -8000
 			if = {
 				limit = {
 					538 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				538 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				538 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_manpower = -8
 			if = {
 				limit = {
 					538 = {
@@ -839,11 +877,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				538 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 538influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 538influencelvl
+				value = 1
+			}
+			}
 	}
 }
 
@@ -861,25 +915,13 @@ country_event = {
 		if = {
 			limit = {
 				535 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_treasury = -75
-			if = {
-				limit = {
-					535 = {
-					has_province_modifier = lvl_1_influence_province
-					}
-				}
-				535 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					535 = {
@@ -894,29 +936,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				535 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_treasury = -150
 			if = {
 				limit = {
 					535 = {
-					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_1_influence_province
 					}
 				}
 				535 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				535 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_treasury = -150
 			if = {
 				limit = {
 					535 = { 
@@ -931,11 +975,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					535 = {
+					has_province_modifier = lvl_3_influence_province
+					}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 535influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 535influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# diplo
@@ -943,25 +1003,13 @@ country_event = {
 		if = {
 			limit = {
 				535 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
+					OR = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+						}
 				}
 			}
 			add_dip_power = -50
-			if = {
-				limit = {
-					535 = {
-						has_province_modifier = lvl_1_influence_province
-						}
-				}
-				535 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
-			}
 			if = {
 				limit = {
 					535 = {
@@ -976,29 +1024,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				535 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_dip_power = -100
 			if = {
 				limit = {
 					535 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				535 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				535 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_dip_power = -100
 			if = {
 				limit = {
 					535 = {
@@ -1013,11 +1063,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 535influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 535influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	# manpower
@@ -1025,25 +1091,13 @@ country_event = {
 		if = {
 			limit = {
 				535 = {
-					has_province_modifier = lvl_1_influence_province
-					has_province_modifier = lvl_2_influence_province
-				}
-			}
-			add_manpower = -4000
-			if = {
-				limit = {
-					535 = {
+					OR = {
 						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
 						}
 				}
-				535 = {
-					remove_province_modifier = lvl_1_influence_province
-					add_province_modifier = {
-						name = lvl_2_influence_province
-						duration = -1
-					}
-				}
 			}
+			add_manpower = -4
 			if = {
 				limit = {
 					535 = {
@@ -1058,29 +1112,31 @@ country_event = {
 					}
 				}
 			}
-		}
-		if = {
-			limit = {
-				535 = {
-					has_province_modifier = lvl_3_influence_province
-					has_province_modifier = lvl_4_influence_province
-				}
-			}
-			add_manpower = -8000
 			if = {
 				limit = {
 					535 = {
-						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_1_influence_province
 						}
 				}
 				535 = {
-					remove_province_modifier = lvl_3_influence_province
+					remove_province_modifier = lvl_1_influence_province
 					add_province_modifier = {
-						name = lvl_4_influence_province
+						name = lvl_2_influence_province
 						duration = -1
 					}
 				}
 			}
+		}
+		if = {
+			limit = {
+				535 = {
+					OR = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+						}
+				}
+			}
+			add_manpower = -8
 			if = {
 				limit = {
 					535 = {
@@ -1095,11 +1151,27 @@ country_event = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+						}
+				}
+				535 = {
+					remove_province_modifier = lvl_3_influence_province
+					add_province_modifier = {
+						name = lvl_4_influence_province
+						duration = -1
+					}
+				}
+			}
 		}
-		change_variable = {
-			which = 535influencelvl
-			value = 1
-		}
+		hidden_effect = {
+			change_variable = {
+				which = 535influencelvl
+				value = 1
+			}
+			}
 	}
 }
 
@@ -1128,7 +1200,7 @@ country_event  = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1138,7 +1210,7 @@ country_event  = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1282,7 +1354,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1292,7 +1364,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1436,7 +1508,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1446,7 +1518,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1590,7 +1662,7 @@ country_event = {
 			name = used_influnce_mp
 			duration = 730
 		}
-		add_manpower = 2000
+		add_manpower = 2
 		}
 		if = {
 			limit = {
@@ -1600,7 +1672,7 @@ country_event = {
 			name = used_influnce_mp2
 			duration = 730
 		}
-		add_manpower = 4000
+		add_manpower = 4
 		}
 	}
 
@@ -1717,4 +1789,21 @@ country_event = {
 		}
 		}
 	}
+}
+
+country_event = {
+	id = zamorininteraction.100
+	title = "zamorininteraction.NAME100"
+	desc = "zamorininteraction.DESC100"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# commission
+		name = "zamorininteraction.100a"
+		ai_chance = { factor = 25 }
+		custom_tooltip = "zamorin_influence_unlock"
+		set_country_flag = zamorin_influence_activated
+	}
+	
 }

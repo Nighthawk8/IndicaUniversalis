@@ -1,5 +1,10 @@
 ﻿l_english:
 
+#Bookmarks
+
+INDICA_UNIVERSALIS:0 "Indica Universalis"
+INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its benevolent and influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin have been driven south and routed by the Zamorin and looks to recover from this great loss, all the meanwhile its diverse population provides opportunities for growth. Finally, Venad, the principal power with in the region looks to fully take over the region and expand into Tamil Territory. Who will you choose to lead into the future? Who will win the struggle for power?"
+
 #provinces
 
  PROV4942:0 "Kollam"
@@ -50,18 +55,59 @@
 
 #zamorin interactions
 
+ zamorininteraction.NAME100:0 "The Sword of Cheraman"
+ zamorininteraction.DESC100:0 "The last of the Cheraman Perumals divided the great Chera Empire amongst his chieftains before disappearing mysteriously. However, he had nothing left to give the Eradis, the fiercest of his warriors. Ashamed at this, he handed over his personal sword and gave them permission to “kill, get killed, and annex”. \n\nToday, the heir of the Eradis, the Zamorin, stands tall amongst the rulers of Kerala having brought many a chieftain to submission and carved out a kingdom that competes only with Venad for predominance in the region.  Today, his influence stretches far and wide, and only the future can tell how he will wield this influence to carve out an empire to stand the test of time"
+ zamorininteraction.100a:0 "What will the future hold?"
+ zamorin_influence_unlock:0 "§YYou have now unlocked the Zamorin influence mechanic, this lets you influence your neighbouring provinces to extract concessions from the local lords. You can use the decision to increase your influence. In levels 2 and 3 you will recieve random concessions through event. At levels 4 and 5 you will be able to use a decision to choose from a wide range of concessions.§"
+ zamorin_influence_activated:0 "Zamorin Influence Activated"
+
  zamorin_influence_check_title:0 "Check Your Influence Levels"
- zamorin_influence_check_desc:0 "This shows what influence level you have with the provinces around you.\n\nCannanore: Influence Level [From.4413influencelvl.GetValue] \n\nMysore: Influence Level [From.533influencelvl.GetValue] \n\nKongu: Influence Level [From.538influencelvl.GetValue] \n\nKochin: Influence Level [From.535influencelvl.GetValue]"
+ zamorin_influence_check_desc:0 "This shows what influence level you have with the provinces around you.\n\n §JCannanore: § Influence Level [From.4413influencelvl.GetValue] \n\n §JMysore: § Influence Level [From.533influencelvl.GetValue] \n\n §JKongu: § Influence Level [From.538influencelvl.GetValue] \n\n §JKochin: § Influence Level [From.535influencelvl.GetValue]"
  zamorin_influence_increase_title:0 "Increase Your Influence"
  zamorin_influence_increase_desc:0 "Click on this decison to choose where to increase your influence. You can increase your influence in the provinces listed in the Check your Influence decision using Diplomatic power, Ducats or Manpower"
  zamorin_influence_use_influence_4413_title:0 "Use Influence over Cannanore"
- zamorin_influence_use_influence_4413_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_4413_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_533_title:0 "Use Influence over Mysore"
- zamorin_influence_use_influence_533_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_533_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_538_title:0 "Use Influence over Kongu"
- zamorin_influence_use_influence_538_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_538_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
  zamorin_influence_use_influence_535_title:0 "Use Influence over Kochin"
- zamorin_influence_use_influence_535_desc:0 "Here you can use your influence to get a variety of benifits depending on your influence level"
+ zamorin_influence_use_influence_535_desc:0 "Here you can use your influence to get a variety of benefits depending on your influence level"
+
+ lvl_1_influence_province:0 "Level 1 Influence"
+ lvl_2_influence_province:0 "Level 2 Influence"
+ lvl_3_influence_province:0 "Level 3 Influence"
+ lvl_4_influence_province:0 "Level 4 Influence"
+ lvl_5_influence_province:0 "Level 5 Influence"
+ used_influnce_increase_recently:0 "Used Influence Increase Recently"
+
+ zamorininteraction.NAME1:0 "Increase Influence"
+ zamorininteraction.DESC1:0 "Here you can increase any province's influence level by one using manpower, diplomatic power or money"
+ zamorininteraction.1a:0 "Increase influence in Cannanore"
+ zamorininteraction.1b:0 "Increase influence in Mysore"
+ zamorininteraction.1c:0 "Increase influence in Kongu"
+ zamorininteraction.1d:0 "Increase influence in Kochin"
+ zamorininteraction.NAME3:0 "Increase Influence in Cannanore"
+ zamorininteraction.DESC3:0 "Use your manpower, diplomatic power or money to influence the lords of Cannanore. Our advisors suggest that this increase in influence will allow us to extract more conncessions from the lords and their population"
+ zamorininteraction.3a:0 "Use Money"
+ zamorininteraction.3b:0 "Use Diplomatic Power"
+ zamorininteraction.3c:0 "Use Manpower"
+ zamorininteraction.NAME4:0 "Increase Influence in Mysore"
+ zamorininteraction.DESC4:0 "Use your manpower, diplomatic power or money to influence the lords of Mysore. Our advisors suggest that this increase in influence will allow us to extract more conncessions from the lords and their population"
+ zamorininteraction.4a:0 "Use Money"
+ zamorininteraction.4b:0 "Use Diplomatic Power"
+ zamorininteraction.4c:0 "Use Manpower"
+ zamorininteraction.NAME5:0 "Increase Influence in Kongu"
+ zamorininteraction.DESC5:0 "Use your manpower, diplomatic power or money to influence the lords of Kongu. Our advisors suggest that this increase in influence will allow us to extract more conncessions from the lords and their population"
+ zamorininteraction.5a:0 "Use Money"
+ zamorininteraction.5b:0 "Use Diplomatic Power"
+ zamorininteraction.5c:0 "Use Manpower"
+ zamorininteraction.NAME6:0 "Increase Influence in Kochin"
+ zamorininteraction.DESC6:0 "Use your manpower, diplomatic power or money to influence the lords of Kochin. Our advisors suggest that this increase in influence will allow us to extract more conncessions from the lords and their population"
+ zamorininteraction.6a:0 "Use Money"
+ zamorininteraction.6b:0 "Use Diplomatic Power"
+ zamorininteraction.6c:0 "Use Manpower"
+
 
 
  

@@ -4,7 +4,7 @@ country_event = {
 	id = zamorininteraction.1
 	title = "zamorininteraction.NAME1"
 	desc = "zamorininteraction.DESC1"
-	picture = BANKRUPTCY_eventPicture
+	picture = CORRUPTION_eventPicture
 	
 	is_triggered_only = yes
 
@@ -83,7 +83,7 @@ country_event = {
 	id = zamorininteraction.3
 	title = "zamorininteraction.NAME3"
 	desc = "zamorininteraction.DESC3"
-	picture = BANKRUPTCY_eventPicture
+	picture = DIPLOMACY_eventPicture
 	
 	is_triggered_only = yes
 

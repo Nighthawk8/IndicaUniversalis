@@ -1,0 +1,366 @@
+namespace = zamorinretaliation
+
+province_event = {
+	id = zamorinretaliation.1
+	title = "zamorinretaliation.NAME1"
+	desc = "zamorinretaliation.DESC1"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_province_modifier = lvl_3_influence_province
+		owner = {
+			NOT = {
+				tag = MAB
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {	# remove
+		name = "zamorinretaliation.1a"
+		ai_chance = { factor = 50 }
+		remove_province_modifier = lvl_3_influence_province
+		add_province_modifier = {
+			name = lvl_2_influence_province
+			duration = -1
+		}
+		add_adm_power = -50
+		if = {
+			limit= {
+				province_id = 4413
+			}
+		country_event = {
+			id = zamorinretaliation.100
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 4413influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 533
+			}
+		country_event = {
+			id = zamorinretaliation.101
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 533influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 538
+			}
+		country_event = {
+			id = zamorinretaliation.102
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 538influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 535
+			}
+		country_event = {
+			id = zamorinretaliation.103
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 535influencelvl
+			value = 1
+			}
+		}
+		}
+	}
+
+	option = {	# leave
+		name = "zamorinretaliation.1b"
+		ai_chance = { factor = 50 }
+		add_dip_power = 50
+	}
+}
+
+province_event = {
+	id = zamorinretaliation.2
+	title = "zamorinretaliation.NAME2"
+	desc = "zamorinretaliation.DESC2"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_province_modifier = lvl_4_influence_province
+		owner = {
+			NOT = {
+				tag = MAB
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 54
+	}
+
+	option = {	# remove
+		name = "zamorinretaliation.2a"
+		ai_chance = { factor = 65 }
+		remove_province_modifier = lvl_4_influence_province
+		add_province_modifier = {
+			name = lvl_3_influence_province
+			duration = -1
+		}
+		add_adm_power = -50
+		if = {
+			limit= {
+				province_id = 4413
+			}
+		country_event = {
+			id = zamorinretaliation.100
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 4413influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 533
+			}
+		country_event = {
+			id = zamorinretaliation.101
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 533influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 538
+			}
+		country_event = {
+			id = zamorinretaliation.102
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 538influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 535
+			}
+		country_event = {
+			id = zamorinretaliation.103
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 535influencelvl
+			value = 1
+			}
+		}
+		}
+	}
+
+	option = {	# leave
+		name = "zamorinretaliation.2b"
+		ai_chance = { factor = 35 }
+	}
+}
+
+province_event = {
+	id = zamorinretaliation.3
+	title = "zamorinretaliation.NAME3"
+	desc = "zamorinretaliation.DESC3"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		has_province_modifier = lvl_5_influence_province
+		owner = {
+			NOT = {
+				tag = MAB
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {	# remove
+		name = "zamorinretaliation.3a"
+		ai_chance = { factor = 80 }
+		remove_province_modifier = lvl_5_influence_province
+		add_province_modifier = {
+			name = lvl_4_influence_province
+			duration = -1
+		}
+		add_adm_power = -50
+		if = {
+			limit= {
+				province_id = 4413
+			}
+		country_event = {
+			id = zamorinretaliation.100
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 4413influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 533
+			}
+		country_event = {
+			id = zamorinretaliation.101
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 533influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 538
+			}
+		country_event = {
+			id = zamorinretaliation.102
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 538influencelvl
+			value = 1
+			}
+		}
+		}
+		if = {
+			limit= {
+				province_id = 535
+			}
+		country_event = {
+			id = zamorinretaliation.103
+		}
+		hidden_effect = {
+		subtract_variable = {
+			which = 535influencelvl
+			value = 1
+			}
+		}
+		}
+	}
+
+	option = {	# leave
+		name = "zamorinretaliation.3b"
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = zamorinretaliation.100
+	title = "zamorinretaliation.NAME100"
+	desc = "zamorinretaliation.DESC100"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# accept
+		name = "zamorinretaliation.100a"
+		add_prestige = -15
+	}
+
+	option = {	# retaliate
+		name = "zamorinretaliation.1b"
+		4413 = {
+			add_claim = MAB
+		}
+		add_prestige = 15
+	}
+} 
+
+country_event = {
+	id = zamorinretaliation.101
+	title = "zamorinretaliation.NAME101"
+	desc = "zamorinretaliation.DESC101"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# accept
+		name = "zamorinretaliation.101a"
+		add_prestige = -15
+	}
+
+	option = {	# retaliate
+		name = "zamorinretaliation.101b"
+		533 = {
+			add_claim = MAB
+		}
+		add_prestige = 15
+	}
+}
+
+country_event = {
+	id = zamorinretaliation.102
+	title = "zamorinretaliation.NAME102"
+	desc = "zamorinretaliation.DESC102"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# accept
+		name = "zamorinretaliation.102a"
+		add_prestige = -15
+	}
+
+	option = {	# retaliate
+		name = "zamorinretaliation.102b"
+		538 = {
+			add_claim = MAB
+		}
+		add_prestige = 15
+	}
+}
+
+country_event = {
+	id = zamorinretaliation.103
+	title = "zamorinretaliation.NAME103"
+	desc = "zamorinretaliation.DESC103"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# accept
+		name = "zamorinretaliation.103a"
+		add_prestige = -15
+	}
+
+	option = {	# retaliate
+		name = "zamorinretaliation.103b"
+		535 = {
+			add_claim = MAB
+		}
+		add_prestige = 15
+	}
+}

@@ -20,44 +20,52 @@ country_decisions = {
 		provinces_to_highlight = {
 			if = {
 				limit = {
+					4413 = {
 					OR = {
 					has_province_modifier = lvl_2_influence_province
 					has_province_modifier = lvl_3_influence_province
 					has_province_modifier = lvl_4_influence_province
 					has_province_modifier = lvl_5_influence_province
+					}
 					}
 				}
 				province_id = 4413
 			}
 			if = {
 				limit = {
+					533 = {
 					OR = {
 					has_province_modifier = lvl_2_influence_province
 					has_province_modifier = lvl_3_influence_province
 					has_province_modifier = lvl_4_influence_province
 					has_province_modifier = lvl_5_influence_province
+					}
 					}
 				}
 				province_id = 533
 			}
 			if = {
 				limit = {
+					538 = {
 					OR = {
 					has_province_modifier = lvl_2_influence_province
 					has_province_modifier = lvl_3_influence_province
 					has_province_modifier = lvl_4_influence_province
 					has_province_modifier = lvl_5_influence_province
 					}
+					}
 				}
 				province_id = 538
 			}
 			if = {
 				limit = {
+					535 = {
 					OR = {
 					has_province_modifier = lvl_2_influence_province
 					has_province_modifier = lvl_3_influence_province
 					has_province_modifier = lvl_4_influence_province
 					has_province_modifier = lvl_5_influence_province
+					}
 					}
 				}
 				province_id = 535

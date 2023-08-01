@@ -4,7 +4,7 @@ country_event = {
 	id = zamorinconcessions.1
 	title = "zamorinconcessions.NAME1"
 	desc = "zamorinconcessions.DESC1"
-	picture = BANKRUPTCY_eventPicture
+	picture = LAND_MILITARY_eventPicture
 	
 	trigger = {
 		is_at_war = yes
@@ -137,6 +137,678 @@ country_event = {
 			add_country_modifier = {
 				name = use_soldiers_expertise
 				duration = 730
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon1
+				duration = 1460
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = zamorinconcessions.2
+	title = "zamorinconcessions.NAME2"
+	desc = "zamorinconcessions.DESC2"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		is_at_war = yes
+		OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+		}
+		NOT = {
+			has_country_modifier = had_event_zamcon2
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {	# hire as advisors
+		name = "zamorinconcessions.2a"
+		ai_chance = { factor = 25 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_mil_power = 50
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_mil_power = 50
+			define_advisor = {
+				type = commandant
+				skill = 3
+				cost_multiplier = 0.5
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon2
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# use expertise
+		name = "zamorinconcessions.2b"
+		ai_chance = { factor = 50 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = use_officers_expertise
+				duration = 365
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = use_officers_expertise
+				duration = 730
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon2
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# grant generalship
+		name = "zamorinconcessions.2b"
+		ai_chance = { factor = 25 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			define_general = {
+				shock = 2
+				fire = 2
+				manuever = 4
+				siege = 1
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			define_general = {
+				shock = 4
+				fire = 4
+				manuever = 4
+				siege = 1
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon2
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = zamorinconcessions.3
+	title = "zamorinconcessions.NAME3"
+	desc = "zamorinconcessions.DESC3"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+		}
+		NOT = {
+			has_country_modifier = had_event_zamcon3
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# put in coffers
+		name = "zamorinconcessions.3a"
+		ai_chance = { factor = 25 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_treasury = 75
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_treasury = 150
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon3
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# gift it to people
+		name = "zamorinconcessions.3b"
+		ai_chance = { factor = 75 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_adm_power = 50
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_adm_power = 100
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon3
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = zamorinconcessions.4
+	title = "zamorinconcessions.NAME4"
+	desc = "zamorinconcessions.DESC4"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+		}
+		NOT = {
+			has_country_modifier = had_event_zamcon4
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# allow to work
+		name = "zamorinconcessions.4a"
+		ai_chance = { factor = 25 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_treasury = 50
+			capital_scope = {
+				add_province_modifier  = {
+					name = work_the_free_market
+					duration = 730
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_treasury = 100
+			capital_scope = {
+				add_province_modifier  = {
+					name = work_the_free_market
+					duration = 730
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon4
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# use services
+		name = "zamorinconcessions.4b"
+		ai_chance = { factor = 75 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_dip_power = 40
+			add_prestige = 15
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_dip_power = 80
+			add_prestige = 30
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon4
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = zamorinconcessions.5
+	title = "zamorinconcessions.NAME5"
+	desc = "zamorinconcessions.DESC5"
+	picture = LAND_MILITARY_eventPicture
+	
+	trigger = {
+		OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+		}
+		NOT = {
+			has_country_modifier = had_event_zamcon5
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# domestic
+		name = "zamorinconcessions.5a"
+		ai_chance = { factor = 50 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			every_owned_province = {
+				add_province_modifier = {
+					name = exploit_it_domestically
+					duration = 365
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			every_owned_province = {
+				add_province_modifier = {
+					name = exploit_it_domestically
+					duration = 450
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon5
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# exploit everywhere
+		name = "zamorinconcessions.5b"
+		ai_chance = { factor = 50 }
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_2_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = exploit_the_region
+				duration = 365
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					4413 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					533 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					538 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+					535 = {
+						has_province_modifier = lvl_3_influence_province
+					}
+				}
+			}
+			add_country_modifier = {
+				name = exploit_the_region
+				duration = 730
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = had_event_zamcon5
+				duration = 1460
 			}
 		}
 	}

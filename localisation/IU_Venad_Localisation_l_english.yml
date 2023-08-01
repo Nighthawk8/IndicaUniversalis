@@ -1,0 +1,123 @@
+﻿l_english:
+ IU_VND_navy_title:0 "Define our Navy"
+ IU_VND_navy_desc:0 ""
+ IU_VND_navy_tt: "If we have a naval reformer advisor or our ruler has the entrepreneur or navigator trait, Kollam will gain a free shipyard."
+ 
+ IU_VND_maldives_title:0 "A Lucrative Expedition"
+ IU_venad_maldives_desc:0 "To the south of Malabar lies the numerous islands of the Maldives. A paradise of beautiful atolls and lagoons, where the water is so clear you can see the ocean floor several hours out from land. The sultanate ruling them was founded by a Somali prince allegedly and the sultan is content to sit on his riches far away from the cauldron of Indian politics. A shame, really. The Maldives are the main source of coir - coconut husk used to build the dhows that so commonly traverse the Indian Ocean. It is used in the design of the ship Kollam and her neighboring cities do - the Uru. An edge in shipbuilding might be what we need against our neighbors to the north, who are more experienced at sea. There is a small fortune of untapped riches in the islands as well, from gemstones to spices and so on. The sultan likely thinks his position secure, too far flung and wealthy to be threatened by annexation. A successful attack on the Maldives may place us on the playing field to be one of the naval powers of India."
+
+ IU_VND_thangasseri_merchants_title:0 "Thangasseri Merchants"
+ IU_VND_thangasseri_merchants_desc:0 ""
+
+ IU_VND_defend_venad_title:0 "Trivandrum in Peril"
+ IU_VND_defend_venad_desc:0 ""
+
+ IU_VND_chieftains_favor_title:0 "The Chieftains' Favor"
+ IU_VND_chieftains_favor_desc:0 ""
+ vnd_won_battles_with_ruler_tt: "We have won at least five battles with our monarch as general."
+
+ IU_VND_revitalize_kollam_title:0 "Revitalize Kollam"
+ IU_VND_revitalize_kollam_desc:0 ""
+
+ IU_VND_erect_new_mandirs_title:0 "Erect New Mandirs"
+ IU_VND_erect_new_mandirs_desc:0 ""
+
+ IU_VND_patronize_temple_title:0 "Adorn the Gilded Temple"
+ IU_VND_patronize_temple_desc:0 ""
+
+ IU_VND_crucible_of_kerala_title:0 "Crucible of Kerala"
+ IU_VND_crucible_of_kerala_desc:0 ""
+ IU_VND_tradition_tt: "We will gain 3 army tradition for each point of MIL power we make per month, up to 30 army tradition."
+
+ IU_VND_dethrone_zamorin_title:0 "Dethrone the Zamorin"
+ IU_VND_dethrone_zamorin_desc:0 ""
+
+ IU_VND_consolidation_of_malabar_title:0 "Consolidation of Malabar"
+ IU_VND_consolidation_of_malabar_desc:0 ""
+
+ IU_VND_king_of_chiefs_title:0 "A King Among Chiefs"
+ IU_VND_king_of_chiefs_desc:0 ""
+
+ IU_VND_curtail_ettara_yogam_title:0 "Placate the Nair Castes"
+ IU_VND_curtail_ettara_yogam_desc:0 ""
+
+ IU_VND_overrun_kochin_title:0 "Overrun Kochin"
+ IU_VND_overrun_kochin_desc:0 ""
+
+ IU_VND_abolish_the_aristocracy_title:0 "Abolish the Aristocracy"
+ IU_VND_abolish_the_aristocracy_desc:0 ""
+
+ IU_VND_deal_with_the_devil_title:0 "Deal with the Devil"
+ IU_VND_deal_with_the_devil_desc:0 ""
+
+ IU_VND_dynastic_claims_title:0 "Heirs to the Chera"
+ IU_VND_dynastic_claims_desc:0 ""
+
+ IU_VND_last_tamil_king_title:0 "Glorified by Heaven"
+ IU_VND_last_tamil_king_desc:0 ""
+
+ IU_VND_western_explorers_title:0 "Explorers from the West"
+ IU_VND_western_explorers_desc:0 ""
+
+ IU_VND_hidden_mission_one_title:0 "Unknown Mission"
+ IU_VND_hidden_mission_one_desc:0 ""
+
+ IU_VND_hidden_mission_two_title:0 "Unknown Mission"
+ IU_VND_hidden_mission_two_desc:0 ""
+
+ IU_VND_purchase_western_arms_title:0 "Purchase Western Arms"
+ IU_venad_purchase_western_arms_desc:0 ""
+
+ IU_VND_modernized_kerala_title:0 "A Modernized Kerala"
+ IU_VND_modernized_kerala_desc:0 ""
+
+ IU_VND_a_friend_in_need_title: "A Friend In Need"
+ 
+ #Events
+ 
+ IU_VND.1.t: "The Coconut Isles"
+ IU_VND.1.a: "Our shipwrights are about have a lot of work!"
+ 
+ IU_VND.2.t: "The Three Crowned Rulers"
+ IU_VND.2.a: "Destiny awaits you, fearsome Chera!"
+ 
+ IU_VND.3.t: "Revival of Kollam"
+ IU_VND.3.a: "Kollam may once again be our shining capital!"
+ IU_VND.3.b: "The king's seat must stay in the holy city of Thiruvanathapuram."
+ 
+ IU_VND.4.t: "Monasteries of Saint Thomas"
+ IU_VND.4.a: "The Syriacs are an important part of the coast's identity and will be protected."
+ IU_VND.4.b: "Centuries of untouched relics add up to an impressive fortune of gold..."
+ 
+ IU_VND.5.t: "Elephant Masters of Ceylon"
+ IU_VND.5.a: "Their expertise will give us a crucial edge against our foes!"
+ 
+ IU_EURO.1.t: "The Game of India"
+ IU_EURO.1.d: "Our explorers in search of spices, incense, and other such riches have charted the coast of India for the very first time. India is a massive subcontinent with hundreds of kingdoms with ancient feuds and alliances alike, not unlike our home in Europe. Several princes have already noticed our ships off the coast, either wanting to establish trade deals, align with us against their sworn enemies, or even make sure we have no place in the subcontinent. Friends and foes alike, we must exploit these conflicts in India to expand our fortune!"
+ IU_EURO.1.a: "The die is cast."
+ IU_indian_influence_tt: "Our Colonial Influence determines the amount of sway we have over the kingdoms in India and Indochina. Our influence will increase over time, but it can be sped up by forming alliances or subject relationships with Indian and Southeast Asian countries, owning trade companies in these regions, and establishing forts and trade factories in these countries. The influence can then be expended to add a country to your sphere of influence, effectively making them an autonomous subject under your protection. Countries in your sphere will allow you military access and free reign to establish trade posts."
+ 
+ #Modifiers
+ IU_VND_coir_monopoly: "Monopoly on Coir"
+ IU_VND_institution_growth: "Printing in Malayalam"
+ IU_VND_fort_modifier: "Subsidized Fortress"
+ IU_VND_aspirations_of_venad: "Aspirations of Venad"
+ IU_VND_calicut_trade_maps: "Zamorin's Trade Charts"
+ IU_VND_tribal_conscription: "Tribal Conscription"
+ IU_VND_KOLLAM_MERCHANTS: "Ascent of Kollam"
+ IU_VND_growth_of_kollam: "Growth of Kollam"
+ IU_VND_bhakti_revivalists: "Houses of Scholarship"
+ IU_VND_vaishnavism_flourshing: "Vaishnavism Floursihing"
+ IU_VND_gods_own_capital: "God's Own Capital"
+ IU_VND_against_vijayanagar: "Stand Against Vijayanagar"
+ IU_VND_secure_northern_border: "Secure Northern Border"
+ IU_VND_arab_guns: "Arab Firearms"
+ IU_VND_sinhalese_elephants: "War Elephants of Ceylon"
+ 
+ 
+ #Estates
+ IU_estate_maratha_tribal_conscription: "Tribal Conscription"
+ IU_estate_maratha_ettuveetil_pillamar: "Ettuveetil Pillamar"
+ 
+ #Religious
+ vishnu_IU: "Vishnu"

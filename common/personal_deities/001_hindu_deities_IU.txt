@@ -1,0 +1,47 @@
+vishnu_IU = {
+	# (Military - Defensive)
+	defensiveness = 0.2
+	infantry_power = 0.05
+	
+	potential = { religion = hinduism  has_country_flag = IU_vishnu_flag}
+	trigger = {}
+	sprite = 6
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}
+
+vishnu = {
+	# (Military - Defensive)
+	defensiveness = 0.2
+	global_missionary_strength = 0.02
+	
+	potential = { religion = hinduism  NOT = { has_country_flag = IU_vishnu_flag } }
+	trigger = {}
+	sprite = 6
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}

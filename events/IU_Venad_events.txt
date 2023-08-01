@@ -144,6 +144,10 @@ country_event = {
 	title = IU_VND.5.t
 	desc = IU_VND.5.d 
 	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
 	option = {
 		name = IU_VND.5.a 
 		define_advisor = {

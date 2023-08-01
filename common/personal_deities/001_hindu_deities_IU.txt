@@ -27,7 +27,7 @@ vishnu = {
 	defensiveness = 0.2
 	global_missionary_strength = 0.02
 	
-	potential = { religion = hinduism  NOT = { has_country_flag = IU_vishnu_flag }
+	potential = { religion = hinduism  NOT = { has_country_flag = IU_vishnu_flag } }
 	trigger = {}
 	sprite = 6
 	

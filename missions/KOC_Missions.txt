@@ -14,26 +14,41 @@ koc_missions_01 = {
 	KOC_tolerance = {
 		icon = mission_hands_praying
 		position = 1
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { province_id = 535 } 
 
-		trigger = {  } 
-
-		effect = {  } 
+		trigger = { 
+			has_idea = malabari_cultural_melting_pot
+			custom_trigger_tooltip ={
+				tooltip = complete_accepted_other_religions_decision
+				has_country_modifier = accepted_other_religions
+			}
+		}
+		effect = { add_stability = 1 } 
 	}
 
 	KOC_protect_jains = {
-		icon = mission_protect_jain_communities
+		icon = mission_christian
 		position = 2
 		required_missions = { KOC_tolerance } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = {  
+
+			define_advisor = {
+    		type = master_of_mint
+   			name = "Ouseph Scaria"
+    		skill = 2
+    		
+    		religion = orthodox
+    		cost_multiplier = 0.50
+			} 
+		} 
 	}
 
 	KOC_eco_01 = {
-		icon = mission_unknown_mission
+		icon = mission_consume_the_baghels
 		position = 3
 		required_missions = {
 			KOC_protect_jains
@@ -41,9 +56,19 @@ koc_missions_01 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
 
-		effect = {  } 
+			current_income_balance = 5
+			trade_income_percentage = 0.20 } 
+
+		effect = { 
+
+		add_country_modifier = { 
+    		name = anjuvannam_guild
+    		duration = 1825 
+    		
+			}
+		 } 
 	}
 
 
@@ -53,9 +78,16 @@ koc_missions_01 = {
 		required_missions = { KOC_ally_venad } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { num_of_diplomatic_relations = 4
+			legitimacy = 75
+			prestige = 25
+		 } 
 
-		effect = {  } 
+		effect = { change_dip = 1
+		add_country_modifier = {
+			name = diplomatic_powerhouse
+			duration = 3650
+		} } 
 	}
 
 	KOC_convent_education = {
@@ -64,9 +96,14 @@ koc_missions_01 = {
 		required_missions = { KOC_distant_friends } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { adm_tech = 7 } 
 
-		effect = {  } 
+		effect = { 
+			# there should be a chance a province owned by Kochin converts to Christianity
+			add_country_modifier = {
+			name = convent_education
+			duration = 3650
+		}  } 
 	}
 
 }
@@ -83,33 +120,54 @@ koc_missions_02 = {
 	potential = { tag = KOC } 
 
 	KOC_protect_jews = {
-		icon = mission_sindh_campaign
+		icon = mission_jewish
 		position = 2
 		required_missions = { KOC_tolerance } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = { 
+			define_advisor = {
+    		type = trader
+   			name = "Isaac Halevi"
+    		skill = 2
+    		
+    		religion = jewish
+    		cost_multiplier = 0.50
+			} 
+		} 
 	}
 
 	KOC_ally_venad = {
-		icon = mission_indian_stateman
+		icon = mission_venad_friend
 		position = 4
 		provinces_to_highlight = {  } 
 
-		trigger = {
-			army_size_percentage = 1
-			manpower_percentage = 0.8
-			num_of_generals = 1
-		}
+		trigger = { OR = {
+				537 = {
+					owner = {
+						AND = {
+							alliance_with = ROOT 
+							trust = { who = ROOT value = 20 }
+						}
+					}
+				}
+				537 = {
+					owned_by = ROOT 
+				}
+			} } 
 
 		effect = {
-			add_country_modifier = {
-				name = "oma_buildforces_mod"
-				duration = 5475
-			}
-			2056 = { add_permanent_claim = ROOT } 
+			
+			define_advisor = {
+    		type = commandant
+   			name = "Raviraman Varma"
+    		skill = 3
+    		
+    		religion = hindu
+    		cost_multiplier = 0.50
+			} 
 		}
 	}
 
@@ -119,9 +177,23 @@ koc_missions_02 = {
 		required_missions = { KOC_old_capital } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			any_known_country = {
+				AND = {
+					technology_group = western
+					has_opinion = {
+						who = ROOT
+						value = 50
+					}
+				}
+			}
+			
+		}
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = embracing_new_ideas
+			duration = 3650
+		} } 
 	}
 
 	KOC_independent_power = {
@@ -130,9 +202,15 @@ koc_missions_02 = {
 		required_missions = { KOC_distant_friends } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			VND = { NOT = { alliance_with = ROOT} } 
+		}
 
-		effect = {  } 
+		effect = { 
+		south_malabar_area = {
+				add_permanent_claim = ROOT 
+			}
+			 } 
 	}
 
 	
@@ -155,22 +233,55 @@ koc_missions_03 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		has_personal_deity = surya
+		535 = {
+				
+				has_building = temple
+			}
+		OR = {
+				theologian = 2
+				inquisitor = 2
+			}	
+		 } 
 
-		effect = {  } 
+		effect = { 
+		add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = 15
+			}
+			 } 
 	}
 
 
 
 	KOC_vijayanagari_grants = {
-		icon = mission_entrepot_of_india
+		icon = mission_vij_money
 		position = 2
 		required_missions = { KOC_new_temple } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		VIJ = {
+				 
+						has_opinion {
+							who = ROOT 
+							value = 100
+						}
+					}
+				
+				 } 
 
-		effect = {  } 
+		effect = { 
+
+		add_treasury = 200
+		add_country_modifier = { 
+    		name = vijayanagar_grant
+    		duration = 1825 
+    		
+			}
+
+		 } 
 	}
 
 
@@ -179,13 +290,28 @@ koc_missions_03 = {
 		position = 3
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
 
-		effect = {  } 
+		535 = {
+				owned_by = ROOT
+				is_core = ROOT 
+				has_building = marketplace
+				has_building = dock
+				development = 12
+			} } 
+
+		effect = { 
+		535 = {
+				add_base_tax = 2
+				add_base_manpower = 2
+				add_base_production = 2
+				add_center_of_trade_level = 1
+			}
+			 } 
 	}
 
 	KOC_old_capital = {
-		icon = mission_assemble_an_army
+		icon = mission_spoils_of_war
 		position = 5
 		required_missions = {
 			KOC_ally_venad
@@ -193,9 +319,12 @@ koc_missions_03 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+				4943 = {
+					owned_by = ROOT 
+				} } 
 
-		effect = {  } 
+		effect = { add_prestige = 30 } 
 	}
 
 	KOC_consolidate_gains = {
@@ -204,9 +333,29 @@ koc_missions_03 = {
 		required_missions = { KOC_old_capital } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
 
-		effect = {  } 
+		534 = {
+				owned_by = ROOT
+				is_core = ROOT 
+				development = 12
+			}
+
+		4943 = {
+				owned_by = ROOT
+				is_core = ROOT 
+				development = 12
+			}
+			
+				 } 
+
+		effect = { 
+
+		4413 = {
+				add_permanent_claim = ROOT 
+			}
+
+			 } 
 	}
 
 	KOC_expand_north = {
@@ -215,18 +364,35 @@ koc_missions_03 = {
 		required_missions = { KOC_consolidate_gains } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+				4413 = {
+					owned_by = ROOT 
+					is_core = ROOT 
+				} }
 
 		effect = {  } 
 	}
 
 	
 	KOC_consolidate_malabar = {
-		icon = mission_polynesian_grand_navy
+		icon = mission_consolidate_malabar
 		position = 8
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			malabar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT 
+				is_prosperous = yes 
+			}
+			south_malabar_area = {
+				type = all 
+				owned_by = ROOT 
+				is_core = ROOT 
+				is_prosperous = yes 
+			}
+		}
 
 		effect = {  } 
 	}
@@ -245,24 +411,43 @@ koc_missions_04 = {
 	potential = { tag = KOC } 
 
 	KOC_weaken_zamorin = {
-		icon = mission_empire
+		icon = mission_raid_the_berbers
 		position = 2
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = { 
+			MAB =
+			{
+				add_country_modifier = { 
+    		name = pirate_menace
+    		duration = 1825 
+    		}
+			} } 
 	}
 
 	KOC_build_army = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_kochin_soldier
 		position = 4
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 1
+			 } 
 
-		effect = {  } 
+		effect = { 
+		534 = {
+				add_permanent_claim = ROOT 
+			}	
+		add_country_modifier = {
+				name = "oma_buildforces_mod"
+				duration = 5475
+			}
+		 } 
 	}
 
 	KOC_build_navy = {
@@ -271,9 +456,31 @@ koc_missions_04 = {
 		required_missions = { KOC_old_capital } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { navy_size_percentage = 1
+			num_of_galley = 5 } 
 
-		effect = {  } 
+		effect = { 
+			1248 = {
+				add_permanent_claim = ROOT 
+			}
+			create_admiral = { tradition = 50 }
+			hidden_effect = {
+				if = {
+					limit = {
+						OR = {
+							advisor = naval_reformer
+							ruler_has_personality = navigator_personality
+							ruler_has_personality = entrepreneur_personality
+						}
+					}
+					535 = {
+						add_building = shipyard
+					}
+					
+				}
+			}
+			custom_tooltip = IU_KOC_navy_tt
+		} 
 	}
 
 	KOC_lucrative_expedition = {
@@ -282,13 +489,25 @@ koc_missions_04 = {
 		required_missions = { KOC_build_navy } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {
+			1248 = {
+				owned_by = ROOT 
+				has_building = coastal_defence
+			}
+		}
 
-		effect = {  } 
+		effect = {
+			1248 = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+			}
+			
+		}
 	}
 
-	
-}
+	}
+
 
 ##################################################################################
 ############################## COLUMN 05 #########################################
@@ -303,29 +522,71 @@ kochin_missions_05 = {
 	potential = { tag = KOC } 
 
 	KOC_pirate_deal = {
-		icon = mission_naval_dominance
+		icon = mission_klt_pirates
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 	KLT = {
+				 
+						has_opinion {
+							who = ROOT 
+							value = 100
+						} }
+					
+						
+						KLT = {
+				 
+						has_opinion {
+							who = MAB 
+							value = -25
+						} }
 
-		effect = {  } 
+						KLT = {
+				 
+						NOT = {
+							mission_completed = KLT_central_power
+							}
+						}
+
+				 }  
+
+		effect = { 
+		add_prestige = -10
+		add_corruption = 1
+		add_country_modifier = { 
+    		name = pirate_protection
+    		duration = 1825 
+    		
+			}
+		 } 
 	}
 
 	KOC_exotic_animals = {
-		icon = mission_invade_burma
+		icon = mission_conquer_bengal_tau
 		position = 2
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		has_building = marketplace
+		
+		 } 
 
-		effect = {  } 
+		effect = { 
+		add_country_modifier = { 
+    		name = exotic_animal_trade
+    		duration = 1825 
+    		
+			}	
+		country_event = {
+				id = indica_events.1
+			}
+			 } 
 	}
 
 
 	KOC_eco_02 = {
-		icon = mission_unknown_mission
+		icon = seize_ceylon
 		position = 3
 		required_missions = {
 			KOC_weaken_zamorin
@@ -333,22 +594,40 @@ kochin_missions_05 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { OR = {
+				572 = {
+					owner = {
+						AND = {
+							alliance_with = ROOT 
+							trust = { who = ROOT value = 70 }
+						}
+					}
+				}
+				572 = {
+					owned_by = ROOT 
+				}
+			} } 
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = IU_VND_sinhalese_elephants
+			duration = 3650
+		} } 
 	}
 
 
 
 	KOC_mercenary_contracts = {
-		icon = mission_unite_west_india
+		icon = mission_accomodate_the_rajputs
 		position = 5
 		required_missions = { KOC_build_army } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { NOT = { manpower_percentage < 0.2 } } 
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = mercenary_contracts
+			duration = 1825
+		} } 
 	}
 
 	KOC_queen_arabian_sea = {
@@ -357,9 +636,14 @@ kochin_missions_05 = {
 		required_missions = { KOC_build_navy } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			has_idea_group = naval_ideas
+			} 
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = queen_arabian_sea
+			duration = 7300
+		 } 
 	}
 
 	

@@ -184,7 +184,7 @@
  KOC_distant_friends_title:0 "Friends from Distant Shores"
  KOC_distant_friends_desc:0 ""
 
- KOC_protect_jews_title:0 "Protect Jews"
+ KOC_protect_jews_title:0 "Jews Seeking Refuge"
  KOC_protect_jews_desc:0 ""
 
  KOC_old_capital_title:0 "Reclaim Old Capital"
@@ -196,7 +196,7 @@
  KOC_expand_north_title:0 "Expand North"
  KOC_expand_north_desc:0 ""
 
- KOC_new_temple_title:0 "Tripunithura Temple"
+ KOC_new_temple_title:0 "Adithyapuram Sun Temple"
  KOC_new_temple_desc:0 ""
 
  KOC_vijayanagari_grants_title:0 "Vijayanagari Grants"
@@ -205,10 +205,10 @@
  KOC_kochin_port_title:0 "Kochin Port"
  KOC_kochin_port_desc:0 ""
 
- KOC_build_army_title:0 "Build Army"
+ KOC_build_army_title:0 "Expand the Army"
  KOC_build_army_desc:0 ""
 
- KOC_build_navy_title:0 "Build Navy "
+ KOC_build_navy_title:0 "Royal Kochin Navy "
  KOC_build_navy_desc:0 ""
 
  KOC_lucrative_expedition_title:0 "A Lucrative Expedition"
@@ -223,13 +223,13 @@
  KOC_convent_education_title:0 "Convent Education"
  KOC_convent_education_desc:0 ""
 
- KOC_protect_jains_title:0 "Protect Jains"
+ KOC_protect_jains_title:0 "Mar Thoma Syrian Church"
  KOC_protect_jains_desc:0 ""
 
  KOC_diplo_power_title:0 "Diplomatic Powerhouse"
  KOC_diplo_power_desc:0 ""
 
- KOC_eco_01_title:0 "eco_01"
+ KOC_eco_01_title:0 "Anjuavannam Trading Guild"
  KOC_eco_01_desc:0 ""
 
  KOC_pirate_deal_title:0 "Pirates of Kolathunad"
@@ -244,11 +244,14 @@
  KOC_mercenary_contracts_title:0 "Mercenary Contracts"
  KOC_mercenary_contracts_desc:0 ""
 
- KOC_eco_02_title:0 "eco_02"
+ KOC_eco_02_title:0 "War Elephants of Ceylon"
  KOC_eco_02_desc:0 ""
 
- KOC_independent_power_title:0 "Independent Power"
+ KOC_independent_power_title:0 "Once a Friend, Now a Burden"
  KOC_independent_power_desc:0 ""
  
  KOC_consolidate_malabar_title:0 "Consolidate Malabar"
  KOC_consolidate_malabar_desc:0 ""
+
+ KOC_ally_venad_title:0 "A Stable Alliance"
+ KOC_ally_venad_desc:0 ""

@@ -1,0 +1,47 @@
+﻿l_english:
+ 
+##################################################################################
+############################## Indica Decisions ##################################
+##################################################################################
+   
+
+ decision_kochin_accept_other_religions_title:0 "Accept Other Religions"
+ decision_kochin_accept_other_religions_desc:0 "§O"Even those who faithfully worship other gods, through such devotion, they also worship me."§!\n These words of Lord Krishna from the Bhagavad Gita teaches us to accept all religions."
+accepted_other_religions:0 "Accepted Other Religions"
+complete_accepted_other_religions_decision:0 "Complete the national decision: §YAccept Other Religions§!."
+
+##################################################################################
+############################## Indica Modifiers ##################################
+##################################################################################
+
+anjuvannam_guild:0 "Anjuvannam Trading Guild"
+vijayanagar_grant:0 "Vijayanagar Construction Grants"
+pirate_protection:0 "Pirate Protection"
+exotic_animal_trade:0 "Exotic Animal Trade"
+pirate_menace:0 "Pirate Menace"
+mercenary_contracts:0 "Mercenary Contracts"
+diplomatic_powerhouse:0 "Diplomatic Powerhouse"
+queen_arabian_sea:0 "Queen of the Arabian Sea"
+embracing_new_ideas:0 "Embracing New Ideas"
+convent_education:0 "Convent Education"
+IU_KOC_navy_tt:0 "If we have a naval reformer advisor or our ruler has the entrepreneur or navigator trait, Kochin will gain a free shipyard."
+
+
+##################################################################################
+############################## Indica Events #####################################
+##################################################################################
+
+
+indica_events.NAME1:0 "White Tiger"
+indica_events.DESC1:0 "Our skilled hunters have recently captured a majestic white tiger. News of the capture of this exotic animal spreads like wildfire. Possessing such a rare creature is surely a matter of great prestige."
+indica_events.1a:0 "Vijayanagar would be happy to have this tiger. For the right price."
+indica_events.1b:0 "Keep the tiger at our royal court. Let our foreign visitors be amazed."
+indica_events.1c:0 "Keep the tiger at our military training grounds. Let our soldiers be inspired."
+
+
+
+distant_shores.NAME2:0 "A Visitor from Distant Shores"
+distant_shores.DESC2:0 "As the sun sets over the bustling port of Kochin, news spreads like wildfire of an unfamiliar European ship on the horizon, its sails billowing with the breeze. As the news reaches the portmaster, he is faced with a pivotal decision on how to handle this unexpected encounter."
+distant_shores.2a:0 "The great port of Kochin welcomes all."
+distant_shores.2b:0 "A grave violation of our territorial waters."
+distant_shores.2c:0 "That's a fine ship you've got there. Shame if something were to happen to it."

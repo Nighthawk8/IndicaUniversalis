@@ -1,0 +1,38 @@
+namespace = distant_shores
+
+country_event = {
+	id = distant_shores.1
+	title = "distant_shores.NAME1"
+	desc = "distant_shores.DESC1"
+	picture = indiangfx_HARBOUR_eventPicture
+	
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOC
+	}
+	
+	mean_time_to_happen = {
+		days = 1		
+	}	
+	
+	option = {	#Welcome
+		name = "distant_shores.1a"
+		ai_chance = { factor = 50 }
+		add_mil_power = 100
+	}
+	
+	option = {	#GetLost
+		name = "distant_shores.1b"
+		ai_chance = { factor = 45 }
+		add_mil_power = 100
+	}
+
+	option = {	#Capture
+		name = "distant_shores.1c"
+		ai_chance = { factor = 5 }
+		add_mil_power = 100
+	}
+
+}

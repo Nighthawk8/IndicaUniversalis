@@ -123,5 +123,16 @@ exploit_the_region = {
 
 exploit_it_domestically = {
 	trade_goods_size_modifier = 0.1
-	local_trade_power = 0.15
+	province_trade_power_modifier = 0.15
+}
+
+paying_tribute_to_empire = {
+	trade_goods_size_modifier = -0.05
+	global_tax_modifier = -0.1
+}
+
+economic_sanctions = {
+	global_trade_goods_size_modifier = -0.1
+	global_tax_modifier = -0.15
+	global_trade_power = -0.15
 }

@@ -215,7 +215,22 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  zamorinretaliation.DESC103:0 "The local lords of Kochin have taken offense to our influence in their region and so have decided to take measures to remove our influence in the province. How should we react to this?"
  zamorinretaliation.103a:0 "Send no response"
  zamorinretaliation.103b:0 "Retaliate strongly"
- 
+ zamorinretaliation.NAME110:0 "Our influence in Cannanore Threatened by the Empire"
+ zamorinretaliation.DESC110:0 "The Empire has taken offense to our influence over their local lords and so have decided to take measures to remove our influence in the province. How should we react to this? Beware, any retaliation will likely anger the empire."
+ zamorinretaliation.110a:0 "Send no response"
+ zamorinretaliation.110b:0 "Retaliate strongly"
+ zamorinretaliation.NAME111:0 "Our influence in Mysore Threatened by the Empire"
+ zamorinretaliation.DESC111:0 "The Empire has taken offense to our influence over their local lords and so have decided to take measures to remove our influence in the province. How should we react to this? Beware, any retaliation will likely anger the empire."
+ zamorinretaliation.111a:0 "Send no response"
+ zamorinretaliation.111b:0 "Retaliate strongly"
+ zamorinretaliation.NAME112:0 "Our influence in Kongu Threatened by the Empire"
+ zamorinretaliation.DESC112:0 "The Empire has taken offense to our influence over their local lords and so have decided to take measures to remove our influence in the province. How should we react to this? Beware, any retaliation will likely anger the empire.
+ zamorinretaliation.112a:0 "Send no response"
+ zamorinretaliation.112b:0 "Retaliate strongly"
+ zamorinretaliation.NAME113:0 "Our influence in Kochin Threatened by the Empire"
+ zamorinretaliation.DESC113:0 "The Empire has taken offense to our influence over their local lords and so have decided to take measures to remove our influence in the province. How should we react to this? Beware, any retaliation will likely anger the empire."
+ zamorinretaliation.113a:0 "Send no response"
+ zamorinretaliation.113b:0 "Retaliate strongly"
  
 
 

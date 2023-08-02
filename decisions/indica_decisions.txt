@@ -1,0 +1,27 @@
+country_decisions = {
+
+	decision_kochin_accept_other_religions = {
+				
+		potential = {
+			tag = KOC
+			
+		}
+		allow = {
+			stability = 1
+			is_at_war = no
+			legitimacy = 75
+			NOT = { has_construction = missionary }
+		}
+		
+		
+		
+		effect = {
+			add_country_modifier = { 
+    		name = accepted_other_religions
+    		duration = -1  
+    		
+			}
+		}
+	}
+
+}

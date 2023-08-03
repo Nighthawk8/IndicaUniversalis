@@ -32,7 +32,9 @@ koc_missions_01 = {
 		required_missions = { KOC_tolerance } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			has_estate_privilege = IU_estate_brahmins_accept_mar_toma_church
+		} 
 
 		effect = {  
 
@@ -125,7 +127,9 @@ koc_missions_02 = {
 		required_missions = { KOC_tolerance } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			has_estate_privilege = IU_estate_jains_allow_jews_in_buisness
+		} 
 
 		effect = { 
 			define_advisor = {

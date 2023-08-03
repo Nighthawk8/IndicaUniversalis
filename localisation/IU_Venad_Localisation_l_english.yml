@@ -117,7 +117,9 @@
  
  #Estates
  IU_estate_maratha_tribal_conscription: "Tribal Conscription"
+ IU_estate_maratha_tribal_conscription_desc: ""
  IU_estate_maratha_ettuveetil_pillamar: "Ettuveetil Pillamar"
+ IU_estate_maratha_ettuveetil_pillamar_desc: ""
  
  #Religious
  vishnu_IU: "Vishnu"

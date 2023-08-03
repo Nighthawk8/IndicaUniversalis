@@ -10,7 +10,7 @@ country_decisions = {
 			stability = 1
 			is_at_war = no
 			legitimacy = 75
-			NOT = { has_construction = missionary }
+			NOT = { has_construction = temple }
 		}
 		
 		

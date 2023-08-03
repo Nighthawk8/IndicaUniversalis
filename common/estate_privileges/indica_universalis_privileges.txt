@@ -2,7 +2,7 @@ IU_estate_maratha_tribal_conscription = {
 	icon = privilege_recruit_from_marathi
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 5
+	loyalty = 0.05
 	influence = 0.1
 	is_valid = {
 		has_country_flag = IU_VND_chieftains_favor_complete
@@ -52,8 +52,10 @@ IU_estate_maratha_tribal_conscription = {
 IU_estate_maratha_ettuveetil_pillamar = {
 	icon = privilege_recruit_rajput_general
 	max_absolutism = -15
-	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 5
+	conditional_modifier = { 
+	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+	modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
 	influence = 0.15
 	is_valid = {
 		tag = VND
@@ -75,5 +77,68 @@ IU_estate_maratha_ettuveetil_pillamar = {
 		army_tradition = 0.5
 		manpower_in_accepted_culture_provinces = 0.1
 	}
+	ai_will_do = { factor = 0 }
+}
+
+IU_estate_brahmins_accept_mar_toma_church = {
+	icon = privilege_tolerance_own
+	max_absolutism = -10
+	conditional_modifier = { 
+	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+	modifier = { max_absolutism = 1 } 
+	}
+	loyalty = 0.1
+	influence = 0.10
+	is_valid = {
+		OR = {
+		tag = KOC
+		was_tag = KOC
+		}
+	}
+	can_select = {
+		has_country_modifier = accepted_other_religions
+	}
+	mechanics = {
+	}
+	penalties = {
+		global_missionary_strength = -0.02
+	}
+	benefits = {
+		global_unrest = -1
+		global_tax_modifier = 0.1
+	}
+	cooldown_years = 5
+	ai_will_do = { factor = 0 }
+}
+
+IU_estate_jains_allow_jews_in_buisness = {
+	icon = privilege_make_generous_donation
+	max_absolutism = -10
+	conditional_modifier = { 
+	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+	modifier = { max_absolutism = 1 } 
+	}
+	loyalty = 0.10
+	influence = 0.15
+	is_valid = {
+		OR = {
+		tag = KOC
+		was_tag = KOC
+		}
+	}
+	can_select = {
+		has_country_modifier = accepted_other_religions
+	}
+	mechanics = {
+	}
+	penalties = {
+		tolerance_own = -1
+		inflation_reduction = -0.05
+	}
+	benefits = {
+		province_trade_power_modifier = 0.1
+		trade_goods_size_modifier = 0.1
+	}
+	cooldown_years = 5
 	ai_will_do = { factor = 0 }
 }

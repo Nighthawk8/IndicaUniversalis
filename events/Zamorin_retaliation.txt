@@ -440,6 +440,7 @@ country_event = {
 			}
 			}
 		add_mil_power = -50
+		save_global_event_target_as = retaliation_origin1
 	}
 
 	option = {	# demand reparations
@@ -451,6 +452,7 @@ country_event = {
 			}
 			}
 		add_dip_power = -50
+		save_global_event_target_as = retaliation_origin1
 	}
 }
 
@@ -491,6 +493,7 @@ country_event = {
 			}
 			}
 		add_mil_power = -50
+		save_global_event_target_as = retaliation_origin2
 	}
 
 	option = {	# demand reparations
@@ -502,6 +505,7 @@ country_event = {
 			}
 			}
 		add_dip_power = -50
+		save_global_event_target_as = retaliation_origin2
 	}
 }
 
@@ -542,6 +546,7 @@ country_event = {
 			}
 			}
 		add_mil_power = -50
+		save_global_event_target_as = retaliation_origin3
 	}
 
 	option = {	# demand reparations
@@ -553,6 +558,7 @@ country_event = {
 			}
 			}
 		add_dip_power = -50
+		save_global_event_target_as = retaliation_origin3
 	}
 }
 
@@ -593,7 +599,7 @@ country_event = {
 			}
 			}
 		add_mil_power = -50
-		save_global_event_target_as = retaliation_origin
+		save_global_event_target_as = retaliation_origin4
 	}
 
 	option = {	# demand reparations
@@ -605,7 +611,7 @@ country_event = {
 			}
 			}
 		add_dip_power = -50
-		save_global_event_target_as = retaliation_origin
+		save_global_event_target_as = retaliation_origin4
 	}
 }
 
@@ -716,7 +722,7 @@ country_event = {
 
 	option = {	# refuse
 		name = "zamorinretaliation.120b"
-		event_target:retaliation_origin = {
+		event_target:retaliation_origin1 = {
 			country_event = {
 				id = zamorinretaliation.200
 			}
@@ -744,7 +750,7 @@ country_event = {
 
 	option = {	# refuse
 		name = "zamorinretaliation.121b"
-		event_target:retaliation_origin = {
+		event_target:retaliation_origin2 = {
 			country_event = {
 				id = zamorinretaliation.201
 			}
@@ -772,7 +778,7 @@ country_event = {
 
 	option = {	# refuse
 		name = "zamorinretaliation.122b"
-		event_target:retaliation_origin = {
+		event_target:retaliation_origin3 = {
 			country_event = {
 				id = zamorinretaliation.202
 			}
@@ -800,7 +806,7 @@ country_event = {
 
 	option = {	# refuse
 		name = "zamorinretaliation.123b"
-		event_target:retaliation_origin = {
+		event_target:retaliation_origin4 = {
 			country_event = {
 				id = zamorinretaliation.203
 			}
@@ -825,6 +831,9 @@ country_event = {
 				name = economic_sanctions
 				duration = 1825
 			}
+			country_event = {
+				id = zamorinretaliation.210
+			}
 		}
 	}
 
@@ -835,6 +844,11 @@ country_event = {
 			target = MAB
 			type = cb_annex
 			months = 60
+		}
+		MAB = {
+			country_event = {
+				id = zamorinretaliation.220
+			}
 		}
 		add_prestige = 15
 	}
@@ -861,6 +875,9 @@ country_event = {
 				name = economic_sanctions
 				duration = 1825
 			}
+			country_event = {
+				id = zamorinretaliation.210
+			}
 		}
 	}
 
@@ -871,6 +888,11 @@ country_event = {
 			target = MAB
 			type = cb_annex
 			months = 60
+		}
+		MAB = {
+			country_event = {
+				id = zamorinretaliation.220
+			}
 		}
 		add_prestige = 15
 	}
@@ -897,6 +919,9 @@ country_event = {
 				name = economic_sanctions
 				duration = 1825
 			}
+			country_event = {
+				id = zamorinretaliation.210
+			}
 		}
 	}
 
@@ -907,6 +932,11 @@ country_event = {
 			target = MAB
 			type = cb_annex
 			months = 60
+		}
+		MAB = {
+			country_event = {
+				id = zamorinretaliation.220
+			}
 		}
 		add_prestige = 15
 	}
@@ -933,6 +963,9 @@ country_event = {
 				name = economic_sanctions
 				duration = 1825
 			}
+			country_event = {
+				id = zamorinretaliation.210
+			}
 		}
 	}
 
@@ -944,6 +977,11 @@ country_event = {
 			type = cb_annex
 			months = 60
 		}
+		MAB = {
+			country_event = {
+				id = zamorinretaliation.220
+			}
+		}
 		add_prestige = 15
 	}
 
@@ -952,3 +990,29 @@ country_event = {
 		ai_chance = { factor = 20 }
 	}
 } 
+
+country_event = {
+	id = zamorinretaliation.210
+	title = "zamorinretaliation.NAME210"
+	desc = "zamorinretaliation.DESC210"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# recieve econ
+		name = "zamorinretaliation.210a"
+	}
+}
+
+country_event = {
+	id = zamorinretaliation.220
+	title = "zamorinretaliation.NAME220"
+	desc = "zamorinretaliation.DESC220"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# recieve military
+		name = "zamorinretaliation.220a"
+	}
+}

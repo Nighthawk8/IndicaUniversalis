@@ -107,6 +107,18 @@ had_event_zamcon5 = {
 
 }
 
+had_event_zamcon6 = {
+
+}
+
+had_event_zamcon7 = {
+
+}
+
+had_event_zamcon8 = {
+
+}
+
 use_officers_expertise = {
 	land_morale = 0.1
 	recover_army_morale_speed = 0.1
@@ -135,4 +147,23 @@ economic_sanctions = {
 	global_trade_goods_size_modifier = -0.1
 	global_tax_modifier = -0.15
 	global_trade_power = -0.15
+}
+
+exploit_tax_collectors = {
+	global_tax_modifier = 0.15
+}
+
+using_resources_for_buildings = {
+	build_cost = -0.1
+	build_time = -0.2
+}
+
+using_resources_for_navy = {
+	global_ship_cost = -0.1
+	global_ship_recruit_speed = -0.2
+}
+
+using_resources_for_army = {
+	global_regiment_cost = -0.1
+	global_regiment_recruit_speed = -0.2
 }

@@ -1,0 +1,46 @@
+	### Indica Universalis - Mission Icons ###	
+	
+spriteTypes = {	
+	
+	
+		
+	spriteType = {
+		name = "mission_consolidate_malabar"
+		texturefile = "gfx//interface//missions//mission_consolidate_malabar.dds"
+	}
+		
+	spriteType = {
+		name = "mission_klt_pirates"
+		texturefile = "gfx//interface//missions//mission_klt_pirates.dds"
+	}
+
+	spriteType = {
+		name = "mission_kochin_temple"
+		texturefile = "gfx//interface//missions//mission_kochin_temple.dds"
+	}
+
+	spriteType = {
+		name = "mission_kochin_soldier"
+		texturefile = "gfx//interface//missions//mission_kochin_soldier.dds"
+	}
+	spriteType = {
+		name = "mission_vij_money"
+		texturefile = "gfx//interface//missions//mission_vij_money.dds"
+	}
+	
+	spriteType = {
+		name = "mission_jewish"
+		texturefile = "gfx//interface//missions//mission_jewish.dds"
+	}
+
+	spriteType = {
+		name = "mission_christian"
+		texturefile = "gfx//interface//missions//mission_christian.dds"
+	}
+
+	spriteType = {
+		name = "mission_venad_friend"
+		texturefile = "gfx//interface//missions//mission_venad_friend.dds"
+	}
+
+}	

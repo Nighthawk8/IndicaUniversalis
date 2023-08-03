@@ -16,7 +16,7 @@ VND_ideas = {
 	}
 	
 	VND_two = { # Cavalry of Venad
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	
 	VND_three = { # Kollam Merchants
@@ -24,8 +24,7 @@ VND_ideas = {
 	}
 	
 	VND_four = { # European Factories
-		global_trade_goods_size_modifier = 0.05
-		diplomatic_reputation = 1
+		global_trade_goods_size_modifier = 0.1
 	}
 	
 	VND_five = { # Gilded Temple

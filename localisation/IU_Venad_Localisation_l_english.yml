@@ -92,6 +92,10 @@
  IU_VND.5.t: "Elephant Masters of Ceylon"
  IU_VND.5.a: "Their expertise will give us a crucial edge against our foes!"
  
+ IU_VND.6.t: "The Rise of Travancore"
+ IU_VND.6.d: "There is a rumbling in the court of Venad. For centuries the coalition of nobles and priests have dominated the monarchy, having their way without opposition. Kingmakers in plain sight. Many have stopped taking the monarchy seriously, but one man's ambition might be enough to change that. Marthanda Varma, a member of the Venad dynasty, has declared his goal to transform our kingdom into a modern power with an absolutist king. A notable change from our ancient and frankly tribal ways of rule. This transformation into a new kingdom, Travancore, will take time and most certainly blood. It is a necessity to ensure our survival against the ever greedy European powers, however. With renewed strength, may we be able to protect Kerala from anyone who may set their sights on it!"
+ IU_VND.6.a: "We are a bulwark against colonialists!"
+ 
  IU_EURO.1.t: "The Game of India"
  IU_EURO.1.d: "Our explorers in search of spices, incense, and other such riches have charted the coast of India for the very first time. India is a massive subcontinent with hundreds of kingdoms with ancient feuds and alliances alike, not unlike our home in Europe. Several princes have already noticed our ships off the coast, either wanting to establish trade deals, align with us against their sworn enemies, or even make sure we have no place in the subcontinent. Friends and foes alike, we must exploit these conflicts in India to expand our fortune!"
  IU_EURO.1.a: "The die is cast."
@@ -107,19 +111,38 @@
  IU_VND_KOLLAM_MERCHANTS: "Ascent of Kollam"
  IU_VND_growth_of_kollam: "Growth of Kollam"
  IU_VND_bhakti_revivalists: "Houses of Scholarship"
- IU_VND_vaishnavism_flourshing: "Vaishnavism Floursihing"
+ IU_VND_vaishnavism_flourishing: "Vaishnavism Floursihing"
  IU_VND_gods_own_capital: "God's Own Capital"
  IU_VND_against_vijayanagar: "Stand Against Vijayanagar"
  IU_VND_secure_northern_border: "Secure Northern Border"
  IU_VND_arab_guns: "Arab Firearms"
  IU_VND_sinhalese_elephants: "War Elephants of Ceylon"
- 
+ IU_VND_tamil_king_tt: "We will receive the decision to embrace our Chera lineage!"
+ IU_VND_vishnu_tt: "The §YMissionary Strength§! bonus we receive from §YVishnu§! will be changed to §YInfantry Combat Ability§!, and every time we pick §YVishnu§! as our personal deity we will receive §G1§! §Ystability§!."
  
  #Estates
  IU_estate_maratha_tribal_conscription: "Tribal Conscription"
- IU_estate_maratha_tribal_conscription_desc: ""
  IU_estate_maratha_ettuveetil_pillamar: "Ettuveetil Pillamar"
- IU_estate_maratha_ettuveetil_pillamar_desc: ""
+ IU_estate_maratha_ettuveetil_pillamar_desc: "§RThe Ettuveetil Pillamar make up the majority of our military, and taking away their privileges may incur a rebellion that we are not ready to handle!§! \nThe Ettuveetil Pillamar is the council of eight noble families that serves the king of Venad. But in an all too common situation they have more say in Venad politics than the monarchy itself. They are aligned with the Ettara Yogam, the custodians of the Padmanabhaswamy Temple, and attempt to dictate what the king can and cannot do. Although the king has the loyalties of his personal army and the wavering loyalty of the chieftains the nobility remains an existential problem for a king seeking to exert authority."
+ 
  
  #Religious
  vishnu_IU: "Vishnu"
+ 
+ #Misc
+ IU_TRAVANCORE: "Travancore"
+ IU_TRAVANCORE_ADJ: "Travancore"
+ 
+ #Ideas 
+ 
+ VND_ideas: "Venad Ideas"
+ VND_ideas_start: "Venad Traditions"
+ VND_ideas_bonus: "Venad Ambition"
+ 
+ VND_one: "Ties with Vijayanagar"
+ VND_two: "Tribal Cavalry"
+ VND_three: "Merchants of Kollam"
+ VND_four: "British Infrastructure"
+ VND_five: "Fund the Padmanabhaswamy Temple"
+ VND_six: "Syriac Patronage"
+ VND_seven: "First Standing Army of Kerala"

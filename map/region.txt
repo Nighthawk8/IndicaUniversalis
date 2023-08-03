@@ -780,6 +780,7 @@ deccan_region = {
 		kanara_area
 		konkan_area
 		malabar_area
+		south_malabar_area
 		raichur_doab_area
 		golconda_area
 		berar_area

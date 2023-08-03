@@ -738,11 +738,46 @@ IU_VND_slot_5_western = {
 	IU_VND_a_western_advisory = {
 		required_missions = { IU_VND_western_explorers }
 		position = 2
+		trigger = {
+			OR = {
+				any_country = {
+					AND = {
+						technology_group = western 
+						alliance_with = ROOT 
+					}
+				}
+				is_subject_of_type = IU_sphere_subject
+			}
+			
+		}
+		effect = {
+			set_country_flag = IU_can_use_western_advisors_privilege
+			custom_tooltip = IU_western_advisors_tt
+			add_country_modifier = {
+				name = IU_VND_receiving_western_diplomats
+				duration = 7300
+			}
+		}
 	}
 	
 	IU_VND_modern_warfare = {
 		required_missions = { IU_VND_a_western_advisory }
 		position = 3
+		trigger = {
+			capital_scope = {
+				has_building = university
+			}
+			has_mil_advisor_3 = yes 
+			land_forcelimit = 40
+		}
+		effect = {
+			add_ruler_personality = martial_educator_personality
+			add_army_professionalism = 0.1
+			add_country_modifier = {
+				name = IU_VND_western_army_ideas
+				duration = 10950
+			}
+		}
 	}
 }
 
@@ -759,10 +794,25 @@ IU_VND_slot_5_nonwestern = {
 	IU_VND_malayalam_scholarship = {
 		required_missions = ( IU_VND_western_explorers }
 		position = 2
+		trigger = {
+			NOT = {
+				any_neighbor_country = {
+					tech_difference = 1
+				}
+			}
+			has_adm_advisor_2 = yes 
+			has_dip_advisor_2 = yes 
+		}
 	}
 	
 	IU_VND_defense_of_malabar = {
 		required_missions = { IU_VND_malayalam_scholarship }
 		position = 3
+		trigger = {
+			check_variable = {
+				which = venad_battles_won_against_western
+				value = 10
+			}
+		}
 	}
 }

@@ -1,0 +1,36 @@
+on_battle_won_unit = {
+	on_battle_won_unit_effect = yes 
+	if = {
+		limit = {
+			unit_owner = {
+				tag = VND 
+			}
+			is_ruler_commanding_unit = yes 
+		}
+		unit_owner = {
+			change_variable = {
+				which = venad_ruler_battles_won
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = {
+			unit_owner = {
+				tag = VND 
+			}
+			FROM = {
+				OR = {
+					technology_group = western
+					technology_group = muslim
+				}
+			}
+		}
+		unit_owner = {
+			change_variable = {
+				which = venad_battles_won_against_western
+				value = 1
+			}
+		}
+	}
+}

@@ -74,7 +74,6 @@ IU_estate_maratha_ettuveetil_pillamar = {
 		min_autonomy = 25
 	}
 	benefits = {
-		army_tradition = 0.5
 		manpower_in_accepted_culture_provinces = 0.1
 	}
 	ai_will_do = { factor = 0 }

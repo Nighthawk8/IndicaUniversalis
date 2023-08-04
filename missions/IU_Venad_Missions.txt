@@ -489,7 +489,7 @@ IU_VND_slot_four = {
 		effect = {
 			if = {
 				limit = {
-					VIJ = { exists = no }
+					NOT = { exists = VIJ }
 				}
 				add_power_projection = {
 					type = IU_VND_outlasted_vijayanagar
@@ -501,9 +501,9 @@ IU_VND_slot_four = {
 					VIJ = {
 						OR = {
 							has_opinion_modifier = {
-									who = ROOT
-									modifier = scornfully_insulted
-								}
+								who = ROOT
+								modifier = scornfully_insulted
+							}
 							has_opinion_modifier = {
 								who = ROOT
 								modifier = insulted
@@ -519,12 +519,10 @@ IU_VND_slot_four = {
 			else_if = {
 				limit = {
 					VIJ = {
-						AND = {
-							alliance_with = ROOT 
-							has_opinion {
-								who = ROOT 
-								value = 150
-							}
+						alliance_with = ROOT 
+						has_opinion {
+							who = ROOT 
+							value = 150
 						}
 					}
 				}

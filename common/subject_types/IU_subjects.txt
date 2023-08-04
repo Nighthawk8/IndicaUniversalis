@@ -1,0 +1,27 @@
+IU_sphere_subject = {
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal # The one that the overlord sees
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal	# The one that the subject sees
+	
+	can_fight_independence_war = no 
+	joins_overlords_wars = no 
+	favors_cost_to_join_offensive_wars = 5
+	opinion_on_subject_integration = 0
+	takes_diplo_slot = no
+	uses_military_focus = no 
+	overlord_protects_external = yes 
+	allows_taking_land_without_independence = yes 
+	can_set_mil_focus = no
+	can_send_missionary_to_subject = no
+	overlord_can_fabricate_for = no
+	does_overlord_size_count_for_warscore_cost = no
+	can_concentrate_development = no
+	can_have_great_projects_moved_by_overlord = no
+	extend_trading_range = yes
+	
+	enforce_religion = no
+	grant_core_claim = no
+	block_settlement_growth = no
+	allow_settlement_growth = no
+
+}

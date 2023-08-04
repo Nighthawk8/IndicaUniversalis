@@ -19,6 +19,23 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  malabar_area_name:0 "North Malabar"
  malabar_area_adj:0 "North Malabarese"
 
+#Subjects
+ 
+ IU_indian_influence: "Colonial Influence"
+ 
+ IU_sphere_subject: "Sphere Member"
+ IU_sphere_subject_lond_desc: "A member of our sphere of influence will provide us with military access and trade bonuses in their provinces in exchange for our protection."
+ IU_sphere_subject_is_our: "$NAME|Y$ is in our sphere of influence."
+ IU_sphere_subject_title: "Sphere Member"
+ IU_sphere_subject_title_plural: "Sphere Members"
+ is_IU_sphere_member: "Is Sphere Member"
+ 
+ IU_add_to_sphere_of_influence: "Add to Sphere"
+ IU_add_to_sphere_of_influence_title: "Add to Sphere"
+ IU_add_to_sphere_of_influence_desc: "Add a country to our sphere of influence."
+ IU_add_to_sphere_of_influence_tooltip: "Add a country to our sphere of influence."
+ IU_add_to_sphere_of_influence_alert_tooltip: "Add to Sphere"
+ 
 #Formables
 
  dravidam_nation_title:0 "Form Dravidam"

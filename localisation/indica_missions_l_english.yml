@@ -78,13 +78,13 @@
  KLT_kolathiri_supremacy_title:0 "Kolathiri Supremacy"
  KLT_kolathiri_supremacy_desc:0 ""
 
- KLT_ally_venad_title:0 "Ally Venad"
+ KLT_ally_venad_title:0 "Generals of Venad"
  KLT_ally_venad_desc:0 ""
 
  KLT_central_power_title:0 "Centralized Rule"
  KLT_central_power_desc:0 ""
 
- KLT_independent_power_title:0 "Independent Power"
+ KLT_independent_power_title:0 "Once a Friend, Now a Burden"
  KLT_independent_power_desc:0 ""
 
  KLT_mushika_heritage_title:0 "Mushika Heritage"
@@ -99,14 +99,13 @@
  KLT_chirakkal_title:0 "Chirakkal Kingdom"
  KLT_chirakkal_desc:0 ""
 
- KLT_ally_kochin_title:0 "Ally Kochin"
+ KLT_ally_kochin_title:0 "Malabar Ravipuram Pact"
  KLT_ally_kochin_desc:0 ""
 
- KLT_zamorin_01_title:0 "Stifle Zamorin Trade"
+ KLT_zamorin_01_title:0 "North Kerala is Best Kerala"
  KLT_zamorin_01_desc:0 ""
 
- KLT_crush_zamorin_01_title:0 "Crush the Zamorin"
- KLT_crush_zamorin_01_desc:0 ""
+
 
  KLT_sea_guilds_title:0 "Anjuavannam Sea Guild"
  KLT_sea_guilds_desc:0 ""
@@ -114,8 +113,8 @@
  KLT_buddhist_vihara_title:0 "Sri Mulavasam Vihara"
  KLT_buddhist_vihara_desc:0 ""
 
- KLT_jew_pond_title:0 "Jutakkulam"
- KLT_jew_pond_desc:0 ""
+ KLT_jewish_pond_title:0 "Jutakkulam"
+ KLT_jewish_pond_desc:0 ""
 
  KLT_krishnagantha_title:0 "Krishnagantha"
  KLT_krishnagantha_desc:0 ""
@@ -156,7 +155,7 @@
  KLT_northern_council_title:0 "Northern Council of Five"
  KLT_northern_council_desc:0 ""
 
- KLT_pirate_02_title:0 "Recognize Pirate Laws"
+ KLT_pirate_02_title:0 "Exotic Animal Trade"
  KLT_pirate_02_desc:0 ""
 
  KLT_pirate_hub_title:0 "Pirate Hub"

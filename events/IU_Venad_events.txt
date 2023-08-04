@@ -16,6 +16,7 @@ country_event = { # Startup
 	immediate = {
 		hidden_effect = {
 			set_variable = { which = venad_ruler_battles_won value = 0 }
+			set_variable = { which = venad_battles_won_against_western value = 0 }
 		}
 	}
 }
@@ -163,4 +164,76 @@ country_event = {
 		}
 	}
 }
-			
+
+country_event = { # House of Travancore
+	id = IU_VND.6
+	title = IU_VND.6.t 
+	desc = IU_VND.6.d 
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		tag = VND 
+		is_at_war = no 
+		current_age = age_of_absolutism
+	}
+	
+	option = { # Strong leadership will save Venad!
+		name = IU_VND.6.a 
+		define_ruler = {
+			name = "Marthanda Varma"
+			dynasty = "Kulasekhara"
+			adm = 3
+			dip = 4
+			mil = 5
+			age = 23
+			fixed = yes 
+		}
+		override_country_name = IU_TRAVANCORE
+	}
+}
+
+country_event = { 
+	id = IU_VND.7
+	title = IU_VND.7.t 
+	desc = IU_VND.7.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {	
+		name = IU_VND.7.a 
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_maratha 
+			loyalty = -25
+		}
+		capital_scope = {
+			spawn_rebels = {
+				type = noble_rebels
+				size = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = IU_VND.8
+	title = IU_VND.8.t 
+	desc = IU_VND.8.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_VND.8.a 
+		add_country_modifier = {
+			name = IU_VND_printing_in_malayalam 
+			duration = 7300
+		}
+		add_prestige = 50
+	}
+}

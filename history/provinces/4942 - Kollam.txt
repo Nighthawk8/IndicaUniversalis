@@ -6,10 +6,10 @@ controller = VND
 culture = malayalam
 religion = hinduism
 hre = no
-base_tax = 2
+base_tax = 3
 base_production = 4
 trade_goods = spices
-base_manpower = 3
+base_manpower = 2
 capital = "Kollam"
 is_city = yes
 

@@ -43,7 +43,7 @@ IU_VND_slot_one = {
 				}
 			}
 			country_event = {
-				id = IU_VND.3
+				id = IU_VND.8
 			}
 		}
 	}
@@ -667,7 +667,7 @@ IU_VND_slot_five = {
 	}
 	
 	IU_VND_dynastic_claims = {
-		icon = mission_chera
+		icon = mission_heirs_chera
 		position = 4
 		trigger = {
 			OR = {
@@ -688,7 +688,7 @@ IU_VND_slot_five = {
 	}
 	
 	IU_VND_last_tamil_king = {
-		icon = mission_patronize_the_local_gods
+		icon = mission_subdue_rajputana
 		required_missions = { IU_VND_dynastic_claims }
 		position = 6
 		trigger = {

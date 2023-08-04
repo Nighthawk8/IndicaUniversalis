@@ -158,6 +158,13 @@ estate_maratha = {
 		loyalty = 5
 	}
 
+	custom_name = {
+		desc = IU_kshatriyas
+		trigger = {
+			primary_culture = malayalam
+		}
+	}
+
 	privileges = {
 		estate_maratha_land_rights
 		estate_maratha_military

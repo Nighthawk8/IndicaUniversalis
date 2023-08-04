@@ -42,9 +42,23 @@ spriteTypes = {
 		name = "mission_venad_friend"
 		texturefile = "gfx//interface//missions//mission_venad_friend.dds"
 	}
-	
 	spriteType = {
 		name = "mission_heirs_chera"
 		texturefile = "gfx//interface//missions//mission_heirs_chera.dds 
+	}
+
+	spriteType = {
+		name = "mission_venad_soldier"
+		texturefile = "gfx//interface//missions//mission_venad_soldier.dds"
+	}
+
+	spriteType = {
+		name = "mission_kochin_friend"
+		texturefile = "gfx//interface//missions//mission_kochin_friend.dds"
+	}
+
+	spriteType = {
+		name = "mission_betrayal"
+		texturefile = "gfx//interface//missions//mission_betrayal.dds"
 	}
 }	

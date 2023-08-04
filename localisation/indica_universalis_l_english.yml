@@ -76,6 +76,10 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  left_traders_alone:0 "Left Traders Alone"
  subsidise_our_traders:0 "Traders Subsidised"
  
+ #misc 
+
+ IU_kshatriyas:0 "Kshatriyas"
+
  #monuments
  
  IU_padmanabhaswamy_temple: "Padmanabhaswamy Temple"

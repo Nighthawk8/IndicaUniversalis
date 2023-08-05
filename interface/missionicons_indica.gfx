@@ -4,10 +4,7 @@ spriteTypes = {
 	
 	
 		
-	spriteType = {
-		name = "mission_consolidate_malabar"
-		texturefile = "gfx//interface//missions//mission_consolidate_malabar.dds"
-	}
+	
 		
 	spriteType = {
 		name = "mission_klt_pirates"
@@ -23,6 +20,7 @@ spriteTypes = {
 		name = "mission_kochin_soldier"
 		texturefile = "gfx//interface//missions//mission_kochin_soldier.dds"
 	}
+	
 	spriteType = {
 		name = "mission_vij_money"
 		texturefile = "gfx//interface//missions//mission_vij_money.dds"
@@ -44,7 +42,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "mission_heirs_chera"
-		texturefile = "gfx//interface//missions//mission_heirs_chera.dds 
+		texturefile = "gfx//interface//missions//mission_heirs_chera.dds"
 	}
 
 	spriteType = {
@@ -60,5 +58,10 @@ spriteTypes = {
 	spriteType = {
 		name = "mission_betrayal"
 		texturefile = "gfx//interface//missions//mission_betrayal.dds"
+	}
+
+	spriteType = {
+		name = "mission_kali_temple"
+		texturefile = "gfx//interface//missions//mission_kali_temple.dds"
 	}
 }	

@@ -1,0 +1,173 @@
+#IU reforms
+
+IU_kolathunad_decentralised_realm = {
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		global_tax_modifier = -0.15
+		global_manpower_modifier = -0.15
+		governing_capacity_modifier = -0.25
+		global_unrest = -2
+	}
+	custom_attributes = {
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+IU_kolathunad_partial_centralisation = {
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		global_tax_modifier = -0.05
+		global_manpower_modifier = -0.05
+		governing_capacity_modifier = -0.1
+		global_unrest = -1
+	
+	}
+	custom_attributes = {
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+IU_kolathunad_centralised_monarchy = {
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.1
+		global_manpower_modifier = 0.1
+		governing_capacity_modifier = 0.1
+		global_autonomy = -0.05
+	}
+	custom_attributes = {
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+IU_kolathunad_pirate_realm = {
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		navy_tradition = 0.25
+		naval_forcelimit_modifier = 0.25
+		global_tax_modifier = -0.05
+		global_manpower_modifier = -0.05
+		governing_capacity_modifier = -0.1
+		may_perform_slave_raid = yes
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		force_admiral_leader = yes
+		admirals_become_rulers = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+IU_kolathunad_consolidated_pirate_monarchy = {
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = feudal_monarchy
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		max_absolutism = 25
+		navy_tradition = 0.5
+		naval_forcelimit_modifier = 0.5
+		capture_ship_chance = 0.33
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		force_admiral_leader = yes
+		admirals_become_rulers = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+IU_kolathunad_consolidated_pirate_republic = {
+	icon = "pirate_republic"
+	allow_normal_conversion = no
+	legacy_equivalent = pirate_republic
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	nation_designer_cost = 0
+	potential = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	modifiers = {
+		naval_forcelimit_modifier = 0.5
+		capture_ship_chance = 0.33
+		navy_tradition = 0.5
+		state_governing_cost = 0.75
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	can_form_trade_league = no
+	custom_attributes = {
+		locked_government_type = yes
+		force_admiral_leader = yes
+		cannot_become_dictatorship = yes
+		admirals_become_rulers = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}

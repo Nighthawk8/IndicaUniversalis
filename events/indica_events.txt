@@ -36,3 +36,29 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = indica_events.2
+	title = "indica_events.NAME2"
+	desc = "indica_events.DESC2"
+	picture = indiangfx_HARBOUR_eventPicture
+	
+	is_triggered_only = yes 
+	fire_only_once = yes
+	
+	option = {	#Monarchy
+		name = "indica_events.2a"
+		ai_chance = { factor = 50 }
+		remove_government_reform = IU_kolathunad_pirate_realm
+		add_government_reform = IU_kolathunad_consolidated_pirate_republic
+	}
+	
+	option = {	#Republic
+		name = "indica_events.2b"
+		ai_chance = { factor = 45 }
+		remove_government_reform = IU_kolathunad_pirate_realm
+		change_government = republic
+		add_government_reform = IU_kolathunad_consolidated_pirate_monarchy
+	}
+
+}

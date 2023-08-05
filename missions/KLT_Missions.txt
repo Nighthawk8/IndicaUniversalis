@@ -27,7 +27,9 @@ KLT_missions_01 = {
     		duration = 3650 
     		
 			}
-			 } 
+			remove_government_reform = IU_kolathunad_decentralised_realm
+			add_government_reform = IU_kolathunad_partial_centralisation
+		} 
 	}
 
 	KLT_ally_venad = {
@@ -72,7 +74,9 @@ KLT_missions_01 = {
     		duration = 3650 
     		
 			}
-			 } 
+			remove_government_reform = IU_kolathunad_partial_centralisation
+			add_government_reform = IU_kolathunad_centralised_monarchy
+		} 
 	}
 
 KLT_independent_power = {
@@ -544,7 +548,9 @@ KLT_missions_05 = {
     		duration = 7300 
     		
 			}
-			 } 
+			remove_government_reform = IU_kolathunad_decentralised_realm
+			add_government_reform = IU_kolathunad_pirate_realm
+		} 
 	}
 
 	KLT_pirate_02 = {
@@ -581,7 +587,11 @@ KLT_missions_05 = {
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = {  
+			country_event = {
+				id = indica_events.2
+			}
+		} 
 	}
 
 		KLT_terror_of_sea = {

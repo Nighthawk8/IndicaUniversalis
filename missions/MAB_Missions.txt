@@ -82,9 +82,18 @@ MAB_missions_02 = {
 		required_missions = { MAB_zamorin } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+				535 = {
+					owned_by = ROOT 
+					is_core = ROOT 
+				} } 
 
-		effect = {  } 
+		effect = { 
+
+		south_malabar_area = {
+				add_permanent_claim = ROOT 
+			}
+			 } 
 	}
 
 	MAB_attack_venad = {
@@ -93,7 +102,13 @@ MAB_missions_02 = {
 		required_missions = { MAB_attack_kochin } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		south_malabar_area = {
+				type = all 
+				owned_by = ROOT 
+				is_core = ROOT 
+				
+			} } 
 
 		effect = {  } 
 	}
@@ -143,18 +158,29 @@ MAB_missions_03 = {
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = { 
+		add_country_modifier = {
+			name = middle_east_trade
+			duration = 3650
+		} } 
 	}
 
 	MAB_muslim_trade_2 = {
 		icon = mission_jawal_silver_mine
 		position = 3
 		required_missions = { MAB_muslim_trade } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { 
+
+		 } 
 
 		trigger = {  } 
 
-		effect = {  } 
+		effect = { 
+		add_country_modifier = {
+			name = wootz_steel_export
+			duration = 3650
+		}
+		 } 
 	}
 
 	MAB_europe_01 = {
@@ -194,9 +220,22 @@ MAB_missions_04 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		534 = {
+				owned_by = ROOT
+				is_core = ROOT 
+				has_building = marketplace
+				
+				development = 12
+			} } 
 
-		effect = {  } 
+		effect = { 
+		534 = {
+				add_base_tax = 2
+				add_base_manpower = 2
+				add_base_production = 2
+				add_center_of_trade_level = 1
+			} } 
 	}
 
 	MAB_navy_01 = {
@@ -205,9 +244,15 @@ MAB_missions_04 = {
 		required_missions = { MAB_calicut_port } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { navy_size_percentage = 1
+			num_of_galley = 5 }  
 
-		effect = {  } 
+		effect = { 
+		add_country_modifier = {
+			name = shipbuilding_expertise
+			duration = 3650
+		}
+		 } 
 	}
 
 	MAB_crush_pirates = {
@@ -216,7 +261,11 @@ MAB_missions_04 = {
 		required_missions = { MAB_navy_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+				4413 = {
+					owned_by = ROOT 
+					is_core = ROOT 
+				} } 
 
 		effect = {  } 
 	}
@@ -261,9 +310,17 @@ MAB_missions_05 = {
 		required_missions = { MAB_calicut_port } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		
+			trading_bonus = {
+				trade_goods = spices
+				value = yes
+							} 
+			 }
 
-		effect = {  } 
+		effect = { 
+		
+		 } 
 	}
 
 	MAB_trading_dominance = {
@@ -272,9 +329,19 @@ MAB_missions_05 = {
 		required_missions = { MAB_spice } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			534 = { 
+			trade_share = {
+				country = MAB
+				share = 50
+						}
+			 }  } 
 
-		effect = {  } 
+		effect = { 
+		add_country_modifier = {
+			name = trade_dominance
+			duration = 3650
+		} } 
 	}
 
 	MAB_invite_guilds = {

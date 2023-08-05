@@ -4,6 +4,10 @@
 
 #Calicut Influence Mechanic
 
+zamorin_influence_blocked = {
+	
+}
+
 lvl_1_influence_province = {
 
 }

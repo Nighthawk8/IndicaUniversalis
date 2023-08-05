@@ -16,6 +16,7 @@ country_event = {
 					OR = {
 					owned_by = ROOT
 					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = zamorin_influence_blocked
 					}
 				}
 			}
@@ -33,6 +34,7 @@ country_event = {
 					OR = {
 					owned_by = ROOT
 					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = zamorin_influence_blocked
 					}
 				}
 			}
@@ -50,6 +52,7 @@ country_event = {
 					OR = {
 					owned_by = ROOT
 					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = zamorin_influence_blocked
 					}
 				}
 			}
@@ -67,6 +70,7 @@ country_event = {
 					OR = {
 					owned_by = ROOT
 					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = zamorin_influence_blocked
 					}
 				}
 			}
@@ -74,6 +78,11 @@ country_event = {
 		country_event = {
 			id = zamorininteraction.6
 		}
+	}
+
+	option = {	#bad
+		name = "zamorininteraction.1e"
+		
 	}
 }
 
@@ -351,6 +360,11 @@ country_event = {
 			}
 	}
 
+	option = {	#bad
+		name = "zamorininteraction.3d"
+		
+	}
+
 }
 
 #533 Mysore
@@ -625,6 +639,11 @@ country_event = {
 			}
 			}
 	}
+
+	option = {	#bad
+		name = "zamorininteraction.4d"
+		
+	}
 }
 
 #538 Kongu
@@ -898,6 +917,11 @@ country_event = {
 				value = 1
 			}
 			}
+	}
+
+	option = {	#bad
+		name = "zamorininteraction.5d"
+		
 	}
 }
 
@@ -1326,6 +1350,11 @@ country_event  = {
 			duration = 1460
 		}
 		}
+	}
+
+	option = {	#bad
+		name = "zamorininteraction.6d"
+		
 	}
 }
 

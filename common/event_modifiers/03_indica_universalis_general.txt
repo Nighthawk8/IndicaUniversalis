@@ -12,6 +12,10 @@ rejects_truce_with_vij = {
 
 }
 
+VIJ_no_concessions = {
+	
+}
+
 craftsmen_wares_seized = {
 	trade_goods_size_modifier = -0.15
 	local_unrest = 2

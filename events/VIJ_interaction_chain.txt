@@ -109,6 +109,9 @@ country_event = {
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -144,6 +147,9 @@ country_event = {
 		VIJ = {
 			is_at_war = yes
 		}
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -174,6 +180,9 @@ country_event = {
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
 	}
 	
 	mean_time_to_happen = {

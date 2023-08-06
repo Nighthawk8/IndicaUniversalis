@@ -330,7 +330,26 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  zamorinretaliation.DESC220:0 "The Empire was extremely offened by our dismissal of their threats and so we have recieved word that the have began to threaten us military by justifying a war aainst us"
  zamorinretaliation.220a:0 "Unfortunate"
 
-
+ zamorininteraction.NAME90:0 "An opportunity to gain land?"
+ zamorininteraction.DESC90:0 "The unfortunate owner of Cannanore has suffered under great finantial and military troubles in recent years, resulting in our influence having an oversized effect on the province. Due to the ruler's recent troubles our adivisors have suggested that this may be an opportunity to quietly annex the province, However this does come with risks of reprisals from its owners and peoples"
+ zamorininteraction.90a:0 "Take the Opportunity"
+ zamorininteraction.90b:0 "Do Nothing"
+ zamorininteraction.NAME901:0 "People's of Cannanore Revolt"
+ zamorininteraction.DESC901:0 "Since our annexation of the province of Cannanore, there has been a high level of unrest within the province as the people do not like our newfound governance. As such Major damage has been done to the infrastructure of the region"
+ zamorininteraction.901a:0 "Unfortunate"
+ zamorininteraction.NAME902:0 "Cannanore's Owners give a Minor Diplomatic Protest"
+ zamorininteraction.DESC902:0 "Despite our obvious influence and dominance over the province of Cannanore, its Owner's have given out a diplomatic protest that is sure to have diplomatic and trading inplications for years to come"
+ zamorininteraction.902a:0 "Unfortunate"
+ zamorininteraction.NAME903:0 "Cannanore's Owners give a Medium Diplomatic Protest"
+ zamorininteraction.DESC903:0 "Despite our obvious influence and dominance over the province of Cannanore, its Owner's have given out a diplomatic protest that is sure to have diplomatic and trading inplications for years to come"
+ zamorininteraction.903a:0 "Unfortunate"
+ zamorininteraction.NAME904:0 "Cannanore's Owners give a Severe Diplomatic Protest"
+ zamorininteraction.DESC904:0 "Despite our obvious influence and dominance over the province of Cannanore, its Owner's have given out a diplomatic protest that is sure to have diplomatic and trading inplications for years to come"
+ zamorininteraction.904a:0 "Unfortunate"
+ mild_diplomatic_protest:0 "Mild Diplomatic Protest"
+ medium_diplomatic_protest:0 "Medium Diplomatic Protest"
+ severe_diplomatic_protest:0 "Severe Diplomatic Protest"
+ 
 
  
 

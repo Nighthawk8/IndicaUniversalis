@@ -1,0 +1,3 @@
+IU_fort_opinion = {
+	opinion = 50
+}

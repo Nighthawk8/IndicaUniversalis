@@ -237,3 +237,23 @@ country_event = {
 		add_prestige = 50
 	}
 }
+
+country_event = {
+	id = IU_VND.9
+	title = IU_VND.9.t 
+	desc = IU_VND.9.d 
+	picture = GOOD_WITH_MONARCH_eventPicture 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		id = IU_VND.9.a 
+		override_country_name = IU_CHERA 
+	}
+	
+	option = {
+		id = IU_VND.9.b 
+	}
+}

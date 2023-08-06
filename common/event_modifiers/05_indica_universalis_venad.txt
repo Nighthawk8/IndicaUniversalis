@@ -22,7 +22,7 @@ IU_VND_aspirations_of_venad = {
 
 IU_VND_calicut_trade_maps = {
 	trade_range_modifier = 0.5
-	ship_power_propgation = 0.1
+	global_ship_trade_power = 0.1
 }
 
 IU_VND_tribal_conscription = {
@@ -69,8 +69,7 @@ IU_VND_sinhalese_elephants = {
 }
 
 IU_VND_rule_from_the_holy_city = {
-	maratha_loyalty_modifier = 0.1
-	brahmins_loyalty_modifier = 0.1
+	all_esate_loyalty_equilibrium = 0.1
 }
 
 IU_VND_printing_in_malayalam = {

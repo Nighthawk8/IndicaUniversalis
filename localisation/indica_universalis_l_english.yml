@@ -42,10 +42,10 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  dravidam_nation_desc:0 "The time has come to unite the peoples of Dravidam under our banner and establish a new empire to rule over South India"
  DRV:0 "Dravidan"
  DRV_ADJ:0 "Dravidan"
- kerlam_nation_title:0 "Form Kerlam"
- kerlam_nation_desc:0 "The time has come to unite the peoples of Kerlam under our banner and establish a new empire to rule over Malabar"
- RLM:0 "Kerlam"
- RLM_ADJ:0 "Kerlam"
+ keralam_nation_title:0 "Form Keralam"
+ keralam_nation_desc:0 "The time has come to unite the peoples of Keralam under our banner and establish a new empire to rule over Malabar"
+ RLM:0 "Keralam"
+ RLM_ADJ:0 "Keralam"
 
 #vij interaction events
 

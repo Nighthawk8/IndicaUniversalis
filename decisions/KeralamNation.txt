@@ -1,6 +1,6 @@
 country_decisions = {
 
-		kerlam_nation = {
+		keralam_nation = {
 			major = yes
 			potential = {
 				normal_or_historical_nations = yes
@@ -39,7 +39,8 @@ country_decisions = {
 				is_free_or_tributary_trigger = yes
 				is_at_war = no
 				owns_all_provinces = {
-					culture = malayalam
+					area = malabar_area 
+					area = south_malabar_area 
 				}
 				
 			}

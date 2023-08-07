@@ -238,7 +238,7 @@ KLT_missions_02 = {
 
 		effect = { add_country_modifier = {
 			name = sea_guild
-			duration = 1825
+			duration = 3650
 		} } 
 	}
 
@@ -363,7 +363,7 @@ KLT_missions_03 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-
+		has_estate_privilege = KLT_allow_ayyavole_500	
 			4413 = { 
 			trade_share = {
 		country = KLT
@@ -388,7 +388,7 @@ KLT_missions_03 = {
 
 		effect = { add_country_modifier = {
 			name = mercenary_contracts
-			duration = 1825
+			duration = 3650
 		} } 
 	}
 
@@ -467,17 +467,23 @@ KLT_missions_04 = {
     		}
 			} 
 
-		random_owned_province = {
+		
+    
+    4413 = {
     
     ROOT = {
-            create_flagship = {    
-                name = "Thandavam"
-                type = heavy_ship
-            }
+        light_ship = PREV
     }
 }
+4413 = {
+    
+    ROOT = {
+        light_ship = PREV
+    }
+}
+}
 } 
-	}
+	
 
 
 
@@ -493,7 +499,7 @@ KLT_missions_04 = {
 
 		effect = { add_country_modifier = {
 			name = land_guild
-			duration = 1825
+			duration = 3650
 		} } 
 	}
 
@@ -585,9 +591,10 @@ KLT_missions_05 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { navy_tradition = 25 } 
 
 		effect = {  
+			
 			country_event = {
 				id = indica_events.2
 			}
@@ -603,7 +610,12 @@ KLT_missions_05 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { navy_size_percentage = 1
+			navy_size = MAB
+			navy_size = KOC
+			navy_size = VND
+
+			 } 
 
 		effect = { 
 

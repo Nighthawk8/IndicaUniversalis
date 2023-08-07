@@ -141,3 +141,37 @@ IU_estate_jains_allow_jews_in_buisness = {
 	cooldown_years = 5
 	ai_will_do = { factor = 0 }
 }
+
+KLT_allow_ayyavole_500 = {
+	icon = privilege_make_generous_donation
+	max_absolutism = -10
+	conditional_modifier = { 
+	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+	modifier = { max_absolutism = 1 } 
+	}
+	loyalty = 0.10
+	influence = 0.15
+	is_valid = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	can_select = {
+		mission_completed = KLT_valapattanam
+	}
+	mechanics = {
+	}
+	penalties = {
+		global_tax_modifier = -0.05
+	}
+	benefits = {
+		province_trade_power_modifier = 0.1
+		trade_goods_size_modifier = 0.1
+		trade_steering = 0.1
+	}
+	cooldown_years = 5
+	ai_will_do = { factor = 0 }
+}
+
+

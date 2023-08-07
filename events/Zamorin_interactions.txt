@@ -4,7 +4,7 @@ country_event = {
 	id = zamorininteraction.1
 	title = "zamorininteraction.NAME1"
 	desc = "zamorininteraction.DESC1"
-	picture = CORRUPTION_eventPicture
+	picture = event_imperial_court
 	
 	is_triggered_only = yes
 
@@ -92,7 +92,7 @@ country_event = {
 	id = zamorininteraction.3
 	title = "zamorininteraction.NAME3"
 	desc = "zamorininteraction.DESC3"
-	picture = DIPLOMACY_eventPicture
+	picture = event_imperial_court
 	
 	is_triggered_only = yes
 
@@ -372,7 +372,7 @@ country_event = {
 	id = zamorininteraction.4
 	title = "zamorininteraction.NAME4"
 	desc = "zamorininteraction.DESC4"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court
 	
 	is_triggered_only = yes
 
@@ -651,7 +651,7 @@ country_event = {
 	id = zamorininteraction.5
 	title = "zamorininteraction.NAME5"
 	desc = "zamorininteraction.DESC5"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court
 	
 	is_triggered_only = yes
 
@@ -930,7 +930,7 @@ country_event = {
 	id = zamorininteraction.6
 	title = "zamorininteraction.NAME6"
 	desc = "zamorininteraction.DESC6"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court
 	
 	is_triggered_only = yes
 
@@ -1204,7 +1204,7 @@ country_event  = {
 	id = zamorininteraction.10
 	title = "zamorininteraction.NAME10"
 	desc = "zamorininteraction.DESC10"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court_02
 	
 	is_triggered_only = yes
 
@@ -1363,7 +1363,7 @@ country_event = {
 	id = zamorininteraction.11
 	title = "zamorininteraction.NAME11"
 	desc = "zamorininteraction.DESC11"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court_02
 	
 	is_triggered_only = yes
 
@@ -1517,7 +1517,7 @@ country_event = {
 	id = zamorininteraction.12
 	title = "zamorininteraction.NAME12"
 	desc = "zamorininteraction.DESC12"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court_02
 	
 	is_triggered_only = yes
 
@@ -1671,7 +1671,7 @@ country_event = {
 	id = zamorininteraction.13
 	title = "zamorininteraction.NAME13"
 	desc = "zamorininteraction.DESC13"
-	picture = BANKRUPTCY_eventPicture
+	picture = event_imperial_court_02
 	
 	is_triggered_only = yes
 
@@ -1824,7 +1824,7 @@ country_event = {
 	id = zamorininteraction.100
 	title = "zamorininteraction.NAME100"
 	desc = "zamorininteraction.DESC100"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_sword
 	
 	is_triggered_only = yes
 
@@ -1843,7 +1843,7 @@ country_event = {
 	id = zamorininteraction.90
 	title = "zamorininteraction.NAME90"
 	desc = "zamorininteraction.DESC90"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_march_01
 	
 	trigger = {
 		tag = MAB
@@ -1955,7 +1955,7 @@ country_event = {
 	id = zamorininteraction.901
 	title = "zamorininteraction.NAME901"
 	desc = "zamorininteraction.DESC901"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_mob_01
 	
 	is_triggered_only = yes
 
@@ -1983,7 +1983,7 @@ country_event = {
 	id = zamorininteraction.902
 	title = "zamorininteraction.NAME902"
 	desc = "zamorininteraction.DESC902"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2001,7 +2001,7 @@ country_event = {
 	id = zamorininteraction.903
 	title = "zamorininteraction.NAME903"
 	desc = "zamorininteraction.DESC903"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2020,7 +2020,7 @@ country_event = {
 	id = zamorininteraction.904
 	title = "zamorininteraction.NAME904"
 	desc = "zamorininteraction.DESC904"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2039,7 +2039,7 @@ country_event = {
 	id = zamorininteraction.91
 	title = "zamorininteraction.NAME91"
 	desc = "zamorininteraction.DESC91"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_march_01
 	
 	trigger = {
 		tag = MAB
@@ -2151,7 +2151,7 @@ country_event = {
 	id = zamorininteraction.911
 	title = "zamorininteraction.NAME911"
 	desc = "zamorininteraction.DESC911"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_mob_01
 	
 	is_triggered_only = yes
 
@@ -2179,7 +2179,7 @@ country_event = {
 	id = zamorininteraction.912
 	title = "zamorininteraction.NAME912"
 	desc = "zamorininteraction.DESC912"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2197,7 +2197,7 @@ country_event = {
 	id = zamorininteraction.913
 	title = "zamorininteraction.NAME913"
 	desc = "zamorininteraction.DESC913"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2216,7 +2216,7 @@ country_event = {
 	id = zamorininteraction.914
 	title = "zamorininteraction.NAME914"
 	desc = "zamorininteraction.DESC914"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2235,7 +2235,7 @@ country_event = {
 	id = zamorininteraction.92
 	title = "zamorininteraction.NAME92"
 	desc = "zamorininteraction.DESC92"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_march_01
 	
 	trigger = {
 		tag = MAB
@@ -2347,7 +2347,7 @@ country_event = {
 	id = zamorininteraction.921
 	title = "zamorininteraction.NAME921"
 	desc = "zamorininteraction.DESC921"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_mob_01
 	
 	is_triggered_only = yes
 
@@ -2375,7 +2375,7 @@ country_event = {
 	id = zamorininteraction.922
 	title = "zamorininteraction.NAME922"
 	desc = "zamorininteraction.DESC922"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2393,7 +2393,7 @@ country_event = {
 	id = zamorininteraction.923
 	title = "zamorininteraction.NAME923"
 	desc = "zamorininteraction.DESC923"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2412,7 +2412,7 @@ country_event = {
 	id = zamorininteraction.924
 	title = "zamorininteraction.NAME924"
 	desc = "zamorininteraction.DESC924"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2431,7 +2431,7 @@ country_event = {
 	id = zamorininteraction.93
 	title = "zamorininteraction.NAME93"
 	desc = "zamorininteraction.DESC93"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_march_01
 	
 	trigger = {
 		tag = MAB
@@ -2543,7 +2543,7 @@ country_event = {
 	id = zamorininteraction.931
 	title = "zamorininteraction.NAME931"
 	desc = "zamorininteraction.DESC931"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_mob_01
 	
 	is_triggered_only = yes
 
@@ -2571,7 +2571,7 @@ country_event = {
 	id = zamorininteraction.932
 	title = "zamorininteraction.NAME932"
 	desc = "zamorininteraction.DESC932"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2589,7 +2589,7 @@ country_event = {
 	id = zamorininteraction.933
 	title = "zamorininteraction.NAME933"
 	desc = "zamorininteraction.DESC933"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 
@@ -2608,7 +2608,7 @@ country_event = {
 	id = zamorininteraction.934
 	title = "zamorininteraction.NAME934"
 	desc = "zamorininteraction.DESC934"
-	picture = BORDER_TENSION_eventPicture
+	picture = event_protest_01
 	
 	is_triggered_only = yes
 

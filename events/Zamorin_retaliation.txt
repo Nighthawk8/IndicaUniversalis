@@ -4,7 +4,7 @@ province_event = {
 	id = zamorinretaliation.1
 	title = "zamorinretaliation.NAME1"
 	desc = "zamorinretaliation.DESC1"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		has_province_modifier = lvl_3_influence_province
@@ -109,7 +109,7 @@ province_event = {
 	id = zamorinretaliation.2
 	title = "zamorinretaliation.NAME2"
 	desc = "zamorinretaliation.DESC2"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		has_province_modifier = lvl_4_influence_province
@@ -214,7 +214,7 @@ province_event = {
 	id = zamorinretaliation.3
 	title = "zamorinretaliation.NAME3"
 	desc = "zamorinretaliation.DESC3"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		has_province_modifier = lvl_5_influence_province
@@ -319,7 +319,7 @@ country_event = {
 	id = zamorinretaliation.100
 	title = "zamorinretaliation.NAME100"
 	desc = "zamorinretaliation.DESC100"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -341,7 +341,7 @@ country_event = {
 	id = zamorinretaliation.101
 	title = "zamorinretaliation.NAME101"
 	desc = "zamorinretaliation.DESC101"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -363,7 +363,7 @@ country_event = {
 	id = zamorinretaliation.102
 	title = "zamorinretaliation.NAME102"
 	desc = "zamorinretaliation.DESC102"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -385,7 +385,7 @@ country_event = {
 	id = zamorinretaliation.103
 	title = "zamorinretaliation.NAME103"
 	desc = "zamorinretaliation.DESC103"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -407,7 +407,7 @@ country_event = {
 	id = zamorinretaliation.10
 	title = "zamorinretaliation.NAME10"
 	desc = "zamorinretaliation.DESC10"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		4413 = {
@@ -460,7 +460,7 @@ country_event = {
 	id = zamorinretaliation.11
 	title = "zamorinretaliation.NAME11"
 	desc = "zamorinretaliation.DESC11"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		533 = {
@@ -513,7 +513,7 @@ country_event = {
 	id = zamorinretaliation.12
 	title = "zamorinretaliation.NAME12"
 	desc = "zamorinretaliation.DESC12"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		538 = {
@@ -566,7 +566,7 @@ country_event = {
 	id = zamorinretaliation.13
 	title = "zamorinretaliation.NAME13"
 	desc = "zamorinretaliation.DESC13"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	trigger = {
 		535 = {
@@ -619,7 +619,7 @@ country_event = {
 	id = zamorinretaliation.110
 	title = "zamorinretaliation.NAME110"
 	desc = "zamorinretaliation.DESC110"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -641,7 +641,7 @@ country_event = {
 	id = zamorinretaliation.111
 	title = "zamorinretaliation.NAME111"
 	desc = "zamorinretaliation.DESC111"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -663,7 +663,7 @@ country_event = {
 	id = zamorinretaliation.112
 	title = "zamorinretaliation.NAME112"
 	desc = "zamorinretaliation.DESC112"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -685,7 +685,7 @@ country_event = {
 	id = zamorinretaliation.113
 	title = "zamorinretaliation.NAME113"
 	desc = "zamorinretaliation.DESC113"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -707,7 +707,7 @@ country_event = {
 	id = zamorinretaliation.120
 	title = "zamorinretaliation.NAME120"
 	desc = "zamorinretaliation.DESC120"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	is_triggered_only = yes
 
@@ -735,7 +735,7 @@ country_event = {
 	id = zamorinretaliation.121
 	title = "zamorinretaliation.NAME121"
 	desc = "zamorinretaliation.DESC121"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	is_triggered_only = yes
 
@@ -763,7 +763,7 @@ country_event = {
 	id = zamorinretaliation.122
 	title = "zamorinretaliation.NAME122"
 	desc = "zamorinretaliation.DESC122"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	is_triggered_only = yes
 
@@ -791,7 +791,7 @@ country_event = {
 	id = zamorinretaliation.123
 	title = "zamorinretaliation.NAME123"
 	desc = "zamorinretaliation.DESC123"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_03
 	
 	is_triggered_only = yes
 
@@ -819,7 +819,7 @@ country_event = {
 	id = zamorinretaliation.200
 	title = "zamorinretaliation.NAME200"
 	desc = "zamorinretaliation.DESC200"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -863,7 +863,7 @@ country_event = {
 	id = zamorinretaliation.201
 	title = "zamorinretaliation.NAME201"
 	desc = "zamorinretaliation.DESC201"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -907,7 +907,7 @@ country_event = {
 	id = zamorinretaliation.202
 	title = "zamorinretaliation.NAME202"
 	desc = "zamorinretaliation.DESC202"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -951,7 +951,7 @@ country_event = {
 	id = zamorinretaliation.203
 	title = "zamorinretaliation.NAME203"
 	desc = "zamorinretaliation.DESC203"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_04
 	
 	is_triggered_only = yes
 
@@ -995,7 +995,7 @@ country_event = {
 	id = zamorinretaliation.210
 	title = "zamorinretaliation.NAME210"
 	desc = "zamorinretaliation.DESC210"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_bankruptcy_01
 	
 	is_triggered_only = yes
 
@@ -1008,7 +1008,7 @@ country_event = {
 	id = zamorinretaliation.220
 	title = "zamorinretaliation.NAME220"
 	desc = "zamorinretaliation.DESC220"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_march_01
 	
 	is_triggered_only = yes
 

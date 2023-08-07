@@ -4,7 +4,7 @@ country_event = {
 	id = distant_shores.1
 	title = "distant_shores.NAME1"
 	desc = "distant_shores.DESC1"
-	picture = indiangfx_HARBOUR_eventPicture
+	picture = event_port_01
 	
 	
 	fire_only_once = yes

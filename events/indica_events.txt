@@ -48,7 +48,7 @@ country_event = {
 	id = indica_events.2
 	title = "indica_events.NAME2"
 	desc = "indica_events.DESC2"
-	picture = indiangfx_HARBOUR_eventPicture
+	picture = event_port_01
 	
 	is_triggered_only = yes 
 	fire_only_once = yes
@@ -74,7 +74,7 @@ country_event = {
 	id = indica_events.3
 	title = "indica_events.NAME3"
 	desc = "indica_events.DESC3"
-	picture = muslimgfx_GOOD_WITH_MONARCH_eventPicture
+	picture = event_laugh_01
 	
 	is_triggered_only = yes 
 	fire_only_once = yes

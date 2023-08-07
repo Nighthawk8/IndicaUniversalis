@@ -4,7 +4,7 @@ country_event = {
 	id = zamorinconcessions.1
 	title = "zamorinconcessions.NAME1"
 	desc = "zamorinconcessions.DESC1"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_soldiers_01
 	
 	trigger = {
 		is_at_war = yes
@@ -153,7 +153,7 @@ country_event = {
 	id = zamorinconcessions.2
 	title = "zamorinconcessions.NAME2"
 	desc = "zamorinconcessions.DESC2"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_cavalry_01
 	
 	trigger = {
 		is_at_war = yes
@@ -365,7 +365,7 @@ country_event = {
 	id = zamorinconcessions.3
 	title = "zamorinconcessions.NAME3"
 	desc = "zamorinconcessions.DESC3"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_money_02
 	
 	trigger = {
 		OR = {
@@ -506,7 +506,7 @@ country_event = {
 	id = zamorinconcessions.4
 	title = "zamorinconcessions.NAME4"
 	desc = "zamorinconcessions.DESC4"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_craftsman
 	
 	trigger = {
 		OR = {
@@ -661,7 +661,7 @@ country_event = {
 	id = zamorinconcessions.5
 	title = "zamorinconcessions.NAME5"
 	desc = "zamorinconcessions.DESC5"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_trade_goods
 	
 	trigger = {
 		OR = {
@@ -818,7 +818,7 @@ country_event = {
 	id = zamorinconcessions.6
 	title = "zamorinconcessions.NAME6"
 	desc = "zamorinconcessions.DESC6"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_money_02
 	
 	trigger = {
 		OR = {
@@ -965,7 +965,7 @@ country_event = {
 	id = zamorinconcessions.7
 	title = "zamorinconcessions.NAME7"
 	desc = "zamorinconcessions.DESC7"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_trade_goods
 	
 	trigger = {
 		OR = {
@@ -1173,7 +1173,7 @@ country_event = {
 	id = zamorinconcessions.8
 	title = "zamorinconcessions.NAME8"
 	desc = "zamorinconcessions.DESC8"
-	picture = LAND_MILITARY_eventPicture
+	picture = event_imperial_court_02
 	
 	trigger = {
 		OR = {

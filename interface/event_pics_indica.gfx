@@ -1,0 +1,15 @@
+	### Indica Universalis - Event Pictures ###	
+	
+spriteTypes = {	
+	
+	
+		
+	
+		
+	spriteType = {
+		name = "event_white_tiger"
+		texturefile = "gfx//event_pictures//event_white_tiger.dds"
+	}
+
+	
+}	

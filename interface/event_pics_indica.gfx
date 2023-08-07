@@ -11,5 +11,85 @@ spriteTypes = {
 		texturefile = "gfx//event_pictures//event_white_tiger.dds"
 	}
 
+	spriteType = {
+		name = "event_imperial_court"
+		texturefile = "gfx//event_pictures//event_imperial_court.dds"
+	}
+	spriteType = {
+		name = "event_imperial_court_02"
+		texturefile = "gfx//event_pictures//event_imperial_court_02.dds"
+	}
+	spriteType = {
+		name = "event_imperial_court_03"
+		texturefile = "gfx//event_pictures//event_imperial_court_03.dds"
+	}
+	spriteType = {
+		name = "event_imperial_court_04"
+		texturefile = "gfx//event_pictures//event_imperial_court_04.dds"
+	}
+	spriteType = {
+		name = "event_sword"
+		texturefile = "gfx//event_pictures//event_sword.dds"
+	}
+	spriteType = {
+		name = "event_craftsman"
+		texturefile = "gfx//event_pictures//event_craftsman.dds"
+	}
+	spriteType = {
+		name = "event_craftsman_02"
+		texturefile = "gfx//event_pictures//event_craftsman_02.dds"
+	}
+	spriteType = {
+		name = "event_soldiers_01"
+		texturefile = "gfx//event_pictures//event_soldiers_01.dds"
+	}
+	spriteType = {
+		name = "event_cavalry_01"
+		texturefile = "gfx//event_pictures//event_cavalry_01.dds"
+	}
+	spriteType = {
+		name = "event_port_01"
+		texturefile = "gfx//event_pictures//event_port_01.dds"
+	}
+	spriteType = {
+		name = "event_money_01"
+		texturefile = "gfx//event_pictures//event_money_01.dds"
+	}
+	spriteType = {
+		name = "event_money_02"
+		texturefile = "gfx//event_pictures//event_money_02.dds"
+	}
+	spriteType = {
+		name = "event_ceremonial_elephant"
+		texturefile = "gfx//event_pictures//event_ceremonial_elephant.dds"
+	}
+	spriteType = {
+		name = "event_trade_goods"
+		texturefile = "gfx//event_pictures//event_trade_goods.dds"
+	}
+	spriteType = {
+		name = "event_march_01"
+		texturefile = "gfx//event_pictures//event_march_01.dds"
+	}
+	spriteType = {
+		name = "event_mob_01"
+		texturefile = "gfx//event_pictures//event_mob_01.dds"
+	}
+	spriteType = {
+		name = "event_protest_01"
+		texturefile = "gfx//event_pictures//event_protest_01.dds"
+	}
+	spriteType = {
+		name = "event_news_01"
+		texturefile = "gfx//event_pictures//event_news_01.dds"
+	}
+	spriteType = {
+		name = "event_bankruptcy_01"
+		texturefile = "gfx//event_pictures//event_bankruptcy_01.dds"
+	}
+	spriteType = {
+		name = "event_laugh_01"
+		texturefile = "gfx//event_pictures//event_laugh_01.dds"
+	}
 	
 }	

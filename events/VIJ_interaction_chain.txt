@@ -159,7 +159,7 @@ country_event = {
 	option = {	# send loyal men
 		name = "vijinteraction.3a"
 		ai_chance = { factor = 25 }
-		add_manpower = -5000
+		add_manpower = -5
 	}
 
 	option = {	# draft peasantry

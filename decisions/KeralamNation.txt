@@ -38,12 +38,14 @@ country_decisions = {
 				NOT = { exists = DRV }
 				is_free_or_tributary_trigger = yes
 				is_at_war = no
-				owns_all_provinces = {
-					area = malabar_area 
-					area = south_malabar_area 
+				malabar_area = {
+					is_core = ROOT
 				}
-				
+				south_malabar_area = {
+					is_core = ROOT
+				}
 			}
+				
 				
 			effect = {
 				change_tag = RLM

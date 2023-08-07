@@ -1892,6 +1892,9 @@ country_event = {
 				4413= {
 				owner = {
 					total_development = 50
+					NOT = {
+						total_development = 100
+					}
 				}
 				}
 			}
@@ -1907,6 +1910,9 @@ country_event = {
 				4413= {
 				owner = {
 					total_development = 100
+					NOT = {
+						total_development = 200
+					}
 				}
 				}
 			}
@@ -1921,7 +1927,7 @@ country_event = {
 			limit = {
 				4413= {
 				owner = {
-					total_development = 150
+					total_development = 200
 				}
 				}
 			}
@@ -1953,7 +1959,7 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = {	# take the oppourtunity
+	option = {	
 		name = "zamorininteraction.901a"
 		ai_chance = { factor = 50 }
 		4413 = {
@@ -2020,6 +2026,594 @@ country_event = {
 
 	option = {	# take the oppourtunity
 		name = "zamorininteraction.904a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = severe_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.91
+	title = "zamorininteraction.NAME91"
+	desc = "zamorininteraction.DESC91"
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+		tag = MAB
+		has_country_flag = zamorin_influence_activated
+		533 = {
+			has_province_modifier = lvl_5_influence_province
+		}
+		533 = {
+			owner = {
+				NOT = {
+					num_of_cities = 1
+				}
+				NOT = {
+					tag = MAB
+				}
+				OR = {
+					AND = {
+						is_in_deficit = yes
+						is_in_large_debt = yes
+					}
+				is_bankrupt = yes
+				}
+				is_at_war = yes
+				is_client_nation = no
+				is_subject = no
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {	# take the opportunity
+		name = "zamorininteraction.91a"
+		ai_chance = { factor = 50 }
+		custom_tooltip = "annex_concequences"
+		random = { 
+			chance = 50 
+			country_event = {
+				id = zamorininteraction.911
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 50
+					NOT = {
+						total_development = 100
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 25
+			country_event = {
+				id = zamorininteraction.912
+			}
+		}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 100
+					NOT = {
+						total_development = 200
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 50
+			country_event = {
+				id = zamorininteraction.913
+			}
+		}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 200
+				}
+				}
+			}
+		random = { 
+			chance = 75
+			country_event = {
+				id = zamorininteraction.914
+			}
+		}
+		}
+		533 = {
+			cede_province = MAB
+			add_core = MAB
+		}
+	}
+
+	option = {	# do nothing
+		name = "zamorininteraction.91b"
+		ai_chance = { factor = 50 }
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.911
+	title = "zamorininteraction.NAME911"
+	desc = "zamorininteraction.DESC911"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = "zamorininteraction.911a"
+		ai_chance = { factor = 50 }
+		533 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+			add_devastation = 50
+			random = {
+				chance = 50
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 1
+				}
+			}
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.912
+	title = "zamorininteraction.NAME912"
+	desc = "zamorininteraction.DESC912"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.912a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = mild_diplomatic_protest
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	id = zamorininteraction.913
+	title = "zamorininteraction.NAME913"
+	desc = "zamorininteraction.DESC913"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.913a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = medium_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.914
+	title = "zamorininteraction.NAME914"
+	desc = "zamorininteraction.DESC914"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.914a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = severe_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.92
+	title = "zamorininteraction.NAME92"
+	desc = "zamorininteraction.DESC92"
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+		tag = MAB
+		has_country_flag = zamorin_influence_activated
+		538 = {
+			has_province_modifier = lvl_5_influence_province
+		}
+		538 = {
+			owner = {
+				NOT = {
+					num_of_cities = 1
+				}
+				NOT = {
+					tag = MAB
+				}
+				OR = {
+					AND = {
+						is_in_deficit = yes
+						is_in_large_debt = yes
+					}
+				is_bankrupt = yes
+				}
+				is_at_war = yes
+				is_client_nation = no
+				is_subject = no
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {	# take the opportunity
+		name = "zamorininteraction.92a"
+		ai_chance = { factor = 50 }
+		custom_tooltip = "annex_concequences"
+		random = { 
+			chance = 50 
+			country_event = {
+				id = zamorininteraction.921
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+				owner = {
+					total_development = 50
+					NOT = {
+						total_development = 100
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 25
+			country_event = {
+				id = zamorininteraction.922
+			}
+		}
+		}
+		if = {
+			limit = {
+				538 = {
+				owner = {
+					total_development = 100
+					NOT = {
+						total_development = 200
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 50
+			country_event = {
+				id = zamorininteraction.923
+			}
+		}
+		}
+		if = {
+			limit = {
+				538 = {
+				owner = {
+					total_development = 200
+				}
+				}
+			}
+		random = { 
+			chance = 75
+			country_event = {
+				id = zamorininteraction.924
+			}
+		}
+		}
+		538 = {
+			cede_province = MAB
+			add_core = MAB
+		}
+	}
+
+	option = {	# do nothing
+		name = "zamorininteraction.92b"
+		ai_chance = { factor = 50 }
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.921
+	title = "zamorininteraction.NAME921"
+	desc = "zamorininteraction.DESC921"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = "zamorininteraction.921a"
+		ai_chance = { factor = 50 }
+		538 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+			add_devastation = 50
+			random = {
+				chance = 50
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 1
+				}
+			}
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.922
+	title = "zamorininteraction.NAME922"
+	desc = "zamorininteraction.DESC922"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.922a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = mild_diplomatic_protest
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	id = zamorininteraction.923
+	title = "zamorininteraction.NAME923"
+	desc = "zamorininteraction.DESC923"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.923a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = medium_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.924
+	title = "zamorininteraction.NAME924"
+	desc = "zamorininteraction.DESC924"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.924a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = severe_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.93
+	title = "zamorininteraction.NAME93"
+	desc = "zamorininteraction.DESC93"
+	picture = BORDER_TENSION_eventPicture
+	
+	trigger = {
+		tag = MAB
+		has_country_flag = zamorin_influence_activated
+		533 = {
+			has_province_modifier = lvl_5_influence_province
+		}
+		533 = {
+			owner = {
+				NOT = {
+					num_of_cities = 1
+				}
+				NOT = {
+					tag = MAB
+				}
+				OR = {
+					AND = {
+						is_in_deficit = yes
+						is_in_large_debt = yes
+					}
+				is_bankrupt = yes
+				}
+				is_at_war = yes
+				is_client_nation = no
+				is_subject = no
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {	# take the opportunity
+		name = "zamorininteraction.93a"
+		ai_chance = { factor = 50 }
+		custom_tooltip = "annex_concequences"
+		random = { 
+			chance = 50 
+			country_event = {
+				id = zamorininteraction.931
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 50
+					NOT = {
+						total_development = 100
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 25
+			country_event = {
+				id = zamorininteraction.932
+			}
+		}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 100
+					NOT = {
+						total_development = 200
+					}
+				}
+				}
+			}
+		random = { 
+			chance = 50
+			country_event = {
+				id = zamorininteraction.933
+			}
+		}
+		}
+		if = {
+			limit = {
+				533 = {
+				owner = {
+					total_development = 200
+				}
+				}
+			}
+		random = { 
+			chance = 75
+			country_event = {
+				id = zamorininteraction.934
+			}
+		}
+		}
+		533 = {
+			cede_province = MAB
+			add_core = MAB
+		}
+	}
+
+	option = {	# do nothing
+		name = "zamorininteraction.93b"
+		ai_chance = { factor = 50 }
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.931
+	title = "zamorininteraction.NAME931"
+	desc = "zamorininteraction.DESC931"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	
+		name = "zamorininteraction.931a"
+		ai_chance = { factor = 50 }
+		533 = {
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+			add_devastation = 50
+			random = {
+				chance = 50
+				spawn_rebels = {
+					type = nationalist_rebels
+					size = 1
+				}
+			}
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.932
+	title = "zamorininteraction.NAME932"
+	desc = "zamorininteraction.DESC932"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.932a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = mild_diplomatic_protest
+			duration = 3650
+		}
+	}
+}
+
+country_event = {
+	id = zamorininteraction.933
+	title = "zamorininteraction.NAME933"
+	desc = "zamorininteraction.DESC933"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.933a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = medium_diplomatic_protest
+			duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = zamorininteraction.934
+	title = "zamorininteraction.NAME934"
+	desc = "zamorininteraction.DESC934"
+	picture = BORDER_TENSION_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {	# take the oppourtunity
+		name = "zamorininteraction.934a"
 		ai_chance = { factor = 50 }
 		add_country_modifier = {
 			name = severe_diplomatic_protest

@@ -110,5 +110,8 @@ KLT_allow_ayyavole_500:0 "Invite the Ayyavole Five Hundred"
 KLT_allow_ayyavole_500_desc:0 ""
 ##################################################################################
 
- 
+ IU_CANNOT_VASSALISE_VIJ_MAL:0 "The Lords of the Malabar coast are fiercely independant and difficult to influence even with our great power. Therefore there is no opportunity to vassalise them."
+ IU_CANNOT_ALLY_VIJ_MAL:0 "The Lords of the Malabar Coast are fiercely independant and difficult to influence even with our great power. They are also inconcequential to larger Indian affairs.  Therefore there is no opportunity to Ally them."
+ IU_CANNOT_ALLY_MAL_VIJ:0 "As a lord of the Malabar coast, an alliance with Vijanagar would be laughed at by fellow lords and ignored by the Vijanagar monarchs.  Therefore there is no opportunity to Ally them."
 
+ maldivian:0 "Maldivian"

@@ -6,6 +6,8 @@ religion = hinduism
 primary_culture = malayalam
 capital = 534	# Calicut
 
+historical_rival = KOC
+
 1415.1.1 = {
 	monarch = {
 		name = "Manaveda I"

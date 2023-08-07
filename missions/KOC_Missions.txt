@@ -171,9 +171,15 @@ koc_missions_02 = {
     		
     		religion = hindu
     		cost_multiplier = 0.50
-			} 
+			}
+
+			add_country_modifier = {
+			name = expert_cavalry
+			duration = 1825
+		 
 		}
 	}
+}
 
 	KOC_distant_friends = {
 		icon = mission_embassy_to_the_west
@@ -201,7 +207,7 @@ koc_missions_02 = {
 	}
 
 	KOC_independent_power = {
-		icon = mission_the_tiger_triumphant
+		icon = mission_betrayal
 		position = 7
 		required_missions = { KOC_distant_friends } 
 		provinces_to_highlight = {  } 
@@ -277,7 +283,10 @@ koc_missions_03 = {
 				 } 
 
 		effect = { 
-
+		add_country_modifier = {
+            name = VIJ_no_concessions
+            duration = 365
+        }	
 		add_treasury = 200
 		add_country_modifier = { 
     		name = vijayanagar_grant
@@ -328,7 +337,8 @@ koc_missions_03 = {
 					owned_by = ROOT 
 				} } 
 
-		effect = { add_prestige = 30 } 
+		effect = { change_adm = 1
+			add_prestige = 30 } 
 	}
 
 	KOC_consolidate_gains = {
@@ -348,13 +358,17 @@ koc_missions_03 = {
 		4943 = {
 				owned_by = ROOT
 				is_core = ROOT 
-				development = 12
+				development = 8
 			}
 			
 				 } 
 
 		effect = { 
-
+			add_country_modifier = { 
+    		name = construction_boost
+    		duration = 1825 
+    		
+			}	
 		4413 = {
 				add_permanent_claim = ROOT 
 			}
@@ -363,7 +377,7 @@ koc_missions_03 = {
 	}
 
 	KOC_expand_north = {
-		icon = mission_unite_home_region
+		icon = mission_target_north_kerala
 		position = 7
 		required_missions = { KOC_consolidate_gains } 
 		provinces_to_highlight = {  } 
@@ -420,9 +434,15 @@ koc_missions_04 = {
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { KLT = {
+				 
+						has_opinion {
+							who = MAB 
+							value = -25
+						} } } 
 
 		effect = { 
+			add_treasury = -25
 			MAB =
 			{
 				add_country_modifier = { 
@@ -538,12 +558,7 @@ kochin_missions_05 = {
 						} }
 					
 						
-						KLT = {
-				 
-						has_opinion {
-							who = MAB 
-							value = -25
-						} }
+						
 
 						KLT = {
 				 
@@ -566,7 +581,7 @@ kochin_missions_05 = {
 	}
 
 	KOC_exotic_animals = {
-		icon = mission_conquer_bengal_tau
+		icon = mission_cannabis
 		position = 2
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 
@@ -577,13 +592,9 @@ kochin_missions_05 = {
 		 } 
 
 		effect = { 
-		add_country_modifier = { 
-    		name = exotic_animal_trade
-    		duration = 1825 
-    		
-			}	
+		
 		country_event = {
-				id = indica_events.1
+				id = indica_events.3
 			}
 			 } 
 	}
@@ -628,7 +639,8 @@ kochin_missions_05 = {
 
 		trigger = { NOT = { manpower_percentage < 0.2 } } 
 
-		effect = { add_country_modifier = {
+		effect = { change_mil = 1
+			add_country_modifier = {
 			name = mercenary_contracts
 			duration = 1825
 		} } 

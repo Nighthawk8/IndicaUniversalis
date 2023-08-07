@@ -61,7 +61,27 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "mission_cannabis"
+		texturefile = "gfx//interface//missions//mission_cannabis.dds"
+	}
+
+	spriteType = {
 		name = "mission_kali_temple"
 		texturefile = "gfx//interface//missions//mission_kali_temple.dds"
+	}
+
+	spriteType = {
+		name = "mission_target_north_kerala"
+		texturefile = "gfx//interface//missions//mission_target_north_kerala.dds"
+	}
+
+		spriteType = {
+		name = "mission_target_south_kerala"
+		texturefile = "gfx//interface//missions//mission_target_south_kerala.dds"
+	}
+
+	spriteType = {
+		name = "mission_rich_north_kerala"
+		texturefile = "gfx//interface//missions//mission_rich_north_kerala.dds"
 	}
 }	

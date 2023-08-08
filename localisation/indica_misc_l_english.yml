@@ -35,6 +35,7 @@ construction_boost:0 "Construction Expertise"
 
 
 
+
 VIJ_no_concessions:0 "Vijayanagar Satisfied"
 VIJ_no_demands_tt:0 "Vijayanagar shall be pleased and will not make any demands for the next one year."
 
@@ -58,6 +59,9 @@ VIJ_no_demands_tt:0 "Vijayanagar shall be pleased and will not make any demands 
  pol_secrets_obtained:0 "Political Secrets Obtained"
  trade_secrets_obtained:0 "Trade Secrets Obtained"
  mil_secrets_obtained:0 "Military Secrets Obtained"
+ calicut_unbreachable:0 "Unbreachable!"
+ western_fort:0 "Western Fort"
+ lions_of_the_sea:0 "Lions of the Arabian Sea"
 
  IU_kolathunad_decentralised_realm:0 "Kolathunad Decentralised Realm"
  IU_kolathunad_decentralised_realm_desc:0 ""

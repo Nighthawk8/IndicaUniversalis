@@ -13,11 +13,48 @@ MAB_missions_01 = {
 		icon = mission_indian_stateman
 		position = 2
 		required_missions = { MAB_zamorin } 
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { 
+			province_id = 4413
+			province_id = 533
+			province_id = 538
+			province_id = 535
+		} 
 
-		trigger = {  } 
+		trigger = { 
+			OR = {
+			4413 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				OR = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			custom_tooltip = gain_a_free_influence_level
+			country_event = {
+				id = indica_events.4
+			}
+		 } 
 	}
 
 	MAB_influence_02 = {
@@ -26,9 +63,29 @@ MAB_missions_01 = {
 		required_missions = { MAB_influence_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			OR = {
+				has_country_modifier = had_event_zamcon3
+				has_country_modifier = had_event_zamcon4
+				has_country_modifier = had_event_zamcon5
+				has_country_modifier = had_event_zamcon6
+				has_country_modifier = had_event_zamcon7
+			}
+			custom_trigger_tooltip = {
+				tooltip = use_zamorin_influence
 
-		effect = {  } 
+				has_country_flag = used_zamorin_influence
+			}
+		} 
+
+		effect = { 
+			define_advisor = {
+				type = statesman
+				skill = 3
+				cost_multiplier = 0.25
+			}
+			add_dip_power = 50
+		} 
 	}
 
 	MAB_influence_03 = {
@@ -37,9 +94,21 @@ MAB_missions_01 = {
 		required_missions = { MAB_influence_02 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = do_zamorin_annex
 
-		effect = {  } 
+				has_country_flag = used_zamorin_annex
+			} 
+		} 
+
+		effect = { 
+			add_dip_power = 50
+			add_country_modifier = {
+				name = zamorin_influence_permanant
+				duration = -1
+			}
+		} 
 	}
 
 	MAB_muslim_alliance = {

@@ -71,6 +71,21 @@
  MAB_industrialisation_title:0 "European Technology"
  MAB_industrialisation_desc:0 ""
 
+ gain_a_free_influence_level:0 "By completing this mission you can gain a free influence level in any of the four provinces."
+
+ use_zamorin_influence:0 "To complete this mission you must have used your influence through decision, this requires you to have level 4 or 5 influence in one of the provinces"
+
+ do_zamorin_annex:0 "To complete this mission you must have used the Zamorin mechanic to annex a province, this requires the overlord of the province to be at war and in financial difficulty"
+
+ zamorin_influence_permanant:0 "The Zamorin's Influence"
+
+ indica_events.NAME4:0 "Gain an Influence Level!"
+ indica_events.DESC4:0 "Due to your astounding influence you can now gain an influence level for free!"
+ indica_events.4a:0 "Cannanore"
+ indica_events.4b:0 "Mysore"
+ indica_events.4c:0 "Kongu"
+ indica_events.4d:0 "Kochin"
+
 ##################################################################################
 ############################## KLT Missions ######################################
 ##################################################################################

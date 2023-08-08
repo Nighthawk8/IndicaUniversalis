@@ -121,3 +121,295 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = indica_events.4
+	title = "indica_events.NAME4"
+	desc = "indica_events.DESC4"
+	picture = event_laugh_01
+	
+	is_triggered_only = yes 
+	fire_only_once = yes
+
+	
+	option = {	#Happy
+		name = "indica_events.4a"
+		trigger = {
+			4413 = {
+				NOT = {
+					OR = {
+					has_province_modifier = lvl_5_influence_province
+					owned_by = ROOT
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = { 
+				has_province_modifier = lvl_4_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+				has_province_modifier = lvl_3_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+				has_province_modifier = lvl_2_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+				has_province_modifier = lvl_1_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {	#Medical
+		name = "indica_events.4b"
+		trigger = {
+			533 = {
+				NOT = {
+					OR = {
+						has_province_modifier = lvl_5_influence_province
+						owned_by = ROOT
+						}
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = { 
+				has_province_modifier = lvl_4_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+				has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+				has_province_modifier = lvl_2_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+				has_province_modifier = lvl_1_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+	}
+
+	option = {	#Ruler
+		name = "indica_events.4c"
+		trigger = {
+			538 = {
+				NOT = {
+					OR = {
+						has_province_modifier = lvl_5_influence_province
+						owned_by = ROOT
+						}
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = { 
+				has_province_modifier = lvl_4_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+				has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+				has_province_modifier = lvl_2_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+				has_province_modifier = lvl_1_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+	}
+
+	option = {	#Ban
+		name = "indica_events.4d"
+		trigger = {
+			535 = {
+				NOT = {
+					OR = {
+						has_province_modifier = lvl_5_influence_province
+						owned_by = ROOT
+						}
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = { 
+				has_province_modifier = lvl_4_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+				has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+				has_province_modifier = lvl_2_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+				has_province_modifier = lvl_1_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+	}
+
+}

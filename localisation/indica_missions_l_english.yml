@@ -186,6 +186,47 @@
  KLT_arakkal_title:0 "Arakkal Kingdom"
  KLT_arakkal_desc:0 ""
 
+ kltevents.NAME1:0 "What religion should we embrace"
+ kltevents.DESC1:0 "The people of Kolathunad long for change, with recent influence from arabian voyages, many believe that a muslim religion would be better for the future of our nation. We must however choose a sect, do we go with Sunni or Shia"
+ kltevents.1a:0 "Embrace Sunni"
+ kltevents.1b:0 "Embrace Shia"
+
+ kltevents.NAME2:0 "The legend of Tajudeen"
+ kltevents.DESC2:0 "Many moons ago the King of these lands embarked on a pilgrimage to Mecca. During his visit to the Kaaba, the King had the opportunity to meet the prophet Muhammad and gifted him ginger pickles. He conversed with Muhammad in Arabic, and it was during this encounter that Bilal, a companion of Muhammad, guided the king to convert to Islam. As a result, Muhammad bestowed upon him the name Tajuddin, Thajuddin, or Thiya-aj-Addan, which means "crown of faith" thus, becoming the first Indian Muslim. /n/n This tale has been well known to some within the kingdom, how should we use it?"
+ kltevents.2a:0 "Tell it to the people"
+ kltevents.2b:0 "Keep the legend in Court"
+
+ decision_klt_revive_malik_dinar:0 "Revive Malik Dinar"
+ decision_klt_upgrade_malik_dinar:0 "Upgrade Malik Dinar"
+ malik_dinar_mosque:0 "Malik Dinar Mosque"
+ upgraded_malik_dinar_mosque:0 "Upgraded Malik Dinar Mosque"
+ unlocked_malik_dinar_mosque:0 "Unlocked Malik Dinar Mosque"
+ unlocked_religious_school_malik:0 "This mission unlocks and adds the unique religious school Legacy of Malik Dinar"
+ legacy_of_malik_dinar_school:0 "Legacy of Malik Dinar"
+ arabian_trade:0 "Arabian Trade"
+ diplomatic_prowess:0 "Diplomatic Prowess"
+
+ RKK:0 "Arakkal"
+ RKK_ADJ:0 "Arakkal"
+
+ valiya_muttapan_IU:0 "Valiya Muttapan"
+ cheriya_muttapan_IU:0 "Cheriya Muttapan"
+ bhadrakali_IU:0 "Bhadrakali"
+
+ remember_mushika_heritage:0 "Remeber Mushika Heritage"
+ unlocked_temple_development:0 "By completing these decisons you have unlocked development decisions to build and revitalise various temples within the province"
+ devi_temples:0 "Devi Temples"
+ muthappan_temple:0 "Muthappan Temple"
+ decision_klt_develop_devi_temples:0 "Develop Devi Temples"
+ decision_klt_reviltalise_muthappan_temples:0 "Reviltalise Muthappan Temples"
+ devi_unlocked:0 "Unlocks unique deity replacement for Shakti"
+ muthappan_unlocked:0 "Unlocks unique deity replacement for Vishnu and Shiva"
+ IU_estate_brahmins_give_lands_to_buddhists:0 "Give Lands to Buddhists"
+ IU_estate_brahmins_protect_the_jewish_settlements:0 "Protect the Jewish Settlements"
+
+ protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privlege for Brahmins"
+ CHIRAKKAL_KINGDOM:0 "Chirakkal Kingdom"
+
 ##################################################################################
 ############################## KOC Missions ######################################
 ##################################################################################

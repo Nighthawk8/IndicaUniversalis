@@ -166,6 +166,8 @@ estate_brahmins = {
 		estate_brahmins_institutionalized_brahimns
 		estate_brahmins_donation_right
 		IU_estate_brahmins_accept_mar_toma_church
+		IU_estate_brahmins_give_lands_to_buddhists
+		IU_estate_brahmins_protect_the_jewish_settlements
 	}
 
 	agendas = {

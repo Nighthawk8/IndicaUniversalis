@@ -123,9 +123,25 @@ KLT_independent_power = {
 		position = 6
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion = hinduism
+			religious_unity = 0.9
+			capital_scope = {
+				has_building = temple
+				local_autonomy = 0
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			add_country_modifier = {
+				name = remember_mushika_heritage
+				duration = 3650
+			}
+			custom_tooltip = unlocked_temple_development
+			hidden_effect = {
+			set_country_flag = unlocked_temple_development
+			}
+		} 
 	}
 
 	KLT_devi_temples = {
@@ -134,9 +150,20 @@ KLT_independent_power = {
 		required_missions = { KLT_mushika_heritage } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion = hinduism
+			religious_unity = 0.9
+			4413 = {
+				has_province_modifier = devi_temples
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			custom_tooltip = devi_unlocked
+			hidden_effect = {
+			set_country_flag = IU_bhadrakali_flag
+			}
+		} 
 	}
 
 	KLT_muthappan_temple = {
@@ -145,9 +172,20 @@ KLT_independent_power = {
 		required_missions = { KLT_devi_temples } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		religion = hinduism
+		religious_unity = 0.9
+		4413 = {
+			has_province_modifier = muthappan_temple
+		} 
+		} 
 
-		effect = {  } 
+		effect = { 
+			custom_tooltip = muthappan_unlocked
+			hidden_effect = {
+			set_country_flag = IU_muthappan_flag
+			}
+		} 
 	}
 
 	KLT_chirakkal = {
@@ -159,10 +197,34 @@ KLT_independent_power = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion = hinduism
+			OR = {
+				has_personal_deity = valiya_muttapan_IU
+				has_personal_deity = cheriya_muttapan_IU
+				has_personal_deity = bhadrakali_IU
+			}
+			has_estate_privilege = IU_estate_brahmins_give_lands_to_buddhists
+			has_estate_privilege = IU_estate_brahmins_protect_the_jewish_settlements
+			prestige = 50
+		} 
 
-		effect = {  } 
-	}
+		effect = { 
+			override_country_name = CHIRAKKAL_KINGDOM
+			set_dynasty = "Chirakkal"
+			add_prestige = 25
+			change_adm = 1
+			change_dip = 1
+			change_dip = 1
+			if = {
+				limit = {
+					NOT = {
+					government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+		}
 }
 
 ##################################################################################
@@ -248,9 +310,18 @@ KLT_missions_02 = {
 		required_missions = { KLT_mushika_heritage } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion = hinduism
+			has_estate_privilege = IU_estate_brahmins_give_lands_to_buddhists
+		} 
 
-		effect = {  } 
+		effect = { 
+			define_advisor = {
+				type = theologian 
+				skill = 3
+				cost_multiplier  =0.25
+			}
+		} 
 	}
 
 	KLT_jewish_pond = {
@@ -259,9 +330,20 @@ KLT_missions_02 = {
 		required_missions = { KLT_buddhist_vihara } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			capital_scope = {
+				base_tax = 5
+				base_production = 8
+				base_manpower = 8
+				total_development = 30
+				local_autonomy = 0
+			}
+			religion = hinduism
+		 } 
 
-		effect = {  } 
+		effect = { 
+			custom_tooltip = protect_jews_privlege
+		} 
 	}
 }
 
@@ -509,9 +591,26 @@ KLT_missions_04 = {
 		required_missions = { KLT_rise_of_islam } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			OR = {
+			has_merchant = hormuz
+			has_merchant = gulf_of_aden
+			}
+			1340 = { #coromandel
+				trade_share = {
+					country = KLT
+					share = 10
+				}
+				trade_node_value = 20
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			add_country_modifier = {
+				name = arabian_trade
+				duration = 7300
+			}
+		 } 
 	}
 
 	KLT_deccan_sultan = {
@@ -520,9 +619,23 @@ KLT_missions_04 = {
 		required_missions = { KLT_middle_east_trade } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			any_country = {
+				alliance_with = ROOT
+				capital_scope = {
+					superregion = india_superregion 
+				}
+				religion_group = muslim
+				total_development = 200
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			add_country_modifier = {
+				name = diplomatic_prowess
+				duration = 3650
+			}
+		 } 
 	}
 }
 
@@ -663,7 +776,6 @@ KLT_missions_05 = {
 		trigger = { 
 			religious_unity = 0.8
 			religion_group = muslim
-			average_unrest = 0
 			4413 = {
 				OR = {
 				has_province_modifier = malik_dinar_mosque
@@ -673,6 +785,7 @@ KLT_missions_05 = {
 		} 
 
 		effect = { 
+			custom_tooltip = unlocked_religious_school_malik
 			set_religious_school = {
 				group = muslim
 				school = legacy_of_malik_dinar_school
@@ -718,8 +831,21 @@ KLT_missions_05 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion_group = muslim
+			religious_unity = 0.9
+		} 
 
-		effect = {  } 
+		effect = { 
+			change_tag = RKK
+			if = {
+				limit = {
+					NOT = {
+					government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+		} 
 	}
 }

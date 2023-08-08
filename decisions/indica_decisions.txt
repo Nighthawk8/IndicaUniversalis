@@ -66,6 +66,9 @@ decision_klt_revive_malik_dinar = {
 		is_at_war = no
 		religious_unity = 0.5
 		treasury = 200
+		4413 = {
+			owned_by = ROOT
+		}
 	}
 	
 	
@@ -109,6 +112,9 @@ decision_klt_upgrade_malik_dinar = {
 		religious_unity = 0.9
 		treasury = 250
 		adm_tech = 12
+		4413 = {
+			owned_by = ROOT
+		}
 	}
 	
 	
@@ -130,5 +136,90 @@ decision_klt_upgrade_malik_dinar = {
 			}
 		}
 		treasury = -250
+	}
+}
+
+decision_klt_develop_devi_temples = {
+				
+	potential = {
+		tag = KLT
+		has_country_flag = unlocked_temple_development
+	}
+	
+	allow = {
+		capital_scope = {
+			religion = hinduism
+		}
+		is_at_war = no
+		religious_unity = 0.9
+		treasury = 150
+		has_personal_deity = shakti
+		4413 = {
+			owned_by = ROOT
+		}
+	}
+	
+	
+	
+	effect = {
+		4413 = {
+			add_province_modifier = { 
+				name = devi_temples
+				duration = -1  
+			}
+			if = {
+				limit = {
+				NOT = {
+					has_building = temple
+				}
+				}
+				add_building = temple
+			}
+		}
+		treasury = -150
+	}
+}
+
+decision_klt_reviltalise_muthappan_temples = {
+				
+	potential = {
+		tag = KLT
+		has_country_flag = unlocked_temple_development
+	}
+	
+	allow = {
+		capital_scope = {
+			religion = hinduism
+		}
+		OR = {
+			has_personal_deity = vishnu
+			has_personal_deity = shiva
+		}
+		is_at_war = no
+		religious_unity = 0.9
+		treasury = 150
+		4413 = {
+			owned_by = ROOT
+		}
+	}
+	
+	
+	
+	effect = {
+		4413 = {
+			add_province_modifier = { 
+				name = muthappan_temple
+				duration = -1  
+			}
+			if = {
+				limit = {
+				NOT = {
+					has_building = temple
+				}
+				}
+				add_building = temple
+			}
+		}
+		treasury = -150
 	}
 }

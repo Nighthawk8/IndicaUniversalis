@@ -19,7 +19,7 @@
  IU_VND_revitalize_kollam_title:0 "Revitalize Kollam"
  IU_VND_revitalize_kollam_desc:0 "Kollam was recently raided by the Zamorin of Calicut and has never truly recovered since. It is a shadow of its former glory, merely a pit stop for merchants who are not allowed in the walls of Calicut. Yet many remember when it was not so. Kollam a thriving hub of traders and scholars alike, the capital of Venad! Oh, to once again have that sort of prestige. We must get to work, growing and nourishing this city. The Zamorin may have overtaken Kollam for a brief moment, but our city is ancient dating back to the Chera dynasty of old and its light will shine through no matter what!"
 
- IU_VND_erect_new_mandirs_title:0 "Erect New Mandirs"
+ IU_VND_erect_new_mandirs_title:0 "Erect New Ambalams"
  IU_VND_erect_new_mandirs_desc:0 "There is a concern growing of spiritual and moral bankruptcy in Venad. The Ettara Yogam certainly aren't doing a good job maintaining the principles of our faith, but besides the Padmanabhaswamy Temple, there aren't many other places to worship. The people need temples. It reflects well on our king to meet the peoples' needs and the extra tax doesn't hurt, either."
 
  IU_VND_patronize_temple_title:0 "Adorn the Gilded Temple"
@@ -50,7 +50,7 @@
  IU_VND_deal_with_the_devil_title:0 "Deal with the Devil"
  IU_VND_deal_with_the_devil_desc:0 ""
 
- IU_VND_dynastic_claims_title:0 "Heirs to the Chera"
+ IU_VND_dynastic_claims_title:0 "Heirs to the Ay"
  IU_VND_dynastic_claims_desc:0 ""
 
  IU_VND_last_tamil_king_title:0 "Glorified by Heaven"
@@ -101,6 +101,12 @@
  IU_VND.6.t: "The Rise of Travancore"
  IU_VND.6.d: "There is a rumbling in the court of Venad. For centuries the coalition of nobles and priests have dominated the monarchy, having their way without opposition. Kingmakers in plain sight. Many have stopped taking the monarchy seriously, but one man's ambition might be enough to change that. Marthanda Varma, a member of the Venad dynasty, has declared his goal to transform our kingdom into a modern power with an absolutist king. A notable change from our ancient and frankly tribal ways of rule. This transformation into a new kingdom, Travancore, will take time and most certainly blood. It is a necessity to ensure our survival against the ever greedy European powers, however. With renewed strength, may we be able to protect Kerala from anyone who may set their sights on it!"
  IU_VND.6.a: "We are a bulwark against colonialists!"
+ 
+ IU_VND.7.t: "The Ettuveetil Pillamar Revolt"
+ IU_VND.7.a: "Bah! We can handle this."
+ 
+ IU_VND.8.t: "Thabiran Vanakkam"
+ IU_VND.8.a: "The press unlocks all sorts of opportunities for us."
  
  IU_VND.10.t: "Explorers Land in Kollam"
  IU_VND.10.d: "A crowd gathers around the port of Kollam as pale skinned adventurers set foot in our port. It has been an uncountable amount of years since a European ship has docked in India, yet here one is. It is a historic moment for our city. The explorers step off their ships and humbly request our hospitality for the night, then the next day board their vessels and continue on their way. Rumors have spread that this is not the only incident of something like this and sure enough, merchants begin to dock in Kollam, followed by soliders and diplomats! The West has begun to seek allies and trading partners in India, but also their own fortune. We must decide now how Venad will navigate this ever growing conundrum - to work with these merchants or protect ourselves against a future threat?"

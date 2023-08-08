@@ -84,4 +84,9 @@ spriteTypes = {
 		name = "mission_rich_north_kerala"
 		texturefile = "gfx//interface//missions//mission_rich_north_kerala.dds"
 	}
+
+	spriteType = {
+		name = "mission_steel"
+		texturefile = "gfx//interface//missions//mission_steel.dds"
+	}
 }	

@@ -64,6 +64,10 @@ spriteTypes = {
 		texturefile = "gfx//event_pictures//event_ceremonial_elephant.dds"
 	}
 	spriteType = {
+		name = "event_war_elephant"
+		texturefile = "gfx//event_pictures//event_war_elephant.dds"
+	}
+	spriteType = {
 		name = "event_trade_goods"
 		texturefile = "gfx//event_pictures//event_trade_goods.dds"
 	}
@@ -91,5 +95,12 @@ spriteTypes = {
 		name = "event_laugh_01"
 		texturefile = "gfx//event_pictures//event_laugh_01.dds"
 	}
-	
+	spriteType = {
+		name = "event_temple_01"
+		texturefile = "gfx//event_pictures//event_temple_01.dds"
+	}
+	spriteType = {
+		name = "event_dance"
+		texturefile = "gfx//event_pictures//event_dance.dds"
+	}
 }	

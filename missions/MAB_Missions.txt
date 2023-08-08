@@ -77,7 +77,7 @@ MAB_missions_02 = {
 	}
 
 	MAB_attack_kochin = {
-		icon = mission_subdue_rajputana
+		icon = mission_spoils_of_war
 		position = 2
 		required_missions = { MAB_zamorin } 
 		provinces_to_highlight = {  } 
@@ -93,11 +93,15 @@ MAB_missions_02 = {
 		south_malabar_area = {
 				add_permanent_claim = ROOT 
 			}
+
+		country_event = {
+				id = IU_VND.4
+			}	
 			 } 
 	}
 
 	MAB_attack_venad = {
-		icon = mission_subdue_rajputana
+		icon = mission_venad_soldier
 		position = 3
 		required_missions = { MAB_attack_kochin } 
 		provinces_to_highlight = {  } 
@@ -110,7 +114,11 @@ MAB_missions_02 = {
 				
 			} } 
 
-		effect = {  } 
+		effect = { 
+		add_army_tradition = 10
+		country_event = {
+				id = indica_events.4
+			} } 
 	}
 
 	MAB_anti_europe_01 = {
@@ -154,9 +162,19 @@ MAB_missions_03 = {
 			MAB_zamorin
 			MAB_calicut_port
 		}
-		provinces_to_highlight = {  } 
+		provinces_to_highlight = { 
+		 } 
 
-		trigger = {  } 
+		trigger = { 
+		any_known_country = {
+				AND = {
+					technology_group = muslim
+					has_opinion = {
+						who = ROOT
+						value = 50
+					}
+				}
+			} } 
 
 		effect = { 
 		add_country_modifier = {
@@ -166,14 +184,17 @@ MAB_missions_03 = {
 	}
 
 	MAB_muslim_trade_2 = {
-		icon = mission_jawal_silver_mine
+		icon = mission_steel
 		position = 3
 		required_missions = { MAB_muslim_trade } 
 		provinces_to_highlight = { 
 
 		 } 
 
-		trigger = {  } 
+		trigger = { 
+		adm_tech = 8
+		dip_tech = 8
+		mil_tech = 8 } 
 
 		effect = { 
 		add_country_modifier = {
@@ -194,7 +215,7 @@ MAB_missions_03 = {
 	}
 
 	MAB_consolidate_malabar = {
-		icon = mission_indian_empire
+		icon = mission_consolidate_malabar
 		position = 7
 		provinces_to_highlight = {  } 
 
@@ -267,9 +288,23 @@ MAB_missions_04 = {
 					is_core = ROOT 
 				} } 
 
-		effect = {  } 
-	}
+		effect = { 
 
+
+			add_navy_tradition = 10
+		 534 = {
+    
+    ROOT = {
+        light_ship = PREV
+    }
+}
+534 = {
+    
+    ROOT = {
+        light_ship = PREV
+    }  } 
+	}
+}
 	MAB_pro_europe_01 = {
 		icon = mission_have_manufactories
 		position = 5
@@ -320,6 +355,13 @@ MAB_missions_05 = {
 
 		effect = { 
 		
+		add_country_modifier = {
+			name = black_gold
+			duration = 3650
+		}	
+		country_event = {
+				id = indica_events.5
+			}
 		 } 
 	}
 
@@ -330,18 +372,29 @@ MAB_missions_05 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			534 = { 
-			trade_share = {
-				country = MAB
-				share = 50
-						}
-			 }  } 
+			OR = {
+					num_of_estate_privileges = {
+						estate = estate_vaisyas 
+						value = 3
+					}
+					num_of_estate_privileges = {
+						estate = estate_jains
+						value = 3
+					}
+				}
+			  } 
 
 		effect = { 
-		add_country_modifier = {
-			name = trade_dominance
-			duration = 3650
-		} } 
+			define_advisor = {
+    		type = trader
+   			name = "Kulashekhara Raman"
+    		skill = 3
+    		
+    		religion = hindu
+    		cost_multiplier = 0.50
+			}
+			change_government_reform_progress = 50
+		 } 
 	}
 
 	MAB_invite_guilds = {
@@ -350,9 +403,17 @@ MAB_missions_05 = {
 		required_missions = { MAB_trading_dominance } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 534 = { 
+			trade_share = {
+				country = MAB
+				share = 50
+						}
+			 } } 
 
-		effect = {  } 
+		effect = { add_country_modifier = {
+			name = trade_dominance
+			duration = 7300
+		} } 
 	}
 
 	MAB_industrialisation = {

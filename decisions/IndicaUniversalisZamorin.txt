@@ -207,6 +207,9 @@ country_decisions = {
 			country_event = {
 				id = zamorininteraction.10
 			}
+			hidden_effect = {
+				set_country_flag = used_zamorin_influence
+			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -262,6 +265,9 @@ country_decisions = {
 		effect = {
 			country_event = {
 				id = zamorininteraction.11
+			}
+			hidden_effect = {
+				set_country_flag = used_zamorin_influence
 			}
 		}
 		ai_will_do = {
@@ -319,6 +325,9 @@ country_decisions = {
 			country_event = {
 				id = zamorininteraction.12
 			}
+			hidden_effect = {
+				set_country_flag = used_zamorin_influence
+			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -374,6 +383,9 @@ country_decisions = {
 		effect = {
 			country_event = {
 				id = zamorininteraction.13
+			}
+			hidden_effect = {
+				set_country_flag = used_zamorin_influence
 			}
 		}
 		ai_will_do = {

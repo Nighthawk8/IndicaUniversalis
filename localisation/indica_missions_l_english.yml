@@ -14,7 +14,7 @@
  MAB_influence_03_title:0 "Subjugate the Counts"
  MAB_influence_03_desc:0 ""
 
- MAB_muslim_alliance_title:0 "Middle Eastern Allainces"
+ MAB_muslim_alliance_title:0 "West Asian Alliances"
  MAB_muslim_alliance_desc:0 ""
 
  MAB_zamorin_title:0 "Sword of Cheraman"
@@ -32,7 +32,7 @@
  MAB_anti_europe_02_title:0 "Lions of the Arabian Sea"
  MAB_anti_europe_02_desc:0 ""
 
- MAB_muslim_trade_title:0 "Middle Eastern Trade"
+ MAB_muslim_trade_title:0 "West Asian Trade"
  MAB_muslim_trade_desc:0 ""
 
  MAB_muslim_trade_2_title:0 "Export Wootz Steel"
@@ -56,20 +56,35 @@
  MAB_pro_europe_01_title:0 "European Factories"
  MAB_pro_europe_01_desc:0 ""
 
- MAB_pro_europe_02_title:0 "European Forts"
+ MAB_pro_europe_02_title:0 "Chaliyam fort"
  MAB_pro_europe_02_desc:0 ""
 
  MAB_spice_title:0 "Spice Capital of Malabar"
  MAB_spice_desc:0 ""
 
- MAB_trading_dominance_title:0 "Masters of Commerce"
+ MAB_trading_dominance_title:0 "Mercantile Stronghold"
  MAB_trading_dominance_desc:0 ""
 
- MAB_invite_guilds_title:0 "Vijayanagar Trade Access"
+ MAB_invite_guilds_title:0 "Masters of Commerce"
  MAB_invite_guilds_desc:0 ""
 
  MAB_industrialisation_title:0 "European Technology"
  MAB_industrialisation_desc:0 ""
+
+ gain_a_free_influence_level:0 "By completing this mission you can gain a free influence level in any of the four provinces."
+
+ use_zamorin_influence:0 "To complete this mission you must have used your influence through decision, this requires you to have level 4 or 5 influence in one of the provinces"
+
+ do_zamorin_annex:0 "To complete this mission you must have used the Zamorin mechanic to annex a province, this requires the overlord of the province to be at war and in financial difficulty"
+
+ zamorin_influence_permanant:0 "The Zamorin's Influence"
+
+ indica_events.NAME6:0 "Gain an Influence Level!"
+ indica_events.DESC6:0 "Due to your astounding influence you can now gain an influence level for free!"
+ indica_events.6a:0 "Cannanore"
+ indica_events.6b:0 "Mysore"
+ indica_events.6c:0 "Kongu"
+ indica_events.6d:0 "Kochin"
 
 ##################################################################################
 ############################## KLT Missions ######################################
@@ -106,7 +121,7 @@
  KLT_zamorin_01_desc:0 "Our glorious leader has ensured that North Kerala has developed into a much more prosperous land while the South wallows as nothing more than vassals of foreign powers."
 
  KLT_sea_guilds_title:0 "Anjuavannam Sea Guild"
- KLT_sea_guilds_desc:0 ""
+ KLT_sea_guilds_desc:0 "The Anjuavannam guild, which was recently merged into the Ayyavole Five Hundred, specialises in sea trade with West Asian countries. Their expertise will help us become a major overseas trading power."
 
  KLT_buddhist_vihara_title:0 "Sri Mulavasam Vihara"
  KLT_buddhist_vihara_desc:0 ""
@@ -115,52 +130,49 @@
  KLT_jewish_pond_desc:0 ""
 
  KLT_krishnagantha_title:0 "Krishnagantha"
- KLT_krishnagantha_desc:0 ""
+ KLT_krishnagantha_desc:0 "A major poetic work comprising of forty seven stories of Lord Krishna from his birth to ascension. This is written in Malayalam language, at a time when literary works are usually written in Sanskrit or Tamil. A cultural milestone that shall echo through the ages."
 
  KLT_vijayanagar_grants_title:0 "Grants from Vijayanagar"
- KLT_vijayanagar_grants_desc:0 ""
+ KLT_vijayanagar_grants_desc:0 "Our efforts in upholding the Hindu faith and accomodating Vijayanagari requests will serve us well in benefiting from Vijayanagar's generosity."
 
  KLT_valapattanam_title:0 "Valapattanam"
- KLT_valapattanam_desc:0 ""
+ KLT_valapattanam_desc:0 "Some investments in expanding the great city of Valapattanam will help it flourish into a major center of commerce on the Malabar coast that will one day surpass Calicut and Kollam."
 
  KLT_ayyavole_500_title:0 "Ayyavole Five Hundred"
- KLT_ayyavole_500_desc:0 ""
+ KLT_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large South Indian trading guild with trade links to many foreign lands. Inviting them to move their headquarters to our nation would help us greatly."
 
  KLT_mercenary_guild_title:0 "Mercenary Guild"
- KLT_mercenary_guild_desc:0 ""
+ KLT_mercenary_guild_desc:0 "With many independent merchant guilds operating, a large mercenary guild has also cropped up to provide protection to these wealthy traders and their precious goods. This should benefit us as well should we need to rely on their manpower during times of war."
 
  KLT_consolidate_malabar_title:0 "Consolidate Malabar"
- KLT_consolidate_malabar_desc:0 ""
+ KLT_consolidate_malabar_desc:0 "The world around is undergoing a turbulent period with many challenges. We must incorporate all Malayalam speaking lands under our realm as we alone can guide them into a prosperous future during these troubled times."
 
  KLT_pirate_01_title:0 "Empower Pirate Chiefs"
- KLT_pirate_01_desc:0 ""
+ KLT_pirate_01_desc:0 "Pirates? We would rather describe them as armed sea-faring entepreneurs. If anything, they seem less cut throat than the merchants from Calicut. There is no harm in allowing them a long leash so that they may ply their trade."
 
  KLT_zamorin_02_title:0 "Capture Zamorin Ships"
- KLT_zamorin_02_desc:0 ""
-
- KLT_crush_zamorin_02_title:0 "Crush the Zamorin"
- KLT_crush_zamorin_02_desc:0 ""
+ KLT_zamorin_02_desc:0 "What are these fine ships doing in these dark waters, if not looking for trouble?"
 
  KLT_land_guilds_title:0 "Manigramam Inland Guild"
- KLT_land_guilds_desc:0 ""
+ KLT_land_guilds_desc:0 "The Manigramam guild, which was recently merged into the Ayyavole Five Hundred, specialises in in-land trade with merchants in the Deccan. Their expertise will help us become a major trading power within the peninsula."
 
- KLT_middle_east_trade_title:0 "Middle Eastern Trade"
+ KLT_middle_east_trade_title:0 "West Asian Trade"
  KLT_middle_east_trade_desc:0 ""
 
  KLT_deccan_sultan_title:0 "Ally Deccan Sultanates"
  KLT_deccan_sultan_desc:0 ""
 
  KLT_northern_council_title:0 "Northern Council of Five"
- KLT_northern_council_desc:0 ""
+ KLT_northern_council_desc:0 "The five chieftains of Nilesvaram, Kumbla, Vitalh, Bangor, and Chowtwara have come together to counter the influence of the Kolathiris. Together, they can guide this blessed land to a great future where the views and interests of everyone are taken into account - not just the whims of one tyrant."
 
  KLT_pirate_02_title:0 "Exotic Animal Trade"
  KLT_pirate_02_desc:0 "Our skilled hunters regularly capture exotic animals in their traps. We can leverage our recently acquired trade contacts to sell these animals to distant countries where they would fetch a great price."
 
  KLT_pirate_hub_title:0 "Pirate Hub"
- KLT_pirate_hub_desc:0 ""
+ KLT_pirate_hub_desc:0 "Our sea-faring entepreneurs have found our business-friendly policies to be of great advantage. We now have a reputation that invites similar entepreneurs to set up base here for unencumbered operations."
 
  KLT_terror_of_sea_title:0 "Terror of the Arabian Sea"
- KLT_terror_of_sea_desc:0 ""
+ KLT_terror_of_sea_desc:0 "Even the heavens tremble when our great naval fleet is on the move. There is no one in the Arabian sea that dares stand in our way."
 
  KLT_rise_of_islam_title:0 "Rise of Islam"
  KLT_rise_of_islam_desc:0 ""
@@ -173,6 +185,47 @@
 
  KLT_arakkal_title:0 "Arakkal Kingdom"
  KLT_arakkal_desc:0 ""
+
+ kltevents.NAME1:0 "What religion should we embrace"
+ kltevents.DESC1:0 "The people of Kolathunad long for change, with recent influence from arabian voyages, many believe that a muslim religion would be better for the future of our nation. We must however choose a sect, do we go with Sunni or Shia"
+ kltevents.1a:0 "Embrace Sunni"
+ kltevents.1b:0 "Embrace Shia"
+
+ kltevents.NAME2:0 "The legend of Tajudeen"
+ kltevents.DESC2:0 "Many moons ago the King of these lands embarked on a pilgrimage to Mecca. During his visit to the Kaaba, the King had the opportunity to meet the prophet Muhammad and gifted him ginger pickles. He conversed with Muhammad in Arabic, and it was during this encounter that Bilal, a companion of Muhammad, guided the king to convert to Islam. As a result, Muhammad bestowed upon him the name Tajuddin, Thajuddin, or Thiya-aj-Addan, which means "crown of faith" thus, becoming the first Indian Muslim. /n/n This tale has been well known to some within the kingdom, how should we use it?"
+ kltevents.2a:0 "Tell it to the people"
+ kltevents.2b:0 "Keep the legend in Court"
+
+ decision_klt_revive_malik_dinar:0 "Revive Malik Dinar"
+ decision_klt_upgrade_malik_dinar:0 "Upgrade Malik Dinar"
+ malik_dinar_mosque:0 "Malik Dinar Mosque"
+ upgraded_malik_dinar_mosque:0 "Upgraded Malik Dinar Mosque"
+ unlocked_malik_dinar_mosque:0 "Unlocked Malik Dinar Mosque"
+ unlocked_religious_school_malik:0 "This mission unlocks and adds the unique religious school Legacy of Malik Dinar"
+ legacy_of_malik_dinar_school:0 "Legacy of Malik Dinar"
+ arabian_trade:0 "Arabian Trade"
+ diplomatic_prowess:0 "Diplomatic Prowess"
+
+ RKK:0 "Arakkal"
+ RKK_ADJ:0 "Arakkal"
+
+ valiya_muttapan_IU:0 "Valiya Muttapan"
+ cheriya_muttapan_IU:0 "Cheriya Muttapan"
+ bhadrakali_IU:0 "Bhadrakali"
+
+ remember_mushika_heritage:0 "Remeber Mushika Heritage"
+ unlocked_temple_development:0 "By completing these decisons you have unlocked development decisions to build and revitalise various temples within the province"
+ devi_temples:0 "Devi Temples"
+ muthappan_temple:0 "Muthappan Temple"
+ decision_klt_develop_devi_temples:0 "Develop Devi Temples"
+ decision_klt_reviltalise_muthappan_temples:0 "Reviltalise Muthappan Temples"
+ devi_unlocked:0 "Unlocks unique deity replacement for Shakti"
+ muthappan_unlocked:0 "Unlocks unique deity replacement for Vishnu and Shiva"
+ IU_estate_brahmins_give_lands_to_buddhists:0 "Give Lands to Buddhists"
+ IU_estate_brahmins_protect_the_jewish_settlements:0 "Protect the Jewish Settlements"
+
+ protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privlege for Brahmins"
+ CHIRAKKAL_KINGDOM:0 "Chirakkal Kingdom"
 
 ##################################################################################
 ############################## KOC Missions ######################################

@@ -204,6 +204,7 @@ shipbuilding_expertise = {
 	global_ship_recruit_speed = -0.2
 	global_ship_repair = 0.2
 	global_ship_cost = -0.1
+	ship_durability = 0.1
 }
 
 legacy_of_malik_dinar_modifier = {
@@ -229,4 +230,121 @@ the_legend_of_tajuddeen = {
 	tolerance_own = 2
 	global_prosperity_growth = 0.1
 	build_cost = -0.05
+}
+
+arabian_trade = {
+	placed_merchant_power_modifier = 0.25
+	global_trade_goods_size_modifier = 0.1
+	trade_efficiency = 0.1
+}
+
+diplomatic_prowess = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+}
+
+remember_mushika_heritage = {
+	tolerance_heathen = 2
+	tolerance_own = 2
+}
+
+devi_temples = {
+	local_unrest = -1
+	local_manpower_modifier = 0.15
+	local_governing_cost = -0.25
+}
+
+muthappan_temple = {
+	local_unrest = -1
+	garrison_growth = 0.25
+	local_defensiveness = 0.2
+}
+
+
+##################################################################################################
+# Indica Universalis modifiers - Calicut
+##################################################################################################
+
+majestic_war_elephant = {
+	
+	land_morale = 0.05
+	morale_damage = 0.05
+	
+}
+
+black_gold = {
+	
+	improve_relation_modifier = 0.2
+	envoy_travel_time = -0.2
+	diplomatic_reputation = 1
+	
+}
+
+pol_secrets_obtained = {
+	
+	adm_tech_cost_modifier = -0.05
+	adm_advisor_cost = -0.05
+	
+}
+
+trade_secrets_obtained = {
+	
+	dip_tech_cost_modifier = -0.05
+	dip_advisor_cost = -0.05
+	
+}
+
+mil_secrets_obtained = {
+	
+	mil_tech_cost_modifier = -0.05
+	mil_advisor_cost = -0.05
+	
+}
+
+
+trade_dominance = {
+	
+	trade_steering = 0.2
+	global_ship_trade_power = 0.2
+	placed_merchant_power_modifier = 0.2
+	
+}
+
+trade_dominance = {
+	
+	trade_steering = 0.2
+	global_ship_trade_power = 0.2
+	placed_merchant_power_modifier = 0.2
+	
+}
+
+calicut_unbreachable = {
+	
+	local_defensiveness = 2.0
+	local_own_coast_naval_combat_bonus = 2
+	hostile_fleet_attrition = 5
+	hostile_disembark_speed = 2.0
+	blockade_force_required = 2.0
+	
+}
+
+
+lions_of_the_sea = {
+	
+	
+	naval_tradition_from_battle = 0.2
+	naval_forcelimit_modifier = 0.2
+	prestige_from_naval = 0.2
+	naval_morale = 0.2
+	
+}
+
+
+western_fort = {
+	
+	fort_level = 6
+	local_garrison_size = 2.00
+	local_assault_fort_cost_modifier = 2.0
+	local_defender_dice_roll_bonus = 2
+	
 }

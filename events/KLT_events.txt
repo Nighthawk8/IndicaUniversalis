@@ -20,7 +20,7 @@ country_event = {
 	}
 
 	option = {	#embrace shia
-		name = "kltevents.1a"
+		name = "kltevents.1b"
 		ai_chance = { factor = 50 }
 		capital_scope = {
 			change_religion = shiite
@@ -64,7 +64,7 @@ country_event = {
 	}
 
 	option = {	# keep the legend in court
-		name = "kltevents.2a"
+		name = "kltevents.2b"
 		ai_chance = { factor = 50 }
 		if = {
 			limit = {

@@ -27,9 +27,136 @@ vishnu = {
 	defensiveness = 0.2
 	global_missionary_strength = 0.02
 	
-	potential = { religion = hinduism  NOT = { has_country_flag = IU_vishnu_flag } }
+	potential = { religion = hinduism 
+	 NOT = { 
+		OR = {
+		has_country_flag = IU_vishnu_flag 
+		has_country_flag = IU_muthappan_flag
+		}
+		} 
+	}
 	trigger = {}
 	sprite = 6
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}
+
+shiva = {
+	# (Diplomatic - War)
+	ae_impact = -0.05
+	core_creation = -0.10
+	
+	potential = { religion = hinduism NOT = { has_country_flag = IU_muthappan_flag } }
+	trigger = {}
+	sprite = 1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}		
+	}
+}
+
+shakti = { 
+	#(Military - Offensive) 
+	siege_ability = 0.05
+	discipline = 0.05
+	
+	potential = { religion = hinduism NOT = { has_country_flag = IU_bhadrakali_flag } }
+	trigger = {}
+	sprite = 5
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}		
+	}	
+}
+
+valiya_muttapan_IU = {
+	# vishnu replacement
+	defensiveness = 0.2
+	shock_damage_received = -0.15
+	
+	potential = { religion = hinduism  has_country_flag = IU_muthappan_flag}
+	trigger = {}
+	sprite = 6
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}
+
+cheriya_muttapan_IU = {
+	# shiva replacement
+	ae_impact = -0.10
+	administrative_efficiency = 0.05
+	
+	potential = { religion = hinduism  has_country_flag = IU_muthappan_flag}
+	trigger = {}
+	sprite = 1
+	
+	effect = {}
+	removed_effect = {}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_balanced
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_capitalist
+		}		
+	}	
+}
+
+bhadrakali_IU = {
+	# shakti replacement
+	discipline = 0.05
+	artillery_power = 0.1
+	
+	potential = { religion = hinduism  has_country_flag = IU_bhadrakali_flag}
+	trigger = {}
+	sprite = 5
 	
 	effect = {}
 	removed_effect = {}

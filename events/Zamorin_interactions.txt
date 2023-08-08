@@ -1854,9 +1854,6 @@ country_event = {
 		4413 = {
 			owner = {
 				NOT = {
-					num_of_cities = 1
-				}
-				NOT = {
 					tag = MAB
 				}
 				OR = {
@@ -1941,6 +1938,9 @@ country_event = {
 		4413 = {
 			cede_province = MAB
 			add_core = MAB
+		}
+		hidden_effect = {
+			set_country_flag = used_zamorin_annex
 		}
 	}
 
@@ -2050,9 +2050,6 @@ country_event = {
 		533 = {
 			owner = {
 				NOT = {
-					num_of_cities = 1
-				}
-				NOT = {
 					tag = MAB
 				}
 				OR = {
@@ -2137,6 +2134,9 @@ country_event = {
 		533 = {
 			cede_province = MAB
 			add_core = MAB
+		}
+		hidden_effect = {
+			set_country_flag = used_zamorin_annex
 		}
 	}
 
@@ -2246,9 +2246,6 @@ country_event = {
 		538 = {
 			owner = {
 				NOT = {
-					num_of_cities = 1
-				}
-				NOT = {
 					tag = MAB
 				}
 				OR = {
@@ -2333,6 +2330,9 @@ country_event = {
 		538 = {
 			cede_province = MAB
 			add_core = MAB
+		}
+		hidden_effect = {
+			set_country_flag = used_zamorin_annex
 		}
 	}
 
@@ -2442,9 +2442,6 @@ country_event = {
 		533 = {
 			owner = {
 				NOT = {
-					num_of_cities = 1
-				}
-				NOT = {
 					tag = MAB
 				}
 				OR = {
@@ -2529,6 +2526,9 @@ country_event = {
 		533 = {
 			cede_province = MAB
 			add_core = MAB
+		}
+		hidden_effect = {
+			set_country_flag = used_zamorin_annex
 		}
 	}
 

@@ -165,9 +165,16 @@ MAB_missions_02 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			manpower_percentage = 0.6
+			forcelimit_percentage = 1
+		} 
 
-		effect = {  } 
+		effect = { 
+			country_event = {
+				id = zamorininteraction.100
+			}
+		} 
 	}
 
 	MAB_attack_kochin = {

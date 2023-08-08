@@ -204,6 +204,7 @@ shipbuilding_expertise = {
 	global_ship_recruit_speed = -0.2
 	global_ship_repair = 0.2
 	global_ship_cost = -0.1
+	ship_durability = 0.1
 }
 
 legacy_of_malik_dinar_modifier = {
@@ -278,5 +279,44 @@ trade_dominance = {
 	trade_steering = 0.2
 	global_ship_trade_power = 0.2
 	placed_merchant_power_modifier = 0.2
+	
+}
+
+trade_dominance = {
+	
+	trade_steering = 0.2
+	global_ship_trade_power = 0.2
+	placed_merchant_power_modifier = 0.2
+	
+}
+
+calicut_unbreachable = {
+	
+	local_defensiveness = 2.0
+	local_own_coast_naval_combat_bonus = 2
+	hostile_fleet_attrition = 5
+	hostile_disembark_speed = 2.0
+	blockade_force_required = 2.0
+	
+}
+
+
+lions_of_the_sea = {
+	
+	
+	naval_tradition_from_battle = 0.2
+	naval_forcelimit_modifier = 0.2
+	prestige_from_naval = 0.2
+	naval_morale = 0.2
+	
+}
+
+
+western_fort = {
+	
+	fort_level = 6
+	local_garrison_size = 2.00
+	local_assault_fort_cost_modifier = 2.0
+	local_defender_dice_roll_bonus = 2
 	
 }

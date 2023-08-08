@@ -106,7 +106,7 @@
  KLT_zamorin_01_desc:0 "Our glorious leader has ensured that North Kerala has developed into a much more prosperous land while the South wallows as nothing more than vassals of foreign powers."
 
  KLT_sea_guilds_title:0 "Anjuavannam Sea Guild"
- KLT_sea_guilds_desc:0 ""
+ KLT_sea_guilds_desc:0 "The Anjuavannam guild, which was recently merged into the Ayyavole Five Hundred, specialises in sea trade with West Asian countries. Their expertise will help us become a major overseas trading power."
 
  KLT_buddhist_vihara_title:0 "Sri Mulavasam Vihara"
  KLT_buddhist_vihara_desc:0 ""
@@ -115,34 +115,31 @@
  KLT_jewish_pond_desc:0 ""
 
  KLT_krishnagantha_title:0 "Krishnagantha"
- KLT_krishnagantha_desc:0 ""
+ KLT_krishnagantha_desc:0 "A major poetic work comprising of forty seven stories of Lord Krishna from his birth to ascension. This is written in Malayalam language, at a time when literary works are usually written in Sanskrit or Tamil. A cultural milestone that shall echo through the ages."
 
  KLT_vijayanagar_grants_title:0 "Grants from Vijayanagar"
- KLT_vijayanagar_grants_desc:0 ""
+ KLT_vijayanagar_grants_desc:0 "Our efforts in upholding the Hindu faith and accomodating Vijayanagari requests will serve us well in benefiting from Vijayanagar's generosity."
 
  KLT_valapattanam_title:0 "Valapattanam"
- KLT_valapattanam_desc:0 ""
+ KLT_valapattanam_desc:0 "Some investments in expanding the great city of Valapattanam will help it flourish into a major center of commerce on the Malabar coast that will one day surpass Calicut and Kollam."
 
- KLT_ayyavole_500_title:0 "Ayyavole Five Hundred"
- KLT_ayyavole_500_desc:0 ""
+ KLT_ayyavole_500_title:0 "Five Hundred Lords of Ayyavole"
+ KLT_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large South Indian trading guild with trade links to many foreign lands. Inviting them to move their headquarters to our nation would help us greatly."
 
  KLT_mercenary_guild_title:0 "Mercenary Guild"
- KLT_mercenary_guild_desc:0 ""
+ KLT_mercenary_guild_desc:0 "With many independent merchant guilds operating, a large mercenary guild has also cropped up to provide protection to these wealthy traders and their precious goods. This should benefit us as well should we need to rely on their manpower during times of war."
 
  KLT_consolidate_malabar_title:0 "Consolidate Malabar"
- KLT_consolidate_malabar_desc:0 ""
+ KLT_consolidate_malabar_desc:0 "The world around is undergoing a turbulent period with many challenges. We must incorporate all Malayalam speaking lands under our realm as we alone can guide them into a prosperous future during these troubled times."
 
  KLT_pirate_01_title:0 "Empower Pirate Chiefs"
- KLT_pirate_01_desc:0 ""
+ KLT_pirate_01_desc:0 "Pirates? We would rather describe them as armed sea-faring entepreneurs. If anything, they seem less cut throat than the merchants from Calicut. There is no harm in allowing them a long leash so that they may ply their trade."
 
  KLT_zamorin_02_title:0 "Capture Zamorin Ships"
- KLT_zamorin_02_desc:0 ""
-
- KLT_crush_zamorin_02_title:0 "Crush the Zamorin"
- KLT_crush_zamorin_02_desc:0 ""
+ KLT_zamorin_02_desc:0 "What are these fine ships doing in these dark waters, if not looking for trouble?"
 
  KLT_land_guilds_title:0 "Manigramam Inland Guild"
- KLT_land_guilds_desc:0 ""
+ KLT_land_guilds_desc:0 "The Manigramam guild, which was recently merged into the Ayyavole Five Hundred, specialises in in-land trade with merchants in the Deccan. Their expertise will help us become a major trading power within the peninsula."
 
  KLT_middle_east_trade_title:0 "Middle Eastern Trade"
  KLT_middle_east_trade_desc:0 ""
@@ -151,16 +148,16 @@
  KLT_deccan_sultan_desc:0 ""
 
  KLT_northern_council_title:0 "Northern Council of Five"
- KLT_northern_council_desc:0 ""
+ KLT_northern_council_desc:0 "The five chieftains of Nilesvaram, Kumbla, Vitalh, Bangor, and Chowtwara have come together to counter the influence of the Kolathiris. Together, they can guide this blessed land to a great future where the views and interests of everyone are taken into account - not just the whims of one tyrant."
 
  KLT_pirate_02_title:0 "Exotic Animal Trade"
  KLT_pirate_02_desc:0 "Our skilled hunters regularly capture exotic animals in their traps. We can leverage our recently acquired trade contacts to sell these animals to distant countries where they would fetch a great price."
 
  KLT_pirate_hub_title:0 "Pirate Hub"
- KLT_pirate_hub_desc:0 ""
+ KLT_pirate_hub_desc:0 "Our sea-faring entepreneurs have found our business-friendly policies to be of great advantage. We now have a reputation that invites similar entepreneurs to set up base here for unencumbered operations."
 
  KLT_terror_of_sea_title:0 "Terror of the Arabian Sea"
- KLT_terror_of_sea_desc:0 ""
+ KLT_terror_of_sea_desc:0 "Even the heavens tremble when our great naval fleet is on the move. There is no one in the Arabian sea that dares stand in our way."
 
  KLT_rise_of_islam_title:0 "Rise of Islam"
  KLT_rise_of_islam_desc:0 ""

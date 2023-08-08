@@ -14,7 +14,7 @@
  MAB_influence_03_title:0 "Subjugate the Counts"
  MAB_influence_03_desc:0 ""
 
- MAB_muslim_alliance_title:0 "Middle Eastern Allainces"
+ MAB_muslim_alliance_title:0 "West Asian Alliances"
  MAB_muslim_alliance_desc:0 ""
 
  MAB_zamorin_title:0 "Sword of Cheraman"
@@ -32,7 +32,7 @@
  MAB_anti_europe_02_title:0 "Lions of the Arabian Sea"
  MAB_anti_europe_02_desc:0 ""
 
- MAB_muslim_trade_title:0 "Middle Eastern Trade"
+ MAB_muslim_trade_title:0 "West Asian Trade"
  MAB_muslim_trade_desc:0 ""
 
  MAB_muslim_trade_2_title:0 "Export Wootz Steel"
@@ -62,10 +62,10 @@
  MAB_spice_title:0 "Spice Capital of Malabar"
  MAB_spice_desc:0 ""
 
- MAB_trading_dominance_title:0 "Masters of Commerce"
+ MAB_trading_dominance_title:0 "Mercantile Stronghold"
  MAB_trading_dominance_desc:0 ""
 
- MAB_invite_guilds_title:0 "Vijayanagar Trade Access"
+ MAB_invite_guilds_title:0 "Masters of Commerce"
  MAB_invite_guilds_desc:0 ""
 
  MAB_industrialisation_title:0 "European Technology"
@@ -123,7 +123,7 @@
  KLT_valapattanam_title:0 "Valapattanam"
  KLT_valapattanam_desc:0 "Some investments in expanding the great city of Valapattanam will help it flourish into a major center of commerce on the Malabar coast that will one day surpass Calicut and Kollam."
 
- KLT_ayyavole_500_title:0 "Five Hundred Lords of Ayyavole"
+ KLT_ayyavole_500_title:0 "Ayyavole Five Hundred"
  KLT_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large South Indian trading guild with trade links to many foreign lands. Inviting them to move their headquarters to our nation would help us greatly."
 
  KLT_mercenary_guild_title:0 "Mercenary Guild"
@@ -141,7 +141,7 @@
  KLT_land_guilds_title:0 "Manigramam Inland Guild"
  KLT_land_guilds_desc:0 "The Manigramam guild, which was recently merged into the Ayyavole Five Hundred, specialises in in-land trade with merchants in the Deccan. Their expertise will help us become a major trading power within the peninsula."
 
- KLT_middle_east_trade_title:0 "Middle Eastern Trade"
+ KLT_middle_east_trade_title:0 "West Asian Trade"
  KLT_middle_east_trade_desc:0 ""
 
  KLT_deccan_sultan_title:0 "Ally Deccan Sultanates"

@@ -34,6 +34,7 @@ expert_cavalry:0 "Experienced Stablemaster"
 construction_boost:0 "Construction Expertise"
 
 
+
 VIJ_no_concessions:0 "Vijayanagar Satisfied"
 VIJ_no_demands_tt:0 "Vijayanagar shall be pleased and will not make any demands for the next one year."
 
@@ -47,8 +48,16 @@ VIJ_no_demands_tt:0 "Vijayanagar shall be pleased and will not make any demands 
  central_rule:0 "Centralized Rule"
  kolathiri_legendary:0 "All Hail our Great Leader"
  global_trade_networks:0 "Global Trade Networks"
- middle_east_trade:0 "Middle Eastern Trade Network"
+
+ shipbuilding_expertise:0 "Shipbuilding Expertise"
+ trade_dominance:0 "Masters of Commerce"
+ black_gold:0 "Black Gold"
+ middle_east_trade:0 "West Asian Trade Network"
  wootz_steel_export:0 "Wootz Steel Exports"
+ majestic_war_elephant:0 "Ceremonial Vanguard"
+ pol_secrets_obtained:0 "Political Secrets Obtained"
+ trade_secrets_obtained:0 "Trade Secrets Obtained"
+ mil_secrets_obtained:0 "Military Secrets Obtained"
 
  IU_kolathunad_decentralised_realm:0 "Kolathunad Decentralised Realm"
  IU_kolathunad_decentralised_realm_desc:0 ""
@@ -96,6 +105,21 @@ indica_events.3b:0 "Can our botanists find medical uses for this herb?"
 indica_events.3c:0 "Bring some to my chamber. I shall investigate this personally."
 indica_events.3d:0 "Such earthly pleasures are for the weak minded. Stop this at once!"
 
+
+indica_events.NAME4:0 "Ceremonial Elephant Captured"
+indica_events.DESC4:0 "Even as we celebrate our triumph over Venad, we have some more good news. Our soldiers have captured a majestic ceremonial elephant from the Padmanabhaswamy Temple - it is the biggest we have seen. Perhaps, the biggest elephant ever. Possessing such a rare creature is surely a matter of great prestige."
+indica_events.4a:0 "Vijayanagar would be happy to have this elephant. For the right price."
+indica_events.4b:0 "Keep the elephant at our royal court. Let our foreign visitors be amazed."
+indica_events.4c:0 "Keep the elephant at our training grounds. Let our soldiers be inspired."
+indica_events.4d:0 "A new vanguard for our troops. Let our enemies tremble in fear."
+
+
+indica_events.NAME5:0 "Spice Girls"
+indica_events.DESC5:0 "A dance arena that has come up next to our spice markets is a major attraction for foreign traders, diplomats, and other officials. Little do they know that the dancers are all highly trained spies working for us. We can get them to manipulate the patrons to disclose sensitive information, which we can then use to our advantage."
+indica_events.5a:0 "Target diplomats to obtain political secrets."
+indica_events.5b:0 "Target merchants to obtain trade secrets."
+indica_events.5b:0 "Target officers to obtain military secrets."
+
 ##################################################################################
 ############################## Indica Privileges #################################
 ##################################################################################
@@ -107,7 +131,7 @@ IU_estate_jains_allow_jews_in_buisness:0 "Allow Jews in Buisness"
 IU_estate_jains_allow_jews_in_buisness_desc:0 "The Jewish community has florished in Kochin in recent years due to them fleeing other regions. The best course of action for our economy is to accept them into the community and allow them to start buisness without limitations"
 
 KLT_allow_ayyavole_500:0 "Invite the Ayyavole Five Hundred"
-KLT_allow_ayyavole_500_desc:0 ""
+KLT_allow_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large South Indian trading guild with trade links to many foreign lands. Inviting them to move their headquarters to our nation would help us greatly."
 ##################################################################################
 
  IU_CANNOT_VASSALISE_VIJ_MAL:0 "The Lords of the Malabar coast are fiercely independant and difficult to influence even with our great power. Therefore there is no opportunity to vassalise them."

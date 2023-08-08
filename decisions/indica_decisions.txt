@@ -51,3 +51,84 @@ decision_kochin_restore_old_capital = {
 	}
 
 }
+
+decision_klt_revive_malik_dinar = {
+				
+	potential = {
+		tag = KLT
+		has_country_flag = unlocked_malik_dinar_mosque
+	}
+	
+	allow = {
+		capital_scope = {
+			religion_group = muslim
+		}
+		is_at_war = no
+		religious_unity = 0.5
+		treasury = 200
+	}
+	
+	
+	
+	effect = {
+		4413 = {
+			add_province_modifier = { 
+				name = malik_dinar_mosque
+				duration = -1  
+			}
+			if = {
+				limit = {
+				NOT = {
+					has_building = temple
+				}
+				}
+				add_building = temple
+			}
+		}
+		treasury = -200
+	}
+}
+
+
+decision_klt_upgrade_malik_dinar = {
+				
+	potential = {
+		tag = KLT
+		has_country_flag = unlocked_malik_dinar_mosque
+		4413 = {
+			has_country_modifier = malik_dinar_mosque
+		}
+		adm_tech = 12
+	}
+	
+	allow = {
+		capital_scope = {
+			religion_group = muslim
+		}
+		is_at_war = no
+		religious_unity = 0.9
+		treasury = 250
+		adm_tech = 12
+	}
+	
+	
+	
+	effect = {
+		4413 = {
+			remove_province_modifier = malik_dinar_mosque
+			add_province_modifier = { 
+				name = upgraded_malik_dinar_mosque
+				duration = -1  
+			}
+			if = {
+				limit = {
+				NOT = {
+					has_building = cathedral
+				}
+				}
+				add_building = cathedral
+			}
+		}
+		treasury = -250
+	}
+}

@@ -24,4 +24,9 @@ spriteTypes = {
 		name = "mission_chera"
 		texturefile = "gfx//interface//missions//mission_chera.dds"
 	}
+
+	spriteType = {
+		name = "GFX_icon_muslim_school_legacy_of_malik_dinar"
+		texturefile = "gfx/interface/icon_muslim_school_malik_dinar.dds"
+	}
 }

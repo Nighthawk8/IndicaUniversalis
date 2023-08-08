@@ -205,3 +205,28 @@ shipbuilding_expertise = {
 	global_ship_repair = 0.2
 	global_ship_cost = -0.1
 }
+
+legacy_of_malik_dinar_modifier = {
+	land_morale = 0.05
+}
+
+malik_dinar_mosque = {
+	religious_unity = 0.1
+	local_tax_modifier = 0.15
+	local_unrest = -1
+	local_governing_cost = -0.15
+}
+
+upgraded_malik_dinar_mosque = {
+	religious_unity = 0.15
+	local_tax_modifier = 0.25
+	local_unrest = -2
+	local_governing_cost = -0.25
+}
+
+the_legend_of_tajuddeen = {
+	global_missionary_strength = 0.02
+	tolerance_own = 2
+	global_prosperity_growth = 0.1
+	build_cost = -0.05
+}

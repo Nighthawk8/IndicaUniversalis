@@ -121,7 +121,13 @@ country_event = {
 	option = {	# commission
 		name = "vijinteraction.2a"
 		ai_chance = { factor = 25 }
-		add_treasury = -50
+		add_years_of_income = -1.5
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter2
+				duration = 1460
+			}
+		}
 	}
 
 	option = {	# seize
@@ -131,6 +137,12 @@ country_event = {
 			add_province_modifier = {
 				name = craftsmen_wares_seized
 				duration = 1825
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter2
+				duration = 1460
 			}
 		}
 	}
@@ -160,6 +172,12 @@ country_event = {
 		name = "vijinteraction.3a"
 		ai_chance = { factor = 25 }
 		add_manpower = -5
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter3
+				duration = 1460
+			}
+		}
 	}
 
 	option = {	# draft peasantry
@@ -168,6 +186,12 @@ country_event = {
 		add_country_modifier = {
 			name = draft_the_peasants
 			duration = 3650
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter3
+				duration = 1460
+			}
 		}
 	}
 }
@@ -196,6 +220,12 @@ country_event = {
 			name = left_traders_alone
 			duration = 3650
 		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter4
+				duration = 1460
+			}
+		}
 	}
 
 	option = {	# draft peasantry
@@ -205,6 +235,286 @@ country_event = {
 			name = subsidise_our_traders
 			duration = 730
 		}
-		add_treasury = -100
+		add_years_of_income = -2.5
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter4
+				duration = 1460
+			}
+		}
 	}
+}
+
+country_event = {
+	id = vijinteraction.5
+	title = "vijinteraction.NAME5"
+	desc = "vijinteraction.DESC5"
+	picture = event_port_01
+	
+	trigger = {
+		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# allow access
+		name = "vijinteraction.5a"
+		ai_chance = { factor = 25 }
+		add_dip_power = -40
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter4
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# offer to clear rebels
+		name = "vijinteraction.5b"
+		ai_chance = { factor = 75 }
+		add_mil_power = -80
+		random = {
+			chance = 50
+			add_army_tradition = 15
+		}
+		random = {
+			chance = 50
+			add_army_professionalism = 0.1
+		}
+		random = {
+			chance = 25
+			create_general = { tradition = 50 }
+		}
+		random = {
+			chance = 10
+			create_general = { tradition = 100 }
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter5
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vijinteraction.6
+	title = "vijinteraction.NAME6"
+	desc = "vijinteraction.DESC6"
+	picture = event_port_01
+	
+	trigger = {
+		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
+		NOT = {
+			trade_embargoing = BAH
+		}
+		BAH = {
+			exists = yes
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# valid
+		name = "vijinteraction.6a"
+		ai_chance = { factor = 25 }
+		BAH = {
+		add_opinion = {
+			who = ROOT
+			modifier = enemy 
+		}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					alliance_with = BAH
+				}
+			}
+			break_alliance = BAH
+		}
+		if = {
+			limit = {
+				ROOT = {
+					marriage_with = BAH
+				}
+			}
+			break_marriage = BAH
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter6
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# reason
+		name = "vijinteraction.6b"
+		ai_chance = { factor = 75 }
+		add_dip_power = -50
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter6
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vijinteraction.7
+	title = "vijinteraction.NAME7"
+	desc = "vijinteraction.DESC7"
+	picture = event_port_01
+	
+	trigger = {
+		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# agree
+		name = "vijinteraction.7a"
+		ai_chance = { factor = 25 }
+		capital_scope = {
+			spawn_rebels = {
+				type = particularist_rebels
+				size = 1
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter7
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# compensate
+		name = "vijinteraction.7b"
+		ai_chance = { factor = 75 }
+		add_years_of_income = -2
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter7
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vijinteraction.8
+	title = "vijinteraction.NAME8"
+	desc = "vijinteraction.DESC8"
+	picture = event_port_01
+	
+	trigger = {
+		has_country_modifier = has_truce_with_vij
+		NOT = {
+			has_country_modifier = VIJ_no_concessions
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	option = {	# spare
+		name = "vijinteraction.8a"
+		ai_chance = { factor = 25 }
+		add_estate_loyalty = {
+			estate = estate_brahmins
+			loyalty = -15
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter8
+				duration = 1460
+			}
+		}
+	}
+
+	option = {	# best
+		name = "vijinteraction.8b"
+		ai_chance = { factor = 75 }
+		add_estate_loyalty = {
+			estate = estate_brahmins
+			loyalty = -25
+		}
+		random_list = {
+			75 = {
+				country_event = {
+					id = vijinteraction.81
+				}
+			}
+			25 = {
+				country_event = {
+					id = vijinteraction.82
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = has_vij_inter8
+				duration = 1460
+			}
+		}
+	}
+}
+
+country_event = {
+	id = vijinteraction.81
+	title = "vijinteraction.NAME81"
+	desc = "vijinteraction.DESC81"
+	picture = event_port_01
+	
+	is_triggered_only = yes
+
+	option = {	# spare
+		name = "vijinteraction.81a"
+		add_estate_loyalty = {
+			estate = estate_brahmins
+			loyalty = 30
+		}
+		add_country_modifier = {
+			name = elephant_diplo_success
+			duration = 1825
+		}
+	}
+
+}
+
+country_event = {
+	id = vijinteraction.82
+	title = "vijinteraction.NAME82"
+	desc = "vijinteraction.DESC82"
+	picture = event_port_01
+	
+	is_triggered_only = yes
+
+	option = {	# spare
+		name = "vijinteraction.82a"
+		add_country_modifier = {
+			name = elephant_dies
+			duration = 1825
+		}
+	}
+
 }

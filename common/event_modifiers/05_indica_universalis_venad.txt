@@ -69,7 +69,7 @@ IU_VND_sinhalese_elephants = {
 }
 
 IU_VND_rule_from_the_holy_city = {
-	all_esate_loyalty_equilibrium = 0.1
+	all_estate_loyalty_equilibrium = 0.1
 }
 
 IU_VND_printing_in_malayalam = {

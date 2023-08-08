@@ -633,9 +633,25 @@ KLT_missions_05 = {
 		position = 6
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = {  
+			OR = {
+			mission_completed = KLT_kolathiri_supremacy
+			mission_completed = KLT_northern_council
+			}
+			NOT = {
+				mission_completed = KLT_mushika_heritage
+			}
+		} 
 
-		effect = {  } 
+		effect = {
+			country_event = {
+				id = kltevents.1
+			}
+			custom_tooltip = unlocked_malik_dinar_mosque
+			hidden_effect = {
+				set_country_flag = unlocked_malik_dinar_mosque
+			}
+		} 
 	}
 
 	KLT_malik_dinar = {
@@ -644,9 +660,24 @@ KLT_missions_05 = {
 		required_missions = { KLT_rise_of_islam } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religious_unity = 0.8
+			religion_group = muslim
+			average_unrest = 0
+			4413 = {
+				OR = {
+				has_province_modifier = malik_dinar_mosque
+				has_province_modifier = upgraded_malik_dinar_mosque
+				}
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			set_religious_school = {
+				group = muslim
+				school = legacy_of_malik_dinar_school
+			}
+		} 
 	}
 
 	KLT_tajudeen = {
@@ -655,9 +686,27 @@ KLT_missions_05 = {
 		required_missions = { KLT_malik_dinar } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			religion_group = muslim
+			religious_unity = 0.9
+			385 = {
+				owner = {
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+			ROOT = {
+				has_discovered = 385
+			}
+		} 
 
-		effect = {  } 
+		effect = { 
+			country_event = {
+				id = kltevents.2
+			}
+		} 
 	}
 
 	KLT_arakkal = {

@@ -1,0 +1,89 @@
+namespace = kltevents
+
+country_event = {
+	id = kltevents.1
+	title = "kltevents.NAME1"
+	desc = "kltevents.DESC1"
+	picture = event_white_tiger
+	
+	is_triggered_only = yes 
+	fire_only_once = yes
+
+	
+	option = {	#embrace sunni
+		name = "kltevents.1a"
+		ai_chance = { factor = 50 }
+		capital_scope = {
+			change_religion = sunni
+		}
+		change_religion = sunni
+	}
+
+	option = {	#embrace shia
+		name = "kltevents.1a"
+		ai_chance = { factor = 50 }
+		capital_scope = {
+			change_religion = shiite
+		}
+		change_religion = shiite
+	}
+
+}
+
+country_event = {
+	id = kltevents.2
+	title = "kltevents.NAME2"
+	desc = "kltevents.DESC2"
+	picture = event_white_tiger
+	
+	is_triggered_only = yes 
+	fire_only_once = yes
+
+	
+	option = {	#print the legend to the people
+		name = "kltevents.2a"
+		ai_chance = { factor = 50 }
+		if = {
+			limit = {
+				religion = sunni
+			}
+			set_ruler_religion = sunni
+			set_heir_religion = sunni
+		}
+		if = {
+			limit = {
+				religion = shiite
+			}
+			set_ruler_religion = shiite
+			set_heir_religion = shiite
+		}
+		add_country_modifier = {
+			name = the_legend_of_tajuddeen
+			duration = -1
+		}
+	}
+
+	option = {	# keep the legend in court
+		name = "kltevents.2a"
+		ai_chance = { factor = 50 }
+		if = {
+			limit = {
+				religion = sunni
+			}
+			set_ruler_religion = sunni
+			set_heir_religion = sunni
+		}
+		if = {
+			limit = {
+				religion = shiite
+			}
+			set_ruler_religion = shiite
+			set_heir_religion = shiite
+		}
+		change_adm = 1
+		change_dip = 2
+		change_mil = 1
+	}
+
+}
+

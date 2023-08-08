@@ -69,12 +69,50 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  vijinteraction.4a:0 "Do nothing"
  vijinteraction.4b:0 "Subsidise our traders"
 
+ vijinteraction.NAME5:0 "Vijayanagar demands military access"
+ vijinteraction.DESC5:0 "Vijayanagar claims that Tamil separatists are camping within the jungles on our border regions and are demanding military access to clear them out. Allowing foreign troops to operate freely within our borders is sure to tarnish our diplomatic reputation. Perhaps, we should try to find another way out."
+ vijinteraction.5a:0 "Allow military access."
+ vijinteraction.5b:0 "Offer to clear out the rebels ourselves."
+
+ vijinteraction.NAME6:0 "Presence of Bahamani traders irritate Vijayanagar"
+ vijinteraction.DESC6:0 "Bahamani traders are frequent visitors to our ports and markets, thanks to our trade-friendly and cosmopolitan policies. Vijayanagar is outraged that we are accommodating their arch rival. They demand that we immediately restrict the Bahamanis from accessing our market."
+ vijinteraction.6a:0 "Vijayanagar makes a valid point."
+ vijinteraction.6b:0 "Send an expert diplomat to reason with Vijayanagar."
+
+ vijinteraction.NAME7:0 "Vijayanagar demands ban on meat during Rama Navami"
+ vijinteraction.DESC7:0 "The auspicious festival of Rama Navami celebrating the birth of Lord Ram is around the corner. Vijayanagar has demanded that all consumption of meat be restricted across all Hindu lands during Rama Navami. We have never had such a tradition and this is sure to upset our fishermen and meat traders. "
+ vijinteraction.7a:0 "We have no option but to agree. "
+ vijinteraction.7b:0 "Compensate our fishermen and meat traders for their loss."
+
+ vijinteraction.NAME7:0 "Ceremonial Elephant Requested"
+ vijinteraction.DESC7:0 "Our ceremonial elephants have a great reputation all across the subcontinent. Vijayanagar has requested that we send them one for an important temple festival. Our priests would be upset that these elephants are being taken far away from temple premises."
+ vijinteraction.7a:0 "Send a spare elephant."
+ vijinteraction.7b:0 "Send our most majestic tusker!"
+
+ vijinteraction.NAME81:0 "Diplomatic Success"
+ vijinteraction.DESC81:0 "Our most majestic elephant that we sent to Vijanagar has become extremely popular. We can capitalise on it for great diplomatic benefit"
+ vijinteraction.81a:0 "Excellent"
+
+ vijinteraction.NAME82:0 "Catastrophic Loss"
+ vijinteraction.DESC82:0 "Our most prized elephant has died today on its return from the vijanagar capital, this has made many memebers of the brahmin caste suspicious and has caused major religious upheaval"
+ vijinteraction.82a:0 "Unfortunate"
+
  has_truce_with_vij:0 "Has Truce With Vijaynagar"
  rejects_truce_with_vij:0 "Rejected Truce with Vijaynagar"
  craftsmen_wares_seized:0 "Craftsmen's Wares Seized"
  draft_the_peasants:0 "Draft the Peasants"
  left_traders_alone:0 "Left Traders Alone"
  subsidise_our_traders:0 "Traders Subsidised"
+ elephant_dies:0 "Elephant Dies"
+ elephant_diplo_success:0 "Capitalise on Elephant Success"
+
+ has_vij_inter2:0 "Had Vijanagar Interaction 1"
+ has_vij_inter3:0 "Had Vijanagar Interaction 2"
+ has_vij_inter4:0 "Had Vijanagar Interaction 3"
+ has_vij_inter5:0 "Had Vijanagar Interaction 4"
+ has_vij_inter6:0 "Had Vijanagar Interaction 5"
+ has_vij_inter7:0 "Had Vijanagar Interaction 6"
+ has_vij_inter8:0 "Had Vijanagar Interaction 7"
  
  #misc 
 

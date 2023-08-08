@@ -79,12 +79,12 @@
 
  zamorin_influence_permanant:0 "The Zamorin's Influence"
 
- indica_events.NAME4:0 "Gain an Influence Level!"
- indica_events.DESC4:0 "Due to your astounding influence you can now gain an influence level for free!"
- indica_events.4a:0 "Cannanore"
- indica_events.4b:0 "Mysore"
- indica_events.4c:0 "Kongu"
- indica_events.4d:0 "Kochin"
+ indica_events.NAME6:0 "Gain an Influence Level!"
+ indica_events.DESC6:0 "Due to your astounding influence you can now gain an influence level for free!"
+ indica_events.6a:0 "Cannanore"
+ indica_events.6b:0 "Mysore"
+ indica_events.6c:0 "Kongu"
+ indica_events.6d:0 "Kochin"
 
 ##################################################################################
 ############################## KLT Missions ######################################

@@ -52,7 +52,7 @@ MAB_missions_01 = {
 		effect = { 
 			custom_tooltip = gain_a_free_influence_level
 			country_event = {
-				id = indica_events.4
+				id = indica_events.6
 			}
 		 } 
 	}
@@ -117,9 +117,34 @@ MAB_missions_01 = {
 		required_missions = { MAB_anti_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		OR = {
 
-		effect = {  } 
+			any_known_country = {
+				AND = {
+					technology_group = muslim
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+
+
+			any_known_country = {
+				AND = {
+					technology_group = muslim
+					alliance_with = ROOT
+				}
+			}
+
+			} }   
+
+		effect = { add_country_modifier = { 
+    		name = shipbuilding_expertise
+    		duration = 3650
+    		
+			} } 
 	}
 }
 
@@ -170,7 +195,7 @@ MAB_missions_02 = {
 	}
 
 	MAB_attack_venad = {
-		icon = mission_venad_soldier
+		icon = mission_target_south_kerala
 		position = 3
 		required_missions = { MAB_attack_kochin } 
 		provinces_to_highlight = {  } 
@@ -191,14 +216,71 @@ MAB_missions_02 = {
 	}
 
 	MAB_anti_europe_01 = {
-		icon = mission_defeat_mewar
+		icon = mission_admiral
 		position = 5
 		required_missions = { MAB_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
 
-		effect = {  } 
+		OR = {
+
+			any_known_country = {
+				AND = {
+					technology_group = western
+					has_opinion = {
+						who = ROOT
+						value = -100
+					}
+				}
+			}
+
+
+			any_known_country = {
+				AND = {
+					technology_group = western
+					war_with = ROOT
+				}
+			}
+
+			} } 
+
+		effect = { 
+
+		set_saved_name = {
+    	key = kunjali_marakkar
+    	type = simple
+    	name = "Kunjali Marakkar"
+		}
+
+		define_admiral = {
+   		name = "Kunjali Marakkar"
+   		shock = 4
+     	fire = 4
+    	manuever = 5
+    	siege = 3
+		}
+
+
+		malabar_area = { 
+			 limit = { owned_by = ROOT } 
+			 
+			 	add_province_modifier = { 
+    			name = calicut_unbreachable
+    			duration = 1825 
+   				}
+		}
+
+		south_malabar_area = { 
+			 limit = { owned_by = ROOT } 
+			 
+			 	add_province_modifier = { 
+    			name = calicut_unbreachable
+    			duration = 1825 
+   				}
+		}
+
+ 		} 
 	}
 
 	MAB_anti_europe_02 = {
@@ -207,9 +289,17 @@ MAB_missions_02 = {
 		required_missions = { MAB_anti_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		navy_size_percentage = 1
+			navy_size = KLT
+			navy_size = KOC
+			navy_size = VND } 
 
-		effect = {  } 
+		effect = { add_country_modifier = { 
+    		name = lions_of_the_sea
+    		duration = -1 
+    		
+			} } 
 	}
 }
 
@@ -261,9 +351,8 @@ MAB_missions_03 = {
 		 } 
 
 		trigger = { 
-		adm_tech = 8
-		dip_tech = 8
-		mil_tech = 8 } 
+			has_building = workshop
+		 } 
 
 		effect = { 
 		add_country_modifier = {
@@ -278,9 +367,17 @@ MAB_missions_03 = {
 		position = 4
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		adm_tech = 8
+		dip_tech = 8
+		mil_tech = 8
+			 } 
 
-		effect = {  } 
+		effect = { 
+			add_dip_power = 100
+			country_event = {
+				id = distant_shores.1
+			} } 
 	}
 
 	MAB_consolidate_malabar = {
@@ -380,9 +477,51 @@ MAB_missions_04 = {
 		required_missions = { MAB_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
 
-		effect = {  } 
+
+		OR = {
+
+			any_known_country = {
+				AND = {
+					technology_group = western
+					has_opinion = {
+						who = ROOT
+						value = 100
+					}
+				}
+			}
+
+
+			any_known_country = {
+				AND = {
+					technology_group = western
+					alliance_with = ROOT
+				}
+			}
+
+			} 
+
+			NOT = { has_building = furnace }
+			534 = { num_free_building_slots = 1 }
+		} 
+
+		effect = { 
+
+		534 = {
+				add_building = furnace 
+			} 
+
+		add_estate_loyalty = {
+				estate = estate_vaisyas
+				loyalty = -10
+			}
+			add_estate_loyalty = {
+				estate = estate_jains
+				loyalty = -10
+			}	
+			
+		 } 
 	}
 
 	MAB_pro_europe_02 = {
@@ -391,9 +530,30 @@ MAB_missions_04 = {
 		required_missions = { MAB_pro_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		any_known_country = {
+				AND = {
+					technology_group = western
+					alliance_with = ROOT
+				}
+			}
+			
+			 } 
 
-		effect = {  } 
+		effect = { 
+
+		534 = { add_province_modifier = { 
+    		name = western_fort
+    		duration = 182500 
+    		
+			} }
+		
+		534 = { add_unrest = 10	}
+		add_estate_loyalty = {
+				estate = estate_maratha
+				loyalty = -15
+			}
+			 } 
 	}
 }
 
@@ -491,8 +651,26 @@ MAB_missions_05 = {
 		required_missions = { MAB_pro_europe_01 } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+		any_known_country = {
+				AND = {
+					technology_group = western
+					alliance_with = ROOT
+				}
+			}	
+		NOT = { has_building = university }
+		534 = { num_free_building_slots = 1 }
+		} 
 
-		effect = {  } 
+		effect = { 
+		534 = {
+				add_building = university 
+			} 
+
+		add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = -15
+			}
+		} 
 	}
 }

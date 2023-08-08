@@ -89,4 +89,14 @@ spriteTypes = {
 		name = "mission_steel"
 		texturefile = "gfx//interface//missions//mission_steel.dds"
 	}
+
+	spriteType = {
+		name = "mission_admiral"
+		texturefile = "gfx//interface//missions//mission_admiral.dds"
+	}
+
+	spriteType = {
+		name = "mission_terror_of_the_seas"
+		texturefile = "gfx//interface//missions//mission_terror_of_the_seas.dds"
+	}
 }	

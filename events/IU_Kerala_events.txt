@@ -1,0 +1,218 @@
+namespace = IU_RLM 
+
+country_event = {
+	id = IU_RLM.1
+	title = IU_RLM.1.t 
+	desc = IU_RLM.1.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = IU_RLM.1.a 
+		custom_tooltip = IU_RLM_wootz_steel_tt
+		add_country_modifier = {
+			name = IU_RLM_wootz_swords
+			duration = 10950
+		}
+	}
+}
+
+country_event = {
+	id = IU_RLM.2 
+	title = IU_RLM.2.t 
+	desc = IU_RLM.2.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_RLM.2.a 
+		667 = {
+			add_trade_modifier = {
+				who = ROOT 
+				duration = 5475
+				power = 30
+				key = RLM_CANTON_TRADE
+			}
+		}
+	}
+}
+
+country_event = {
+	id = IU_RLM.3
+	title = IU_RLM.3.t
+	desc = IU_RLM.3.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = { 
+		name = IU_RLM.3.a 
+		add_country_modifier = {
+			name = IU_RLM_cheap_admirals
+			duration = -1
+		}
+		create_admiral = { tradition = 60 }
+	}
+}
+
+country_event = {
+	id = IU_RLM.5
+	title = IU_RLM.5.t 
+	desc = IU_RLM.5.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_RLM.5.a 
+		every_owned_province = {
+			limit = {
+				culture = swahili 
+			}
+			add_local_autonomy = -100
+			add_base_tax = 1
+		}
+		add_prestige = 15
+	}
+	
+	option = {
+		name = IU_RLM.5.b 
+		1201 = {
+			add_to_trade_company = ROOT 
+			add_base_production = 3
+		}
+		add_country_modifier = {
+			name = IU_RLM_swahili_merchants
+			duration = 5475
+		}
+	}
+}
+
+country_event = {
+	id = IU_RLM.6
+	title = IU_RLM.6.t 
+	desc = IU_RLM.6.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_RLM.6.a 
+		1201 = {
+			owner = {
+				add_favors = {
+					who = ROOT 
+					amount = 40
+				}
+			}
+			add_trade_node_income = 50
+		}
+		388 = {
+			add_trade_node_income = 50
+		}
+		add_ruler_personality = industrious_personality
+	}
+}
+
+country_event = {
+	id = IU_RLM.7
+	title = IU_RLM.7.t 
+	desc = IU_RLM.7.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_RLM.7.a 
+		hidden_effect = {
+			every_province = {
+				limit = {
+					region = france_region
+					region = spain_region
+					region = south_german_region
+					region = low_countries_region
+					region = north_german_region
+					region = italy_region
+					region = balkan_region
+					region = anatolia_region
+					region = british_isles_region
+					region = mediterranean_region
+					region = scandinavia_region
+					region = carpathia_region
+					province_id = 1472
+					province_id = 1292
+					province_id = 1291
+					province_id = 1290
+					province_id = 1278
+					province_id = 1276
+					province_id = 1277
+					province_id = 1275
+					province_id = 1274
+					province_id = 1272
+					province_id = 1271
+					province_id = 1285
+					province_id = 1284
+					province_id = 1283
+					province_id = 1299
+					province_id = 1282
+					province_id = 1280
+					province_id = 1279
+					province_id = 1270
+					province_id = 1269
+					province_id = 1268
+					province_id = 1975
+					province_id = 1281
+					province_id = 1266
+					province_id = 1929
+					province_id = 1287
+					province_id = 1286
+					region = baltic_sea_region 
+				}
+				discover_country = ROOT 
+			}
+		}
+		custom_tooltip = IU_RLM_maps_tt
+	}
+}
+
+country_event = {
+	id = IU_RLM.8
+	title = IU_RLM.8.t 
+	desc = IU_RLM.8.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_RLM.8.a 
+		add_estate_loyalty = {
+			estate = estate_brahmins
+			loyalty = -30
+		}
+		add_estate_loyalty = {
+			estate = estate_vaisyas
+			loyalty = -30
+		}
+		add_estate_loyalty = {
+			estate = estate_maratha
+			loyalty = -30
+		}
+		add_estate_loyalty = {
+			estate = estate_jains
+			loyalty = -30
+		}
+		set_variable = {
+			which = IU_RLM_modernization
+			value = 1
+		}
+	}
+}

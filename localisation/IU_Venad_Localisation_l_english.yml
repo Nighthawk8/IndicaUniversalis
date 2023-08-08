@@ -1,29 +1,29 @@
 ﻿l_english:
  IU_VND_navy_title:0 "Define our Navy"
- IU_VND_navy_desc:0 ""
+ IU_VND_navy_desc:0 "The Kingdom of Venad is not known for its navy. Our armies have fended off the swarms of Zamorin and Vijayanagari soldiers time and time again but we could do very little to stop Kollam from being overrun by the Zamorin's fleet. A navy is what is required to find success moving forward, as an army can only do so much when the walls of Kollam itself are being bombarded from afar."
  IU_VND_navy_tt: "If we have a naval reformer advisor or our ruler has the entrepreneur or navigator trait, Kollam will gain a free shipyard."
  
  IU_VND_maldives_title:0 "A Lucrative Expedition"
  IU_venad_maldives_desc:0 "To the south of Malabar lies the numerous islands of the Maldives. A paradise of beautiful atolls and lagoons, where the water is so clear you can see the ocean floor several hours out from land. The sultanate ruling them was founded by a Somali prince allegedly and the sultan is content to sit on his riches far away from the cauldron of Indian politics. A shame, really. The Maldives are the main source of coir - coconut husk used to build the dhows that so commonly traverse the Indian Ocean. It is used in the design of the ship Kollam and her neighboring cities do - the Uru. An edge in shipbuilding might be what we need against our neighbors to the north, who are more experienced at sea. There is a small fortune of untapped riches in the islands as well, from gemstones to spices and so on. The sultan likely thinks his position secure, too far flung and wealthy to be threatened by annexation. A successful attack on the Maldives may place us on the playing field to be one of the naval powers of India."
 
  IU_VND_thangasseri_merchants_title:0 "Thangasseri Merchants"
- IU_VND_thangasseri_merchants_desc:0 ""
+ IU_VND_thangasseri_merchants_desc:0 "Under our careful supervision the ports of Venad have become havens for merchants from all across the globe. This effort is finally beginning to bear fruit as these merchants bring novelties never before seen in Venad. Case in point - the printing press. A quick and easy way to record vital information and cultural heritage. We must expand our Infrastructure however necessary to encourage the sale of these presses more and more."
 
  IU_VND_defend_venad_title:0 "Trivandrum in Peril"
- IU_VND_defend_venad_desc:0 ""
+ IU_VND_defend_venad_desc:0 "Venad has seen many invasions in the past few decades and it is true that our defenses have become worn. Many fear that one more attack from a powerful enemy - say the Vijayanagar empire to our north - could snuff out our ancient country once and for all. We ought to renew our defenses. A fortress in Trivandrum should give us the edge we need to stall against any attackers, then our chieftains can do the rest of the work."
 
  IU_VND_chieftains_favor_title:0 "The Chieftains' Favor"
- IU_VND_chieftains_favor_desc:0 ""
+ IU_VND_chieftains_favor_desc:0 "The Kingdom of Venad has for centuries had sort of a tribal hierarchy alongside the traditional caste system. This might makes right mindset lends itself to a more meritocratic society than our orthodox Hindu neighbors, but also begets the need for the king to prove himself. While we have not suffered any major defeats, we have not achieved many victories either. The chieftains may resent us if they never see our king leading the army into battle. Their assistance is vital to our well-being, so it is necessary for [Root.Monarch.GetName] to prove his strength."
  vnd_won_battles_with_ruler_tt: "We have won at least five battles with our monarch as general."
 
  IU_VND_revitalize_kollam_title:0 "Revitalize Kollam"
- IU_VND_revitalize_kollam_desc:0 ""
+ IU_VND_revitalize_kollam_desc:0 "Kollam was recently raided by the Zamorin of Calicut and has never truly recovered since. It is a shadow of its former glory, merely a pit stop for merchants who are not allowed in the walls of Calicut. Yet many remember when it was not so. Kollam a thriving hub of traders and scholars alike, the capital of Venad! Oh, to once again have that sort of prestige. We must get to work, growing and nourishing this city. The Zamorin may have overtaken Kollam for a brief moment, but our city is ancient dating back to the Chera dynasty of old and its light will shine through no matter what!"
 
  IU_VND_erect_new_mandirs_title:0 "Erect New Mandirs"
- IU_VND_erect_new_mandirs_desc:0 ""
+ IU_VND_erect_new_mandirs_desc:0 "There is a concern growing of spiritual and moral bankruptcy in Venad. The Ettara Yogam certainly aren't doing a good job maintaining the principles of our faith, but besides the Padmanabhaswamy Temple, there aren't many other places to worship. The people need temples. It reflects well on our king to meet the peoples' needs and the extra tax doesn't hurt, either."
 
  IU_VND_patronize_temple_title:0 "Adorn the Gilded Temple"
- IU_VND_patronize_temple_desc:0 ""
+ IU_VND_patronize_temple_desc:0 "For all the thick and thin with the people involved with it, the Padmanabhaswamy Temple is still the crown jewel of Venad. Five stories of solid gold, the richest temple in all of India sees pilgrims from all across the subcontinent. It is named after the aspect of Vishnu, the Preserver, and its custodians are a major faction in the Venad Kingdom. Its importance cannot be understated. We ought to invest into this temple, fill it with treasures and the finest artisanship anyone can find!"
 
  IU_VND_crucible_of_kerala_title:0 "Crucible of Kerala"
  IU_VND_crucible_of_kerala_desc:0 ""
@@ -32,8 +32,8 @@
  IU_VND_dethrone_zamorin_title:0 "Dethrone the Zamorin"
  IU_VND_dethrone_zamorin_desc:0 ""
 
- IU_VND_consolidation_of_malabar_title:0 "Consolidation of Malabar"
- IU_VND_consolidation_of_malabar_desc:0 ""
+ consolidation_of_malabar_title:0 "Consolidation of Malabar"
+ consolidation_of_malabar_desc:0 ""
 
  IU_VND_king_of_chiefs_title:0 "A King Among Chiefs"
  IU_VND_king_of_chiefs_desc:0 ""
@@ -65,13 +65,19 @@
  IU_VND_hidden_mission_two_title:0 "Unknown Mission"
  IU_VND_hidden_mission_two_desc:0 ""
 
- IU_VND_purchase_western_arms_title:0 "Purchase Western Arms"
- IU_venad_purchase_western_arms_desc:0 ""
+ IU_VND_a_western_advisory_title:0 "A Western Advisory"
+ IU_VND_a_western_advisory_desc:0 ""
 
- IU_VND_modernized_kerala_title:0 "A Modernized Kerala"
- IU_VND_modernized_kerala_desc:0 ""
+ IU_VND_modern_warfare_title:0 "Assemble a War Cabinet"
+ IU_VND_modern_warfare_desc:0 ""
 
+ IU_VND_malayalam_scholarship_title: "Malayalam Scholarship"
+ 
+ IU_VND_defense_of_malabar_title: "Superiority Over the West"
+ 
  IU_VND_a_friend_in_need_title: "A Friend In Need"
+ 
+ IU_VND_chieftains_favor_tt: "We will unlock the 'Tribal Conscription' estate privilege for the Kshatriyas"."
  
  #Events
  
@@ -96,6 +102,17 @@
  IU_VND.6.d: "There is a rumbling in the court of Venad. For centuries the coalition of nobles and priests have dominated the monarchy, having their way without opposition. Kingmakers in plain sight. Many have stopped taking the monarchy seriously, but one man's ambition might be enough to change that. Marthanda Varma, a member of the Venad dynasty, has declared his goal to transform our kingdom into a modern power with an absolutist king. A notable change from our ancient and frankly tribal ways of rule. This transformation into a new kingdom, Travancore, will take time and most certainly blood. It is a necessity to ensure our survival against the ever greedy European powers, however. With renewed strength, may we be able to protect Kerala from anyone who may set their sights on it!"
  IU_VND.6.a: "We are a bulwark against colonialists!"
  
+ IU_VND.10.t: "Explorers Land in Kollam"
+ IU_VND.10.d: "A crowd gathers around the port of Kollam as pale skinned adventurers set foot in our port. It has been an uncountable amount of years since a European ship has docked in India, yet here one is. It is a historic moment for our city. The explorers step off their ships and humbly request our hospitality for the night, then the next day board their vessels and continue on their way. Rumors have spread that this is not the only incident of something like this and sure enough, merchants begin to dock in Kollam, followed by soliders and diplomats! The West has begun to seek allies and trading partners in India, but also their own fortune. We must decide now how Venad will navigate this ever growing conundrum - to work with these merchants or protect ourselves against a future threat?"
+ IU_VND.10.a: "Let them stay if they so please. We have much to learn from eachother."
+ IU_VND.10.b: "Our country has enough troubles as is - these westerners will surely stir the pot."
+ 
+ IU_VND.11.t: "Growth of Trivandrum"
+ IU_VND.11.a: "The growth of our cities is always a welcome sight."
+ 
+ IU_VND_westernizing_tt: "We will cooperate with western countries, but if we fall behind in technology they may seek a more direct relationship with us than trade!"
+ IU_VND_not_westernizing_tt: "We will restrict trade with the west, but this may draw their ire once they begin proper expansion in Asia!"
+ 
  IU_EURO.1.t: "The Game of India"
  IU_EURO.1.d: "Our explorers in search of spices, incense, and other such riches have charted the coast of India for the very first time. India is a massive subcontinent with hundreds of kingdoms with ancient feuds and alliances alike, not unlike our home in Europe. Several princes have already noticed our ships off the coast, either wanting to establish trade deals, align with us against their sworn enemies, or even make sure we have no place in the subcontinent. Friends and foes alike, we must exploit these conflicts in India to expand our fortune!"
  IU_EURO.1.a: "The die is cast."
@@ -119,6 +136,7 @@
  IU_VND_sinhalese_elephants: "War Elephants of Ceylon"
  IU_VND_tamil_king_tt: "We will receive the decision to embrace our Chera lineage!"
  IU_VND_vishnu_tt: "The §YMissionary Strength§! bonus we receive from §YVishnu§! will be changed to §YInfantry Combat Ability§!, and every time we pick §YVishnu§! as our personal deity we will receive §G1§! §Ystability§!."
+ IU_VND_glory_to_venad: "Glory to Venad!"
  
  #Estates
  IU_estate_maratha_tribal_conscription: "Tribal Conscription"
@@ -132,7 +150,11 @@
  #Misc
  IU_TRAVANCORE: "Travancore"
  IU_TRAVANCORE_ADJ: "Travancore"
+ IU_CHERA: "Chera"
+ IU_CHERA_ADJ: "Chera"
  
+ IU_nair_aristocracy: "Nair Aristocracy"
+ IU_nair_aristocracy_desc: "The Nair are a group of castes prevalent in Kerala society, doubly so in that of Venad. The term is more specifically associated with warrior castes in Venad, and the markers of one of the Nair in Venad are unmistakable. These disciplined soldiers - never without a weapon by their side - and strikingly beautiful women of the Nair castes are a source of pride for Kerala. This and their habit of marrying into the Brahmins puts them into a seat of power in the Venad kingdom. The monarch will have his work cut out for him if he wishes to uproot these ancient systems."
  #Ideas 
  
  VND_ideas: "Venad Ideas"
@@ -140,9 +162,17 @@
  VND_ideas_bonus: "Venad Ambition"
  
  VND_one: "Ties with Vijayanagar"
+ VND_one_desc: "Like it or not, our lifeline for the past several decades has been the sprawling kingdom of Vijayanagar. From the border of Gujarat to the Palk Strait, they control a massive swath of Dravidam. We have become very good at giving them the answers they want, and this skill can extend into other interactions as well."
  VND_two: "Tribal Cavalry"
+ VND_two_desc: "The Ay tribes have always been fundamental in our army composition. Venad is known for its fierce horsemen which have carried us to victory against much larger opponents. Encouraging this practice to continue is without question a good idea."
  VND_three: "Merchants of Kollam"
- VND_four: "British Infrastructure"
+ VND_three_desc: "Kollam is traditionally one of the great cities of the Malabar coast. Although not as powerful as it was in its heyday, it still sees a fair bit of business. It is strong enough to the point where an ambitious king could invest into it so that it once again is the foremost power in Kerala. But for now, we are content with what trade we get."
+ VND_four: "Western Infrastructure"
+ VND_four_desc: "The presence of westerners is a hot topic all across the continent of Asia. Some reject them saying that trade with them is a slippery slope inevitably leading to conquest. We however disagree. Western trade has always provided us with benefits and a shrewd alliance with a naval power is a good step towards asserting supremacy over Kerala."
  VND_five: "Fund the Padmanabhaswamy Temple"
+ VND_five_desc: "The Padmanabhaswamy Temple is a grand beacon of Vishnu worship which has pilgrims from all across the Dharmic world. It is the richest temple in India, made from solid gold. We could stand to benefit from patronizing this temple and reaping some of its business for ourselves."
  VND_six: "Syriac Patronage"
+ VND_six_desc: "Venad has always been tolerant of other religions - especially compared to some of our neighbors to the north. There is a large Syriac diaspora in Malabar, the lot of which reside in Kochin but a number live in Trivandrum and Kollam. There is no reason not to accomodate for them, as their unique skills and viewpoints can be beneficial as a whole."
  VND_seven: "First Standing Army of Kerala"
+ VND_seven_desc: "Venad is a warlike state first and foremost. This is how it has always been - and thus we ought to take the initiative to establish a standing army. None of our neighbors will be ready as India is still amok with armies made from tribes, mercenaries and the like."
+ 

@@ -257,3 +257,70 @@ country_event = {
 		id = IU_VND.9.b 
 	}
 }
+
+country_event = {
+	id = IU_VND.10 
+	title = IU_VND.10.t 
+	desc = IU_VND.10.d 
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = IU_VND.10.a 
+		set_country_flag = IU_VND_modernizing_with_western_models
+		custom_tooltip = IU_VND_westernizing_tt
+		add_adm_power = -100
+		define_advisor = {
+			type = statesman
+			skill = 2
+			cost_multiplier = 0.5
+			culture = malayalam
+			religion = hindu 
+		}
+		swap_non_generic_missions = yes 
+	}
+	
+	option = {
+		name = IU_VND.10.b 
+		set_country_flag = IU_VND_dispelling_western_influence
+		custom_tooltip = IU_VND_not_westernizing_tt
+		add_legitimacy = 10
+		swap_non_generic_missions = yes 
+	}
+}
+
+country_event = {
+	id = IU_VND.11
+	title = IU_VND.11.t 
+	desc = IU_VND.11.d 
+	
+	fire_only_once = yes 
+	
+	trigger = {
+		OR = {
+			tag = VND 
+			tag = RLM 
+		}
+		537 = {
+			owned_by = ROOT 
+		}
+		is_at_war = no 
+	}
+	
+	option = {
+		name = IU_VND.11.a 
+		537 = {
+			add_base_tax = 1
+			add_base_production = 1
+			add_base_manpower = 1
+			add_province_modifier = {
+				name = IU_VND_expansion_of_trivandrum
+				duration = 7300
+			}
+			rename_capital = "Trivandrum"
+			change_province_name = "Trivandrum"
+		}
+	}
+}

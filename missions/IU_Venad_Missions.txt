@@ -3,7 +3,10 @@ IU_VND_slot_one = {
 	generic = no 
 	ai = yes
 	potential = {
-		tag = VND
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
 	}
 	has_country_shield = yes 
 	
@@ -109,12 +112,16 @@ IU_VND_slot_two = {
 	generic = no
 	ai = yes 
 	potential = {
-		tag = VND 
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
 	}
 	has_country_shield = yes 
 	
 	
 	IU_VND_revitalize_kollam = {
+		position = 1
 		icon = mission_rb_take_indian_coast
 		trigger = {
 			4942 = {
@@ -180,9 +187,11 @@ IU_VND_slot_two = {
 		required_missions = { IU_VND_erect_new_mandirs IU_VND_curtail_ettara_yogam }
 		position = 3
 		trigger = {
-			has_great_project = {
-				type = IU_padmanabhaswamy_temple
-				tier = 3
+			537 = {
+				has_great_project = {
+					type = IU_padmanabhaswamy_temple
+					tier = 3
+				}
 			}
 			has_personal_deity = vishnu
 			OR = {
@@ -246,22 +255,26 @@ IU_VND_slot_two = {
 		effect = {
 			set_country_flag = IU_VND_chieftains_favor_complete
 			custom_tooltip = IU_VND_chieftains_favor_tt
+			add_army_tradition = 10
 		}
 	}
 }
-
 
 IU_VND_slot_three = {
 	slot = 3
 	generic = no
 	ai = yes 
 	potential = {
-		tag = VND 
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
 	}
 	has_country_shield = yes 
 	
 	IU_VND_king_of_chiefs = {
 		icon = mission_rajendras_ambition
+		position = 1
 		trigger = {
 			OR = {
 				crown_land_share = 40
@@ -299,9 +312,11 @@ IU_VND_slot_three = {
 				estate = estate_maratha 
 				loyalty = 60
 			}
+			NOT = { has_estate_privilege = IU_estate_maratha_ettuveetil_pillamar }
 		}
 		effect = {
 			change_adm = 1
+			country_event = { id = IU_VND.10 }
 		}
 	}
 	
@@ -426,7 +441,7 @@ IU_VND_slot_three = {
 		}
 	}
 	
-	IU_VND_consolidation_of_malabar = {
+	consolidation_of_malabar = {
 		icon = mission_consolidate_malabar
 		required_missions = { IU_VND_dethrone_zamorin IU_VND_overrun_kochin }
 		position = 6
@@ -444,6 +459,9 @@ IU_VND_slot_three = {
 				is_prosperous = yes 
 			}
 		}
+		effect = {
+			add_prestige = 50
+		}
 	}
 }
 
@@ -452,12 +470,16 @@ IU_VND_slot_four = {
 	generic = no 
 	ai = yes 
 	potential = {
-		tag = VND 
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
 	}
 	has_country_shield = yes 
 	
 	IU_VND_deal_with_the_devil = {
 		icon = mission_deal_with_the_devil
+		position = 1
 		trigger = {
 			OR = {
 				VIJ = {
@@ -492,7 +514,7 @@ IU_VND_slot_four = {
 					NOT = { exists = VIJ }
 				}
 				add_power_projection = {
-					type = IU_VND_outlasted_vijayanagar
+					type = mission_rewards_power_projection
 					amount = 10
 				}
 			}
@@ -532,7 +554,7 @@ IU_VND_slot_four = {
 				}
 				add_trust = {
 					who = VIJ 
-					amount = 30
+					value = 30
 					mutual = yes
 				}
 				add_country_modifier = {
@@ -627,17 +649,22 @@ IU_VND_slot_four = {
 	}
 }
 
-IU_VND_slot_five = {
+
+IU_VND_slot_5 = {
 	slot = 5
-	generic = no
+	generic = no 
 	ai = yes 
 	potential = {
-		tag = VND 
+		OR = {
+			tag = VND 
+			tag = RLM 
+		}
 	}
 	has_country_shield = yes 
 	
 	IU_VND_western_explorers = {	
 		icon = control_coromandel
+		position = 1
 		trigger = {
 			any_known_country = {
 				AND = {
@@ -652,8 +679,31 @@ IU_VND_slot_five = {
 				has_building = courthouse
 			}
 		}
+		effect = {
+			country_event = { id = IU_VND.10 }
+			add_stability = 1
+		}
 	}
+}
+
+IU_VND_slot_five_hidden = {
+	slot = 5
+	generic = no
+	ai = yes 
+	potential = {
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
+		NOT = {
+			has_country_flag = IU_VND_modernizing_with_western_models
+			has_country_flag = IU_VND_dispelling_western_influence
+		}
+	}
+	has_country_shield = yes 
 	
+	
+
 	IU_VND_hidden_mission_one = {
 		icon = mission_unknown_mission
 		required_missions = { IU_VND_western_explorers }
@@ -665,6 +715,134 @@ IU_VND_slot_five = {
 		required_missions = { IU_VND_hidden_mission_one }
 		position = 3
 	}
+}
+
+IU_VND_slot_5_nonwestern = {
+	slot = 5
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
+		has_country_flag = IU_VND_dispelling_western_influence
+	}
+	has_country_shield = yes 
+	
+	IU_VND_malayalam_scholarship = {
+		icon = mission_court_education
+		required_missions = ( IU_VND_western_explorers }
+		position = 2
+		trigger = {
+			NOT = {
+				any_neighbor_country = {
+					tech_difference = 1
+				}
+			}
+			has_adm_advisor_2 = yes 
+			has_dip_advisor_2 = yes 
+		}
+		effect = {
+			capital_scope = {
+				add_building = university 
+			}
+		}
+	}
+	
+	IU_VND_defense_of_malabar = {
+		icon = mission_prepare_an_invasion_force
+		required_missions = { IU_VND_malayalam_scholarship }
+		position = 3
+		trigger = {
+			check_variable = {
+				which = venad_battles_won_against_western
+				value = 10
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = IU_VND_glory_to_venad
+				duration = -1
+			}
+			add_ruler_personality = conqueror_personality
+			add_stability = 1
+		}
+	}
+}
+
+IU_VND_slot_5_western = {
+	slot = 5
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+			tag = VND
+			tag = RLM 
+		}
+		has_country_flag = IU_VND_modernizing_with_western_models
+	}
+	has_country_shield = yes 
+	
+	IU_VND_a_western_advisory = {
+		icon = mission_embassy_to_the_west
+		required_missions = { IU_VND_western_explorers }
+		position = 2
+		trigger = {
+			OR = {
+				any_country = {
+					AND = {
+						technology_group = western 
+						alliance_with = ROOT 
+					}
+				}
+				is_subject_of_type = IU_sphere_subject
+			}
+			
+		}
+		effect = {
+			set_country_flag = IU_can_use_western_advisors_privilege
+			custom_tooltip = IU_western_advisors_tt
+			add_country_modifier = {
+				name = IU_VND_receiving_western_diplomats
+				duration = 7300
+			}
+		}
+	}
+	
+	IU_VND_modern_warfare = {
+		icon = mission_conquer_maharashtra
+		required_missions = { IU_VND_a_western_advisory }
+		position = 3
+		trigger = {
+			capital_scope = {
+				has_building = university
+			}
+			has_mil_advisor_3 = yes 
+			land_forcelimit = 40
+		}
+		effect = {
+			add_ruler_personality = martial_educator_personality
+			add_army_professionalism = 0.1
+			add_country_modifier = {
+				name = IU_VND_western_army_ideas
+				duration = 10950
+			}
+		}
+	}
+}
+
+IU_VND_five_chera = {
+	slot = 5
+	generic = no 
+	ai = yes 
+	potential = {
+		OR = {
+			tag = VND 
+			tag = RLM 
+		}
+	}
+	has_country_shield = yes
 	
 	IU_VND_dynastic_claims = {
 		icon = mission_heirs_chera
@@ -701,13 +879,15 @@ IU_VND_slot_five = {
 			2101 = {
 				owned_by = ROOT 
 			}
+			grown_by_development = 40
 		}
 		effect = {
 			add_power_projection = {
-				type = IU_VND_tamil_king
+				type = mission_rewards_power_projection
 				amount = 20
 			}
 			add_splendor = 400
+			set_country_flag = VND_rename_to_chera_flag
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
@@ -723,93 +903,583 @@ IU_VND_slot_five = {
 	}
 }
 
-IU_VND_slot_5_western = {
-	slot = 5
-	generic = no 
+
+RLM_one = {
+	slot = 1
+	generic = no
 	ai = yes 
 	potential = {
-		tag = VND
-		has_country_flag = IU_VND_modernizing_with_western_models
+		tag = RLM 
 	}
 	has_country_shield = yes 
 	
-	IU_VND_a_western_advisory = {
-		required_missions = { IU_VND_western_explorers }
-		position = 2
+	RLM_dominate_arabian_sea = {
+		required_missions = { RLM_compete_with_gujarat }
+		position = 8
 		trigger = {
-			OR = {
-				any_country = {
-					AND = {
-						technology_group = western 
-						alliance_with = ROOT 
-					}
-				}
-				is_subject_of_type = IU_sphere_subject
+			4457 = {
+				has_most_province_trade_power = ROOT 
 			}
-			
+			2999 = {
+				has_most_province_trade_power = ROOT 
+			}
 		}
 		effect = {
-			set_country_flag = IU_can_use_western_advisors_privilege
-			custom_tooltip = IU_western_advisors_tt
+			hidden_effect = {
+				every_province = {
+					limit = {
+						province_has_center_of_trade_of_level = 1
+						region = persia_region
+						region = arabia_region
+						region = horn_of_africa_region
+						is_port = yes 
+					}
+					add_permanent_claim = ROOT 
+				}
+			}
+			custom_tooltip = IU_RLM_arabian_sea_claims_tt
 			add_country_modifier = {
-				name = IU_VND_receiving_western_diplomats
+				name = IU_RLM_arabian_ambition
 				duration = 7300
 			}
 		}
 	}
 	
-	IU_VND_modern_warfare = {
-		required_missions = { IU_VND_a_western_advisory }
-		position = 3
+	RLM_become_great_power = {
+		required_missions = { RLM_dominate_arabian_sea }
+		position = 9
 		trigger = {
+			is_great_power = yes 
 			capital_scope = {
-				has_building = university
+				highest_value_trade_node = yes 
 			}
-			has_mil_advisor_3 = yes 
-			land_forcelimit = 40
 		}
 		effect = {
-			add_ruler_personality = martial_educator_personality
-			add_army_professionalism = 0.1
+			add_ruler_modifier = {
+				name = IU_RLM_builder_of_a_nation 
+				duration = -1
+			}
 			add_country_modifier = {
-				name = IU_VND_western_army_ideas
-				duration = 10950
+				name = IU_RLM_great_power_modifier
+				duration = -1
+			}
+		}
+	}
+	
+	RLM_expeditions_to_africa = {
+		required_missions = { RLM_expand_navy }
+		position = 11
+		trigger = {
+			388 = {
+				OR = {
+					owned_by = ROOT
+					owner = { alliance_with = ROOT }
+				}
+			}
+			400 = {
+				OR = {
+					owned_by = ROOT
+					owner = { alliance_with = ROOT }
+				}
+			}
+			504 = {
+				OR = {
+					owned_by = ROOT
+					owner = { alliance_with = ROOT }
+				}
+			}
+		}
+		effect = {
+			388 = {
+				add_center_of_trade_level = 1
+				add_base_production = 2
+			}
+			400 ={
+				add_center_of_trade_level = 1
+				add_base_production = 2
+			}
+			504 = {
+				add_center_of_trade_level = 1
+				add_base_production = 2
+			}
+			define_advisor = {
+				type = trader 
+				skill = 3
+				culture = omani
+				religoin = ibadi
+				cost_multiplier = 0.33
+			}
+		}
+	}
+	
+	RLM_swahili_coast = {
+		required_missions = { RLM_expeditions_to_africa }
+		position = 12
+		trigger = {
+			1201 = {
+				OR = {
+					owner = {
+						AND = {
+							alliance_with = ROOT 
+							has_opinion = {
+								who = ROOT 
+								value = 150
+							}
+						}
+					}
+					AND = {
+						owned_by = ROOT 
+						num_of_times_developed = 6
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					1201 = {
+						owned_by = ROOT 
+					}
+				}
+				country_event = {
+					id = IU_RLM.5
+				}
+			}
+			else = {
+				country_event = {
+					id = IU_RLM.6
+				}
 			}
 		}
 	}
 }
 
-IU_VND_slot_5_nonwestern = {
+RLM_two = {
+	slot = 2
+	generic = no 
+	ai = yes 
+	potential = {
+		tag = RLM 
+	}
+	has_country_shield = yes 
+	
+	RLM_compete_with_gujarat = {
+		icon = mission_growth_of_surat
+		required_missions = { consolidation_of_malabar }
+		position = 7
+		trigger = {
+			4457 = {
+				trade_share = {
+					country = RLM 
+					share = 20
+				}
+			}
+			any_owned_province = {
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = IU_RLM_beyond_malabar
+				duration = 5475
+			}
+		}
+	}
+	
+	RLM_wootz_steel = {
+		icon = mission_end_tamil_insurgency
+		required_missions = { RLM_compete_with_gujarat }
+		position = 8
+		trigger = {
+			barracks = 6
+			workshop = 6
+			OR = {
+				any_owned_province = {
+					trade_goods = iron
+				}
+				any_known_country = {
+					AND = {
+						alliance_with = ROOT 
+						num_of_owned_provinces_with = {
+							value = 1
+							trade_goods = iron 
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = IU_RLM.1
+			}
+		}
+	}
+	
+	RLM_manufactories = {
+		icon = mission_expand_textile_industry
+		required_missions = { RLM_wootz_steel }
+		position = 9
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 12
+				has_manufactory_trigger = yes 
+			}
+		}
+		effect = {
+			add_years_of_income = 3
+			hidden_effect ={
+				every_owned_province = {
+					limit = { has_manufactory_trigger = yes }
+					add_base_production = 2
+					add_province_modifier = {
+						name = IU_RLM_expanded_industry
+						duration = 7300
+					}
+				}
+			}
+			custom_tooltip = RLM_manufactories_tt
+		}
+	}
+	
+	RLM_expand_navy = {
+		icon = mission_grand_bengali_shipyards
+		position = 10
+		trigger = {
+			naval_forcelimit = 40
+			galley = 15
+			shipyard = 5
+		}
+		effect = {
+			country_event = {
+				id = IU_RLM.3
+			}
+		}
+	}
+	
+	RLM_malayan_trade = {
+		icon = mission_the_chola_campaigns
+		required_missions = { RLM_expand_navy }
+		position = 11
+		trigger = {
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 4
+					OR = {
+						region = malaya_region
+						region = indonesia_region
+					}
+					province_has_center_of_trade_of_level = 1
+				}
+				596 = {
+					trade_share = {
+						country = ROOT 
+						share = 25
+					}
+				}
+			}
+		}
+		effect = {
+			add_mercantilism = 3
+			596 = {
+				add_trade_modifier = {
+					who = ROOT 
+					duration = 7300
+					power = 25
+					key = RLM_MALAYAN_DOMINANCE
+				}
+			}
+		}
+	}
+	
+	RLM_china = {
+		icon = mission_to_the_south_china_sea
+		required_missions = { RLM_malayan_trade }
+		position = 12
+		trigger = {
+			OR = {
+				any_country = {
+					AND = {
+						is_emperor_of_china = yes 
+						has_opinion = {
+							who = ROOT 
+							value = 120
+						}
+					}
+				}
+				667 = {
+					owned_by = ROOT 
+					OR = {
+						development = 40
+						is_owned_by_trade_company = yes 
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = {
+				id = IU_RLM.2
+			}
+		}
+	}
+	
+}
+
+RLM_three = {
+	slot = 3
+	generic = no 
+	ai = yes 
+	potential = {
+		tag = RLM 
+	}
+	has_country_shield = yes 
+	
+	RLM_dravidan_ambition = {
+		icon = mission_metropolis_of_the_deccan
+		required_missions = { consolidation_of_malabar }
+		position = 7
+		trigger = {
+			malabar_area = {
+				owned_by = ROOT 
+				is_core = ROOT 
+				development = 12
+				type = all 
+			}
+			south_malabar_area = {
+				owned_by = ROOT 
+				is_core = ROOT 
+				development = 12
+				type = all 
+			}
+		}
+		effect = {
+			every_province = {
+				limit = {
+					culture_group = dravidian
+				}
+				add_permanent_claim = ROOT 
+			}
+			add_country_modifier = {
+				name = IU_RLM_defenders_of_dravidam
+				duration = 7300
+			}
+		}
+	}
+	
+	RLM_tamils = {
+		icon = mission_rein_in_the_velamas
+		required_missions = { RLM_dravidan_ambition }
+		position = 8
+		trigger = {
+			madura_area = {
+				owned_by = ROOT 
+				type = all 
+			}
+			kongu_area = {
+				owned_by = ROOT 
+				type = all 
+			}
+			south_carnatic_area = {
+				owned_by = ROOT 
+				type = all 
+			}
+		}
+		effect = {
+			add_prestige = 20
+			every_owned_province = {
+				limit = {
+					culture = tamil 
+				}
+				add_province_modifier = {
+					name = IU_RLM_tamil_integration
+					duration = 3650
+				}
+			}
+			2026 = {
+				add_base_manpower = 2
+				add_base_production = 2
+				add_base_tax = 2
+			}
+		}
+	}
+	
+	RLM_unite_dravidam = {
+		icon = mission_indian_trade_company
+		required_missions = { RLM_tamils RLM_kannada }
+		position = 9
+		trigger = {
+			all_province = {
+				OR = {
+					culture_group = dravidian
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			add_country_modifier = {
+				name = IU_RLM_master_of_india
+				duration = 10950
+			}
+			add_power_projection = {
+				type = IU_RLM_unified_dravidam
+				amount = 30
+			}
+		}
+	}
+	
+	RLM_dominate_spice_trade = {
+		icon = mission_dominate_persian_gulf
+		required_missions = { RLM_malayan_trade }
+		position = 12
+		trigger = {
+			trading_bonus = {
+				trade_goods = spices
+				value = yes 
+			}
+		}
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 10
+				trigger = { trade_goods = spices }
+				custom_tooltip = MONOPOLY_INCOME_SPICES_DESC
+			}
+			add_prestige = 10
+		}
+	}
+
+}
+
+RLM_four = {
+	slot = 4
+	generic = no 
+	ai = yes 
+	potential = {
+		tag = RLM 
+	}
+	has_country_shield = yes 
+	
+	RLM_kannada = {
+		icon = mission_secure_khandesh
+		required_missions = { RLM_dravidan_ambition }
+		position = 8
+		trigger = {
+			mysore_area = {
+				owned_by = ROOT 
+				is_core = ROOT 
+				type = all 
+			}
+			kanara_area = {
+				owned_by = ROOT 
+				is_core = ROOT 
+				type = all 
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = IU_RLM_kannada_literature
+				duration = 7300
+			}
+		}
+	}
+	
+	RLM_reform_navy = {
+		icon = mission_naval_dominance
+		required_missions = { RLM_expand_navy }
+		position = 11
+		trigger = {
+			impressment_offices = 1
+			naval_reformer = 3
+			num_of_owned_provinces_with = {
+				value = 5
+				trade_goods = tropical_wood
+			}
+		}
+		effect = {
+			custom_tooltip = RLM_naval_doctrine_tt
+			custom_tooltip = RLM_naval_reforms_tt
+			add_country_modifier = {
+				name = RLM_active_navy_reforms
+				duration = 3650
+			}
+		}
+	}
+}
+
+RLM_five = {
 	slot = 5
 	generic = no 
 	ai = yes 
 	potential = {
-		tag = VND
-		has_country_flag = IU_VND_dispelling_western_influence
+		tag = RLM 
 	}
 	has_country_shield = yes 
 	
-	IU_VND_malayalam_scholarship = {
-		required_missions = ( IU_VND_western_explorers }
-		position = 2
+	RLM_western_alliances = {
+		required_missions = { consolidation_of_malabar }
+		position = 7
 		trigger = {
-			NOT = {
-				any_neighbor_country = {
-					tech_difference = 1
+			OR = {
+				any_known_country = {
+					AND = {
+						has_idea_group = exploration_ideas
+						alliance_with = ROOT 
+					}
+				}
+				AND = {
+					is_lacking_institutions = no 
+					capital_scope = { has_building = university }
 				}
 			}
-			has_adm_advisor_2 = yes 
-			has_dip_advisor_2 = yes 
+		}
+		effect = {
+			country_event = { id = IU_RLM.7 }
 		}
 	}
 	
-	IU_VND_defense_of_malabar = {
-		required_missions = { IU_VND_malayalam_scholarship }
-		position = 3
+	RLM_modernization = {
+		required_missions = { RLM_western_alliances }
+		position = 9
 		trigger = {
-			check_variable = {
-				which = venad_battles_won_against_western
-				value = 10
+			current_age = age_of_absolutism
+			monthly_adm = 10
+			monthly_dip = 10
+			monthly_mil = 10
+			absolutism = 40
+		}
+		effect = {
+			country_event = { id = IU_RLM.8 }
+		}
+	}
+				
+	RLM_organize_military = {
+		icon = mission_indian_soldier_elephant
+		position = 10
+		trigger = {
+			OR = {
+				army_tradition = 50
+				army_professionalism = 0.33
+			}
+			num_of_idea_groups_completed_mil = 1
+		}
+		effect = {
+			add_army_professionalism = 0.05
+			add_yearly_manpower = 1.5
+		}
+	}
+	
+	RLM_keralam_marines = {
+		icon = mission_end_arakan_piracy
+		required_missions = { RLM_organize_military RLM_reform_navy }
+		position = 12
+		trigger = {
+			num_of_ports = 30
+			has_flagship = yes 
+			navy_tradition = 90
+		}
+		effect = {
+			add_country_modifier = {
+				name = RLM_keralam_marines_modifier
+				duration = -1
 			}
 		}
 	}

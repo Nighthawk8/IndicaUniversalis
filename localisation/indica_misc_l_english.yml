@@ -118,7 +118,7 @@ indica_events.NAME5:0 "Spice Girls"
 indica_events.DESC5:0 "A dance arena that has come up next to our spice markets is a major attraction for foreign traders, diplomats, and other officials. Little do they know that the dancers are all highly trained spies working for us. We can get them to manipulate the patrons to disclose sensitive information, which we can then use to our advantage."
 indica_events.5a:0 "Target diplomats to obtain political secrets."
 indica_events.5b:0 "Target merchants to obtain trade secrets."
-indica_events.5b:0 "Target officers to obtain military secrets."
+indica_events.5c:0 "Target officers to obtain military secrets."
 
 ##################################################################################
 ############################## Indica Privileges #################################

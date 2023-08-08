@@ -216,7 +216,7 @@ country_event = {
 	}
 
 	option = {	#Mil
-		name = "indica_events.5b"
+		name = "indica_events.5c"
 		ai_chance = { factor = 45 }
 		
 		add_country_modifier = {

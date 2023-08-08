@@ -49,6 +49,14 @@ RLM_one = {
 			}
 		}
 		effect = {
+			add_ruler_modifier = {
+				name = IU_RLM_builder_of_a_nation 
+				duration = -1
+			}
+			add_country_modifier = {
+				name = IU_RLM_great_power_modifier
+				duration = -1
+			}
 		}
 	}
 	
@@ -213,6 +221,17 @@ RLM_two = {
 		}
 		effect = {
 			add_years_of_income = 3
+			hidden_effect ={
+				every_owned_province = {
+					limit = { has_manufactory_trigger = yes }
+					add_base_production = 2
+					add_province_modifier = {
+						name = IU_RLM_expanded_industry
+						duration = 7300
+					}
+				}
+			}
+			custom_tooltip = RLM_manufactories_tt
 		}
 	}
 	

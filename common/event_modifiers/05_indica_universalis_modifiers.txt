@@ -230,3 +230,53 @@ the_legend_of_tajuddeen = {
 	global_prosperity_growth = 0.1
 	build_cost = -0.05
 }
+
+
+##################################################################################################
+# Indica Universalis modifiers - Calicut
+##################################################################################################
+
+majestic_war_elephant = {
+	
+	land_morale = 0.05
+	morale_damage = 0.05
+	
+}
+
+black_gold = {
+	
+	improve_relation_modifier = 0.2
+	envoy_travel_time = -0.2
+	diplomatic_reputation = 1
+	
+}
+
+pol_secrets_obtained = {
+	
+	adm_tech_cost_modifier = -0.05
+	adm_advisor_cost = -0.05
+	
+}
+
+trade_secrets_obtained = {
+	
+	dip_tech_cost_modifier = -0.05
+	dip_advisor_cost = -0.05
+	
+}
+
+mil_secrets_obtained = {
+	
+	mil_tech_cost_modifier = -0.05
+	mil_advisor_cost = -0.05
+	
+}
+
+
+trade_dominance = {
+	
+	trade_steering = 0.2
+	global_ship_trade_power = 0.2
+	placed_merchant_power_modifier = 0.2
+	
+}

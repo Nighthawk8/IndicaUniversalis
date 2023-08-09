@@ -223,7 +223,7 @@ MAB_missions_02 = {
 	}
 
 	MAB_anti_europe_01 = {
-		icon = mission_admiral
+		icon = mission_admiral_02
 		position = 5
 		required_missions = { MAB_europe_01 } 
 		provinces_to_highlight = {  } 

@@ -242,7 +242,7 @@ koc_missions_03 = {
 
 
 	KOC_new_temple = {
-		icon = mission_temple_patronage
+		icon = mission_adityapuram
 		position = 1
 		provinces_to_highlight = {  } 
 
@@ -602,7 +602,7 @@ kochin_missions_05 = {
 	}
 
 	KOC_exotic_animals = {
-		icon = mission_cannabis
+		icon = mission_cannabis_02
 		position = 2
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 

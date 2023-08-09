@@ -16,7 +16,7 @@ KLT_missions_01 = {
 
 		trigger = { 
 			legitimacy = 75
-			crown_land_share = 60
+			crown_land_share = 40
 			NOT = { mission_completed = KLT_northern_council }
 		 } 
 
@@ -785,7 +785,8 @@ KLT_missions_05 = {
 
 		trigger = { 
 			num_of_war_reparations = 3
-			
+			num_of_ports = 10
+			navy_tradition = 50
 
 			 } 
 

@@ -724,6 +724,7 @@ RLM_koc_one = {
 	has_country_shield = yes 
 	
 	RLM_koc_dominate_arabian_sea = {
+		icon = mission_coromandel_expansion
 		required_missions = { RLM_koc_compete_with_gujarat }
 		position = 10
 		trigger = {
@@ -756,6 +757,7 @@ RLM_koc_one = {
 	}
 	
 	RLM_koc_become_great_power = {
+		icon = mission_global_02
 		required_missions = { RLM_koc_dominate_arabian_sea }
 		position = 11
 		trigger = {
@@ -777,6 +779,7 @@ RLM_koc_one = {
 	}
 	
 	RLM_koc_expeditions_to_africa = {
+		icon = mission_raid_on_venice
 		required_missions = { RLM_koc_expand_navy }
 		position = 13
 		trigger = {
@@ -1115,7 +1118,7 @@ RLM_koc_three = {
 	}
 	
 	RLM_koc_unite_dravidam = {
-		icon = mission_indian_trade_company
+		icon = mission_south_india
 		required_missions = { RLM_koc_tamils RLM_koc_kannada }
 		position = 11
 		trigger = {
@@ -1229,6 +1232,7 @@ RLM_koc_five = {
 	has_country_shield = yes 
 	
 	RLM_koc_western_alliances = {
+		icon = mission_embassy_to_the_west
 		required_missions = { KOC_consolidate_malabar }
 		position = 9
 		trigger = {
@@ -1251,6 +1255,7 @@ RLM_koc_five = {
 	}
 	
 	RLM_koc_modernization = {
+		icon = mission_reform
 		required_missions = { RLM_koc_western_alliances }
 		position = 11
 		trigger = {

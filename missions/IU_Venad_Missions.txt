@@ -915,6 +915,7 @@ RLM_one = {
 	has_country_shield = yes 
 	
 	RLM_dominate_arabian_sea = {
+		icon = mission_coromandel_expansion
 		required_missions = { RLM_compete_with_gujarat }
 		position = 8
 		trigger = {
@@ -947,6 +948,7 @@ RLM_one = {
 	}
 	
 	RLM_become_great_power = {
+		icon = mission_global_02
 		required_missions = { RLM_dominate_arabian_sea }
 		position = 9
 		trigger = {
@@ -968,6 +970,7 @@ RLM_one = {
 	}
 	
 	RLM_expeditions_to_africa = {
+		icon = mission_raid_on_venice
 		required_missions = { RLM_expand_navy }
 		position = 11
 		trigger = {
@@ -1306,7 +1309,7 @@ RLM_three = {
 	}
 	
 	RLM_unite_dravidam = {
-		icon = mission_indian_trade_company
+		icon = mission_south_india
 		required_missions = { RLM_tamils RLM_kannada }
 		position = 9
 		trigger = {
@@ -1420,6 +1423,7 @@ RLM_five = {
 	has_country_shield = yes 
 	
 	RLM_western_alliances = {
+		icon = mission_embassy_to_the_west
 		required_missions = { consolidation_of_malabar }
 		position = 7
 		trigger = {
@@ -1442,6 +1446,7 @@ RLM_five = {
 	}
 	
 	RLM_modernization = {
+		icon = mission_reform
 		required_missions = { RLM_western_alliances }
 		position = 9
 		trigger = {

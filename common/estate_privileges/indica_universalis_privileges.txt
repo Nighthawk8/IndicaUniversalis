@@ -177,7 +177,7 @@ KLT_allow_ayyavole_500 = {
 IU_estate_brahmins_give_lands_to_buddhists = {
 	icon = privilege_tolerance_own
 	max_absolutism = -10
-	crown_land_share = -0.05
+	land_share = 5
 	conditional_modifier = { 
 	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
 	modifier = { max_absolutism = 1 } 
@@ -238,5 +238,37 @@ IU_estate_brahmins_protect_the_jewish_settlements = {
 		global_unrest = 1
 	}
 	cooldown_years = 5
+	ai_will_do = { factor = 0 }
+}
+
+IU_estate_brahmins_allow_pirate_control = {
+	icon = privilege_tolerance_own
+	max_absolutism = -10
+	conditional_modifier = { 
+	trigger = { has_absolutism_reduction_for_estate_privileges = yes } 
+	modifier = { max_absolutism = 1 } 
+	}
+	loyalty = -0.1
+	influence = 0.2
+	land_share = 10
+	is_valid = {
+		OR = {
+		tag = KLT
+		was_tag = KLT
+		}
+	}
+	can_select = {
+		mission_completed = KLT_northern_council
+	}
+	loyalty_scaled_conditional_modifier = {
+		modifier = {
+			privateer_efficiency = 0.4
+			naval_maintenance_modifier = -0.4
+		}
+	}
+	penalties = {
+		diplomatic_reputation = -1
+	}
+	cooldown_years = 10
 	ai_will_do = { factor = 0 }
 }

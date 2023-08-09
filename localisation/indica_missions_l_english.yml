@@ -86,6 +86,10 @@
  indica_events.6c:0 "Kongu"
  indica_events.6d:0 "Kochin"
 
+ IU_bhadrakali_flag:0 "Unlocked Bhadrakali Deity"
+ IU_muthappan_flag:0 "Unlocked Muthappan Deity"
+ unlocked_malik_dinar_mosque:0 "Unlocked Malik Dinar Mosque"
+
 ##################################################################################
 ############################## KLT Missions ######################################
 ##################################################################################
@@ -222,7 +226,11 @@
  devi_unlocked:0 "Unlocks unique deity replacement for Shakti"
  muthappan_unlocked:0 "Unlocks unique deity replacement for Vishnu and Shiva"
  IU_estate_brahmins_give_lands_to_buddhists:0 "Give Lands to Buddhists"
+ IU_estate_brahmins_give_lands_to_buddhists_desc:0 ""
  IU_estate_brahmins_protect_the_jewish_settlements:0 "Protect the Jewish Settlements"
+ IU_estate_brahmins_protect_the_jewish_settlements_desc:0 ""
+ IU_estate_brahmins_allow_pirate_control:0 "Allow Pirate Control"
+ IU_estate_brahmins_allow_pirate_control_desc:0 ""
 
  protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privlege for Brahmins"
  CHIRAKKAL_KINGDOM:0 "Chirakkal Kingdom"

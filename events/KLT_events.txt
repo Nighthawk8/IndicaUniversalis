@@ -4,7 +4,7 @@ country_event = {
 	id = kltevents.1
 	title = "kltevents.NAME1"
 	desc = "kltevents.DESC1"
-	picture = event_white_tiger
+	picture = religion_eventPicture
 	
 	is_triggered_only = yes 
 	fire_only_once = yes

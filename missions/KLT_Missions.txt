@@ -65,8 +65,13 @@ KLT_missions_01 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-		
-		 } 
+			capital_scope = {
+				total_development = 20
+				local_autonomy = 0
+			}
+			has_advisor = yes
+			has_heir = yes
+		} 
 
 		effect = { 
 		add_country_modifier = { 
@@ -92,7 +97,10 @@ KLT_independent_power = {
 		OR = { 
 			alliance_with = VND
 			alliance_with = KOC
-			} } 
+			}
+			forcelimit_percentage = 1
+			manpower_percentage = 0.5 
+		} 
 
 		effect = { 
 		break_alliance = VND
@@ -160,9 +168,7 @@ KLT_independent_power = {
 
 		effect = { 
 			custom_tooltip = devi_unlocked
-			hidden_effect = {
 			set_country_flag = IU_bhadrakali_flag
-			}
 		} 
 	}
 
@@ -182,9 +188,7 @@ KLT_independent_power = {
 
 		effect = { 
 			custom_tooltip = muthappan_unlocked
-			hidden_effect = {
 			set_country_flag = IU_muthappan_flag
-			}
 		} 
 	}
 
@@ -318,7 +322,7 @@ KLT_missions_02 = {
 
 		effect = { 
 			define_advisor = {
-				type = theologian 
+				type = philosopher 
 				skill = 3
 				cost_multiplier  =0.25
 			}
@@ -398,6 +402,9 @@ KLT_missions_03 = {
 							value = 100
 						}
 					}
+					NOT = {
+						has_country_modifier = rejects_truce_with_vij
+					}
 				
 				 } 
 
@@ -426,7 +433,7 @@ KLT_missions_03 = {
 				is_core = ROOT 
 				has_building = marketplace
 				has_building = dock
-				development = 12
+				development = 20
 			} }
 
 		effect = { 
@@ -518,7 +525,13 @@ KLT_missions_04 = {
 		required_missions = { KLT_northern_council } 
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+		trigger = { 
+			has_privateer_share_in_trade_node = {
+				who = ROOT
+				share = 0.05
+			}
+			has_estate_privilege = IU_estate_brahmins_allow_pirate_control
+		} 
 
 		effect = { add_country_modifier = {
 			name = pirates_of_kolathunad
@@ -536,14 +549,21 @@ KLT_missions_04 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-		
 		has_building = dock
-		 } 
+		MAB = {
+			is_rival = ROOT
+		}
+		543 = {
+			has_province_modifier = slaves_raided
+		}
+		4943 = {
+			has_province_modifier = slaves_raided
+		}
+		} 
 
 		effect = { 
 			
-			MAB =
-			{
+			MAB = {
 				add_country_modifier = { 
     		name = pirate_menace
     		duration = 730 
@@ -557,15 +577,15 @@ KLT_missions_04 = {
     ROOT = {
         light_ship = PREV
     }
-}
-4413 = {
+	}
+	4413 = {
     
     ROOT = {
         light_ship = PREV
     }
-}
-}
-} 
+	}
+	}
+	} 
 	
 
 
@@ -680,8 +700,10 @@ KLT_missions_05 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-		has_building = marketplace
-		
+			capital_scope = {
+				has_building = marketplace
+				base_production = 8
+			}
 		 } 
 
 		effect = { 
@@ -705,7 +727,11 @@ KLT_missions_05 = {
 		}
 		provinces_to_highlight = {  } 
 
-		trigger = { navy_tradition = 25 } 
+		trigger = { 
+			navy_tradition = 25 
+			navy_size_percentage = 1
+			has_or_building_flagship = yes
+		} 
 
 		effect = {  
 			
@@ -762,9 +788,7 @@ KLT_missions_05 = {
 				id = kltevents.1
 			}
 			custom_tooltip = unlocked_malik_dinar_mosque
-			hidden_effect = {
-				set_country_flag = unlocked_malik_dinar_mosque
-			}
+			set_country_flag = unlocked_malik_dinar_mosque
 		} 
 	}
 

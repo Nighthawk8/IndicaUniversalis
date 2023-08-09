@@ -50,8 +50,6 @@ decision_kochin_restore_old_capital = {
 		}
 	}
 
-}
-
 decision_klt_revive_malik_dinar = {
 				
 	potential = {
@@ -222,4 +220,6 @@ decision_klt_reviltalise_muthappan_temples = {
 		}
 		treasury = -150
 	}
+}
+
 }

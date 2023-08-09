@@ -84,10 +84,10 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  vijinteraction.7a:0 "We have no option but to agree. "
  vijinteraction.7b:0 "Compensate our fishermen and meat traders for their loss."
 
- vijinteraction.NAME7:0 "Ceremonial Elephant Requested"
- vijinteraction.DESC7:0 "Our ceremonial elephants have a great reputation all across the subcontinent. Vijayanagar has requested that we send them one for an important temple festival. Our priests would be upset that these elephants are being taken far away from temple premises."
- vijinteraction.7a:0 "Send a spare elephant."
- vijinteraction.7b:0 "Send our most majestic tusker!"
+ vijinteraction.NAME8:0 "Ceremonial Elephant Requested"
+ vijinteraction.DESC8:0 "Our ceremonial elephants have a great reputation all across the subcontinent. Vijayanagar has requested that we send them one for an important temple festival. Our priests would be upset that these elephants are being taken far away from temple premises."
+ vijinteraction.8a:0 "Send a spare elephant."
+ vijinteraction.8 b:0 "Send our most majestic tusker!"
 
  vijinteraction.NAME81:0 "Diplomatic Success"
  vijinteraction.DESC81:0 "Our most majestic elephant that we sent to Vijanagar has become extremely popular. We can capitalise on it for great diplomatic benefit"

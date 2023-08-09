@@ -112,6 +112,9 @@ country_event = {
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
 		}
+		NOT = {
+			has_country_modifier = has_vij_inter2
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -162,6 +165,9 @@ country_event = {
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
 		}
+		NOT = {
+			has_country_modifier = has_vij_inter3
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -206,6 +212,9 @@ country_event = {
 		has_country_modifier = has_truce_with_vij
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
+		}
+		NOT = {
+			has_country_modifier = has_vij_inter4
 		}
 	}
 	
@@ -256,10 +265,13 @@ country_event = {
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
 		}
+		NOT = {
+			has_country_modifier = has_vij_inter5
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 36
 	}
 
 	option = {	# allow access
@@ -319,6 +331,9 @@ country_event = {
 		}
 		BAH = {
 			exists = yes
+		}
+		NOT = {
+			has_country_modifier = has_vij_inter6
 		}
 	}
 	
@@ -383,10 +398,13 @@ country_event = {
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
 		}
+		NOT = {
+			has_country_modifier = has_vij_inter7
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 30
 	}
 
 	option = {	# agree
@@ -430,10 +448,13 @@ country_event = {
 		NOT = {
 			has_country_modifier = VIJ_no_concessions
 		}
+		NOT = {
+			has_country_modifier = has_vij_inter8
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 50
 	}
 
 	option = {	# spare

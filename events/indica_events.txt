@@ -233,6 +233,8 @@ country_event = {
 	desc = "indica_events.DESC6"
 	picture = event_laugh_01
 
+	is_triggered_only = yes 
+
 option = {	#Happy
 		name = "indica_events.6a"
 		trigger = {

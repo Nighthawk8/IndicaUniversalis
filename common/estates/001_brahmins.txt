@@ -168,6 +168,7 @@ estate_brahmins = {
 		IU_estate_brahmins_accept_mar_toma_church
 		IU_estate_brahmins_give_lands_to_buddhists
 		IU_estate_brahmins_protect_the_jewish_settlements
+		IU_estate_brahmins_allow_pirate_control
 	}
 
 	agendas = {

@@ -1,7 +1,7 @@
 #IU reforms
 
 IU_kolathunad_decentralised_realm = {
-	icon = "castle"
+	icon = "fist_in_air"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = no
@@ -27,7 +27,7 @@ IU_kolathunad_decentralised_realm = {
 }
 
 IU_kolathunad_partial_centralisation = {
-	icon = "castle"
+	icon = "government_for_people_reform"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = no
@@ -54,7 +54,7 @@ IU_kolathunad_partial_centralisation = {
 }
 
 IU_kolathunad_centralised_monarchy = {
-	icon = "castle"
+	icon = "indian_palace"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = no
@@ -80,7 +80,7 @@ IU_kolathunad_centralised_monarchy = {
 }
 
 IU_kolathunad_pirate_realm = {
-	icon = "castle"
+	icon = "pirate_republic"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = no
@@ -111,7 +111,7 @@ IU_kolathunad_pirate_realm = {
 }
 
 IU_kolathunad_consolidated_pirate_monarchy = {
-	icon = "castle"
+	icon = "admiral_king_reform"
 	allow_normal_conversion = no
 	legacy_equivalent = feudal_monarchy
 	valid_for_nation_designer = no
@@ -141,7 +141,7 @@ IU_kolathunad_consolidated_pirate_monarchy = {
 }
 
 IU_kolathunad_consolidated_pirate_republic = {
-	icon = "pirate_republic"
+	icon = "pirate_king"
 	allow_normal_conversion = no
 	legacy_equivalent = pirate_republic
 	valid_for_nation_designer = no

@@ -142,7 +142,7 @@ MAB_missions_01 = {
 
 		effect = { add_country_modifier = { 
     		name = shipbuilding_expertise
-    		duration = 3650
+    		duration = 7300
     		
 			} } 
 	}
@@ -345,7 +345,7 @@ MAB_missions_03 = {
 		effect = { 
 		add_country_modifier = {
 			name = middle_east_trade
-			duration = 3650
+			duration = 7300
 		} } 
 	}
 
@@ -364,7 +364,7 @@ MAB_missions_03 = {
 		effect = { 
 		add_country_modifier = {
 			name = wootz_steel_export
-			duration = 3650
+			duration = 7300
 		}
 		 } 
 	}
@@ -444,7 +444,7 @@ MAB_missions_04 = {
 		effect = { 
 		add_country_modifier = {
 			name = shipbuilding_expertise
-			duration = 3650
+			duration = 7300
 		}
 		 } 
 	}
@@ -593,7 +593,7 @@ MAB_missions_05 = {
 		
 		add_country_modifier = {
 			name = black_gold
-			duration = 3650
+			duration = 7300
 		}	
 		country_event = {
 				id = indica_events.5
@@ -648,7 +648,7 @@ MAB_missions_05 = {
 
 		effect = { add_country_modifier = {
 			name = trade_dominance
-			duration = 7300
+			duration = 10950
 		} } 
 	}
 

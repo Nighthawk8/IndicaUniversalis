@@ -67,7 +67,7 @@ koc_missions_01 = {
 
 		add_country_modifier = { 
     		name = anjuvannam_guild
-    		duration = 1825 
+    		duration = 7300 
     		
 			}
 		 } 
@@ -88,7 +88,7 @@ koc_missions_01 = {
 		effect = { change_dip = 1
 		add_country_modifier = {
 			name = diplomatic_powerhouse
-			duration = 3650
+			duration = 7300
 		} } 
 	}
 
@@ -102,9 +102,13 @@ koc_missions_01 = {
 
 		effect = { 
 			# there should be a chance a province owned by Kochin converts to Christianity
+			add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = -15
+			}
 			add_country_modifier = {
 			name = convent_education
-			duration = 3650
+			duration = 10950
 		}  } 
 	}
 
@@ -148,19 +152,18 @@ koc_missions_02 = {
 		position = 4
 		provinces_to_highlight = {  } 
 
-		trigger = { OR = {
-				537 = {
-					owner = {
-						AND = {
-							alliance_with = ROOT 
-							trust = { who = ROOT value = 20 }
-						}
-					}
+		trigger = {
+
+		OR =
+		{	AND = { 
+				alliance_with = VND
+				VND = { trust = { who = ROOT value = 50 } } 
 				}
-				537 = {
-					owned_by = ROOT 
-				}
-			} } 
+			VND = { vassal_of = ROOT }	
+			537 = { owned_by = ROOT }	
+		}
+		
+		} 
 
 		effect = {
 			
@@ -175,7 +178,7 @@ koc_missions_02 = {
 
 			add_country_modifier = {
 			name = expert_cavalry
-			duration = 1825
+			duration = 5475
 		 
 		}
 	}
@@ -202,7 +205,7 @@ koc_missions_02 = {
 
 		effect = { add_country_modifier = {
 			name = embracing_new_ideas
-			duration = 3650
+			duration = 10950
 		} } 
 	}
 
@@ -287,7 +290,7 @@ koc_missions_03 = {
 		add_treasury = 200
 		add_country_modifier = { 
     		name = vijayanagar_grant
-    		duration = 1825 
+    		duration = 7300 
     		
 			}
 		custom_tooltip = VIJ_no_demands_tt	
@@ -370,7 +373,7 @@ koc_missions_03 = {
 		effect = { 
 			add_country_modifier = { 
     		name = construction_boost
-    		duration = 1825 
+    		duration = 7300 
     		
 			}	
 		4413 = {
@@ -438,12 +441,25 @@ koc_missions_04 = {
 		required_missions = { KOC_pirate_deal } 
 		provinces_to_highlight = {  } 
 
-		trigger = { KLT = {
+		trigger = {
+
+		OR =
+		{	AND = { 
+				alliance_with = KLT
+				KLT = { trust = { who = ROOT value = 50 } } 
+				}
+			KLT = { vassal_of = ROOT }	
+			4413 = { owned_by = ROOT }	
+		}
+
+		KLT = {
 				 
-						has_opinion {
-							who = MAB 
-							value = -25
-						} } } 
+						NOT = {
+							mission_completed = KLT_central_power
+							}
+						}
+		
+		}
 
 		effect = { 
 			add_treasury = -25
@@ -451,7 +467,7 @@ koc_missions_04 = {
 			{
 				add_country_modifier = { 
     		name = pirate_menace
-    		duration = 1825 
+    		duration = 5475 
     		}
 			} } 
 	}
@@ -473,7 +489,7 @@ koc_missions_04 = {
 			}	
 		add_country_modifier = {
 				name = "oma_buildforces_mod"
-				duration = 5475
+				duration = 7300
 			}
 		 } 
 	}
@@ -554,31 +570,32 @@ kochin_missions_05 = {
 		position = 1
 		provinces_to_highlight = {  } 
 
-		trigger = { 	KLT = {
-				 
-						has_opinion {
-							who = ROOT 
-							value = 100
-						} }
-					
-						
-						
+		trigger = {
 
-						KLT = {
+		OR =
+		{	AND = { 
+				alliance_with = KLT
+				KLT = { trust = { who = ROOT value = 50 } } 
+				}
+			KLT = { vassal_of = ROOT }	
+			4413 = { owned_by = ROOT }	
+		}
+
+		KLT = {
 				 
 						NOT = {
 							mission_completed = KLT_central_power
 							}
 						}
-
-				 }  
+		
+		} 
 
 		effect = { 
 		add_prestige = -10
 		add_corruption = 1
 		add_country_modifier = { 
     		name = pirate_protection
-    		duration = 1825 
+    		duration = 5475 
     		
 			}
 		 } 
@@ -629,7 +646,7 @@ kochin_missions_05 = {
 
 		effect = { add_country_modifier = {
 			name = IU_VND_sinhalese_elephants
-			duration = 3650
+			duration = 7300
 		} } 
 	}
 
@@ -641,12 +658,19 @@ kochin_missions_05 = {
 		required_missions = { KOC_build_army } 
 		provinces_to_highlight = {  } 
 
-		trigger = { NOT = { manpower_percentage < 0.2 } } 
+		trigger = { 
+		num_of_mercenaries = 2
+		estate_loyalty = {
+				estate = estate_maratha 
+				loyalty = 60
+			}
+		 } 
+ 
 
 		effect = { change_mil = 1
 			add_country_modifier = {
 			name = mercenary_contracts
-			duration = 1825
+			duration = 7300
 		} } 
 	}
 
@@ -657,14 +681,15 @@ kochin_missions_05 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			has_idea_group = naval_ideas
+			num_of_ports = 10
+			navy_tradition = 50
 			} 
 
 		effect = { add_country_modifier = {
 			name = queen_arabian_sea
-			duration = 7300
+			duration = -1
 		 } 
 	}
-
+	}
 	
 }

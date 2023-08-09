@@ -258,7 +258,7 @@ country_event = {
 	id = vijinteraction.5
 	title = "vijinteraction.NAME5"
 	desc = "vijinteraction.DESC5"
-	picture = event_port_01
+	picture = event_march_01
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
@@ -319,7 +319,7 @@ country_event = {
 	id = vijinteraction.6
 	title = "vijinteraction.NAME6"
 	desc = "vijinteraction.DESC6"
-	picture = event_port_01
+	picture = event_news_01
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
@@ -391,7 +391,7 @@ country_event = {
 	id = vijinteraction.7
 	title = "vijinteraction.NAME7"
 	desc = "vijinteraction.DESC7"
-	picture = event_port_01
+	picture = event_temple_01
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
@@ -441,7 +441,7 @@ country_event = {
 	id = vijinteraction.8
 	title = "vijinteraction.NAME8"
 	desc = "vijinteraction.DESC8"
-	picture = event_port_01
+	picture = event_ceremonial_elephant
 	
 	trigger = {
 		has_country_modifier = has_truce_with_vij
@@ -504,7 +504,7 @@ country_event = {
 	id = vijinteraction.81
 	title = "vijinteraction.NAME81"
 	desc = "vijinteraction.DESC81"
-	picture = event_port_01
+	picture = event_ceremonial_elephant
 	
 	is_triggered_only = yes
 
@@ -526,7 +526,7 @@ country_event = {
 	id = vijinteraction.82
 	title = "vijinteraction.NAME82"
 	desc = "vijinteraction.DESC82"
-	picture = event_port_01
+	picture = event_ceremonial_elephant
 	
 	is_triggered_only = yes
 

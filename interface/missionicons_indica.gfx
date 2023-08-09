@@ -120,4 +120,20 @@ spriteTypes = {
 		name = "mission_adityapuram"
 		texturefile = "gfx//interface//missions//mission_adityapuram.dds"
 	}
+	spriteType = {
+		name = "mission_south_india"
+		texturefile = "gfx//interface//missions//mission_south_india.dds"
+	}
+	spriteType = {
+		name = "mission_global"
+		texturefile = "gfx//interface//missions//mission_global.dds"
+	}
+	spriteType = {
+		name = "mission_global_02"
+		texturefile = "gfx//interface//missions//mission_global_02.dds"
+	}
+	spriteType = {
+		name = "mission_reform"
+		texturefile = "gfx//interface//missions//mission_reform.dds"
+	}
 }	

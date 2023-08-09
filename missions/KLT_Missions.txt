@@ -160,7 +160,7 @@ KLT_independent_power = {
 	}
 
 	KLT_devi_temples = {
-		icon = mission_patronize_local_gods
+		icon = mission_kali_temple
 		position = 7
 		required_missions = { KLT_mushika_heritage } 
 		provinces_to_highlight = {  } 
@@ -180,7 +180,7 @@ KLT_independent_power = {
 	}
 
 	KLT_muthappan_temple = {
-		icon = mission_religious_harmony
+		icon = mission_muthappan
 		position = 8
 		required_missions = { KLT_devi_temples } 
 		provinces_to_highlight = {  } 

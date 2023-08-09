@@ -511,7 +511,7 @@ KLT_missions_03 = {
 	}
 
 	KLT_consolidate_malabar = {
-		icon = mission_the_sudebnik
+		icon = mission_consolidate_malabar
 		position = 9
 		provinces_to_highlight = {  } 
 
@@ -531,7 +531,7 @@ KLT_missions_03 = {
 		}
 
 
-		effect = {  } 
+		effect = { add_prestige = 50 } 
 	}
 }
 

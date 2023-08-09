@@ -419,7 +419,7 @@ koc_missions_03 = {
 			}
 		}
 
-		effect = {  } 
+		effect = { add_prestige = 50 } 
 	}
 }
 

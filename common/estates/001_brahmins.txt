@@ -16,6 +16,7 @@ estate_brahmins = {
 						technology_group = indian
 						religion_group = muslim
 						NOT = { has_country_flag = gained_dhimmi_estate }
+						NOT = { tag = KLT }
 					}
 					religion = hinduism
 				}

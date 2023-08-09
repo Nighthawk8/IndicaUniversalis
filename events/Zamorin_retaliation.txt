@@ -10,8 +10,14 @@ province_event = {
 		has_province_modifier = lvl_3_influence_province
 		owner = {
 			NOT = {
+				OR = {
 				tag = MAB
+				was_tag = MAB
+				}
 			}
+		}
+		MAB = {
+			exists = yes
 		}
 	}
 	
@@ -115,8 +121,14 @@ province_event = {
 		has_province_modifier = lvl_4_influence_province
 		owner = {
 			NOT = {
+				OR = {
 				tag = MAB
+				was_tag = MAB
+				}
 			}
+		}
+		MAB = {
+			exists = yes
 		}
 	}
 	
@@ -220,8 +232,14 @@ province_event = {
 		has_province_modifier = lvl_5_influence_province
 		owner = {
 			NOT = {
+				OR = {
 				tag = MAB
+				was_tag = MAB
+				}
 			}
+		}
+		MAB = {
+			exists = yes
 		}
 	}
 	
@@ -425,6 +443,9 @@ country_event = {
 			}
 			total_development = 50
 		}
+		MAB = {
+			exists = yes
+		}
 	}
 
 	mean_time_to_happen = {
@@ -477,6 +498,9 @@ country_event = {
 				num_of_cities = 2
 			}
 			total_development = 50
+		}
+		MAB = {
+			exists = yes
 		}
 	}
 
@@ -531,6 +555,9 @@ country_event = {
 			}
 			total_development = 50
 		}
+		MAB = {
+			exists = yes
+		}
 	}
 
 	mean_time_to_happen = {
@@ -583,6 +610,9 @@ country_event = {
 				num_of_cities = 2
 			}
 			total_development = 50
+		}
+		MAB = {
+			exists = yes
 		}
 	}
 

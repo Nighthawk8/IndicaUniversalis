@@ -37,6 +37,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon1
 		}
+		OR = {
+		tag = MAB
+		was_tag = MAB
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -186,6 +190,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon2
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -397,6 +405,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon3
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -538,6 +550,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon4
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -693,6 +709,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon5
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -850,6 +870,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon6
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -997,6 +1021,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon7
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {
@@ -1205,6 +1233,10 @@ country_event = {
 		NOT = {
 			has_country_modifier = had_event_zamcon8
 		}
+		OR = {
+			tag = MAB
+			was_tag = MAB
+			}
 	}
 	
 	mean_time_to_happen = {

@@ -315,7 +315,7 @@ KLT_missions_02 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			current_income_balance = 7.5
+			monthly_income = 10
 			trade_income_percentage = 0.25
 			OR = {
 				596 = { has_trader = ROOT }
@@ -625,7 +625,7 @@ KLT_missions_04 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			current_income_balance = 7.5
+			monthly_income = 10
 			production_income_percentage = 0.25
 			OR = {
 				1948 = { has_trader = ROOT }

@@ -41,16 +41,13 @@ country_decisions = {
 				NOT = { exists = RLM }
 				is_free_or_tributary_trigger = yes
 				is_at_war = no
-				malabar_area = {
-					all_province_in_state = {
-						is_core = ROOT
-					}
-				}
-				south_malabar_area = {
-					all_province_in_state = {
-						is_core = ROOT
-					}
-				}
+				owns_core_province = 4413		
+				owns_core_province = 534		
+				owns_core_province = 4943		
+				owns_core_province = 535
+				owns_core_province = 537
+				owns_core_province = 4942
+				owns_core_province = 4410
 			}
 				
 				

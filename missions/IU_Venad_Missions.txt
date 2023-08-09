@@ -693,7 +693,7 @@ IU_VND_slot_five_hidden = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 		NOT = {
 			has_country_flag = IU_VND_modernizing_with_western_models

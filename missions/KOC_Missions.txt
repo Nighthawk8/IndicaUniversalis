@@ -826,6 +826,7 @@ RLM_koc_one = {
 	}
 	
 	RLM_koc_swahili_coast = {
+		icon = mission_reclaim_morocco
 		required_missions = { RLM_koc_expeditions_to_africa }
 		position = 14
 		trigger = {

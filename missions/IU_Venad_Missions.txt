@@ -1017,6 +1017,7 @@ RLM_one = {
 	}
 	
 	RLM_swahili_coast = {
+		icon = mission_reclaim_morocco
 		required_missions = { RLM_expeditions_to_africa }
 		position = 12
 		trigger = {

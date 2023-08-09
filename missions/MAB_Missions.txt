@@ -808,6 +808,7 @@ RLM_mab_one = {
 	}
 	
 	RLM_mab_swahili_coast = {
+		icon = mission_reclaim_morocco
 		required_missions = { RLM_mab_expeditions_to_africa }
 		position = 12
 		trigger = {

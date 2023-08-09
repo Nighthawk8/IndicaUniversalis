@@ -1,3 +1,13 @@
+on_battle_lost_province = {
+	if = {
+		limit = {
+			is_sea = yes 
+			FROM = { has_country_modifier = RLM_active_navy_reforms }
+		}
+		add_dip_power = 3
+	}
+}
+
 on_battle_won_unit = {
 	on_battle_won_unit_effect = yes 
 	if = {

@@ -11,6 +11,9 @@ country_decisions = {
 					is_playing_custom_nation = no
 				}
 				NOT = { exists = RLM }
+				NOT = {
+					tag = DRV
+				}
 				is_colonial_nation = no
 				OR = {
 					is_former_colonial_nation = no
@@ -35,15 +38,16 @@ country_decisions = {
 			}
 			
 			allow = {
-				NOT = { exists = DRV }
+				NOT = { exists = RLM }
 				is_free_or_tributary_trigger = yes
 				is_at_war = no
-				malabar_area = {
-					is_core = ROOT
-				}
-				south_malabar_area = {
-					is_core = ROOT
-				}
+				owns_core_province = 4413		
+				owns_core_province = 534		
+				owns_core_province = 4943		
+				owns_core_province = 535
+				owns_core_province = 537
+				owns_core_province = 4942
+				owns_core_province = 4410
 			}
 				
 				

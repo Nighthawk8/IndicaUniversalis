@@ -200,13 +200,15 @@
  kltevents.2a:0 "Tell it to the people"
  kltevents.2b:0 "Keep the legend in Court"
 
- decision_klt_revive_malik_dinar:0 "Revive Malik Dinar"
- decision_klt_upgrade_malik_dinar:0 "Upgrade Malik Dinar"
+ decision_klt_revive_malik_dinar_title:0 "Revive Malik Dinar"
+ decision_klt_revive_malik_dinar_desc:0 ""
+ decision_klt_upgrade_malik_dinar_title:0 "Upgrade Malik Dinar"
+ decision_klt_upgrade_malik_dinar_desc:0 ""
  malik_dinar_mosque:0 "Malik Dinar Mosque"
  upgraded_malik_dinar_mosque:0 "Upgraded Malik Dinar Mosque"
  unlocked_malik_dinar_mosque:0 "Unlocked Malik Dinar Mosque"
- unlocked_religious_school_malik:0 "This mission unlocks and adds the unique religious school Legacy of Malik Dinar"
- legacy_of_malik_dinar_school:0 "Legacy of Malik Dinar"
+ unlocked_religious_school_malik:0 "This mission unlocks and adds the unique religious school Malik Dinar"
+ legacy_of_malik_dinar_school:0 "Malik Dinar"
  arabian_trade:0 "Arabian Trade"
  diplomatic_prowess:0 "Diplomatic Prowess"
 
@@ -214,15 +216,20 @@
  RKK_ADJ:0 "Arakkal"
 
  valiya_muttapan_IU:0 "Valiya Muttapan"
+ valiya_muttapan_IU_desc:0 ""
  cheriya_muttapan_IU:0 "Cheriya Muttapan"
+ cheriya_muttapan_IU_desc:0 ""
  bhadrakali_IU:0 "Bhadrakali"
+ bhadrakali_IU_desc:0 ""
 
  remember_mushika_heritage:0 "Remeber Mushika Heritage"
  unlocked_temple_development:0 "By completing these decisons you have unlocked development decisions to build and revitalise various temples within the province"
  devi_temples:0 "Devi Temples"
  muthappan_temple:0 "Muthappan Temple"
- decision_klt_develop_devi_temples:0 "Develop Devi Temples"
- decision_klt_reviltalise_muthappan_temples:0 "Reviltalise Muthappan Temples"
+ decision_klt_develop_devi_temples_title:0 "Develop Devi Temples"
+ decision_klt_develop_devi_temples_title_desc:0 ""
+ decision_klt_reviltalise_muthappan_temples_title:0 "Reviltalise Muthappan Temples"
+ decision_klt_reviltalise_muthappan_temples_desc:0 ""
  devi_unlocked:0 "Unlocks unique deity replacement for Shakti"
  muthappan_unlocked:0 "Unlocks unique deity replacement for Vishnu and Shiva"
  IU_estate_brahmins_give_lands_to_buddhists:0 "Give Lands to Buddhists"
@@ -240,6 +247,13 @@
 
  protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privlege for Brahmins"
  CHIRAKKAL_KINGDOM:0 "Chirakkal Kingdom"
+ 
+ the_legend_of_tajuddeen:0 "The legend of Tajuddeen"
+
+ muslim_school_events.20.g:0 "Remember the legends of Malik Dinar"
+ hindu_events.1.j:0 "Follow Valiya Muttapan"
+ hindu_events.1.k:0 "Follow Cheriya Muttapan"
+ hindu_events.1.l:0 "Follow Bhadrakali"
 
 ##################################################################################
 ############################## KOC Missions ######################################

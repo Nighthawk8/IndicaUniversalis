@@ -55,6 +55,14 @@ decision_klt_revive_malik_dinar = {
 	potential = {
 		tag = KLT
 		has_country_flag = unlocked_malik_dinar_mosque
+		NOT = {
+			4413 = {
+				OR = {
+				has_province_modifier = malik_dinar_mosque
+				has_province_modifier = upgraded_malik_dinar_mosque
+				}
+			}
+		}
 	}
 	
 	allow = {
@@ -86,7 +94,7 @@ decision_klt_revive_malik_dinar = {
 				add_building = temple
 			}
 		}
-		treasury = -200
+		add_treasury = -200
 	}
 }
 
@@ -100,6 +108,11 @@ decision_klt_upgrade_malik_dinar = {
 			has_country_modifier = malik_dinar_mosque
 		}
 		adm_tech = 12
+		NOT = {
+			4413 = {
+				has_province_modifier = upgraded_malik_dinar_mosque
+			}
+		}
 	}
 	
 	allow = {
@@ -133,7 +146,7 @@ decision_klt_upgrade_malik_dinar = {
 				add_building = cathedral
 			}
 		}
-		treasury = -250
+		add_treasury = -250
 	}
 }
 
@@ -142,6 +155,11 @@ decision_klt_develop_devi_temples = {
 	potential = {
 		tag = KLT
 		has_country_flag = unlocked_temple_development
+		NOT = {
+			4413 = {
+				has_province_modifier = devi_temples
+			}
+		}
 	}
 	
 	allow = {
@@ -183,6 +201,11 @@ decision_klt_reviltalise_muthappan_temples = {
 	potential = {
 		tag = KLT
 		has_country_flag = unlocked_temple_development
+		NOT = {
+			4413 = {
+				has_province_modifier = muthappan_temple
+			}
+		}
 	}
 	
 	allow = {

@@ -460,10 +460,25 @@ country_event = {
 	option = {	# spare
 		name = "vijinteraction.8a"
 		ai_chance = { factor = 25 }
-		add_estate_loyalty = {
-			estate = estate_brahmins
-			loyalty = -15
+		if = {
+			limit = {
+				has_estate = estate_brahmins
+			}
+			add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = -15
+			}
 		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -15
+			}
+		}
+
 		hidden_effect = {
 			add_country_modifier = {
 				name = has_vij_inter8
@@ -475,9 +490,23 @@ country_event = {
 	option = {	# best
 		name = "vijinteraction.8b"
 		ai_chance = { factor = 75 }
-		add_estate_loyalty = {
-			estate = estate_brahmins
-			loyalty = -25
+		if = {
+			limit = {
+				has_estate = estate_brahmins
+			}
+			add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = -25
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = -25
+			}
 		}
 		random_list = {
 			75 = {
@@ -510,9 +539,23 @@ country_event = {
 
 	option = {	# spare
 		name = "vijinteraction.81a"
-		add_estate_loyalty = {
-			estate = estate_brahmins
-			loyalty = 30
+		if = {
+			limit = {
+				has_estate = estate_brahmins
+			}
+			add_estate_loyalty = {
+				estate = estate_brahmins
+				loyalty = 30
+			}
+		}
+		if = {
+			limit = {
+				has_estate = estate_church
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 30
+			}
 		}
 		add_country_modifier = {
 			name = elephant_diplo_success

@@ -362,7 +362,7 @@ KLT_missions_02 = {
 				base_tax = 5
 				base_production = 8
 				base_manpower = 8
-				total_development = 30
+				development  = 30
 				local_autonomy = 0
 			}
 			religion = hinduism
@@ -647,8 +647,12 @@ KLT_missions_04 = {
 
 		trigger = { 
 			OR = {
-			has_merchant = hormuz
-			has_merchant = gulf_of_aden
+				1334 = {
+				has_merchant = ROOT
+				}
+				4346 = {
+				has_merchant = ROOT
+				}
 			}
 			1340 = { #coromandel
 				trade_share = {

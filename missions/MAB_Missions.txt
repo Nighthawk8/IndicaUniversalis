@@ -223,7 +223,7 @@ MAB_missions_02 = {
 	}
 
 	MAB_anti_europe_01 = {
-		icon = mission_admiral
+		icon = mission_admiral_02
 		position = 5
 		required_missions = { MAB_europe_01 } 
 		provinces_to_highlight = {  } 
@@ -392,9 +392,22 @@ MAB_missions_03 = {
 		position = 7
 		provinces_to_highlight = {  } 
 
-		trigger = {  } 
+			trigger = {
+			malabar_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT 
+				is_prosperous = yes 
+			}
+			south_malabar_area = {
+				type = all 
+				owned_by = ROOT 
+				is_core = ROOT 
+				is_prosperous = yes 
+			}
+		}
 
-		effect = {  } 
+		effect = { add_prestige = 50 } 
 	}
 }
 

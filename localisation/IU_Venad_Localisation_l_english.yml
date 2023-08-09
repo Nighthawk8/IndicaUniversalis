@@ -26,14 +26,14 @@
  IU_VND_patronize_temple_desc:0 "For all the thick and thin with the people involved with it, the Padmanabhaswamy Temple is still the crown jewel of Venad. Five stories of solid gold, the richest temple in all of India sees pilgrims from all across the subcontinent. It is named after the aspect of Vishnu, the Preserver, and its custodians are a major faction in the Venad Kingdom. Its importance cannot be understated. We ought to invest into this temple, fill it with treasures and the finest artisanship anyone can find!"
 
  IU_VND_crucible_of_kerala_title:0 "Crucible of Kerala"
- IU_VND_crucible_of_kerala_desc:0 ""
+ IU_VND_crucible_of_kerala_desc:0 "There are four powers competing for control of the lucrative Malabar Coast. The decentralized yet fierce naval power of Kolathunad, Calicut, the realm of the conniving Zamorin, the declining city of Kochin, and us of course. Venad is in a prime position to take control of the coast with our superior military, but we are unprepared for an invasion at the moment. We need to be ready when the day comes, so let us bolster our forces and hire new officers!"
  IU_VND_tradition_tt: "We will gain 3 army tradition for each point of MIL power we make per month, up to 30 army tradition."
 
  IU_VND_dethrone_zamorin_title:0 "Dethrone the Zamorin"
- IU_VND_dethrone_zamorin_desc:0 ""
+ IU_VND_dethrone_zamorin_desc:0 "The Zamorin has lived the life of luxury for far too long now. Calicut has extended influence over the coast for decades, striking deals with Muslim powers to control all the trade and riches flowing through the Coromandel. For our prosperity, we need to dethrone the Zamorin or else he will continue to profit off our stagnation."
 
  consolidation_of_malabar_title:0 "Consolidation of Malabar"
- consolidation_of_malabar_desc:0 ""
+ consolidation_of_malabar_desc:0 "Now that all of Malabar is conquered, we must integrate the territory to make sure our progress isn't reversed. There are still princes and nobles who would want to weaken Keralam from the inside, and we cannot truly call ourselves the kings of Kerala until any possible rebellions have been nipped in the bud."
 
  IU_VND_king_of_chiefs_title:0 "A King Among Chiefs"
  IU_VND_king_of_chiefs_desc:0 ""
@@ -48,13 +48,13 @@
  IU_VND_abolish_the_aristocracy_desc:0 ""
 
  IU_VND_deal_with_the_devil_title:0 "Deal with the Devil"
- IU_VND_deal_with_the_devil_desc:0 ""
+ IU_VND_deal_with_the_devil_desc:0 "Although Vijayanagar threatens us more than anyone else, they do not seem to have it in them to launch a full scale invasion. Our natural jungles and highlands make it not worthwhile for the amount of troops they would lose."
 
  IU_VND_dynastic_claims_title:0 "Heirs to the Ay"
- IU_VND_dynastic_claims_desc:0 ""
+ IU_VND_dynastic_claims_desc:0 "We are the direct descendants of the Ay kingdom, which itself is derived from the Chera kingdom of antiquity. Through this we have a semi-legitimate claim to the Chera kingdom, and so we seek to expand into the Tamil lands. If we do so, we can legitimize our claim to being Chera and restore the glory of the Tamil kingdoms."
 
  IU_VND_last_tamil_king_title:0 "Glorified by Heaven"
- IU_VND_last_tamil_king_desc:0 ""
+ IU_VND_last_tamil_king_desc:0 "Finally we have managed to defeat the Pandya dynasty which has oppressed us for centuries! We can now claim to be the Chera dynasty reborn with Tamilakam reconquered and our foes vanquished."
 
  IU_VND_western_explorers_title:0 "Explorers from the West"
  IU_VND_western_explorers_desc:0 ""
@@ -76,12 +76,14 @@
  IU_VND_defense_of_malabar_title: "Superiority Over the West"
  
  IU_VND_a_friend_in_need_title: "A Friend In Need"
+ IU_VND_a_friend_in_need_desc: "Although the most we have interacted with them is basic trade relations, we believe that the Kotte and Kandy dynasties of Sri Lanka would make a fine ally against our enemies to the north. They carry expertise in war elephants and our navies combined would likely defeat Vijayanagar's."
  
  IU_VND_chieftains_favor_tt: "We will unlock the 'Tribal Conscription' estate privilege for the Kshatriyas"."
  
  #Events
  
  IU_VND.1.t: "The Coconut Isles"
+ IU_VND.1.d: "In the Maldives are several jungles of coconut trees sprawling the hundreds of islands that make up the archipelago. They are the central production hub for coir, which is used to fabricate the dhows that traverse the Indian Ocean. The crystaline waters of the Maldives shall be the launching pad of our new dominant boat industry. All the sailors of the Indian Ocean will be forced to purchase from us now!"
  IU_VND.1.a: "Our shipwrights are about have a lot of work!"
  
  IU_VND.2.t: "The Three Crowned Rulers"

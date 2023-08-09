@@ -5,7 +5,7 @@ IU_VND_slot_one = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes 
@@ -114,7 +114,7 @@ IU_VND_slot_two = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes 
@@ -267,7 +267,7 @@ IU_VND_slot_three = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes 
@@ -472,7 +472,7 @@ IU_VND_slot_four = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes 
@@ -657,7 +657,7 @@ IU_VND_slot_5 = {
 	potential = {
 		OR = {
 			tag = VND 
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes 
@@ -693,7 +693,7 @@ IU_VND_slot_five_hidden = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 		NOT = {
 			has_country_flag = IU_VND_modernizing_with_western_models
@@ -724,7 +724,7 @@ IU_VND_slot_5_nonwestern = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 		has_country_flag = IU_VND_dispelling_western_influence
 	}
@@ -778,7 +778,7 @@ IU_VND_slot_5_western = {
 	potential = {
 		OR = {
 			tag = VND
-			tag = RLM 
+			was_tag = VND
 		}
 		has_country_flag = IU_VND_modernizing_with_western_models
 	}
@@ -839,7 +839,7 @@ IU_VND_five_chera = {
 	potential = {
 		OR = {
 			tag = VND 
-			tag = RLM 
+			was_tag = VND
 		}
 	}
 	has_country_shield = yes
@@ -910,6 +910,7 @@ RLM_one = {
 	ai = yes 
 	potential = {
 		tag = RLM 
+		was_tag = VND
 	}
 	has_country_shield = yes 
 	
@@ -1060,6 +1061,7 @@ RLM_two = {
 	ai = yes 
 	potential = {
 		tag = RLM 
+		was_tag = VND
 	}
 	has_country_shield = yes 
 	
@@ -1230,6 +1232,7 @@ RLM_three = {
 	ai = yes 
 	potential = {
 		tag = RLM 
+		was_tag = VND
 	}
 	has_country_shield = yes 
 	
@@ -1355,6 +1358,7 @@ RLM_four = {
 	ai = yes 
 	potential = {
 		tag = RLM 
+		was_tag = VND
 	}
 	has_country_shield = yes 
 	
@@ -1411,6 +1415,7 @@ RLM_five = {
 	ai = yes 
 	potential = {
 		tag = RLM 
+		was_tag = VND
 	}
 	has_country_shield = yes 
 	

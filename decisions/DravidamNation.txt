@@ -69,22 +69,9 @@ country_decisions = {
 				owns_all_provinces = {
 					culture = malayalam
 				}
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					limit = {
-						region = deccan_region
-					}
-					value = 20
-				}
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					limit = {
-						region = coromandel_region
-					}
-					value = 15
-				}
 				
 			}
 				
-			}
 			effect = {
 				change_tag = DRV
 				swap_non_generic_missions = yes

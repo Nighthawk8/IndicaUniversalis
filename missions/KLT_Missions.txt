@@ -16,7 +16,7 @@ KLT_missions_01 = {
 
 		trigger = { 
 			legitimacy = 75
-			crown_land_share = 60
+			crown_land_share = 40
 			NOT = { mission_completed = KLT_northern_council }
 		 } 
 
@@ -511,7 +511,7 @@ KLT_missions_03 = {
 	}
 
 	KLT_consolidate_malabar = {
-		icon = mission_the_sudebnik
+		icon = mission_consolidate_malabar
 		position = 9
 		provinces_to_highlight = {  } 
 
@@ -531,7 +531,7 @@ KLT_missions_03 = {
 		}
 
 
-		effect = {  } 
+		effect = { add_prestige = 50 } 
 	}
 }
 
@@ -788,10 +788,10 @@ KLT_missions_05 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			num_of_war_reparations = 3
-			
-
-			 } 
+			num_of_war_reparations = 2
+			num_of_ports = 10
+			navy_tradition = 50
+		}
 
 		effect = { 
 

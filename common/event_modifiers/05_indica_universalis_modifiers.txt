@@ -89,9 +89,9 @@ embracing_new_ideas = {
 
 convent_education = {
 	
-	global_unrest = 2
-	technology_cost = -0.15
-	idea_cost = -0.15
+	
+	technology_cost = -0.10
+	idea_cost = -0.10
 	
 }
 

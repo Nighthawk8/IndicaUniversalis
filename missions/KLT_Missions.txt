@@ -784,11 +784,10 @@ KLT_missions_05 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			num_of_war_reparations = 3
+			num_of_war_reparations = 2
 			num_of_ports = 10
 			navy_tradition = 50
-
-			 } 
+		}
 
 		effect = { 
 

@@ -216,17 +216,36 @@ koc_missions_02 = {
 		provinces_to_highlight = {  } 
 
 		trigger = { 
-			VND = { NOT = { alliance_with = ROOT} } 
+			south_malabar_area = {
+				owned_by = ROOT 
+				type = all 
+			}
 		}
 
 		effect = { 
-		south_malabar_area = {
-				add_permanent_claim = ROOT 
+			south_malabar_area = {
+				add_autonomy = -100
+				add_devastation = -50
 			}
-			 } 
-	}
-
-	
+			if = {
+				limit = {
+					NOT = {
+						has_great_project = {
+							type = IU_padmanabhaswamy_temple
+							tier = 1
+						}
+					}
+				}
+				537 = {
+					add_great_project_tier = {
+						type = IU_padmanabhaswamy_temple
+						tier = 1
+					}
+				}
+			}
+			add_prestige = 20
+		}
+	}	
 }
 
 ##################################################################################

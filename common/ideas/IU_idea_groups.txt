@@ -129,3 +129,50 @@ MAB_ideas = {
 		land_forcelimit_modifier = 0.15
 	}
 }
+
+KOC_ideas = {
+	start = {
+		global_trade_goods_size_modifier = 0.1
+		idea_cost = -0.1
+
+	}
+	
+	bonus = {
+		production_efficiency = 0.1
+
+	}
+	
+	trigger = { tag = KOC }
+	free = yes 
+	
+	malabari_cultural_melting_pot = {
+		advisor_cost = -0.1
+		tolerance_heathen = 1
+	}
+	
+	malabari_trade_factors = {
+		merchants = 1
+	}
+
+	south_indian_literature = {
+		prestige = 1
+		tolerance_own = 1
+	}
+
+	malabari_kerala_school = {
+		technology_cost = -0.05
+	}
+		
+	south_indian_mercenaries = {
+		merc_maintenance_modifier = -0.15
+	}
+	
+	malabari_mapilla_sailors = {
+		navy_tradition = 1
+	}
+
+	merchants_of_southern_india = { 
+		trade_range_modifier = 0.20
+		global_trade_power = 0.1
+	}
+}

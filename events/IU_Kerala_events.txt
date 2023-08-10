@@ -4,6 +4,7 @@ country_event = {
 	id = IU_RLM.1
 	title = IU_RLM.1.t 
 	desc = IU_RLM.1.d 
+	picture = LAND_MILITARY_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -23,6 +24,7 @@ country_event = {
 	id = IU_RLM.2 
 	title = IU_RLM.2.t 
 	desc = IU_RLM.2.d 
+	picture = CITY_VIEW_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -45,6 +47,7 @@ country_event = {
 	id = IU_RLM.3
 	title = IU_RLM.3.t
 	desc = IU_RLM.3.d 
+	picture = NAVAL_MILITARY_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -64,6 +67,7 @@ country_event = {
 	id = IU_RLM.5
 	title = IU_RLM.5.t 
 	desc = IU_RLM.5.d 
+	picture = HARBOUR_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -98,6 +102,7 @@ country_event = {
 	id = IU_RLM.6
 	title = IU_RLM.6.t 
 	desc = IU_RLM.6.d 
+	picture = COURT_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -125,6 +130,7 @@ country_event = {
 	id = IU_RLM.7
 	title = IU_RLM.7.t 
 	desc = IU_RLM.7.d 
+	picture = PORTUGUESE_MERCHANTS_eventPicture
 	
 	fire_only_once = yes 
 	

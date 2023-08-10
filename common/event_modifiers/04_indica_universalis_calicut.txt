@@ -9,7 +9,7 @@ zamorin_influence_blocked = {
 }
 
 lvl_1_influence_province = {
-	picture = "IU_calicut_influence_gfx"
+	picture = IU_calicut_influence_gfx
 
 }
 
@@ -17,28 +17,28 @@ lvl_2_influence_province = {
 	local_tax_modifier = -0.10
 	trade_goods_size_modifier = -0.1
 	local_manpower_modifier = -0.1
-	picture = "IU_calicut_influence_gfx"
+	picture = IU_calicut_influence_gfx
 }
 
 lvl_3_influence_province = {
 	local_tax_modifier = -0.3
 	trade_goods_size_modifier = -0.3
 	local_manpower_modifier = -0.3
-	picture = "IU_calicut_influence_gfx"
+	picture = IU_calicut_influence_gfx
 }
 
 lvl_4_influence_province = {
 	local_tax_modifier = -0.5
 	trade_goods_size_modifier = -0.5
 	local_manpower_modifier = -0.5
-	picture = "IU_calicut_influence_gfx"
+	picture = IU_calicut_influence_gfx
 }
 
 lvl_5_influence_province = {
 	local_tax_modifier = -0.75
 	trade_goods_size_modifier = -0.75
 	local_manpower_modifier = -0.75
-	picture = "IU_calicut_influence_gfx"
+	picture = IU_calicut_influence_gfx
 }
 
 used_influnce_increase_recently = {

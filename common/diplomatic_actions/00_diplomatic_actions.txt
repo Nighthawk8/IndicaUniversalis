@@ -183,6 +183,27 @@ declarewar = {
 	}
 }
 
+guaranteeaction = {
+	condition = {
+		tooltip = IU_CANNOT_GUARENTEE_VIJ_MAL
+		potential = {
+			tag = VIJ
+		}
+		allow = {
+			NOT = {
+			FROM = {
+				OR = {
+					tag = MAB
+					tag = KOC
+					tag = KLT
+					tag = VND
+				}
+			}
+			}
+		}
+	}
+}
+
 allianceaction = {
 	condition = {
 		tooltip = PIRATE_DENIED_ALLIANCE

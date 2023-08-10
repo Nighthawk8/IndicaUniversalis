@@ -19,7 +19,7 @@
  IU_VND_revitalize_kollam_title:0 "Revitalize Kollam"
  IU_VND_revitalize_kollam_desc:0 "Kollam was recently raided by the Zamorin of Calicut and has never truly recovered since. It is a shadow of its former glory, merely a pit stop for merchants who are not allowed in the walls of Calicut. Yet many remember when it was not so. Kollam a thriving hub of traders and scholars alike, the capital of Venad! Oh, to once again have that sort of prestige. We must get to work, growing and nourishing this city. The Zamorin may have overtaken Kollam for a brief moment, but our city is ancient dating back to the Chera dynasty of old and its light will shine through no matter what!"
 
- IU_VND_erect_new_mandirs_title:0 "Erect New Ambalams"
+ IU_VND_erect_new_mandirs_title:0 "Erect New Temples"
  IU_VND_erect_new_mandirs_desc:0 "There is a concern growing of spiritual and moral bankruptcy in Venad. The Ettara Yogam certainly aren't doing a good job maintaining the principles of our faith, but besides the Padmanabhaswamy Temple, there aren't many other places to worship. The people need temples. It reflects well on our king to meet the peoples' needs and the extra tax doesn't hurt, either."
 
  IU_VND_patronize_temple_title:0 "Adorn the Gilded Temple"
@@ -36,16 +36,16 @@
  consolidation_of_malabar_desc:0 "Now that all of Malabar is conquered, we must integrate the territory to make sure our progress isn't reversed. There are still princes and nobles who would want to weaken Keralam from the inside, and we cannot truly call ourselves the kings of Kerala until any possible rebellions have been nipped in the bud."
 
  IU_VND_king_of_chiefs_title:0 "A King Among Chiefs"
- IU_VND_king_of_chiefs_desc:0 ""
+ IU_VND_king_of_chiefs_desc:0 "It's a pity how these local chieftains squabble for wealth and glory. Their  short-sighted visions do not allow them to see beyond such earthly desires. Our supreme monarch alone has the desire and conviction to lead our nation to glory. It would be a supreme waste of the king's time to convince these local warlords about hsi grand designs. The king's hand must be strengthened so that he can shake off such burdens and focus only on leading our nation forward."
 
  IU_VND_curtail_ettara_yogam_title:0 "Placate the Nair Castes"
- IU_VND_curtail_ettara_yogam_desc:0 ""
+ IU_VND_curtail_ettara_yogam_desc:0 "The warriors and aristocrats from the Nair castes sure do have their uses for the kingdom. However, their desire for power and prestige grow at a rate matched only by their hatred for one another. Thankfully, the rivalries between various Nair families enable us to keep their influence in check and thereby preserve their loyalties to the crown."
 
  IU_VND_overrun_kochin_title:0 "Overrun Kochin"
- IU_VND_overrun_kochin_desc:0 ""
+ IU_VND_overrun_kochin_desc:0 "Humiliated and shattered, the rulers of Kochin are still pathetically holding on to their past in delusion. It would be merciful to put Kochin out of its misery."
 
  IU_VND_abolish_the_aristocracy_title:0 "Abolish the Aristocracy"
- IU_VND_abolish_the_aristocracy_desc:0 ""
+ IU_VND_abolish_the_aristocracy_desc:0 "Let no one be under the false illusion that they are comparable to the monarch, who's rightful place at the helm of our nation has been ordained by the gods themselves. It would be advisable to cut the aristocrats down to size, lest they harbour dreams of parity with the king."
 
  IU_VND_deal_with_the_devil_title:0 "Deal with the Devil"
  IU_VND_deal_with_the_devil_desc:0 "Although Vijayanagar threatens us more than anyone else, they do not seem to have it in them to launch a full scale invasion. Our natural jungles and highlands make it not worthwhile for the amount of troops they would lose."
@@ -57,24 +57,27 @@
  IU_VND_last_tamil_king_desc:0 "Finally we have managed to defeat the Pandya dynasty which has oppressed us for centuries! We can now claim to be the Chera dynasty reborn with Tamilakam reconquered and our foes vanquished."
 
  IU_VND_western_explorers_title:0 "Explorers from the West"
- IU_VND_western_explorers_desc:0 ""
+ IU_VND_western_explorers_desc:0 "They come from an alien land and their strange customs and attire seem laughable. But their ships do seem powerful and they seem to have traversed great distances to get here. Perhaps, there is merit in hearing what they have to say. Perhaps, there is danger as well."
 
- IU_VND_hidden_mission_one_title:0 "Unknown Mission"
- IU_VND_hidden_mission_one_desc:0 ""
+ IU_VND_hidden_mission_one_title:0 "Hidden Mission"
+ IU_VND_hidden_mission_one_desc:0 "Who can really tell, what the future holds?"
 
- IU_VND_hidden_mission_two_title:0 "Unknown Mission"
- IU_VND_hidden_mission_two_desc:0 ""
+ IU_VND_hidden_mission_two_title:0 "Hidden Mission"
+ IU_VND_hidden_mission_two_desc:0 "Who can really tell, what the future holds?"
 
  IU_VND_a_western_advisory_title:0 "A Western Advisory"
- IU_VND_a_western_advisory_desc:0 ""
+ IU_VND_a_western_advisory_desc:0 "The world beyond our borders is home to advanced technologies, innovative ideas, and new ways of governance that could greatly benefit our realm. Just as we hold our deep-rooted traditions and rich cultural heritage in high regard, we must recognize the importance of progress and modernization."
 
  IU_VND_modern_warfare_title:0 "Assemble a War Cabinet"
- IU_VND_modern_warfare_desc:0 ""
+ IU_VND_modern_warfare_desc:0 "As the turbulent tides of war sweep across the world, we must recognize the critical need for strategic acumen, military expertise, and cohesive leadership. We must form a council of seasoned commanders, skilled diplomats, and insightful advisors to guide our nation through the challenges of warfare and ensure its triumph on the battlefield."
 
  IU_VND_malayalam_scholarship_title: "Malayalam Scholarship"
+ IU_VND_malayalam_scholarship_desc:0 "As the turbulent tides of war sweep across the world, we must recognize the critical need for strategic acumen, military expertise, and cohesive leadership. We must form a council of seasoned commanders, skilled diplomats, and insightful advisors to guide our nation through the challenges of warfare and ensure its triumph on the battlefield."
  
  IU_VND_defense_of_malabar_title: "Superiority Over the West"
- 
+ IU_VND_defense_of_malabar_desc: "In an era where the Western powers have risen to prominence through technological advancements and imperialistic pursuits, we must prove that our nation is capable not just to achieve parity or but even to surpass such Western powers."
+
+
  IU_VND_a_friend_in_need_title: "A Friend In Need"
  IU_VND_a_friend_in_need_desc: "Although the most we have interacted with them is basic trade relations, we believe that the Kotte and Kandy dynasties of Sri Lanka would make a fine ally against our enemies to the north. They carry expertise in war elephants and our navies combined would likely defeat Vijayanagar's."
  
@@ -118,7 +121,7 @@
  
  IU_VND.10.t: "Explorers Land in Kollam"
  IU_VND.10.d: "A crowd gathers around the port of Kollam as pale skinned adventurers set foot in our port. It has been an uncountable amount of years since a European ship has docked in India, yet here one is. It is a historic moment for our city. The explorers step off their ships and humbly request our hospitality for the night, then the next day board their vessels and continue on their way. Rumors have spread that this is not the only incident of something like this and sure enough, merchants begin to dock in Kollam, followed by soliders and diplomats! The West has begun to seek allies and trading partners in India, but also their own fortune. We must decide now how Venad will navigate this ever growing conundrum - to work with these merchants or protect ourselves against a future threat?"
- IU_VND.10.a: "Let them stay if they so please. We have much to learn from eachother."
+ IU_VND.10.a: "Let them stay if they so please. We have much to learn from each other."
  IU_VND.10.b: "Our country has enough troubles as is - these westerners will surely stir the pot."
  
  IU_VND.11.t: "Growth of Trivandrum"
@@ -187,7 +190,7 @@
  VND_five: "Fund the Padmanabhaswamy Temple"
  VND_five_desc: "The Padmanabhaswamy Temple is a grand beacon of Vishnu worship which has pilgrims from all across the Dharmic world. It is the richest temple in India, made from solid gold. We could stand to benefit from patronizing this temple and reaping some of its business for ourselves."
  VND_six: "Syriac Patronage"
- VND_six_desc: "Venad has always been tolerant of other religions - especially compared to some of our neighbors to the north. There is a large Syriac diaspora in Malabar, the lot of which reside in Kochin but a number live in Trivandrum and Kollam. There is no reason not to accomodate for them, as their unique skills and viewpoints can be beneficial as a whole."
+ VND_six_desc: "Venad has always been tolerant of other religions - especially compared to some of our neighbors to the north. There is a large Syriac diaspora in Malabar, the lot of which reside in Kochin but a number live in Trivandrum and Kollam. There is no reason not to accommodate for them, as their unique skills and viewpoints can be beneficial as a whole."
  VND_seven: "First Standing Army of Kerala"
  VND_seven_desc: "Venad is a warlike state first and foremost. This is how it has always been - and thus we ought to take the initiative to establish a standing army. None of our neighbors will be ready as India is still amok with armies made from tribes, mercenaries and the like."
  

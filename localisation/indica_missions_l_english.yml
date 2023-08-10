@@ -12,10 +12,10 @@
  MAB_influence_02_desc:0 "The Zamorin's influence on the region is now undisputed, as his guidance shapes not only the decisions of local chieftains but the very fabric of local governance in nearby areas."
 
  MAB_influence_03_title:0 "Paramount Power"
- MAB_influence_03_desc:0 "Surrounding rulers have accepted that they are unable to contain his influence on surrounding chieftains.that the Zamorin's will is paramount when it comes to matters on the border regions."
+ MAB_influence_03_desc:0 "Surrounding rulers have accepted that they are unable to contain his influence on surrounding chieftains that the Zamorin's will is paramount when it comes to matters on the border regions."
 
  MAB_muslim_alliance_title:0 "West Asian Alliances"
- MAB_muslim_alliance_desc:0 "Our resiliant defiance of Western powers have won us many admirers in the Muslim lands to our west. They are eager to share their shipbuilding expertise with us and provide us with more help so that we may continue our fight."
+ MAB_muslim_alliance_desc:0 "Our resilient defiance of Western powers have won us many admirers in the Muslim lands to our west. They are eager to share their shipbuilding expertise with us and provide us with more help so that we may continue our fight."
 
  MAB_zamorin_title:0 "Sword of Cheraman"
  MAB_zamorin_desc:0 "Legend has it that the last of the Cheraman Perumals divided the great Chera Empire amongst his chieftains before disappearing mysteriously. After each of chieftains had taken their share, he had nothing left to give the Zamorins, the fiercest of his warriors. Ashamed at this, he handed over his personal sword to them and gave them permission to “kill, get killed, and annex” as much territory as they can."
@@ -56,7 +56,7 @@
  MAB_pro_europe_01_title:0 "European Factories"
  MAB_pro_europe_01_desc:0 "We must seize this momentous opportunity by welcoming European factories to flourish in Malabar, fostering economic growth and technological exchange. This is surely that path forward."
 
- MAB_pro_europe_02_title:0 "Chaliyam fort"
+ MAB_pro_europe_02_title:0 "Chaliyam Fort"
  MAB_pro_europe_02_desc:0 "By allowing the Europeans to establish a fort at Chaliyam, we can not only secure our borders but also ensure a collaborative shield against potential adversaries, ensuring the region's stability and safeguarding our sovereignty."
 
  MAB_spice_title:0 "Spice Capital of Malabar"
@@ -95,7 +95,7 @@
 ##################################################################################
 
  KLT_kolathiri_supremacy_title:0 "Kolathiri Supremacy"
- KLT_kolathiri_supremacy_desc:0 "Dogs hunt in packs. A tiger hunts alone. The Kolathiri dynasty alone is capable of leading this land to its greatness. We should ensure that the Kolathiris reign supreme above the other cheiftains."
+ KLT_kolathiri_supremacy_desc:0 "Dogs hunt in packs. A tiger hunts alone. The Kolathiri dynasty alone is capable of leading this land to its greatness. We should ensure that the Kolathiris reign supreme above the other chieftains."
 
  KLT_ally_venad_title:0 "Generals of Venad"
  KLT_ally_venad_desc:0 "Our ties with Venad's royal families go back to the times of the Chera Empire. Reviving our relations with them will help us become a strong military force once again."
@@ -128,10 +128,10 @@
  KLT_sea_guilds_desc:0 "The Anjuavannam guild, which was recently merged into the Ayyavole Five Hundred, specialises in sea trade with West Asian countries. Their expertise will help us become a major overseas trading power."
 
  KLT_buddhist_vihara_title:0 "Sri Mulavasam Vihara"
- KLT_buddhist_vihara_desc:0 ""
+ KLT_buddhist_vihara_desc:0 "A serene and spiritually significant complex that stands as a testament to the rich heritage and deep-rooted beliefs of Buddhism. We must preserve it and allow these traditions to flourish."
 
  KLT_jewish_pond_title:0 "Jutakkulam"
- KLT_jewish_pond_desc:0 ""
+ KLT_jewish_pond_desc:0 "Create a haven of refuge by providing a land where persecuted Jews can find safety, freedom, and the opportunity to rebuild their lives."
 
  KLT_krishnagantha_title:0 "Krishnagantha"
  KLT_krishnagantha_desc:0 "A major poetic work comprising of forty seven stories of Lord Krishna from his birth to ascension. This is written in Malayalam language, at a time when literary works are usually written in Sanskrit or Tamil. A cultural milestone that shall echo through the ages."
@@ -152,7 +152,7 @@
  KLT_consolidate_malabar_desc:0 "The world around is undergoing a turbulent period with many challenges. We must incorporate all Malayalam speaking lands under our realm as we alone can guide them into a prosperous future during these troubled times."
 
  KLT_pirate_01_title:0 "Empower Pirate Chiefs"
- KLT_pirate_01_desc:0 "Pirates? We would rather describe them as armed sea-faring entepreneurs. If anything, they seem less cut throat than the merchants from Calicut. There is no harm in allowing them a long leash so that they may ply their trade."
+ KLT_pirate_01_desc:0 "Pirates? We would rather describe them as armed sea-faring entrepreneurs. If anything, they seem less cut throat than the merchants from Calicut. There is no harm in allowing them a long leash so that they may ply their trade."
 
  KLT_zamorin_02_title:0 "Capture Zamorin Ships"
  KLT_zamorin_02_desc:0 "What are these fine ships doing in these dark waters, if not looking for trouble?"
@@ -173,7 +173,7 @@
  KLT_pirate_02_desc:0 "Our skilled hunters regularly capture exotic animals in their traps. We can leverage our recently acquired trade contacts to sell these animals to distant countries where they would fetch a great price."
 
  KLT_pirate_hub_title:0 "Pirate Hub"
- KLT_pirate_hub_desc:0 "Our sea-faring entepreneurs have found our business-friendly policies to be of great advantage. We now have a reputation that invites similar entepreneurs to set up base here for unencumbered operations."
+ KLT_pirate_hub_desc:0 "Our sea-faring entrepreneurs have found our business-friendly policies to be of great advantage. We now have a reputation that invites similar entrepreneurs to set up base here for unencumbered operations."
 
  KLT_terror_of_sea_title:0 "Terror of the Arabian Sea"
  KLT_terror_of_sea_desc:0 "Even the heavens tremble when our great naval fleet is on the move. There is no one in the Arabian sea that dares stand in our way."
@@ -228,7 +228,7 @@
  muthappan_temple:0 "Muthappan Temple"
  decision_klt_develop_devi_temples_title:0 "Develop Devi Temples"
  decision_klt_develop_devi_temples_title_desc:0 ""
- decision_klt_reviltalise_muthappan_temples_title:0 "Reviltalise Muthappan Temples"
+ decision_klt_reviltalise_muthappan_temples_title:0 "Revitalise Muthappan Temples"
  decision_klt_reviltalise_muthappan_temples_desc:0 ""
  devi_unlocked:0 "Unlocks unique deity replacement for Shakti"
  muthappan_unlocked:0 "Unlocks unique deity replacement for Vishnu and Shiva"
@@ -245,7 +245,7 @@
  IU_estate_nobles_allow_pirate_control:0 "Allow Pirate Control"
  IU_estate_nobles_allow_pirate_control_desc:0 ""
 
- protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privlege for Brahmins"
+ protect_jews_privlege:0 "Completing this unlocks the Protect Jews Privilege for Brahmins"
  CHIRAKKAL_KINGDOM:0 "Chirakkal Kingdom"
  CHIRAKKAL_KINGDOM_ADJ:0 "Chirakkal Kingdom"
  
@@ -291,7 +291,7 @@
  KOC_build_navy_desc:0 "Enhancing our maritime capabilities is vital to secure control over key trade routes, project power across distant seas, and safeguard our nation from potential threats."
 
  KOC_lucrative_expedition_title:0 "A Lucrative Expedition"
- KOC_lucrative_expedition_desc:0 "Our historians have unimpeachably  established our rightful claim over the Maldives. With our powerful navy, we can correct this historical wrong and bring the Maldives into our fold, bringing well desrved prosperity to our realm."
+ KOC_lucrative_expedition_desc:0 "Our historians have unimpeachably  established our rightful claim over the Maldives. With our powerful navy, we can correct this historical wrong and bring the Maldives into our fold, bringing well deserved prosperity to our realm."
 
  KOC_weaken_zamorin_title:0 "Weaken the Zamorin"
  KOC_weaken_zamorin_desc:0 "We can pay the pirates and ask them to selectively target the Zamorin's shipping. This will be to our mutual benefit, all the while causing ruin to Calicut."

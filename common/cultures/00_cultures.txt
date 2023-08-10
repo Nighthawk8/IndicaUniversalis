@@ -8236,7 +8236,7 @@ dravidian = {
 	malayalam = {
 		primary = VND
 		dynasty_names = {
-			"Kolathiri" "Saamoothiri" "Perumal" "Perumpadappu" "Kulasekhara" "Cheraman" "Chirakkal"
+			"Ali Raja" "Kolathiri" "Saamoothiri" "Perumal" "Perumpadappu" "Kulasekhara" "Cheraman" "Chirakkal"
 		}
 		male_names = {
 			"Chera Udaya" "Mootha" "Sri Vira Martanda" "Aditya" "Bala Rama" "Martanda" 

@@ -176,3 +176,50 @@ KOC_ideas = {
 		global_trade_power = 0.1
 	}
 }
+
+DRV_ideas = {
+	start = {
+		discipline = 0.05
+		global_trade_power = 0.1
+	}
+	
+	bonus = {
+		global_manpower_modifier = 0.2
+	}
+	
+	trigger = { tag = DRV }
+	free = yes 
+	
+	south_india_united = {
+		global_unrest = -2
+	}
+	
+	trading_hub = {
+		merchants = 1
+		trade_goods_size_modifier = 0.1
+	}
+
+	DRV_south_indian_literature = {
+		prestige = 1
+		advisor_cost = -0.1
+	}
+
+	european_visitors = {
+		technology_cost = -0.1
+	}
+		
+	south_indian_standing_army = {
+		yearly_army_professionalism = 0.01
+		fire_damage = 0.1
+	}
+	
+	strong_naval_traditions = {
+		navy_tradition = 1
+		naval_morale = 0.1
+	}
+
+	merchants_of_south_india = { 
+		trade_steering = 0.15
+		global_trade_power = 0.15
+	}
+}

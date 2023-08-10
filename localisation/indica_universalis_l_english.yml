@@ -85,6 +85,24 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  MAB_seven:0 "Expansionist Spirit"
  MAB_seven_desc:0 "Fueled by an unwavering drive for territorial growth, our nation's expansionist spirit significantly boosts our ability to field larger land forces. This dynamic fervor empowers us to assemble formidable armies, ensuring that our territorial ambitions are matched by our military might."
 
+ DRV_ideas:0 "Dravidam Ideas"
+ DRV_ideas_start:0 "Dravidam Traditions"
+ DRV_ideas_bonus:0 "Dravidam Ambition"
+ south_india_united:0 "South India United"
+ south_india_united_desc:0 ""
+ trading_hub:0 "Trading Hub"
+ trading_hub_desc:0 ""
+ DRV_south_indian_literature:0 "South Indian Literature"
+ DRV_south_indian_literature_desc:0 ""
+ european_visitors:0 "European Visitors"
+ european_visitors_desc:0 "Our nation's reputation as an inviting hub for international exchange and learning has attracted a myriad of ideas from across the world. This influx of knowledge reduces the cost of technology, allowing us to innovate and adapt with greater efficiency and resourcefulness."
+ south_indian_standing_army:0 "South Indian Standing Army"
+ south_indian_standing_army_desc:0 ""
+ strong_naval_traditions:0 "Strong Naval Traditions"
+ strong_naval_traditions_desc:0 "Generations of maritime expertise and nautical heritage have cultivated an unparalleled sense of confidence and camaraderie among our naval forces. This tradition bolsters our naval morale, inspiring our sailors to face challenges with unwavering determination and unparalleled skill."
+ merchants_of_south_india:0 "Merchants of South India"
+ merchants_of_south_india_desc:0 ""
+
 #vij interaction events
 
  vijinteraction.NAME1:0 "To ask for Protection?"

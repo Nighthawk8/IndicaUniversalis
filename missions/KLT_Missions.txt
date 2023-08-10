@@ -911,6 +911,7 @@ KLT_missions_05 = {
 				}
 				set_government_rank = 2
 			}
+			set_dynasty = "Ali Raja"
 		} 
 	}
 }

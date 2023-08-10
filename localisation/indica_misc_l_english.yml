@@ -148,3 +148,5 @@ KLT_allow_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large So
  IU_kshatriyas:0 "Kshatriyas"
 
  decision_once_every_ten_years:0 "This Decision can only be taken once every 10 years"
+
+ IU_CANNOT_GUARENTEE_VIJ_MAL:0 "The Malabar coast is fiercely independant and therefore any guarentees would be laughed at."

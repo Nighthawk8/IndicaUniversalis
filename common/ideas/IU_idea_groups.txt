@@ -192,6 +192,7 @@ DRV_ideas = {
 	
 	south_india_united = {
 		global_unrest = -2
+		num_accepted_cultures = 1
 	}
 	
 	trading_hub = {

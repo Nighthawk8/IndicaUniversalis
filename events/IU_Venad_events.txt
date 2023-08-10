@@ -25,6 +25,7 @@ country_event = {
 	id = IU_VND.1
 	title = IU_VND.1.t
 	desc = IU_VND.1.d
+	picture = TRADEGOODS_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -48,6 +49,7 @@ country_event = {
 	id = IU_VND.2
 	title = IU_VND.2.t 
 	desc = IU_VND.2.d 
+	picture = CONQUEST_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -75,6 +77,7 @@ country_event = {
 	id = IU_VND.3
 	title = IU_VND.3.t 
 	desc = IU_VND.3.d 
+	picture = CITY_DEVELOPMENT_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -108,6 +111,7 @@ country_event = {
 	id = IU_VND.4
 	title = IU_VND.4.t
 	desc = IU_VND.4.d 
+	picture = ST_PETERS_CHURCH_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -144,6 +148,7 @@ country_event = {
 	id = IU_VND.5
 	title = IU_VND.5.t
 	desc = IU_VND.5.d 
+	picture = BATTLE_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -198,6 +203,7 @@ country_event = {
 	id = IU_VND.7
 	title = IU_VND.7.t 
 	desc = IU_VND.7.d 
+	picture = REVOLUTION_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -223,7 +229,7 @@ country_event = {
 	id = IU_VND.8
 	title = IU_VND.8.t 
 	desc = IU_VND.8.d 
-	
+	picture = INVENTION_eventPicture
 	fire_only_once = yes 
 	
 	is_triggered_only = yes 
@@ -262,6 +268,7 @@ country_event = {
 	id = IU_VND.10 
 	title = IU_VND.10.t 
 	desc = IU_VND.10.d 
+	picture = PORTUGUESE_MERCHANTS_eventPicture
 	
 	fire_only_once = yes 
 	
@@ -295,6 +302,7 @@ country_event = {
 	id = IU_VND.11
 	title = IU_VND.11.t 
 	desc = IU_VND.11.d 
+	picture = CITY_DEVELOPMENT_eventPicture
 	
 	fire_only_once = yes 
 	

@@ -105,7 +105,7 @@ KLT_independent_power = {
 			alliance_with = VND
 			alliance_with = KOC
 			}
-			forcelimit_percentage = 1
+			army_size_percentage = 1
 			manpower_percentage = 0.5 
 		} 
 

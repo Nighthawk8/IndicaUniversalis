@@ -55,7 +55,7 @@
  IU_RLM_wootz_swords: "Curved Swords"
  IU_RLM_wootz_swords_tt: "As long as the Curved Swords modifier is active we will gain 1% discipline from each of our placed merchants as well."
  IU_RLM_arabian_sea_claims_tt: "We will gain a claim on every province with a Center of Trade bordering the Indian Ocean."
- IU_dravidan_tt: "We will gain a permanent claim on every province within the Dravidian culture group."
+ RLM_dravidan_tt: "We will gain a permanent claim on every province within the Dravidian culture group."
  RLM_manufactories_tt: "Every province we own with a manufactory will gain 3 base production in addition to a modifier which gives +25% goods produced for 20 years."
  
  RLM_active_navy_reforms: "Active Navy Reforms"

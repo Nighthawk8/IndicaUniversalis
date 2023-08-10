@@ -136,6 +136,7 @@ country_event = {
 					}
 				}
 			}
+		}
 			if = {
 				limit = {
 					4413 = {
@@ -175,7 +176,6 @@ country_event = {
 					}
 				}
 			}
-		}
 		hidden_effect = {
 		change_variable = {
 			which = 4413influencelvl
@@ -1218,7 +1218,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				4413 = {
+				has_province_modifier = lvl_4_influence_province
+				}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp
@@ -1228,7 +1230,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp2
@@ -1248,7 +1252,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx
@@ -1258,7 +1264,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx2
@@ -1278,7 +1286,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr
@@ -1287,7 +1297,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr2
@@ -1306,7 +1318,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo
@@ -1315,7 +1329,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo2
@@ -1334,7 +1350,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr
@@ -1343,7 +1361,9 @@ country_event  = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr2
@@ -1377,7 +1397,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp
@@ -1387,7 +1409,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp2
@@ -1407,7 +1431,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx
@@ -1417,7 +1443,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx2
@@ -1437,7 +1465,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr
@@ -1446,7 +1476,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr2
@@ -1465,7 +1497,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo
@@ -1474,7 +1508,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo2
@@ -1493,7 +1529,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr
@@ -1502,7 +1540,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr2
@@ -1531,7 +1571,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp
@@ -1541,7 +1583,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp2
@@ -1561,7 +1605,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx
@@ -1571,7 +1617,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx2
@@ -1591,7 +1639,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr
@@ -1600,7 +1650,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr2
@@ -1619,7 +1671,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo
@@ -1628,7 +1682,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo2
@@ -1647,7 +1703,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr
@@ -1656,7 +1714,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr2
@@ -1685,7 +1745,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp
@@ -1695,7 +1757,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mp2
@@ -1715,7 +1779,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx
@@ -1725,7 +1791,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tx2
@@ -1745,7 +1813,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr
@@ -1754,7 +1824,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_tr2
@@ -1773,7 +1845,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo
@@ -1782,7 +1856,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_mo2
@@ -1801,7 +1877,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_4_influence_province
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr
@@ -1810,7 +1888,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_country_modifier = lvl_5_influence_province
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					}
 			}
 		add_country_modifier = {
 			name = used_influnce_pr2

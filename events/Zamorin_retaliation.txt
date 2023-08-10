@@ -743,7 +743,7 @@ country_event = {
 
 	option = {	# pay tribute
 		name = "zamorinretaliation.120a"
-		add_years_of_income = -2.5
+		add_years_of_income = -2
 		add_country_modifier = {
 			name = paying_tribute_to_empire
 			duration = 1825
@@ -771,7 +771,7 @@ country_event = {
 
 	option = {	# pay tribute
 		name = "zamorinretaliation.121a"
-		add_years_of_income = -2.5
+		add_years_of_income = -2
 		add_country_modifier = {
 			name = paying_tribute_to_empire
 			duration = 1825
@@ -799,7 +799,7 @@ country_event = {
 
 	option = {	# pay tribute
 		name = "zamorinretaliation.122a"
-		add_years_of_income = -2.5
+		add_years_of_income = -2
 		add_country_modifier = {
 			name = paying_tribute_to_empire
 			duration = 1825
@@ -827,7 +827,7 @@ country_event = {
 
 	option = {	# pay tribute
 		name = "zamorinretaliation.123a"
-		add_years_of_income = -2.5
+		add_years_of_income = -2
 		add_country_modifier = {
 			name = paying_tribute_to_empire
 			duration = 1825

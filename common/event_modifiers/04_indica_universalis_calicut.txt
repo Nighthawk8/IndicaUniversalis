@@ -128,6 +128,22 @@ had_event_zamcon8 = {
 
 }
 
+used_influnce_cannanore = {
+
+}
+
+used_influnce_mysore = {
+	
+}
+
+used_influnce_kongu = {
+	
+}
+
+used_influnce_kochin = {
+	
+}
+
 use_officers_expertise = {
 	land_morale = 0.1
 	recover_army_morale_speed = 0.1

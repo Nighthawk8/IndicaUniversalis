@@ -435,7 +435,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 50
+			add_treasury = 30
 		}
 		if = {
 			limit = {
@@ -454,7 +454,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 100
+			add_treasury = 60
 		}
 		hidden_effect = {
 			add_country_modifier = {
@@ -580,7 +580,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 30
+			add_treasury = 20
 			capital_scope = {
 				add_province_modifier  = {
 					name = work_the_free_market
@@ -605,7 +605,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 60
+			add_treasury = 40
 			capital_scope = {
 				add_province_modifier  = {
 					name = work_the_free_market
@@ -900,7 +900,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 50
+			add_treasury = 30
 		}
 		if = {
 			limit = {
@@ -919,7 +919,7 @@ country_event = {
 					}
 				}
 			}
-			add_treasury = 100
+			add_treasury = 60
 		}
 		hidden_effect = {
 			add_country_modifier = {
@@ -1259,6 +1259,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 4413influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1273,6 +1279,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 533influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1287,6 +1299,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 538influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1301,6 +1319,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 535influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1315,6 +1339,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 4413influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1329,6 +1359,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 533influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1343,6 +1379,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 538influencelvl
+					value = 1
+				}
+				}
 		}
 		if = {
 			limit = {
@@ -1357,6 +1399,12 @@ country_event = {
 					duration = -1
 				}
 			}
+			hidden_effect = {
+				change_variable = {
+					which = 535influencelvl
+					value = 1
+				}
+				}
 		}
 		hidden_effect = {
 			add_country_modifier = {

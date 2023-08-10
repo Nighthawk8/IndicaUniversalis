@@ -303,6 +303,12 @@ option = {	#Happy
 				}
 			}
 		}
+		hidden_effect = {
+			change_variable = {
+				which = 4413influencelvl
+				value = 1
+			}
+			}
 	}
 	
 	option = {	#Medical
@@ -373,6 +379,12 @@ option = {	#Happy
 				}
 			}
 		}
+		hidden_effect = {
+			change_variable = {
+				which = 533influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	#Ruler
@@ -443,6 +455,12 @@ option = {	#Happy
 				}
 			}
 		}
+		hidden_effect = {
+			change_variable = {
+				which = 538influencelvl
+				value = 1
+			}
+			}
 	}
 
 	option = {	#Ban
@@ -513,6 +531,12 @@ option = {	#Happy
 				}
 			}
 		}
+		hidden_effect = {
+			change_variable = {
+				which = 535influencelvl
+				value = 1
+			}
+			}
 	}
 
 }

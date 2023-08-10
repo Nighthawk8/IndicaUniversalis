@@ -10,7 +10,7 @@ MAB_missions_01 = {
 	potential = { OR = { tag = MAB was_tag = MAB } } 
 
 	MAB_influence_01 = {
-		icon = mission_indian_stateman
+		icon = influence_level_01
 		position = 2
 		required_missions = { MAB_zamorin } 
 		provinces_to_highlight = { 
@@ -58,7 +58,7 @@ MAB_missions_01 = {
 	}
 
 	MAB_influence_02 = {
-		icon = mission_indian_stateman
+		icon = influence_level_02
 		position = 3
 		required_missions = { MAB_influence_01 } 
 		provinces_to_highlight = {  } 
@@ -89,7 +89,7 @@ MAB_missions_01 = {
 	}
 
 	MAB_influence_03 = {
-		icon = mission_indian_stateman
+		icon = influence_level_03
 		position = 4
 		required_missions = { MAB_influence_02 } 
 		provinces_to_highlight = {  } 
@@ -161,13 +161,13 @@ MAB_missions_02 = {
 	potential = { OR = { tag = MAB was_tag = MAB } } 
 
 	MAB_zamorin = {
-		icon = mission_rajendras_ambition
+		icon = mission_sword_02
 		position = 1
 		provinces_to_highlight = {  } 
 
 		trigger = { 
 			manpower_percentage = 0.6
-			forcelimit_percentage = 1
+			army_size_percentage = 1
 		} 
 
 		effect = { 
@@ -1238,7 +1238,7 @@ RLM_mab_five = {
 	}
 	
 	RLM_mab_modernization = {
-		icon = mission_reform
+		icon = mission_reform_03
 		required_missions = { RLM_mab_western_alliances }
 		position = 9
 		trigger = {

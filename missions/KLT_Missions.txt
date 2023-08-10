@@ -1450,7 +1450,7 @@ RLM_klt_five = {
 	}
 	
 	RLM_klt_modernization = {
-		icon = mission_reform
+		icon = mission_reform_03
 		required_missions = { RLM_klt_western_alliances }
 		position = 12
 		trigger = {

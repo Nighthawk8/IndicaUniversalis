@@ -1256,7 +1256,7 @@ RLM_koc_five = {
 	}
 	
 	RLM_koc_modernization = {
-		icon = mission_reform
+		icon = mission_reform_03
 		required_missions = { RLM_koc_western_alliances }
 		position = 11
 		trigger = {

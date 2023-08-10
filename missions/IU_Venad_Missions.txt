@@ -1447,7 +1447,7 @@ RLM_five = {
 	}
 	
 	RLM_modernization = {
-		icon = mission_reform
+		icon = mission_reform_03
 		required_missions = { RLM_western_alliances }
 		position = 9
 		trigger = {

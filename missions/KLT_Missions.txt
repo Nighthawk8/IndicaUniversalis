@@ -176,6 +176,9 @@ KLT_independent_power = {
 		effect = { 
 			custom_tooltip = devi_unlocked
 			set_country_flag = IU_bhadrakali_flag
+			country_event = {
+				id = hindu_events.1
+			}
 		} 
 	}
 
@@ -196,6 +199,9 @@ KLT_independent_power = {
 		effect = { 
 			custom_tooltip = muthappan_unlocked
 			set_country_flag = IU_muthappan_flag
+			country_event = {
+				id = hindu_events.1
+			}
 		} 
 	}
 

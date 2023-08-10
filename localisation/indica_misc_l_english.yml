@@ -146,3 +146,5 @@ KLT_allow_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large So
 
  maldivian:0 "Maldivian"
  IU_kshatriyas:0 "Kshatriyas"
+
+ decision_once_every_ten_years:0 "This Decision can only be taken once every 10 years"

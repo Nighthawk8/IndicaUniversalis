@@ -26,6 +26,9 @@ country_event = {
 				NOT = { has_personal_deity = ganga }
 				NOT = { has_personal_deity = shakti }
 				NOT = { has_personal_deity = vishnu }
+				NOT = { has_personal_deity = valiya_muttapan_IU }
+				NOT = {	has_personal_deity = cheriya_muttapan_IU }
+				NOT = {	has_personal_deity = bhadrakali_IU }
 			}
 		}
 	}

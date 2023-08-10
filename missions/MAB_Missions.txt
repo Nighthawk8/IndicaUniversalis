@@ -647,7 +647,7 @@ MAB_missions_05 = {
 	}
 
 	MAB_invite_guilds = {
-		icon = mission_rajput_trade_guilds
+		icon = mission_high_income
 		position = 4
 		required_missions = { MAB_trading_dominance } 
 		provinces_to_highlight = {  } 

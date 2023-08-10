@@ -3,7 +3,7 @@
 #Bookmarks
 
 INDICA_UNIVERSALIS:0 "Indica Universalis"
-INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its benevolent and influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin have been driven south and routed by the Zamorin and looks to recover from this great loss, all the meanwhile its diverse population provides opportunities for growth. Finally, Venad, the principal power with in the region looks to fully take over the region and expand into Tamil Territory. Who will you choose to lead into the future? Who will win the struggle for power?"
+INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government, rampant piracy, and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin having been driven south and routed by the Zamorin, looks to recover from this great loss, with its diverse population and strategic location providing great opportunities for growth. Finally, Venad, the principal power in the region and home to the majestic Padmanabhaswamy Temple, looks to subdue all others and expand into Tamil territory. Who will you choose to lead into the future? Who will emerge victorious from the crucible of Kerala?"
 
 #provinces
 
@@ -39,11 +39,11 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
 #Formables
 
  dravidam_nation_title:0 "Form Dravidam"
- dravidam_nation_desc:0 "The time has come to unite the peoples of Dravidam under our banner and establish a new empire to rule over South India"
+ dravidam_nation_desc:0 "The time has come to unite the peoples of Dravidam under our banner and establish a new empire to rule over South India."
  DRV:0 "Dravidam"
  DRV_ADJ:0 "Dravidam"
  keralam_nation_title:0 "Form Keralam"
- keralam_nation_desc:0 "The time has come to unite the peoples of Keralam under our banner and establish a new empire to rule over Malabar"
+ keralam_nation_desc:0 "The time has come to unite the peoples of Keralam under our banner and establish a new empire to rule over Malabar."
  RLM:0 "Keralam"
  RLM_ADJ:0 "Keralam"
 

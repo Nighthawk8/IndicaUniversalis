@@ -33,7 +33,9 @@ cannabis_medical_exports:0 "Cannabis Herbal Medicines"
 expert_cavalry:0 "Experienced Stablemaster"
 construction_boost:0 "Construction Expertise"
 
-
+ KOC_ideas:0 "Kochi Ideas"
+ KOC_ideas_start:0 "Kochi Traditions"
+ KOC_ideas_bonus:0 "Kochi Ambition"
 
 
 VIJ_no_concessions:0 "Vijayanagar Satisfied"
@@ -129,8 +131,8 @@ indica_events.5c:0 "Target officers to obtain military secrets."
 ##################################################################################
 
 
-IU_estate_brahmins_accept_mar_toma_church:0 "Accept the Mar Toma Church"
-IU_estate_brahmins_accept_mar_toma_church_desc:0 "The Mar Toma church has long staked claim to the lands surround Kochin and hold significant influence. In order to maximise the efficency of our bureaucracy we much accept and collaborate with them."
+IU_estate_brahmins_accept_mar_toma_church:0 "Accept the Mar Thoma Church"
+IU_estate_brahmins_accept_mar_toma_church_desc:0 "The Mar Thoma church has long staked claim to the lands surround Kochin and hold significant influence. In order to maximise the efficency of our bureaucracy we much accept and collaborate with them."
 IU_estate_jains_allow_jews_in_buisness:0 "Allow Jews in Buisness"
 IU_estate_jains_allow_jews_in_buisness_desc:0 "The Jewish community has florished in Kochin in recent years due to them fleeing other regions. The best course of action for our economy is to accept them into the community and allow them to start buisness without limitations"
 
@@ -139,8 +141,8 @@ KLT_allow_ayyavole_500_desc:0 "The Five Hundred Lords of Ayyavole are a large So
 ##################################################################################
 
  IU_CANNOT_VASSALISE_VIJ_MAL:0 "The Lords of the Malabar coast are fiercely independant and difficult to influence even with our great power. Therefore there is no opportunity to vassalise them."
- IU_CANNOT_ALLY_VIJ_MAL:0 "The Lords of the Malabar Coast are fiercely independant and difficult to influence even with our great power. They are also inconcequential to larger Indian affairs.  Therefore there is no opportunity to Ally them."
- IU_CANNOT_ALLY_MAL_VIJ:0 "As a lord of the Malabar coast, an alliance with Vijanagar would be laughed at by fellow lords and ignored by the Vijanagar monarchs.  Therefore there is no opportunity to Ally them."
+ IU_CANNOT_ALLY_VIJ_MAL:0 "The Lords of the Malabar Coast are fiercely independant and difficult to influence even with our great power. They are also inconcequential to larger Indian affairs. Therefore, there is no opportunity to Ally them."
+ IU_CANNOT_ALLY_MAL_VIJ:0 "As a lord of the Malabar coast, any attempt at an alliance with Vijanagar would be ignored by the Vijayanagar, making us a target of ridicule by other kings of Malabar. Therefore, there is no opportunity to ally them."
 
  maldivian:0 "Maldivian"
  IU_kshatriyas:0 "Kshatriyas"

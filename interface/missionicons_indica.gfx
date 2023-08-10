@@ -136,4 +136,32 @@ spriteTypes = {
 		name = "mission_reform"
 		texturefile = "gfx//interface//missions//mission_reform.dds"
 	}
+	spriteType = {
+		name = "mission_reform_02"
+		texturefile = "gfx//interface//missions//mission_reform_02.dds"
+	}
+	spriteType = {
+		name = "mission_reform_03"
+		texturefile = "gfx//interface//missions//mission_reform_03.dds"
+	}
+	spriteType = {
+		name = "mission_sword_01"
+		texturefile = "gfx//interface//missions//mission_sword_01.dds"
+	}
+	spriteType = {
+		name = "mission_sword_02"
+		texturefile = "gfx//interface//missions//mission_sword_02.dds"
+	}
+	spriteType = {
+		name = "influence_level_01"
+		texturefile = "gfx//interface//missions//influence_level_01.dds"
+	}
+	spriteType = {
+		name = "influence_level_02"
+		texturefile = "gfx//interface//missions//influence_level_02.dds"
+	}
+	spriteType = {
+		name = "influence_level_03"
+		texturefile = "gfx//interface//missions//influence_level_03.dds"
+	}
 }	

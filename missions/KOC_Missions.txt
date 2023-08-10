@@ -17,7 +17,7 @@ koc_missions_01 = {
 		provinces_to_highlight = { province_id = 535 } 
 
 		trigger = { 
-			has_idea = malabari_cultural_melting_pot
+			
 			custom_trigger_tooltip ={
 				tooltip = complete_accepted_other_religions_decision
 				has_country_modifier = accepted_other_religions
@@ -60,7 +60,7 @@ koc_missions_01 = {
 
 		trigger = { 
 
-			current_income_balance = 5
+			has_idea = malabari_cultural_melting_pot
 			trade_income_percentage = 0.20 } 
 
 		effect = { 
@@ -428,13 +428,13 @@ koc_missions_03 = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT 
-				is_prosperous = yes 
+				NOT = { nationalism = 1 }
 			}
 			south_malabar_area = {
 				type = all 
 				owned_by = ROOT 
 				is_core = ROOT 
-				is_prosperous = yes 
+				NOT = { nationalism = 1 }
 			}
 		}
 

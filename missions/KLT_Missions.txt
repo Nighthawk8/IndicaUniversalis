@@ -520,13 +520,13 @@ KLT_missions_03 = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT 
-				is_prosperous = yes 
+				NOT = { nationalism = 1 }
 			}
 			south_malabar_area = {
 				type = all 
 				owned_by = ROOT 
 				is_core = ROOT 
-				is_prosperous = yes 
+				NOT = { nationalism = 1 }
 			}
 		}
 

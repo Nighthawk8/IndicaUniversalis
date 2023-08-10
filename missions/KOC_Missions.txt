@@ -488,7 +488,13 @@ koc_missions_04 = {
     		name = pirate_menace
     		duration = 5475 
     		}
-			} } 
+			} 
+			535 = { add_province_modifier = { 
+    		name = zamorin_influence_blocked
+    		duration = 730 
+    		} }
+    		custom_tooltip = zamorin_no_influence_tt
+		} 
 	}
 
 	KOC_build_army = {

@@ -598,7 +598,11 @@ KLT_missions_04 = {
     		}
 			} 
 
-		
+	4413 = { add_province_modifier = { 
+    		name = zamorin_influence_blocked
+    		duration = 730 
+    		} }
+    		custom_tooltip = zamorin_no_influence_tt	
     
     4413 = {
     

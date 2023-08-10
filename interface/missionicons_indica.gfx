@@ -164,4 +164,12 @@ spriteTypes = {
 		name = "influence_level_03"
 		texturefile = "gfx//interface//missions//influence_level_03.dds"
 	}
+	spriteType = {
+		name = "mission_juthakullam"
+		texturefile = "gfx//interface//missions//mission_juthakullam.dds"
+	}
+	spriteType = {
+		name = "mission_nairs"
+		texturefile = "gfx//interface//missions//mission_nairs.dds"
+	}
 }	

@@ -1050,12 +1050,15 @@ RLM_mab_three = {
 			}
 		}
 		effect = {
-			every_province = {
-				limit = {
-					culture_group = dravidian
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = dravidian
+					}
+					add_permanent_claim = ROOT 
 				}
-				add_permanent_claim = ROOT 
 			}
+			custom_tooltip = RLM_dravidan_tt
 			add_country_modifier = {
 				name = IU_RLM_defenders_of_dravidam
 				duration = 7300

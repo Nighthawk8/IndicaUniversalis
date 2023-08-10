@@ -54,6 +54,9 @@
  
  IU_RLM_wootz_swords: "Curved Swords"
  IU_RLM_wootz_swords_tt: "As long as the Curved Swords modifier is active we will gain 1% discipline from each of our placed merchants as well."
+ IU_RLM_arabian_sea_claims_tt: "We will gain a claim on every province with a Center of Trade bordering the Indian Ocean."
+ IU_dravidan_tt: "We will gain a permanent claim on every province within the Dravidian culture group."
+ RLM_manufactories_tt: "Every province we own with a manufactory will gain 3 base production in addition to a modifier which gives +25% goods produced for 20 years."
  
  RLM_active_navy_reforms: "Active Navy Reforms"
  RLM_keralam_marines_modifier: "Keralam Marines"
@@ -64,6 +67,10 @@
  IU_RLM_master_of_india: "Master of the Coromandel"
  IU_RLM_kannada_literature: "Kannada Literature"
  IU_RLM_swahili_merchants: "Swahili Merchants"
+ IU_RLM_builder_of_a_nation: "Builder of a Nation"
+ IU_RLM_great_power_modifier: "Indian Superpower"
+ IU_RLM_expanded_industry: "Industrial Focus"
+ RLM_MALAYAN_DOMINANCE: "Malayan Dominance"
  
  IU_RLM.1.t: "Wootz Steel"
  IU_RLM.1.a: "Cut them down!"

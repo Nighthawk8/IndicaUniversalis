@@ -465,7 +465,10 @@ koc_missions_04 = {
 		OR =
 		{	AND = { 
 				alliance_with = KLT
-				KLT = { trust = { who = ROOT value = 50 } } 
+				KLT = { 
+					trust = { who = ROOT value = 50 } 
+					has_opinion = { who = ROOT value = 150 }
+				}
 				}
 			KLT = { vassal_of = ROOT }	
 			4413 = { owned_by = ROOT }	

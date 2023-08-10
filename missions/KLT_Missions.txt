@@ -370,7 +370,7 @@ KLT_missions_02 = {
 	}
 
 	KLT_jewish_pond = {
-		icon = mission_sindh_campaign
+		icon = mission_juthakullam
 		position = 8
 		required_missions = { KLT_buddhist_vihara } 
 		provinces_to_highlight = {  } 

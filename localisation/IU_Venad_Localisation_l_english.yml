@@ -87,28 +87,34 @@
  IU_VND.1.a: "Our shipwrights are about have a lot of work!"
  
  IU_VND.2.t: "The Three Crowned Rulers"
+ IU_VND.2.d: "The Three Crowned Rulers refers to the Tamil kings that reigned centuries ago in southern India. The only true successor to them is the Pandya dynasty which has held on for centuries long than it should have, but we also have an admittedly shaky claim to being descendants of the Chera. It would be prudent to use this claim however we can. Claiming Chera descent may gain us the favor of the Tamils if we are to expand in that direction, and generally give a sense of importance to our kingdom."
  IU_VND.2.a: "Destiny awaits you, fearsome Chera!"
  
  IU_VND.3.t: "Revival of Kollam"
+ IU_VND.3.d: "Kollam for the longest time was the capital of the Vel people, and more recently Venad. The seat of the king has shifted to the city of Trivandrum, but Kollam has remained a major port regardless. Now that we have done much to expand the port, talks have broken out about perhaps making Kollam capital once again. This may be an unpopular opinion among our nobles and brahmins seeing as we are changing the status quo once again, but there are advantages to have a bustling port as capital."
  IU_VND.3.a: "Kollam may once again be our shining capital!"
- IU_VND.3.b: "The king's seat must stay in the holy city of Thiruvanathapuram."
+ IU_VND.3.b: "The king's seat must stay in the holy city of Trivandrum."
  
  IU_VND.4.t: "Monasteries of Saint Thomas"
+ IU_VND.4.d: "Kochin is home to a large Syriac population which has thrived for centuries. There are churches and synagogues alike filled with gold and holy relics. The Christians and Jews nervously await the policy of their new conqueror - while Kochin has supported them in the past we might not be so merciful. It is up to us, whether to continue to foster these Abrahamic faiths or to label them as bad influences and expel them."
  IU_VND.4.a: "The Syriacs are an important part of the coast's identity and will be protected."
  IU_VND.4.b: "Centuries of untouched relics add up to an impressive fortune of gold..."
  
  IU_VND.5.t: "Elephant Masters of Ceylon"
+ IU_VND.5.d: "The island of Ceylon has always been a breeding ground and exporter of war elephants, so having influence over the island does help us in some ways. For one, the elephants themselves are now cheaper to train. Their expertise is the real reward however, and they have made many suggestions for us to use regarding integrating war elephants into the army. This should provide us with a solid advantage going forward."
  IU_VND.5.a: "Their expertise will give us a crucial edge against our foes!"
  
  IU_VND.6.t: "The Rise of Travancore"
  IU_VND.6.d: "There is a rumbling in the court of Venad. For centuries the coalition of nobles and priests have dominated the monarchy, having their way without opposition. Kingmakers in plain sight. Many have stopped taking the monarchy seriously, but one man's ambition might be enough to change that. Marthanda Varma, a member of the Venad dynasty, has declared his goal to transform our kingdom into a modern power with an absolutist king. A notable change from our ancient and frankly tribal ways of rule. This transformation into a new kingdom, Travancore, will take time and most certainly blood. It is a necessity to ensure our survival against the ever greedy European powers, however. With renewed strength, may we be able to protect Kerala from anyone who may set their sights on it!"
  IU_VND.6.a: "We are a bulwark against colonialists!"
  
- IU_VND.7.t: "The Ettuveetil Pillamar Revolt"
+ IU_VND.7.t: "The Ettuveetil Pillamar Revolt!"
+ IU_VND.7.d: "Our efforts to revoke the Ettuveetil Pillamar's special privileges have not gone unnoticed. Quite the opposite - they have taken arms and decided to openly revolt! They have declared their intention to dethrone the king and take more direct control of Venad as punishment for his outrageous attempt at centralizing. We must stop this madness at once!"
  IU_VND.7.a: "Bah! We can handle this."
  
- IU_VND.8.t: "Thabiran Vanakkam"
- IU_VND.8.a: "The press unlocks all sorts of opportunities for us."
+ IU_VND.8.t: "Thambiran Vanakkam"
+ IU_VND.8.d: "With the press introduced in Kollam, manuscripts have been printed by Portuguese merchants. It is mostly used for record keeping and messages among European sailors, but recently a full length manuscript was printed in our native Tamil. The Thambiran Vanakkam, although a Catholic script, is the first publication ever in a native Indian language. It is an insignificant work by all means, but the implications for our literary tradition to come are monumental!"
+ IU_VND.8.a: "Here's to many more books to come!"
  
  IU_VND.10.t: "Explorers Land in Kollam"
  IU_VND.10.d: "A crowd gathers around the port of Kollam as pale skinned adventurers set foot in our port. It has been an uncountable amount of years since a European ship has docked in India, yet here one is. It is a historic moment for our city. The explorers step off their ships and humbly request our hospitality for the night, then the next day board their vessels and continue on their way. Rumors have spread that this is not the only incident of something like this and sure enough, merchants begin to dock in Kollam, followed by soliders and diplomats! The West has begun to seek allies and trading partners in India, but also their own fortune. We must decide now how Venad will navigate this ever growing conundrum - to work with these merchants or protect ourselves against a future threat?"
@@ -116,6 +122,7 @@
  IU_VND.10.b: "Our country has enough troubles as is - these westerners will surely stir the pot."
  
  IU_VND.11.t: "Growth of Trivandrum"
+ IU_VND.11.d: "The city of Trivandrum is home to the Padmanabhaswamy Temple but for a long time the temple itself has taken precedent over the city. Lately, people have begun to migrate to Trivandrum though, either to be closer to the temple or simply because trade in the area seems to be growing. It is a natural harbor positioned directly on the route to Bengal and the Malay kingdoms. In the near future, Trivandrum will likely become an urban metropolis."
  IU_VND.11.a: "The growth of our cities is always a welcome sight."
  
  IU_VND_westernizing_tt: "We will cooperate with western countries, but if we fall behind in technology they may seek a more direct relationship with us than trade!"

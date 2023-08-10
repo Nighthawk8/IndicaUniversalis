@@ -40,18 +40,27 @@ country_event = {
 	# Shaivism
 	option = {
 		name = "hindu_events.1.a"
+		trigger = {
+			NOT = { has_country_flag = IU_muthappan_flag }
+		}
 		change_personal_deity = shiva
 	}
 
 	# Skaktism
 	option = {
 		name = "hindu_events.1.b"
+		trigger = {
+			NOT = { has_country_flag = bhadrakali_IU }
+		}
 		change_personal_deity = shakti
 	}
 
 	# Vaishnavism
 	option = {
 		name = "hindu_events.1.c"
+		trigger = {
+			NOT = { has_country_flag = IU_muthappan_flag }
+		}
 		change_personal_deity = vishnu
 	}
 

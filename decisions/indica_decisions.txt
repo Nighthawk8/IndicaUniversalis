@@ -3,7 +3,10 @@ country_decisions = {
 	decision_kochin_accept_other_religions = {
 				
 		potential = {
-			tag = KOC
+			OR = {
+				tag = KOC
+				was_tag = KOC
+				}
 			
 		}
 		allow = {
@@ -27,7 +30,10 @@ country_decisions = {
 decision_kochin_restore_old_capital = {
 				
 		potential = {
-			tag = KOC
+			OR = {
+				tag = KOC
+				was_tag = KOC
+				}
 			
 		}
 		allow = {
@@ -53,7 +59,10 @@ decision_kochin_restore_old_capital = {
 decision_klt_revive_malik_dinar = {
 				
 	potential = {
-		tag = KLT
+		OR = {
+			tag = KLT
+			was_tag = KLT
+			}
 		has_country_flag = unlocked_malik_dinar_mosque
 		NOT = {
 			4413 = {
@@ -102,7 +111,10 @@ decision_klt_revive_malik_dinar = {
 decision_klt_upgrade_malik_dinar = {
 				
 	potential = {
-		tag = KLT
+		OR = {
+			tag = KLT
+			was_tag = KLT
+			}
 		has_country_flag = unlocked_malik_dinar_mosque
 		4413 = {
 			has_country_modifier = malik_dinar_mosque
@@ -153,7 +165,10 @@ decision_klt_upgrade_malik_dinar = {
 decision_klt_develop_devi_temples = {
 				
 	potential = {
+		OR = {
 		tag = KLT
+		was_tag = KLT
+		}
 		has_country_flag = unlocked_temple_development
 		NOT = {
 			4413 = {
@@ -199,7 +214,10 @@ decision_klt_develop_devi_temples = {
 decision_klt_reviltalise_muthappan_temples = {
 				
 	potential = {
-		tag = KLT
+		OR = {
+			tag = KLT
+			was_tag = KLT
+			}
 		has_country_flag = unlocked_temple_development
 		NOT = {
 			4413 = {

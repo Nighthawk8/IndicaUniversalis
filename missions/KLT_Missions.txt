@@ -176,8 +176,11 @@ KLT_independent_power = {
 		effect = { 
 			custom_tooltip = devi_unlocked
 			set_country_flag = IU_bhadrakali_flag
-			country_event = {
-				id = hindu_events.1
+			if = {
+				limit = {
+					has_personal_deity = shakti
+				}
+			change_personal_deity = bhadrakali_IU
 			}
 		} 
 	}
@@ -199,8 +202,17 @@ KLT_independent_power = {
 		effect = { 
 			custom_tooltip = muthappan_unlocked
 			set_country_flag = IU_muthappan_flag
-			country_event = {
-				id = hindu_events.1
+			if = {
+				limit = {
+					has_personal_deity = vishnu
+				}
+			change_personal_deity = valiya_muttapan_IU
+			}
+			if = {
+				limit = {
+					has_personal_deity = shiva
+				}
+			change_personal_deity = cheriya_muttapan_IU
 			}
 		} 
 	}

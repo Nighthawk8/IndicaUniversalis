@@ -36,7 +36,7 @@ country_decisions = {
 			}
 			else = {
 				custom_trigger_tooltip = {
-					tooltip = decision_once_every_twenty_years
+					tooltip = decision_once_every_ten_years
 					OR = {
 						has_personal_deity = buddha
 						has_personal_deity = ganesha
@@ -53,7 +53,7 @@ country_decisions = {
 						NOT = { has_country_flag = brahmin_hindu_deity_decision }
 						had_country_flag = {
 							flag = brahmin_hindu_deity_decision
-							days = 7300
+							days = 3650
 						}
 					}
 				}

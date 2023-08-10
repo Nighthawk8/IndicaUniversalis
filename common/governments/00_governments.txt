@@ -8,6 +8,7 @@ monarchy = {
 				IU_kolathunad_centralised_monarchy
 				IU_kolathunad_pirate_realm
 				IU_kolathunad_consolidated_pirate_monarchy
+				IU_nair_aristocracy
 				feudalism_reform
 				autocracy_reform
 				elective_monarchy_reform

@@ -606,7 +606,7 @@ IU_VND_slot_four = {
 		required_missions = { IU_VND_curtail_ettara_yogam }
 		position = 3
 		trigger = {
-			crown_land_share = 65
+			crown_land_share = 50
 			NOT = {
 				has_estate_privilege = IU_estate_maratha_ettuveetil_pillamar
 			}
@@ -627,6 +627,7 @@ IU_VND_slot_four = {
 				add_prestige = 50
 			}
 			add_ruler_personality = lawgiver_personality
+			remove_government_reform = IU_nair_arisotcracy
 		}
 	}
 	

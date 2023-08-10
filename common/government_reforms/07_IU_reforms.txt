@@ -171,3 +171,23 @@ IU_kolathunad_consolidated_pirate_republic = {
 		factor = 0.5 #generic
 	}
 }
+
+IU_nair_aristocracy = {
+	icon = "siddhi_recruitment"
+	allow_normal_conversion = no 
+	potential = {
+		tag = VND 
+	}
+	lock_level_when_selected = yes
+	
+	modifiers = {
+		maratha_influence_modifier = 0.1
+		brahmin_influence_modifier = 0.1
+		army_tradition = 0.5
+		build_cost = -0.1
+	}
+	
+	custom_attributes = {
+		locked_government_type = yes 
+	}
+}

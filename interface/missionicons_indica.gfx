@@ -172,4 +172,31 @@ spriteTypes = {
 		name = "mission_nairs"
 		texturefile = "gfx//interface//missions//mission_nairs.dds"
 	}
+
+	spriteType = {
+		name = "mission_king"
+		texturefile = "gfx//interface//missions//mission_king.dds"
+	}
+
+	spriteType = {
+		name = "mission_new_temples"
+		texturefile = "gfx//interface//missions//mission_new_temples.dds"
+	}
+
+	spriteType = {
+		name = "mission_kochin_01"
+		texturefile = "gfx//interface//missions//mission_kochin_01.dds"
+	}
+
+spriteType = {
+		name = "mission_kollam"
+		texturefile = "gfx//interface//missions//mission_kollam.dds"
+	}
+
+	spriteType = {
+		name = "mission_fire"
+		texturefile = "gfx//interface//missions//mission_fire.dds"
+	}
+
+
 }	

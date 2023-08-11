@@ -225,7 +225,7 @@ IU_VND_slot_two = {
 		icon = mission_dansk_ostindia
 		position = 4
 		trigger = {
-			537 = {
+			capital_scope = {
 				has_building = fort_15th
 				num_of_times_improved_by_owner = 4
 			}
@@ -1154,7 +1154,7 @@ RLM_two = {
 		position = 10
 		trigger = {
 			naval_forcelimit = 40
-			galley = 15
+			num_of_galley = 15
 			shipyard = 5
 		}
 		effect = {

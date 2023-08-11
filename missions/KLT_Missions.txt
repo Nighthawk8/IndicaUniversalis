@@ -1181,7 +1181,7 @@ RLM_klt_two = {
 		position = 13
 		trigger = {
 			naval_forcelimit = 40
-			galley = 15
+			num_of_galley = 15
 			shipyard = 5
 		}
 		effect = {

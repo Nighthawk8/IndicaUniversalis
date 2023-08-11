@@ -90,7 +90,7 @@ IU_VND_slot_one = {
 		position = 6
 		trigger = {
 			1248 = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				has_building = coastal_defence
 			}
 		}
@@ -419,9 +419,8 @@ IU_VND_slot_three = {
 		required_missions = { IU_VND_crucible_of_kerala }
 		position = 5
 		trigger = {
+			owns_or_non_sovereign_subject_of = 534
 			534 = {
-				owned_by = ROOT
-				is_core = ROOT 
 				has_building = marketplace
 				development = 15
 			}
@@ -635,10 +634,10 @@ IU_VND_slot_four = {
 		position = 5
 		required_missions = { IU_VND_dynastic_claims IU_VND_crucible_of_kerala }
 		trigger = {
+			owns_or_non_sovereign_subject_of = 535
 			535 = {
 				has_building = temple 
 				development = 12
-				owned_by = ROOT
 			}
 		}
 		effect = {
@@ -873,12 +872,8 @@ IU_VND_five_chera = {
 			MAD = {
 				NOT = { exists = yes }
 			}
-			536 = {
-				owned_by = ROOT
-			}
-			2101 = {
-				owned_by = ROOT 
-			}
+			owns_or_non_sovereign_subject_of = 536
+			owns_or_non_sovereign_subject_of = 2101
 			grown_by_development = 40
 		}
 		effect = {
@@ -976,19 +971,19 @@ RLM_one = {
 		trigger = {
 			388 = {
 				OR = {
-					owned_by = ROOT
+					owns_or_non_sovereign_subject_of = ROOT
 					owner = { alliance_with = ROOT }
 				}
 			}
 			400 = {
 				OR = {
-					owned_by = ROOT
+					owns_or_non_sovereign_subject_of = ROOT
 					owner = { alliance_with = ROOT }
 				}
 			}
 			504 = {
 				OR = {
-					owned_by = ROOT
+					owns_or_non_sovereign_subject_of = ROOT
 					owner = { alliance_with = ROOT }
 				}
 			}
@@ -1033,7 +1028,7 @@ RLM_one = {
 						}
 					}
 					AND = {
-						owned_by = ROOT 
+						owns_or_non_sovereign_subject_of = ROOT 
 						num_of_times_developed = 6
 					}
 				}
@@ -1043,7 +1038,7 @@ RLM_one = {
 			if = {
 				limit = {
 					1201 = {
-						owned_by = ROOT 
+						owns_or_non_sovereign_subject_of = ROOT 
 					}
 				}
 				country_event = {
@@ -1213,7 +1208,7 @@ RLM_two = {
 					}
 				}
 				667 = {
-					owned_by = ROOT 
+					owns_or_non_sovereign_subject_of = ROOT 
 					OR = {
 						development = 40
 						is_owned_by_trade_company = yes 
@@ -1281,15 +1276,15 @@ RLM_three = {
 		position = 8
 		trigger = {
 			madura_area = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				type = all 
 			}
 			kongu_area = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				type = all 
 			}
 			south_carnatic_area = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				type = all 
 			}
 		}
@@ -1375,12 +1370,12 @@ RLM_four = {
 		position = 8
 		trigger = {
 			mysore_area = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				is_core = ROOT 
 				type = all 
 			}
 			kanara_area = {
-				owned_by = ROOT 
+				owns_or_non_sovereign_subject_of = ROOT 
 				is_core = ROOT 
 				type = all 
 			}

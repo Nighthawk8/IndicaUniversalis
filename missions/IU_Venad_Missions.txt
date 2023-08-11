@@ -316,7 +316,6 @@ IU_VND_slot_three = {
 		}
 		effect = {
 			change_adm = 1
-			country_event = { id = IU_VND.10 }
 		}
 	}
 	

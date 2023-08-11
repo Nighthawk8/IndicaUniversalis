@@ -93,8 +93,8 @@ IU_VND_slot_one = {
 		required_missions = { IU_VND_navy }
 		position = 6
 		trigger = {
+			owns_or_non_sovereign_subject_of = 1248 
 			1248 = {
-				owns_or_non_sovereign_subject_of = ROOT 
 				has_building = coastal_defence
 			}
 		}
@@ -978,19 +978,19 @@ RLM_one = {
 		trigger = {
 			388 = {
 				OR = {
-					owns_or_non_sovereign_subject_of = ROOT
+					owned_by = ROOT 
 					owner = { alliance_with = ROOT }
 				}
 			}
 			400 = {
 				OR = {
-					owns_or_non_sovereign_subject_of = ROOT
+					owned_by = ROOT 
 					owner = { alliance_with = ROOT }
 				}
 			}
 			504 = {
 				OR = {
-					owns_or_non_sovereign_subject_of = ROOT
+					owned_by = ROOT 
 					owner = { alliance_with = ROOT }
 				}
 			}
@@ -1035,7 +1035,7 @@ RLM_one = {
 						}
 					}
 					AND = {
-						owns_or_non_sovereign_subject_of = ROOT 
+						owned_by = ROOT 
 						num_of_times_developed = 6
 					}
 				}
@@ -1045,7 +1045,7 @@ RLM_one = {
 			if = {
 				limit = {
 					1201 = {
-						owns_or_non_sovereign_subject_of = ROOT 
+						owned_by = ROOT 
 					}
 				}
 				country_event = {
@@ -1215,7 +1215,7 @@ RLM_two = {
 					}
 				}
 				667 = {
-					owns_or_non_sovereign_subject_of = ROOT 
+					owned_by = ROOT 
 					OR = {
 						development = 40
 						is_owned_by_trade_company = yes 
@@ -1283,15 +1283,15 @@ RLM_three = {
 		position = 8
 		trigger = {
 			madura_area = {
-				owns_or_non_sovereign_subject_of = ROOT 
+				owned_by = ROOT 
 				type = all 
 			}
 			kongu_area = {
-				owns_or_non_sovereign_subject_of = ROOT 
+				owned_by = ROOT 
 				type = all 
 			}
 			south_carnatic_area = {
-				owns_or_non_sovereign_subject_of = ROOT 
+				owned_by = ROOT 
 				type = all 
 			}
 		}
@@ -1377,12 +1377,12 @@ RLM_four = {
 		position = 8
 		trigger = {
 			mysore_area = {
-				owns_or_non_sovereign_subject_of = ROOT 
+				owned_by = ROOT 
 				is_core = ROOT 
 				type = all 
 			}
 			kanara_area = {
-				owns_or_non_sovereign_subject_of = ROOT 
+				owned_by = ROOT 
 				is_core = ROOT 
 				type = all 
 			}

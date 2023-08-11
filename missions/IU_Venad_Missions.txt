@@ -173,12 +173,15 @@ IU_VND_slot_two = {
 			}
 		}
 		effect = {
-			every_owned_province = {
-				limit = {
-					has_building = temple 
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						has_building = temple 
+					}
+					add_base_tax = 2
 				}
-				add_base_tax = 2
 			}
+			custom_tooltip = VND_temples_tt
 			add_country_modifier = {
 				name = IU_VND_bhakti_revivalists
 				duration = 7300

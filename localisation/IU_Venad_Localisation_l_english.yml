@@ -1,7 +1,7 @@
 ﻿l_english:
  IU_VND_navy_title:0 "Define our Navy"
  IU_VND_navy_desc:0 "The Kingdom of Venad is not known for its navy. Our armies have fended off the swarms of Zamorin and Vijayanagari soldiers time and time again but we could do very little to stop Kollam from being overrun by the Zamorin's fleet. A navy is what is required to find success moving forward, as an army can only do so much when the walls of Kollam itself are being bombarded from afar."
- IU_VND_navy_tt: "If we have a naval reformer advisor or our ruler has the entrepreneur or navigator trait, Kollam will gain a free shipyard."
+ IU_VND_navy_tt: "If we have a §YNaval Reformer§! advisor or our ruler has the §YEntrepreneur§! or §YNavigator§! trait, Kollam will gain a free §Gshipyard.§!"
  
  IU_VND_maldives_title:0 "A Lucrative Expedition"
  IU_venad_maldives_desc:0 "To the south of Malabar lies the numerous islands of the Maldives. A paradise of beautiful atolls and lagoons, where the water is so clear you can see the ocean floor several hours out from land. The sultanate ruling them was founded by a Somali prince allegedly and the sultan is content to sit on his riches far away from the cauldron of Indian politics. A shame, really. The Maldives are the main source of coir - coconut husk used to build the dhows that so commonly traverse the Indian Ocean. It is used in the design of the ship Kollam and her neighboring cities do - the Uru. An edge in shipbuilding might be what we need against our neighbors to the north, who are more experienced at sea. There is a small fortune of untapped riches in the islands as well, from gemstones to spices and so on. The sultan likely thinks his position secure, too far flung and wealthy to be threatened by annexation. A successful attack on the Maldives may place us on the playing field to be one of the naval powers of India."
@@ -14,7 +14,7 @@
 
  IU_VND_chieftains_favor_title:0 "The Chieftains' Favor"
  IU_VND_chieftains_favor_desc:0 "The Kingdom of Venad has for centuries had sort of a tribal hierarchy alongside the traditional caste system. This might makes right mindset lends itself to a more meritocratic society than our orthodox Hindu neighbors, but also begets the need for the king to prove himself. While we have not suffered any major defeats, we have not achieved many victories either. The chieftains may resent us if they never see our king leading the army into battle. Their assistance is vital to our well-being, so it is necessary for [Root.Monarch.GetName] to prove his strength."
- vnd_won_battles_with_ruler_tt: "We have won at least five battles with our monarch as general."
+ vnd_won_battles_with_ruler_tt: "We have won at least §Yfive battles§! with our §Ymonarch§! as general."
 
  IU_VND_revitalize_kollam_title:0 "Revitalize Kollam"
  IU_VND_revitalize_kollam_desc:0 "Kollam was recently raided by the Zamorin of Calicut and has never truly recovered since. It is a shadow of its former glory, merely a pit stop for merchants who are not allowed in the walls of Calicut. Yet many remember when it was not so. Kollam a thriving hub of traders and scholars alike, the capital of Venad! Oh, to once again have that sort of prestige. We must get to work, growing and nourishing this city. The Zamorin may have overtaken Kollam for a brief moment, but our city is ancient dating back to the Chera dynasty of old and its light will shine through no matter what!"
@@ -27,7 +27,7 @@
 
  IU_VND_crucible_of_kerala_title:0 "Crucible of Kerala"
  IU_VND_crucible_of_kerala_desc:0 "There are four powers competing for control of the lucrative Malabar Coast. The decentralized yet fierce naval power of Kolathunad, Calicut, the realm of the conniving Zamorin, the declining city of Kochin, and us of course. Venad is in a prime position to take control of the coast with our superior military, but we are unprepared for an invasion at the moment. We need to be ready when the day comes, so let us bolster our forces and hire new officers!"
- IU_VND_tradition_tt: "We will gain 3 army tradition for each point of MIL power we make per month, up to 30 army tradition."
+ IU_VND_tradition_tt: "We will gain §G3§! §YArmy Tradition§! for each point of §YMIL§! power we make per month, up to §G30§! §YArmy Tradition.§!"
 
  IU_VND_dethrone_zamorin_title:0 "Dethrone the Zamorin"
  IU_VND_dethrone_zamorin_desc:0 "The Zamorin has lived the life of luxury for far too long now. Calicut has extended influence over the coast for decades, striking deals with Muslim powers to control all the trade and riches flowing through the Coromandel. For our prosperity, we need to dethrone the Zamorin or else he will continue to profit off our stagnation."
@@ -81,8 +81,10 @@
  IU_VND_a_friend_in_need_title: "A Friend In Need"
  IU_VND_a_friend_in_need_desc: "Although the most we have interacted with them is basic trade relations, we believe that the Kotte and Kandy dynasties of Sri Lanka would make a fine ally against our enemies to the north. They carry expertise in war elephants and our navies combined would likely defeat Vijayanagar's."
  
- IU_VND_chieftains_favor_tt: "We will unlock the 'Tribal Conscription' estate privilege for the Kshatriyas"."
+ IU_VND_chieftains_favor_tt: "We will unlock the §Y'Tribal Conscription'§! estate privilege for the §YKshatriyas.§!"
  
+ EST_maratha_IU: "Eight Houses"
+ VND_temples_tt: "Every province of ours with a §YTemple§! will gain §G2§! §Ybase tax.§!"
  #Events
  
  IU_VND.1.t: "The Coconut Isles"
@@ -152,7 +154,7 @@
  IU_VND_secure_northern_border: "Secure Northern Border"
  IU_VND_arab_guns: "Arab Firearms"
  IU_VND_sinhalese_elephants: "War Elephants of Ceylon"
- IU_VND_tamil_king_tt: "We will receive the decision to embrace our Chera lineage!"
+ IU_VND_tamil_king_tt: "We will receive the decision to §Yembrace our§! §JChera§! §Ylineage!§!"
  IU_VND_vishnu_tt: "The §YMissionary Strength§! bonus we receive from §YVishnu§! will be changed to §YInfantry Combat Ability§!, and every time we pick §YVishnu§! as our personal deity we will receive §G1§! §Ystability§!."
  IU_VND_glory_to_venad: "Glory to Venad!"
  

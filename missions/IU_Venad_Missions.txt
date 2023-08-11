@@ -56,11 +56,15 @@ IU_VND_slot_one = {
 		position = 4
 		trigger = {
 			navy_size_percentage = 1
-			num_of_galley = 5
+			num_of_galley = 3
 		}
 		effect = {
 			1248 = {
 				add_permanent_claim = ROOT 
+			}
+			4942 = { 
+				galley = ROOT 
+				galley = ROOT 
 			}
 			create_admiral = { tradition = 50 }
 			hidden_effect = {

@@ -1442,6 +1442,53 @@ on_diplomatic_annex = {
 			remove_estate_privilege = estate_nobles_french_strong_duchies
 		}
 	}
+		if = {
+			limit = { tag = MAB }
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+			}
+			set_variable = {
+				which = 4413influencelvl
+			 	value = 1
+			}
+		 	set_variable = {
+				which = 533influencelvl
+			  	value = 1
+		  	}
+		  	set_variable = {
+			 	which = 538influencelvl
+			  	value = 1
+			 }
+		 	set_variable = {
+			 	which = 535influencelvl
+			 	 value = 1
+		 	}
+		}
 }
 
 # country
@@ -1809,6 +1856,53 @@ on_native_change_government = {
 on_integrate = {
 	events = {
 		610
+	}
+	if = {
+		limit = { tag = MAB }
+		4413 = {
+			remove_province_modifier = lvl_1_influence_province
+			remove_province_modifier = lvl_2_influence_province
+			remove_province_modifier = lvl_3_influence_province
+			remove_province_modifier = lvl_4_influence_province
+			remove_province_modifier = lvl_5_influence_province
+		}
+		533 = {
+			remove_province_modifier = lvl_1_influence_province
+			remove_province_modifier = lvl_2_influence_province
+			remove_province_modifier = lvl_3_influence_province
+			remove_province_modifier = lvl_4_influence_province
+			remove_province_modifier = lvl_5_influence_province
+		}
+		538 = {
+			remove_province_modifier = lvl_1_influence_province
+			remove_province_modifier = lvl_2_influence_province
+			remove_province_modifier = lvl_3_influence_province
+			remove_province_modifier = lvl_4_influence_province
+			remove_province_modifier = lvl_5_influence_province
+		}
+		535 = {
+			remove_province_modifier = lvl_1_influence_province
+			remove_province_modifier = lvl_2_influence_province
+			remove_province_modifier = lvl_3_influence_province
+			remove_province_modifier = lvl_4_influence_province
+			remove_province_modifier = lvl_5_influence_province
+		}
+		set_variable = {
+			which = 4413influencelvl
+			 value = 1
+		}
+		 set_variable = {
+			which = 533influencelvl
+			  value = 1
+		  }
+		  set_variable = {
+			 which = 538influencelvl
+			  value = 1
+		 }
+		 set_variable = {
+			 which = 535influencelvl
+			  value = 1
+		 }
 	}
 }
 

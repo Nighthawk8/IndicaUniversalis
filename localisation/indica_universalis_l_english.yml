@@ -181,6 +181,10 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
 
 #zamorin interactions
 
+ zamorininteraction.NAME999:0 "Consolidate our influence"
+ zamorininteraction.DESC999:0 "We have recieved terrible news that we have gained multiple types of influence in this province, we must fix this at once"
+ zamorininteraction.999a:0 "Fix This At Once"
+
  zamorininteraction.NAME100:0 "The Sword of Cheraman"
  zamorininteraction.DESC100:0 "The last of the Cheraman Perumals divided the great Chera Empire amongst his chieftains before disappearing mysteriously. However, he had nothing left to give the Eradis, the fiercest of his warriors. Ashamed at this, he handed over his personal sword and gave them permission to “kill, get killed, and annex”. \n\nToday, the heir of the Eradis, the Zamorin, stands tall amongst the rulers of Kerala having brought many a chieftain to submission and carved out a kingdom that competes only with Venad for predominance in the region.  Today, his influence stretches far and wide, and only the future can tell how he will wield this influence to carve out an empire to stand the test of time"
  zamorininteraction.100a:0 "What will the future hold?"

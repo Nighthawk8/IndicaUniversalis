@@ -2822,3 +2822,1240 @@ country_event = {
 	}
 	
 }
+
+#youve broke the game
+
+country_event = {
+	id = zamorininteraction.999
+	title = "zamorininteraction.NAME999"
+	desc = "zamorininteraction.DESC99"
+	picture = event_imperial_court
+	
+	trigger = {
+		OR = {
+			4413 = {
+				OR = {
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_1_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_5_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+			533 = {
+				OR = {
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_1_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_5_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+			535 = {
+				OR = {
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_1_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_5_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+			538 = {
+				OR = {
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_1_influence_province
+						has_province_modifier = lvl_1_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_2_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_2_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_3_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_3_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_4_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_4_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+					AND = {
+						has_province_modifier = lvl_5_influence_province
+						has_province_modifier = lvl_5_influence_province
+					}
+				}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {	
+		name = "zamorininteraction.999a"
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_1_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_1_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				4413 = {
+					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			4413 = {
+				remove_province_modifier = lvl_5_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_1_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_1_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				533 = {
+					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			533 = {
+				remove_province_modifier = lvl_5_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_1_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_1_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				535 = {
+					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			535 = {
+				remove_province_modifier = lvl_5_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_1_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_1_influence_province
+				add_province_modifier = {
+					name = lvl_1_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_2_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_2_influence_province
+				add_province_modifier = {
+					name = lvl_2_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_3_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_3_influence_province
+				add_province_modifier = {
+					name = lvl_3_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_4_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_4_influence_province
+				add_province_modifier = {
+					name = lvl_4_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_1_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_1_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_2_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_2_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_3_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_3_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_4_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_4_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+		if = {
+			limit = {
+				538 = {
+					has_province_modifier = lvl_5_influence_province
+					has_province_modifier = lvl_5_influence_province
+				}
+			}
+			538 = {
+				remove_province_modifier = lvl_5_influence_province
+				remove_province_modifier = lvl_5_influence_province
+				add_province_modifier = {
+					name = lvl_5_influence_province
+					duration = -1
+				}
+			}
+		}
+	}
+}

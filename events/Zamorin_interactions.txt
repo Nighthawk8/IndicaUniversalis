@@ -2828,10 +2828,11 @@ country_event = {
 country_event = {
 	id = zamorininteraction.999
 	title = "zamorininteraction.NAME999"
-	desc = "zamorininteraction.DESC99"
+	desc = "zamorininteraction.DESC999"
 	picture = event_imperial_court
 	
 	trigger = {
+		tag = MAB
 		OR = {
 			4413 = {
 				OR = {

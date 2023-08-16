@@ -19,18 +19,15 @@ IU_padmanabhaswamy_temple = {
 	
 	build_trigger = {
 		religion = hinduism
-		has_estate = estate_brahmins
 	}
 	
 	can_use_modifiers_trigger = {
 		religion = hinduism 
-		has_estate = estate_brahmins
 		has_owner_religion = yes
 	}
 	
 	can_upgrade_trigger = {
 		religion = hinduism 
-		has_estate = estate_brahmins
 		has_owner_religion = yes
 	}
 	

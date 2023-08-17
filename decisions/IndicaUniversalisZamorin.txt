@@ -182,14 +182,14 @@ country_decisions = {
 		allow = {
 			NOT = {
 				OR = {
-				AND = {
+				
 					has_country_modifier = used_influnce_mp
 					has_country_modifier = used_influnce_tx
 					has_country_modifier = used_influnce_tr
 					has_country_modifier = used_influnce_mo
 					has_country_modifier = used_influnce_pr
-				}
-				AND = {
+				
+				
 					has_country_modifier = used_influnce_mp2
 					has_country_modifier = used_influnce_tx2
 					has_country_modifier = used_influnce_tr2
@@ -198,7 +198,7 @@ country_decisions = {
 				}
 				}
 			}
-		}
+		
 		provinces_to_highlight = {
 			province_id = 4413
 		}
@@ -239,16 +239,16 @@ country_decisions = {
 			ai = no
 		}
 		allow = {
-			NOT = {
+				NOT = {
 				OR = {
-				AND = {
+				
 					has_country_modifier = used_influnce_mp
 					has_country_modifier = used_influnce_tx
 					has_country_modifier = used_influnce_tr
 					has_country_modifier = used_influnce_mo
 					has_country_modifier = used_influnce_pr
-				}
-				AND = {
+				
+				
 					has_country_modifier = used_influnce_mp2
 					has_country_modifier = used_influnce_tx2
 					has_country_modifier = used_influnce_tr2
@@ -256,7 +256,6 @@ country_decisions = {
 					has_country_modifier = used_influnce_pr2
 				}
 				}
-			}
 		}
 		provinces_to_highlight = {
 			province_id = 533
@@ -298,16 +297,16 @@ country_decisions = {
 			ai = no
 		}
 		allow = {
-			NOT = {
+				NOT = {
 				OR = {
-				AND = {
+				
 					has_country_modifier = used_influnce_mp
 					has_country_modifier = used_influnce_tx
 					has_country_modifier = used_influnce_tr
 					has_country_modifier = used_influnce_mo
 					has_country_modifier = used_influnce_pr
-				}
-				AND = {
+				
+				
 					has_country_modifier = used_influnce_mp2
 					has_country_modifier = used_influnce_tx2
 					has_country_modifier = used_influnce_tr2
@@ -315,7 +314,6 @@ country_decisions = {
 					has_country_modifier = used_influnce_pr2
 				}
 				}
-			}
 		}
 		provinces_to_highlight = {
 			province_id = 538
@@ -357,16 +355,16 @@ country_decisions = {
 			ai = no
 		}
 		allow = {
-			NOT = {
+				NOT = {
 				OR = {
-				AND = {
+				
 					has_country_modifier = used_influnce_mp
 					has_country_modifier = used_influnce_tx
 					has_country_modifier = used_influnce_tr
 					has_country_modifier = used_influnce_mo
 					has_country_modifier = used_influnce_pr
-				}
-				AND = {
+				
+				
 					has_country_modifier = used_influnce_mp2
 					has_country_modifier = used_influnce_tx2
 					has_country_modifier = used_influnce_tr2
@@ -374,7 +372,6 @@ country_decisions = {
 					has_country_modifier = used_influnce_pr2
 				}
 				}
-			}
 		}
 		provinces_to_highlight = {
 			province_id = 535

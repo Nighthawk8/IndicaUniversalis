@@ -1,0 +1,11 @@
+defined_text = {
+    name = StartScreenUpLeftTitle
+	random = no 
+	
+	text = {
+		localisation_key = string_start_title_venad
+		trigger = {
+			tag = VND 
+		}
+	}
+}

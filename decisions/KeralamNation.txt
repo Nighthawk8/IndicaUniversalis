@@ -77,4 +77,28 @@ country_decisions = {
 			}
 			
 		}
+		
+		IU_chera_rename = {
+			major = yes 
+			potential = {
+				has_country_flag = VND_rename_to_chera_flag 
+			}
+			allow = {
+				is_free_or_tributary_trigger = yes 
+				is_at_war = no 
+				legitimacy = 100
+				stability = 1
+			}
+			effect = {	
+				override_country_name = IU_CHERA 
+				set_country_flag = VND_formed_chera
+				clr_country_flag = VND_rename_to_chera_flag
+				add_prestige = 25
+				if = {
+					limit = { has_custom_ideas = no }
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
+			}
+		}
+				
 	}

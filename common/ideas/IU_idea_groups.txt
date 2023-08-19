@@ -8,7 +8,7 @@ VND_ideas = {
 		technology_cost = -0.1
 	}
 	
-	trigger = { tag = VND }
+	trigger = { tag = VND NOT = { has_country_flag = VND_formed_chera } }
 	free = yes 
 	
 	VND_one = { # Policy of Self-Preservation
@@ -38,6 +38,49 @@ VND_ideas = {
 	VND_seven = { # Standing Army of Travancore
 		yearly_army_professionalism = 0.01
 		fire_damage = 0.1
+	}
+}
+
+CHERA_ideas = {
+	start = {
+		merchants = 1
+		ship_durability = 0.05
+	}
+	
+	bonus = {
+		prestige_decay = -0.01
+	}
+	
+	trigger = { has_country_flag = VND_formed_chera }
+	free = yes
+	
+	CHERA_one = {
+		infantry_power =  0.1
+	}
+	
+	CHERA_two = {
+		global_ship_trade_power = 0.2
+	}
+	
+	CHERA_three = {
+		build_cost = -0.1
+	}
+	
+	CHERA_four = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	CHERA_five = {
+		num_accepted_cultures = 1
+		promote_culture_cost = -0.15
+	}
+	
+	CHERA_six = {
+		discipline = 0.05
+	}
+	
+	CHERA_seven = {
+		monarch_diplomatic_power = 1
 	}
 }
 

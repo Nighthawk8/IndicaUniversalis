@@ -126,22 +126,22 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
 #vij interaction events
 
  vijinteraction.NAME1:0 "To ask for Protection?"
- vijinteraction.DESC1:0 "The Vijaynigar Empire has recently become a dominant power in the region and the question has come to our court as top whether to send an emissary to the great lords of Vijaynagar to give tribute and ask for protection"
+ vijinteraction.DESC1:0 "The Vijayanagar Empire has recently become a dominant power in the region and the question has come to our court as top whether to send an emissary to the great lords of Vijayanagar to give tribute and ask for protection"
  vijinteraction.1a:0 "Stand Alone"
  vijinteraction.1b:0 "Send an Emissary"
  
  vijinteraction.NAME2:0 "Advisors Suggest to send a gift"
- vijinteraction.DESC2:0 "Our loyal advisors noticed that when a Vijaynagar prince recently visited, and showed great interest in our local craftsmen’s works. Some advisors suggested it would be wise, in order to safeguard our sovereignty to send a gift to the Vijaynagar monarchs of some of our craftsman's finest works"
+ vijinteraction.DESC2:0 "Our loyal advisors noticed that when a Vijayanagar prince recently visited, and showed great interest in our local craftsmen’s works. Some advisors suggested it would be wise, in order to safeguard our sovereignty to send a gift to the Vijayanagar monarchs of some of our craftsman's finest works"
  vijinteraction.2a:0 "Commission the Wares"
  vijinteraction.2b:0 "Seize the Wares"
 
- vijinteraction.NAME3:0 "Vijaynagar requests soldiers"
- vijinteraction.DESC3:0 "We have recently received word from the great kingdom of Vijaynagar that the ongoing war is taking great toll on their military, an emissary of the king has arrived requesting immediate military support and threatening our fragile sovereignty. We have no choice but to immediately respond"
+ vijinteraction.NAME3:0 "Vijayanagar requests soldiers"
+ vijinteraction.DESC3:0 "We have recently received word from the great kingdom of Vijayanagar that the ongoing war is taking great toll on their military, an emissary of the king has arrived requesting immediate military support and threatening our fragile sovereignty. We have no choice but to immediately respond"
  vijinteraction.3a:0 "Send our own loyal men"
  vijinteraction.3b:0 "Draft the Peasantry"
 
- vijinteraction.NAME4:0 "Vijanagar merchants using our trading ports"
- vijinteraction.DESC4:0 "Recently, there has been a large influx of vijaynagar merchants in our trading ports, they have been undercutting our merchants and stealing opportunities away from our citizens. However, our advisors have said that any rash action against Vijaynagar merchants would cause great offence and hostility. So, how should we tackle the issue?"
+ vijinteraction.NAME4:0 "Vijayanagar merchants using our trading ports"
+ vijinteraction.DESC4:0 "Recently, there has been a large influx of Vijayanagar merchants in our trading ports, they have been undercutting our merchants and stealing opportunities away from our citizens. However, our advisors have said that any rash action against Vijayanagar merchants would cause great offence and hostility. So, how should we tackle the issue?"
  vijinteraction.4a:0 "Do nothing"
  vijinteraction.4b:0 "Subsidise our traders"
 
@@ -166,29 +166,30 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  vijinteraction.8b:0 "Send our most majestic tusker!"
 
  vijinteraction.NAME81:0 "Diplomatic Success"
- vijinteraction.DESC81:0 "Our most majestic elephant that we sent to Vijanagar has become extremely popular. We can capitalise on it for great diplomatic benefit"
+ vijinteraction.DESC81:0 "Our most majestic elephant that we sent to Vijayanagar has become extremely popular. We can capitalise on it for great diplomatic benefit"
  vijinteraction.81a:0 "Excellent"
 
  vijinteraction.NAME82:0 "Catastrophic Loss"
- vijinteraction.DESC82:0 "Our most prized elephant has died today on its return from the vijanagar capital, this has made many memebers of the brahmin caste suspicious and has caused major religious upheaval"
+ vijinteraction.DESC82:0 "Our most prized elephant has died today on its return from the Vijayanagar capital, this has made many memebers of the brahmin caste suspicious and has caused major religious upheaval"
  vijinteraction.82a:0 "Unfortunate"
 
- has_truce_with_vij:0 "Has Truce With Vijaynagar"
- rejects_truce_with_vij:0 "Rejected Truce with Vijaynagar"
+ has_truce_with_vij:0 "Has Truce With Vijayanagar"
+ rejects_truce_with_vij:0 "Rejected Truce with Vijayanagar"
  craftsmen_wares_seized:0 "Craftsmen's Wares Seized"
  draft_the_peasants:0 "Draft the Peasants"
  left_traders_alone:0 "Left Traders Alone"
  subsidise_our_traders:0 "Traders Subsidised"
  elephant_dies:0 "Elephant Dies"
  elephant_diplo_success:0 "Capitalise on Elephant Success"
+ vij_meat_ban:0 "Meat Ban Imposed"
 
- has_vij_inter2:0 "Had Vijanagar Interaction 1"
- has_vij_inter3:0 "Had Vijanagar Interaction 2"
- has_vij_inter4:0 "Had Vijanagar Interaction 3"
- has_vij_inter5:0 "Had Vijanagar Interaction 4"
- has_vij_inter6:0 "Had Vijanagar Interaction 5"
- has_vij_inter7:0 "Had Vijanagar Interaction 6"
- has_vij_inter8:0 "Had Vijanagar Interaction 7"
+ has_vij_inter2:0 "Sent recent gift to Vijayanagar"
+ has_vij_inter3:0 "Sent soldiers to Vijayanagar recently"
+ has_vij_inter4:0 "Recent Vijayanagar merchant access"
+ has_vij_inter5:0 "Helped Vijayanagar with Tamil rebels"
+ has_vij_inter6:0 "Handled Vijayanagar's request regarding Bahamanis"
+ has_vij_inter7:0 "Agreed to Vijayanagar's Rama Navami request"
+ has_vij_inter8:0 "Sent ceremonial elephant to Vijayanagar"
  
  #misc 
 

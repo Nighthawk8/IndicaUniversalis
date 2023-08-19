@@ -1,4 +1,4 @@
-namespace = vijinteraction
+mnamespace = vijinteraction
 
 country_event = {
 	id = vijinteraction.1
@@ -126,7 +126,7 @@ country_event = {
 	option = {	# commission
 		name = "vijinteraction.2a"
 		ai_chance = { factor = 25 }
-		add_years_of_income = -1
+		add_years_of_income = -0.5
 		hidden_effect = {
 			add_country_modifier = {
 				name = has_vij_inter2
@@ -179,7 +179,7 @@ country_event = {
 	option = {	# send loyal men
 		name = "vijinteraction.3a"
 		ai_chance = { factor = 25 }
-		add_manpower = -5
+		add_manpower = -2
 		hidden_effect = {
 			add_country_modifier = {
 				name = has_vij_inter3
@@ -193,7 +193,7 @@ country_event = {
 		ai_chance = { factor = 75 }
 		add_country_modifier = {
 			name = draft_the_peasants
-			duration = 3650
+			duration = 1825
 		}
 		hidden_effect = {
 			add_country_modifier = {
@@ -221,7 +221,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 42
 	}
 
 	option = {	# do nothing
@@ -229,7 +229,7 @@ country_event = {
 		ai_chance = { factor = 25 }
 		add_country_modifier = {
 			name = left_traders_alone
-			duration = 3650
+			duration = 1825
 		}
 		hidden_effect = {
 			add_country_modifier = {
@@ -340,7 +340,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 6
 	}
 
 	option = {	# valid
@@ -412,12 +412,12 @@ country_event = {
 	option = {	# agree
 		name = "vijinteraction.7a"
 		ai_chance = { factor = 25 }
-		capital_scope = {
-			spawn_rebels = {
-				type = particularist_rebels
-				size = 1
-			}
+		
+			add_country_modifier = {
+				name = vij_meat_ban
+				duration = 1460
 		}
+		
 		hidden_effect = {
 			add_country_modifier = {
 				name = has_vij_inter7
@@ -429,7 +429,7 @@ country_event = {
 	option = {	# compensate
 		name = "vijinteraction.7b"
 		ai_chance = { factor = 75 }
-		add_years_of_income = -1.5
+		add_years_of_income = -0.5
 		hidden_effect = {
 			add_country_modifier = {
 				name = has_vij_inter7

@@ -21,23 +21,23 @@ lvl_2_influence_province = {
 }
 
 lvl_3_influence_province = {
-	local_tax_modifier = -0.3
-	trade_goods_size_modifier = -0.3
-	local_manpower_modifier = -0.3
+	local_tax_modifier = -0.2
+	trade_goods_size_modifier = -0.2
+	local_manpower_modifier = -0.2
 	picture = IU_calicut_influence_gfx
 }
 
 lvl_4_influence_province = {
-	local_tax_modifier = -0.5
-	trade_goods_size_modifier = -0.5
-	local_manpower_modifier = -0.5
+	local_tax_modifier = -0.4
+	trade_goods_size_modifier = -0.4
+	local_manpower_modifier = -0.4
 	picture = IU_calicut_influence_gfx
 }
 
 lvl_5_influence_province = {
-	local_tax_modifier = -0.75
-	trade_goods_size_modifier = -0.75
-	local_manpower_modifier = -0.75
+	local_tax_modifier = -0.6
+	trade_goods_size_modifier = -0.6
+	local_manpower_modifier = -0.6
 	picture = IU_calicut_influence_gfx
 }
 

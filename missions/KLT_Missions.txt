@@ -168,12 +168,20 @@ KLT_independent_power = {
 		trigger = { 
 			religion = hinduism
 			religious_unity = 0.9
-			4413 = {
-				has_province_modifier = devi_temples
-			}
+			4413 = { has_building = temple }
+			has_personal_deity = shakti
+			artillery_fraction = 0.3
+			at_war_with_religious_enemy = yes
+			NOT = { 
+			estate_influence = {
+   			estate = estate_brahmins
+    		influence = 50
+			} }
+			treasury = 150
 		} 
 
 		effect = { 
+			add_treasury = -150
 			custom_tooltip = devi_unlocked
 			set_country_flag = IU_bhadrakali_flag
 			if = {
@@ -194,12 +202,25 @@ KLT_independent_power = {
 		trigger = { 
 		religion = hinduism
 		religious_unity = 0.9
-		4413 = {
-			has_province_modifier = muthappan_temple
-		} 
+		4413 = { has_building = temple }
+		OR = {
+			has_personal_deity = vishnu
+			has_personal_deity = shiva
+		}
+		is_at_war = no
+		stability = 2
+		legitimacy = 90
+		NOT = { 
+			estate_influence = {
+   			estate = estate_brahmins
+    		influence = 50
+			} }
+		treasury = 300
+		
 		} 
 
 		effect = { 
+			add_treasury = -300
 			custom_tooltip = muthappan_unlocked
 			set_country_flag = IU_muthappan_flag
 			if = {

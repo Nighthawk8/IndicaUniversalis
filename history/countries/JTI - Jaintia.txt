@@ -1,0 +1,7 @@
+government = tribal
+government_rank = 1
+add_government_reform = tribal_kingdom
+technology_group = indian
+religion = animism
+primary_culture = chin
+capital = 4544

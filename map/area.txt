@@ -2073,7 +2073,7 @@ multan_area = { #5 (approximate Multan Subah)
 }
 
 naga_hills_area = { #3
-	570 573 2041
+	570 573 2041 4944 4945
 }
 
 east_bengal_area = { #5

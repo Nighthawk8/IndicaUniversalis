@@ -1,0 +1,12 @@
+owner = KHS
+controller = KHS
+add_core = KHS
+culture = chin
+religion = animism
+hre = no 
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Sohra"
+trade_goods = grain
+is_city = yes 

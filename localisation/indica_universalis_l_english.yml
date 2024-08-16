@@ -1,15 +1,26 @@
 ﻿l_english:
 
-#Bookmarks
+ #Bookmarks
 
-INDICA_UNIVERSALIS:0 "Indica Universalis"
-INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government, rampant piracy, and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin having been driven south and routed by the Zamorin, looks to recover from this great loss, with its diverse population and strategic location providing great opportunities for growth. Finally, Venad, the principal power in the region and home to the majestic Padmanabhaswamy Temple, looks to subdue all others and expand into Tamil territory. Who will you choose to lead into the future? Who will emerge victorious from the crucible of Kerala?"
+ INDICA_UNIVERSALIS:0 "Indica Universalis"
+ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingdoms of Malabar. Koluthunad, in the north, struggles greatly with its decentralised government, rampant piracy, and the meanacing Zamorin to its south, but these struggles can easily be turned into opportunities. Calicut, under its influential Zamorin, grows ever stronger as a regional power, looking to overtake its rival Venad. Kochin having been driven south and routed by the Zamorin, looks to recover from this great loss, with its diverse population and strategic location providing great opportunities for growth. Finally, Venad, the principal power in the region and home to the majestic Padmanabhaswamy Temple, looks to subdue all others and expand into Tamil territory. Who will you choose to lead into the future? Who will emerge victorious from the crucible of Kerala?"
 
 #provinces
 
  PROV4942:0 "Kollam"
  PROV4943:0 "Kodungallur"
+ 
+ #Ahom update 
+ PROV4944: "Jaintia"
+ PROV4945: "Khasi"
 
+
+ #Country Tags 
+ JTI: "Jaintia"
+ JTI_ADJ: "Jaintia"
+ KHS: "Khasi"
+ KHS_ADJ: "Khasi"
+ 
 #area 
 
  south_malabar_area:0 "South Malabar"
@@ -122,7 +133,19 @@ INDICA_UNIVERSALIS_DESC:0 "The year is 1444, a pivotal moment for the four kingd
  strong_naval_traditions_desc:0 "Generations of maritime expertise and nautical heritage have cultivated an unparalleled sense of confidence and camaraderie among our naval forces. This tradition bolsters our naval morale, inspiring our sailors to face challenges with unwavering determination and unparalleled skill."
  merchants_of_south_india:0 "Merchants of South India"
  merchants_of_south_india_desc:0 "Our merchants have long reigned dominant over the influenctial spice trade, with our ports being used as intermediaries for trade to Arabia and Europe. We must exploit this phenomenon for our own gain."
-
+ 
+ #Brahmaputra
+ KAC_ideas: "Dimasa Ideas"
+ KAC_ideas_start: "Dimasa Traditions"
+ KAC_ideas_bonus: "Dimasa Ambition"
+ KAC_frontier_chiefs: "Guard the Frontier"
+ KAC_dimapur_idea: "Brick City of Dimapur"
+ KAC_ming_trade_network: "Ming Trade Network"
+ KAC_tiger_king_heir: "Heirs of the Tiger Prince"
+ KAC_dimasa_persistence: "Dimasa Persistence"
+ KAC_bengali_coinage: "Bengali Coinage"
+ KAC_sengphong_council: "Sengphong Council"
+ 
 #vij interaction events
 
  vijinteraction.NAME1:0 "To ask for Protection?"

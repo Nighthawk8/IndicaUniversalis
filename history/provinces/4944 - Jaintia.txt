@@ -1,0 +1,12 @@
+owner = JTI
+controller = JTI
+add_core = JTI
+culture = chin
+religion = animism
+hre = no 
+base_tax = 2
+base_production = 3
+base_manpower = 2
+capital = "Jaintiapur"
+trade_goods = grain
+is_city = yes 

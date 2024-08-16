@@ -267,3 +267,42 @@ DRV_ideas = {
 		global_trade_power = 0.15
 	}
 }
+
+KAC_ideas = {
+	trigger = { tag = KAC }
+	free = yes 
+	
+	start = {
+		defensiveness = 0.15
+		years_of_nationalism = -5
+	}
+	
+	bonus = {
+		shock_damage_received = -0.1
+	}
+	
+	KAC_frontier_chiefs = {
+		diplomatic_reputation = 1
+		ae_impact = -0.1
+	}
+	KAC_dimapur_idea = {
+		build_cost = -0.2
+	}
+	KAC_ming_trade_network = {
+		merchants = 1
+	}
+	KAC_tiger_king_heir = {
+		global_unrest = -2
+	}
+	KAC_dimasa_persistence = {
+		move_capital_cost_modifier = -0.5
+		war_exhaustion = -0.05
+	}
+	KAC_bengali_coinage = {
+		inflation_reduction = 0.1
+	}
+	KAC_sengphong_council = {
+		advisor_pool = 1
+		yearly_corruption = -0.1
+	}
+}

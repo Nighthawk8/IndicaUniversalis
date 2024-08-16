@@ -1,0 +1,7 @@
+#Indica Universalis
+
+DRV = "countries/Dravidam.txt" 
+RLM = "countries/Kerlam.txt" 
+RKK = "countries/Arakkal.txt"
+JTI = "countries/Jaintia.txt"
+KHS = "countries/Khasi.txt"

@@ -4,4 +4,4 @@ add_government_reform = tribal_kingdom
 technology_group = indian
 primary_culture = chin
 religion = animism
-capital = 4544
+capital = 4945
